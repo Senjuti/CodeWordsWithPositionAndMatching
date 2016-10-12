@@ -1,0 +1,911 @@
+java.lang.Integer
+false
+true
+yes
+true
+on
+false
+java.lang.Integer
+nospace
+method(a, b);
+space
+method( a, b );
+nl
+eol
+text
+stmt
+'{'
+eol
+nl
+nlow
+eol
+nl
+nlow
+'}'
+same
+alone
+alone_or_singleline
+nothing
+public
+protected
+package
+private
+anoninner
+ignore
+info
+warning
+error
+top
+above
+inflow
+under
+bottom
+expanded
+compact
+compact_no_array
+compact
+ignore
+always
+never
+ignore
+always
+never
+ignore
+SeverityMatchFilter
+error
+true
+false
+true
+info
+SuppressionCommentFilter
+FileContentsHolder
+FileContentsHolder
+TreeWalker
+CHECKSTYLE\:OFF
+CHECKSTYLE\:ON
+.*
+//
+true
+/* ... */
+true
+CHECKSTYLE:OFF
+CHECKSTYLE:ON
+BEGIN GENERATED CODE
+END GENERATED CODE
+// stop constant
+              check
+// resume constant check
+UNUSED OFF:
+              var
+UNUSED ON: var
+CSOFF: regexp
+CSN: regexp
+CHECKSTYLE_OFF: ALMOST_ALL
+CHECKSTYLE_OFF: ALMOST_ALL
+stop
+resume
+// CSOFF <ID> (reason)
+// CSON <ID>
+SuppressionFilter
+http://
+https://
+ClassLoader.getResource()
+none
+false
+SuppressionFilter
+config/suppressions.xml
+suppress
+suppress
+files
+checks
+id
+id
+checks
+lines
+columns
+suppress
+SuppressionFilter
+JavadocStyleCheck
+AbstractComplexityCheck.java
+MagicNumberCheck
+JavadocStyleCheck.java
+id
+SuppressWarningsFilter
+SuppressionCommentFilter
+@SuppressWarnings
+SuppressWarningsHolder
+TreeWalker
+@SuppressWarnings("checkstyle:<ID>")
+@SuppressWarnings("<ID>")
+SuppressWithNearbyCommentFilter
+SuppressionCommentFilter
+SuppressWithNearbyCommentFilter
+FileContentsHolder
+FileContentsHolder
+TreeWalker
+SUPPRESS CHECKSTYLE (\w+)
+.*
+0
+//
+true
+/* ... */
+true
+SUPPRESS CHECKSTYLE check
+CHECKSTYLE IGNORE THIS LINE
+// OK to catch (Throwable|Exception|RuntimeException) here
+CHECKSTYLE IGNORE check FOR NEXT var LINES
+// @cs-: <ID/> (reason)
+checkstyle-7.0-all.jar
+compile
+taskdef
+taskdef
+"true"
+"0"
+"2147483647"
+"true"
+packageNamesFile
+<formatter>
+<property>
+<formatter>
+plain
+xml
+"plain"
+true
+<property>
+<property>
+docs/sun_checks.xml
+docs/sun_checks.xml
+-c configurationFile
+-f format
+ "plain"
+"xml"
+"plain"
+-p propertiesFile
+-o file
+-t, --tree
+-T, --treeWithComments
+-J, --treeWithJavadoc
+-j, --javadocTree
+-d, --debug
+-v
+-n packageNamesFile
+-D<property>=<value>
+-p
+-jar
+-jar
+compile
+docs/sun_checks.xml
+docs/sun_checks.xml
+docs/sun_checks.xml
+docs/sun_checks.xml
+docs/sun_checks.xml
+false
+true
+false
+compact_no_array
+never
+never
+expanded
+never
+java.lang.Object
+false
+javaFiveCompatibility
+@SuppressWarnings("un" + "used")
+@SuppressWarnings((String) "unused")
+@SuppressWarnings({('u' + (char)'n') + (""+("used" + (String)"")),})
+^$|^\s+$
+@SuppressWarnings
+@SuppressWarnings
+SuppressWarnings
+FooCheck
+checkstyle
+@SuppressWarnings
+Check
+aliasList
+ParameterNumberCheck=paramnum
+aliasList
+"all"
+false
+stmt
+text
+ try
+expected
+ignore
+'{'
+option
+eol
+ nlow
+maxLineLength
+'{'
+eol
+80
+nl
+if
+ else
+if, while, do-while, for
+case, default
+while, for
+'}'
+ option
+'}'
+same
+'}'
+true
+alone
+ else
+final
+java.io.Serializable
+true
+setStackTrace
+^.*Exception$|^.*Error$|^.*Throwable$
+^.*Exception$|^.*Error$|^.*Throwable$
+catch(Exception ex)
+4
+true
+protectedAllowed
+packageAllowed
+"^serialVersionUID$"
+"^f[A-Z][a-zA-Z0-9]*$"
+false
+false
+^serialVersionUID$
+false
+false
+equals()
+equals(Object)
+equals()
+equals(Object)
+equals(Object)
+equals()
+equals(Object)
+Foo
+equals()
+equals()
+Object
+equals(Object)
+false
+false
+default
+case
+switch
+default
+switch
+case
+someString.equals(anotherString = "text")
+equals()
+String.equalsIgnoreCase()
+equals()
+hashCode()
+equals()
+hashCode()
+equals()
+
+          hashCode()
+null
+char
+false
+boolean
+switch
+case
+break
+return
+throw
+continue
+case
+case
+case
+false
+fallthru|falls? ?through
+
+              false
+             
+false
+void
+setterCanReturnItsClass
+true
+false
+ignoreSetter
+setterCanReturnItsClass
+true
+false
+false
+void
+catch
+"java.lang.Exception,
+            java.lang.Throwable, java.lang.RuntimeException"
+java.lang.Boolean
+ TRUE
+FALSE
+Boolean.valueOf()
+"java.lang.Throwable,
+              java.lang.Error, java.lang.RuntimeException"
+finalize
+true
+^$
+false
+""
+"a href"
+^(.*[\\.])?Abstract.*$
+null
+String s = Integer.toString(i = 2);
+for
+while
+while
+!= null
+line == reader.readLine()
+=
+ +=
+-=
+
+              false
+             
+^""$
+ANNOTATION
+@SuppressWarnings("unchecked")
+for
+1
+1
+finalize()
+true
+true
+true
+this
+equals()
+2
+1
+^equals$
+equals()
+equals()
+ if (b == true)
+b || true
+!false
+==
+!=
+clone()
+super.clone()
+finalize()
+super.finalize()
+false
+true
+ headerFile
+header
+ignoreLines
+ignoreLines
+ 4
+null
+"\n"
+null
+{}
+{}
+"config/java.header"
+2
+3
+ 4
+null
+"\n"
+null
+{}
+{}
+"config/java.header"
+10
+13
+ignoreLines
+empty list
+import java.util.*;
+false
+import static org.junit.Assert.*;
+false
+java.lang.Math.*
+java.lang.System.out
+java.lang.Math.random
+java.lang.Math.*
+java.lang.Math.PI
+empty list
+java.lang.System.out
+java.lang.Math
+null
+^(java|javax)\.
+.*
+^$
+true
+false
+sun.*
+sun.*
+ illegalPkgs
+sun
+java.io.*
+java.sql.*
+null
+null
+under
+/regexp/
+empty list
+java.lang
+java.lang.String
+import
+            java.io.*;
+java.lang
+java.lang.String
+java.util.Date
+{@link Date}
+{@link java.util.Date}
+java.awt.Component
+true
+@author, @version, @param,
+                  @return, @throws, @exception, @see, @since, @serial,
+                  @serialField, @serialData, @deprecated
+java.lang.RuntimeException
+Scope
+Scope.PRIVATE
+allowMissingParamTags
+allowMissingThrowsTags
+allowMissingReturnTag
+@Override
+{@inheritDoc}
+{@inheritDoc}
+-1
+Override
+false
+private
+null
+java.lang.RuntimeException
+false
+false
+false
+false
+false
+false
+false
+false
+true
+true
+false
+null
+public
+public
+private
+protected
+foo(),foo1(),foo2()
+package-info.java
+package.html
+package.html
+false
+{}
+true
+{@inheritDoc}
+private
+null
+true
+([.?!][ \t\n\r\f<])|([.?!]$)
+false
+true
+public
+private
+package
+Scope
+Scope.PRIVATE
+Scope
+allowMissingParamTags
+private
+null
+null
+null
+false
+false
+public
+private
+serialVersionUID
+private
+null
+null
+public
+private
+protected
+log
+logger
+@param
+@return
+@throws
+@deprecated
+null
+true
+^$
+.
+null
+null
+info
+&&
+||
+&
+|
+^
+&
+|
+&&
+||
+&
+|
+^
+3
+&
+|
+7
+20
+ + 1
+if
+while
+do
+for
+?:
+catch
+switch
+case
+&&
+||
+10
+false
+50
+1500
+2000
+200
+public static void main(String[] args)
+true
+false
+for
+this
+null
+this ==
+          null
+this != null
+for
+while
+false
+Foo
+Foo.java
+TODO:
+format
+TODO:
+TODO:
+TODO
+FIXME
+//
+Thread.sleep( 10 <some comment here> );
+^[\\s\\}\\);]*$
+hello
+ok
+cancel
+.properties
+properties
+^messages.*$
+empty String Set
+^$
+main
+' L'
+'l'
+1
+public
+protected
+private
+abstract
+static
+final
+transient
+volatile
+synchronized
+native
+strictfp
+interface
+static
+enum
+static
+public
+abstract
+abstract
+public
+static
+abstract
+static
+public
+enum
+final
+ format
+format
+abstract
+^Abstract.+$
+abstract
+false
+abstract
+false
+AbstractClassName
+abstract
+e
+ex
+t
+e1
+t2
+pException
+ie
+ee
+^(e|t|ex|[a-z][a-z][a-zA-Z]+)$
+^[A-Z]$
+static
+
+          final
+^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$
+true
+true
+true
+true
+format
+ConstantName
+log
+logger
+^[A-Z]$
+final
+catch
+^[a-z][a-zA-Z0-9]*$
+final
+^[a-z][a-zA-Z0-9]*$
+false
+static
+^[a-z][a-zA-Z0-9]*$
+true
+true
+true
+true
+MemberName
+'m'
+^[a-z][a-zA-Z0-9]*$
+false
+true
+true
+true
+true
+^[A-Z]$
+^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$
+format
+PackageName
+^[a-z]+(\.[a-z][a-z0-9]*)*$
+format
+PackageName
+catch
+^[a-z][a-zA-Z0-9]*$
+false
+static
+final
+^[a-z][a-zA-Z0-9]*$
+true
+true
+true
+true
+^[A-Z][a-zA-Z0-9]*$
+true
+true
+true
+true
+"I_"
+^
+\A
+$
+\Z
+$^
+""
+false
+0
+100
+false
+System.out.println
+^$
+""
+false
+0
+0
+{}
+null
+null
+true
+false
+{}
+ex.printStacktrace()
+
+          System.out.println()
+System.exit()
+^$
+""
+false
+0
+0
+{}
+^$
+""
+false
+0
+0
+false
+System.out.println
+30
+{}
+'\t'
+8
+TreeWalker
+tabWidth
+LineLength
+tabWidth
+LineLength
+^(package|import) .*
+private
+package
+protected
+public
+private
+package
+protected
+public
+//
+true
+nospace
+nospace
+'\t'
+false
+{}
+allowLineBreaks
+
+          true
+false
+nospace
+allowLineBreaks
+
+          false
+true
+allowLineBreaks
+
+          true
+false
+nl
+=
+nospace
+eol
+false
+nospace
+
+        allowEmptyMethods
+allowEmptyConstructors
+        
+allowEmptyTypes
+allowEmptyLoops
+allowEmptyLambdas
+
+new Properties() {{
+    setProperty("key", "value");
+}};
+        
+false
+false
+false
+false
+false
+true
+=
+check()
+checkNumberOfMethods()
+visitToken()
+beginTree()
+visitToken()
+visitToken()
+leaveToken()
+finishTree()
+finishTree()
+getChildCount()
+max
+Check.log(String)
+log("Too many methods, only " + mMax +
+        " are allowed");
+too.many.methods=Too many methods, only {0} are
+        allowed
+log("too.many.methods",
+        mMax);
+config.xml
+mycompanychecks.jar
+MethodLimit
+processFiltered(java.io.File, java.util.List)
+setMax()
+/*  */
+/*
+*
+*/
+"/*! some comment */"
+"/*# some comment */"
+"/*$ some comment */"
+Checker
+Filter
+Checker
+Filter
+FilterSet
+AuditEvent
+Filter
+Filter
+boolean
+accept(AuditEvent)
+true
+Filter
+AuditEvent
+false
+Filter
+FilterSet
+Filter
+Filter
+FilterSet
+AuditEvent
+Filter
+AuditEvent
+Filter
+FilterSet
+Filter
+Filter
+setFiles(String)
+AutomaticBean
+files
+Filter
+Checker
+Filter
+Checker
+FilesFilter
+Checker
+Checker
+ Checker
+DefaultLogger
+XMLLogger
+DefaultLogger
+ XMLLogger
+Checker
+AuditListeners
+AuditEvent
+AuditEvent
+Check
+AuditListener
+AuditEvent
+AuditListener
+AuditEvent
+AutomaticBean
+System.out
+file
+AutomaticBean
+setFile(String)
+ addError
+addException
+DefaultLogger
+Checker
+Checker
+VerboseListener
+ VerboseListener
+ CommonsLoggingListener
+MailLogger
+ CommonsLoggingListener
+CommonsLoggingListener
+https://github.com/checkstyle/contribution/examples/listeners
+AuditListener
+ AuditEvent
+SeverityLevel
+ AuditEvent
+CommonsLoggingListener
+checkstyle-7.0-all.jar
+log4j.jar
+log4j.properties
+CommonsLoggingListener
+MailLogger
+DefaultLogger
+to
+subject
+CommonsLoggingListener
+https://github.com/checkstyle/contribution/examples/listeners
+MailLogger
+-DMailLogger.properties.file=MailLogger.properties
+MailLogger
+MailLogger.properties
+mvn cobertura:cobertura
+mvn clean verify
+mvn clean site
+mvn clean verify
+config/intellij-idea-inspections.xml
+config/intellij-idea-inspection-scope.xml
+.idea/scopes

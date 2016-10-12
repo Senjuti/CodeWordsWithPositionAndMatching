@@ -1,0 +1,722 @@
+org.apache.http.client.fluent.FluentResponseHandling, 
+org.apache.http.client.fluent.FluentExecutor, 
+org.apache.http.client.fluent.FluentAsync, 
+org.apache.http.client.fluent.FluentQuickStart, 
+org.apache.http.client.fluent.FluentRequests, 
+org.apache.http.client.fluent.TestFluent, stereotypeBOUNDARY
+org.apache.http.client.fluent.Response, 
+org.apache.http.client.fluent.ContentResponseHandler, stereotypeFACTORY
+org.apache.http.client.fluent.InternalFileEntity, stereotype
+org.apache.http.client.fluent.InternalInputStreamEntity, stereotypeDATA_PROVIDER
+org.apache.http.client.fluent.Request, stereotype
+org.apache.http.client.fluent.Async, 
+org.apache.http.client.fluent.HttpHeader, stereotypePOOL
+org.apache.http.client.fluent.InternalEntityEnclosingHttpRequest, stereotype
+org.apache.http.client.fluent.Executor, stereotypeBOUNDARY COMMANDER
+org.apache.http.client.fluent.InternalByteArrayEntity, stereotype
+org.apache.http.client.fluent.InternalHttpRequest, stereotype
+org.apache.http.client.fluent.Form, stereotypeFACTORY
+org.apache.http.client.fluent.Content, stereotype
+org.apache.http.examples.entity.mime.ClientMultipartFormPost, 
+org.apache.http.entity.mime.TestMultipartFormHttpEntity, stereotypeBOUNDARY
+org.apache.http.entity.mime.TestMultipartEntityBuilder, stereotypeBOUNDARY
+org.apache.http.entity.mime.TestMultipartContentBody, stereotype
+org.apache.http.entity.mime.FormBodyPartTest, stereotypeBOUNDARY
+org.apache.http.entity.mime.TestMultipartForm, stereotypeBOUNDARY COMMANDER
+org.apache.http.entity.mime.TestFormBodyPartBuilder, stereotypeBOUNDARY
+org.apache.http.entity.mime.FormBodyPartBuilder, stereotypeBOUNDARY
+org.apache.http.entity.mime.HttpStrictMultipart, stereotypeBOUNDARY DATA_PROVIDER
+org.apache.http.entity.mime.HttpRFC6532Multipart, stereotypeBOUNDARY DATA_PROVIDER
+org.apache.http.entity.mime.MinimalField, stereotypeDATA_PROVIDER
+org.apache.http.entity.mime.MultipartFormEntity, stereotypeDATA_PROVIDER
+org.apache.http.entity.mime.HttpBrowserCompatibleMultipart, stereotypeBOUNDARY DATA_PROVIDER
+org.apache.http.entity.mime.HttpMultipartMode, 
+org.apache.http.entity.mime.FormBodyPart, stereotypeENTITY
+org.apache.http.entity.mime.MIME, stereotypePOOL
+org.apache.http.entity.mime.Header, stereotypeBOUNDARY
+org.apache.http.entity.mime.MultipartEntityBuilder, stereotypeBOUNDARY COMMANDER
+org.apache.http.entity.mime.AbstractMultipartForm, stereotypeBOUNDARY
+org.apache.http.entity.mime.content.ByteArrayBody, stereotypeDATA_PROVIDER
+org.apache.http.entity.mime.content.StringBody, stereotypeBOUNDARY
+org.apache.http.entity.mime.content.ContentDescriptor, stereotypeINTERFACE
+org.apache.http.entity.mime.content.ContentBody, stereotypeINTERFACE
+org.apache.http.entity.mime.content.InputStreamBody, stereotype
+org.apache.http.entity.mime.content.FileBody, stereotypeDATA_PROVIDER
+org.apache.http.entity.mime.content.AbstractContentBody, stereotypeBOUNDARY DATA_PROVIDER
+org.apache.http.entity.mime.MultipartEntity, stereotypeCOMMANDER
+org.apache.http.entity.mime.HttpMultipart, stereotypeDATA_PROVIDER
+org.apache.http.osgi.impl.TestOSGiHttpRoutePlanner, stereotypeBOUNDARY
+org.apache.http.osgi.impl.OSGiProxyConfigurationTest, stereotypeBOUNDARY
+org.apache.http.osgi.impl.TestPropertiesUtils, 
+org.apache.http.osgi.impl.OSGiProxyConfiguration, stereotypeMINIMAL_ENTITY
+org.apache.http.osgi.impl.OSGiHttpClientBuilder, stereotypeBOUNDARY COMMANDER
+org.apache.http.osgi.impl.OSGiCredentialsProvider, stereotype
+org.apache.http.osgi.impl.OSGiHttpRoutePlanner, stereotypeBOUNDARY
+org.apache.http.osgi.impl.HttpProxyConfigurationActivator, stereotypeBOUNDARY COMMANDER
+org.apache.http.osgi.impl.OSGiClientBuilderFactory, stereotypeFACTORY
+org.apache.http.osgi.impl.PropertiesUtils, 
+org.apache.http.osgi.services.HttpClientBuilderFactory, stereotypeINTERFACE
+org.apache.http.osgi.services.ProxyConfiguration, stereotypeINTERFACE
+org.apache.http.examples.client.win.ClientWinAuth, 
+org.apache.http.impl.auth.win.TestWindowsNegotiateScheme, stereotypeCOMMANDER
+org.apache.http.impl.auth.win.WindowsNegotiateScheme, stereotypeENTITY
+org.apache.http.impl.auth.win.WindowsNegotiateSchemeFactory, stereotypeFACTORY
+org.apache.http.impl.auth.win.WindowsCredentialsProvider, stereotypeMINIMAL_ENTITY
+org.apache.http.impl.auth.win.CurrentWindowsCredentials, stereotype
+org.apache.http.impl.auth.win.WindowsNTLMSchemeFactory, stereotypeFACTORY
+org.apache.http.impl.client.WinHttpClients, stereotype
+org.apache.http.examples.client.ClientPreemptiveDigestAuthentication, 
+org.apache.http.examples.client.ClientChunkEncodedPost, 
+org.apache.http.examples.client.ClientExecuteSOCKS, 
+org.apache.http.examples.client.QuickStart, 
+org.apache.http.examples.client.ClientCustomSSL, 
+org.apache.http.examples.client.ClientMultiThreadedExecution, 
+org.apache.http.examples.client.ClientExecuteProxy, 
+org.apache.http.examples.client.ProxyTunnelDemo, 
+org.apache.http.examples.client.ClientConfiguration, 
+org.apache.http.examples.client.ClientCustomPublicSuffixList, 
+org.apache.http.examples.client.ClientCustomContext, 
+org.apache.http.examples.client.ClientWithRequestFuture, 
+org.apache.http.examples.client.ClientFormLogin, 
+org.apache.http.examples.client.ClientProxyAuthentication, 
+org.apache.http.examples.client.ClientAuthentication, 
+org.apache.http.examples.client.ClientConnectionRelease, 
+org.apache.http.examples.client.ClientPreemptiveBasicAuthentication, 
+org.apache.http.examples.client.ClientAbortMethod, 
+org.apache.http.examples.client.ClientWithResponseHandler, 
+org.apache.http.examples.client.ClientEvictExpiredConnections, 
+org.apache.http.auth.TestAuthScope, 
+org.apache.http.auth.TestCredentials, 
+org.apache.http.localserver.LocalServerTestBase, 
+org.apache.http.localserver.BasicAuthTokenExtractor, 
+org.apache.http.localserver.EchoHandler, 
+org.apache.http.localserver.SSLTestContexts, 
+org.apache.http.localserver.RequestBasicAuth, 
+org.apache.http.localserver.ResponseBasicUnauthorized, 
+org.apache.http.localserver.RandomHandler, 
+org.apache.http.client.protocol.TestResponseProcessCookies, 
+org.apache.http.client.protocol.TestResponseContentEncoding, 
+org.apache.http.client.protocol.TestRequestAddCookies, 
+org.apache.http.client.protocol.TestRequestDefaultHeaders, 
+org.apache.http.client.protocol.TestRequestExpectContinue, 
+org.apache.http.client.protocol.TestRequestAuthCache, 
+org.apache.http.client.protocol.TestRequestClientConnControl, 
+org.apache.http.client.protocol.TestRequestAcceptEncoding, 
+org.apache.http.client.utils.TestURIUtils, 
+org.apache.http.client.utils.TestHttpClientUtils, 
+org.apache.http.client.utils.TestURIBuilder, 
+org.apache.http.client.utils.TestRequestBuilder, 
+org.apache.http.client.utils.TestURLEncodedUtils, 
+org.apache.http.client.utils.TestDateUtils, 
+org.apache.http.client.methods.TestHttpRequestBase, 
+org.apache.http.client.methods.TestHttpOptions, 
+org.apache.http.client.methods.TestRequestBuilder, 
+org.apache.http.client.entity.TestGZip, 
+org.apache.http.client.entity.TestEntityBuilder, 
+org.apache.http.client.entity.TestDeflate, 
+org.apache.http.client.entity.TestDecompressingEntity, 
+org.apache.http.client.config.TestRequestConfig, 
+org.apache.http.conn.routing.TestHttpRoute, 
+org.apache.http.conn.routing.TestRouteDirector, 
+org.apache.http.conn.routing.TestRouteTracker, 
+org.apache.http.conn.util.TestPublicSuffixListParser, 
+org.apache.http.conn.util.TestInetAddressUtils, 
+org.apache.http.conn.util.TestPublicSuffixMatcher, 
+org.apache.http.conn.TestExceptions, 
+org.apache.http.conn.TestEofSensorInputStream, 
+org.apache.http.conn.ssl.TestSSLSocketFactory, 
+org.apache.http.conn.ssl.TestHostnameVerifier, 
+org.apache.http.conn.ssl.CertificatesToPlayWith, 
+org.apache.http.conn.ssl.TestDefaultHostnameVerifier, 
+org.apache.http.impl.auth.TestHttpAuthenticator, 
+org.apache.http.impl.auth.TestBasicScheme, 
+org.apache.http.impl.auth.TestDigestScheme, 
+org.apache.http.impl.auth.TestNTLMEngineImpl, 
+org.apache.http.impl.auth.TestRFC2617Scheme, 
+org.apache.http.impl.client.TestAuthenticationStrategy, 
+org.apache.http.impl.client.TestBasicAuthCache, 
+org.apache.http.impl.client.TestDefaultConnKeepAliveStrategy, 
+org.apache.http.impl.client.MockConnPoolControl, 
+org.apache.http.impl.client.TestFutureRequestExecutionService, 
+org.apache.http.impl.client.TestBasicResponseHandler, 
+org.apache.http.impl.client.TestInternalHttpClient, 
+org.apache.http.impl.client.TestCookieIdentityComparator, 
+org.apache.http.impl.client.integration.TestConnectionManagement, 
+org.apache.http.impl.client.integration.TestClientReauthentication, 
+org.apache.http.impl.client.integration.TestClientAuthenticationFallBack, 
+org.apache.http.impl.client.integration.TestClientAuthentication, 
+org.apache.http.impl.client.integration.TestCookieVirtualHost, 
+org.apache.http.impl.client.integration.TestContentCodings, 
+org.apache.http.impl.client.integration.TestStatefulConnManagement, 
+org.apache.http.impl.client.integration.TestSPNegoScheme, 
+org.apache.http.impl.client.integration.TestClientAuthenticationFakeNTLM, 
+org.apache.http.impl.client.integration.TestRedirects, 
+org.apache.http.impl.client.integration.TestBasicConnectionManager, 
+org.apache.http.impl.client.integration.TestClientRequestExecution, 
+org.apache.http.impl.client.integration.TestAbortHandling, 
+org.apache.http.impl.client.integration.TestIdleConnectionEviction, 
+org.apache.http.impl.client.integration.TestMinimalClientRequestExecution, 
+org.apache.http.impl.client.integration.TestConnectionAutoRelease, 
+org.apache.http.impl.client.integration.TestConnectionReuse, 
+org.apache.http.impl.client.integration.TestMalformedServerResponse, 
+org.apache.http.impl.client.TestNullBackoffStrategy, 
+org.apache.http.impl.client.TestDefaultRedirectStrategy, 
+org.apache.http.impl.client.TestDefaultHttpRequestRetryHandler, 
+org.apache.http.impl.client.TestAIMDBackoffManager, 
+org.apache.http.impl.client.TestIdleConnectionEvictor, 
+org.apache.http.impl.client.TestRedirectLocation, 
+org.apache.http.impl.client.TestCloseableHttpClient, 
+org.apache.http.impl.client.TestAbstractResponseHandler, 
+org.apache.http.impl.client.MockClock, 
+org.apache.http.impl.client.TestBasicCookieStore, 
+org.apache.http.impl.client.TestBasicCredentialsProvider, 
+org.apache.http.impl.client.TestDefaultBackoffStrategy, 
+org.apache.http.impl.conn.TestBasicHttpClientConnectionManager, 
+org.apache.http.impl.conn.SessionInputBufferMock, 
+org.apache.http.impl.conn.TestSystemDefaultRoutePlanner, 
+org.apache.http.impl.conn.TestHttpClientConnectionOperator, 
+org.apache.http.impl.conn.TestDefaultProxyRoutePlanner, 
+org.apache.http.impl.conn.TestDefaultHttpResponseParser, 
+org.apache.http.impl.conn.TestPoolingHttpClientConnectionManager, 
+org.apache.http.impl.conn.TestDefaultRoutePlanner, 
+org.apache.http.impl.cookie.TestBasicClientCookie, 
+org.apache.http.impl.cookie.TestCookieNetscapeDraft, 
+org.apache.http.impl.cookie.TestCookieRFC2109Spec, 
+org.apache.http.impl.cookie.TestPublicSuffixListParser, 
+org.apache.http.impl.cookie.TestBasicClientCookie2, 
+org.apache.http.impl.cookie.TestBasicCookieAttribHandlers, 
+org.apache.http.impl.cookie.TestRFC6265CookieSpec, 
+org.apache.http.impl.cookie.TestNetscapeCookieAttribHandlers, 
+org.apache.http.impl.cookie.TestCookieRFC2965Spec, 
+org.apache.http.impl.cookie.TestNetscapeDraftHeaderParser, 
+org.apache.http.impl.cookie.TestLaxCookieAttribHandlers, 
+org.apache.http.impl.cookie.TestRFC2109CookieAttribHandlers, 
+org.apache.http.impl.cookie.TestDefaultCookieSpec, 
+org.apache.http.impl.execchain.TestServiceUnavailableRetryExec, 
+org.apache.http.impl.execchain.TestRedirectExec, 
+org.apache.http.impl.execchain.TestResponseEntityWrapper, 
+org.apache.http.impl.execchain.TestProtocolExec, 
+org.apache.http.impl.execchain.TestConnectionHolder, 
+org.apache.http.impl.execchain.TestMainClientExec, 
+org.apache.http.impl.execchain.TestRetryExec, 
+org.apache.http.impl.execchain.TestMinimalClientExec, 
+org.apache.http.cookie.TestCookiePathComparator, 
+org.apache.http.cookie.TestCookiePriorityComparator, 
+org.apache.http.cookie.TestCookieOrigin, 
+org.apache.http.auth.AuthSchemeRegistry, 
+org.apache.http.auth.Credentials, 
+org.apache.http.auth.InvalidCredentialsException, 
+org.apache.http.auth.ContextAwareAuthScheme, 
+org.apache.http.auth.BasicUserPrincipal, 
+org.apache.http.auth.NTCredentials, 
+org.apache.http.auth.ChallengeState, 
+org.apache.http.auth.params.AuthPNames, 
+org.apache.http.auth.KerberosCredentials, 
+org.apache.http.auth.AuthSchemeFactory, 
+org.apache.http.auth.NTUserPrincipal, 
+org.apache.http.auth.AuthenticationException, 
+org.apache.http.auth.AuthSchemeProvider, 
+org.apache.http.auth.AuthState, 
+org.apache.http.auth.AUTH, 
+org.apache.http.auth.AuthScope, 
+org.apache.http.auth.AuthOption, 
+org.apache.http.auth.UsernamePasswordCredentials, 
+org.apache.http.auth.AuthScheme, 
+org.apache.http.auth.MalformedChallengeException, 
+org.apache.http.auth.AuthProtocolState, 
+org.apache.http.client.protocol.ResponseProcessCookies, 
+org.apache.http.client.protocol.ResponseContentEncoding, 
+org.apache.http.client.protocol.RequestExpectContinue, 
+org.apache.http.client.protocol.RequestAuthCache, 
+org.apache.http.client.protocol.RequestClientConnControl, 
+org.apache.http.client.protocol.RequestDefaultHeaders, 
+org.apache.http.client.protocol.RequestAddCookies, 
+org.apache.http.client.protocol.RequestAcceptEncoding, 
+org.apache.http.client.protocol.HttpClientContext, 
+org.apache.http.client.RedirectStrategy, 
+org.apache.http.client.CookieStore, 
+org.apache.http.client.params.HttpClientParamConfig, 
+org.apache.http.client.params.ClientPNames, 
+org.apache.http.client.params.AllClientPNames, 
+org.apache.http.client.HttpResponseException, 
+org.apache.http.client.utils.URIBuilder, 
+org.apache.http.client.utils.URLEncodedUtils, 
+org.apache.http.client.utils.HttpClientUtils, 
+org.apache.http.client.utils.DateUtils, 
+org.apache.http.client.utils.URIUtils, 
+org.apache.http.client.utils.CloneUtils, 
+org.apache.http.client.NonRepeatableRequestException, 
+org.apache.http.client.methods.Configurable, 
+org.apache.http.client.methods.HttpRequestWrapper, 
+org.apache.http.client.methods.HttpPost, 
+org.apache.http.client.methods.HttpGet, 
+org.apache.http.client.methods.HttpOptions, 
+org.apache.http.client.methods.HttpEntityEnclosingRequestBase, 
+org.apache.http.client.methods.AbstractExecutionAwareRequest, 
+org.apache.http.client.methods.HttpRequestBase, 
+org.apache.http.client.methods.AbortableHttpRequest, 
+org.apache.http.client.methods.HttpPut, 
+org.apache.http.client.methods.HttpTrace, 
+org.apache.http.client.methods.HttpHead, 
+org.apache.http.client.methods.HttpPatch, 
+org.apache.http.client.methods.HttpUriRequest, 
+org.apache.http.client.methods.HttpDelete, 
+org.apache.http.client.methods.CloseableHttpResponse, 
+org.apache.http.client.methods.RequestBuilder, 
+org.apache.http.client.methods.HttpExecutionAware, 
+org.apache.http.client.RedirectException, 
+org.apache.http.client.ServiceUnavailableRetryStrategy, 
+org.apache.http.client.ResponseHandler, 
+org.apache.http.client.BackoffManager, 
+org.apache.http.client.entity.DeflateDecompressingEntity, 
+org.apache.http.client.entity.LazyDecompressingInputStream, 
+org.apache.http.client.entity.GzipDecompressingEntity, 
+org.apache.http.client.entity.UrlEncodedFormEntity, 
+org.apache.http.client.entity.EntityBuilder, 
+org.apache.http.client.entity.DecompressingEntity, 
+org.apache.http.client.entity.DeflateInputStream, 
+org.apache.http.client.entity.GzipCompressingEntity, 
+org.apache.http.client.entity.InputStreamFactory, 
+org.apache.http.client.HttpClient, 
+org.apache.http.client.CredentialsProvider, 
+org.apache.http.client.AuthCache, 
+org.apache.http.client.ClientProtocolException, 
+org.apache.http.client.HttpRequestRetryHandler, 
+org.apache.http.client.config.RequestConfig, 
+org.apache.http.client.config.AuthSchemes, 
+org.apache.http.client.config.CookieSpecs, 
+org.apache.http.client.AuthenticationStrategy, 
+org.apache.http.client.ConnectionBackoffStrategy, 
+org.apache.http.client.CircularRedirectException, 
+org.apache.http.client.UserTokenHandler, 
+org.apache.http.conn.ConnectionKeepAliveStrategy, 
+org.apache.http.conn.routing.RouteTracker, 
+org.apache.http.conn.routing.RouteInfo, 
+org.apache.http.conn.routing.HttpRoute, 
+org.apache.http.conn.routing.HttpRouteDirector, 
+org.apache.http.conn.routing.HttpRoutePlanner, 
+org.apache.http.conn.routing.BasicRouteDirector, 
+org.apache.http.conn.EofSensorWatcher, 
+org.apache.http.conn.ConnectionReleaseTrigger, 
+org.apache.http.conn.SchemePortResolver, 
+org.apache.http.conn.ConnectionPoolTimeoutException, 
+org.apache.http.conn.EofSensorInputStream, 
+org.apache.http.conn.ConnectTimeoutException, 
+org.apache.http.conn.HttpRoutedConnection, 
+org.apache.http.conn.util.PublicSuffixMatcherLoader, 
+org.apache.http.conn.util.PublicSuffixListParser, 
+org.apache.http.conn.util.InetAddressUtils, 
+org.apache.http.conn.util.DomainType, 
+org.apache.http.conn.util.PublicSuffixList, 
+org.apache.http.conn.util.PublicSuffixMatcher, 
+org.apache.http.conn.ClientConnectionManager, 
+org.apache.http.conn.HttpHostConnectException, 
+org.apache.http.conn.params.ConnRoutePNames, 
+org.apache.http.conn.params.ConnManagerPNames, 
+org.apache.http.conn.params.ConnConnectionPNames, 
+org.apache.http.conn.UnsupportedSchemeException, 
+org.apache.http.conn.socket.LayeredConnectionSocketFactory, 
+org.apache.http.conn.socket.ConnectionSocketFactory, 
+org.apache.http.conn.socket.PlainConnectionSocketFactory, 
+org.apache.http.conn.ManagedHttpClientConnection, 
+org.apache.http.conn.HttpConnectionFactory, 
+org.apache.http.conn.scheme.SocketFactoryAdaptor, 
+org.apache.http.conn.scheme.LayeredSocketFactory, 
+org.apache.http.conn.scheme.SchemeLayeredSocketFactoryAdaptor2, 
+org.apache.http.conn.scheme.SchemeSocketFactoryAdaptor, 
+org.apache.http.conn.scheme.SchemeSocketFactory, 
+org.apache.http.conn.scheme.SchemeRegistry, 
+org.apache.http.conn.scheme.SocketFactory, 
+org.apache.http.conn.scheme.LayeredSchemeSocketFactory, 
+org.apache.http.conn.scheme.SchemeLayeredSocketFactoryAdaptor, 
+org.apache.http.conn.scheme.LayeredSocketFactoryAdaptor, 
+org.apache.http.conn.scheme.SchemeLayeredSocketFactory, 
+org.apache.http.conn.scheme.Scheme, 
+org.apache.http.conn.ConnectionRequest, 
+org.apache.http.conn.HttpInetSocketAddress, 
+org.apache.http.conn.ManagedClientConnection, 
+org.apache.http.conn.ClientConnectionRequest, 
+org.apache.http.conn.ssl.StrictHostnameVerifier, 
+org.apache.http.conn.ssl.TrustStrategy, 
+org.apache.http.conn.ssl.BrowserCompatHostnameVerifier, 
+org.apache.http.conn.ssl.NoopHostnameVerifier, 
+org.apache.http.conn.ssl.SSLConnectionSocketFactory, 
+org.apache.http.conn.ssl.AbstractVerifier, 
+org.apache.http.conn.ssl.AllowAllHostnameVerifier, 
+org.apache.http.conn.ssl.SSLInitializationException, 
+org.apache.http.conn.ssl.X509HostnameVerifier, 
+org.apache.http.conn.ssl.DefaultHostnameVerifier, 
+org.apache.http.conn.ssl.TrustSelfSignedStrategy, 
+org.apache.http.conn.HttpClientConnectionOperator, 
+org.apache.http.conn.HttpClientConnectionManager, 
+org.apache.http.conn.DnsResolver, 
+org.apache.http.impl.auth.BasicSchemeFactory, 
+org.apache.http.impl.auth.NTLMEngineException, 
+org.apache.http.impl.auth.SPNegoSchemeFactory, 
+org.apache.http.impl.auth.NTLMScheme, 
+org.apache.http.impl.auth.SPNegoScheme, 
+org.apache.http.impl.auth.NTLMEngine, 
+org.apache.http.impl.auth.UnsupportedDigestAlgorithmException, 
+org.apache.http.impl.auth.AuthSchemeBase, 
+org.apache.http.impl.auth.KerberosScheme, 
+org.apache.http.impl.auth.NTLMEngineImpl, 
+org.apache.http.impl.auth.KerberosSchemeFactory, 
+org.apache.http.impl.auth.GGSSchemeBase, 
+org.apache.http.impl.auth.HttpAuthenticator, 
+org.apache.http.impl.auth.BasicScheme, 
+org.apache.http.impl.auth.NTLMSchemeFactory, 
+org.apache.http.impl.auth.DigestScheme, 
+org.apache.http.impl.auth.DigestSchemeFactory, 
+org.apache.http.impl.auth.RFC2617Scheme, 
+org.apache.http.impl.auth.HttpEntityDigester, 
+org.apache.http.impl.client.CookieSpecRegistries, 
+org.apache.http.impl.client.SystemDefaultCredentialsProvider, 
+org.apache.http.impl.client.EntityEnclosingRequestWrapper, 
+org.apache.http.impl.client.DefaultUserTokenHandler, 
+org.apache.http.impl.client.SystemClock, 
+org.apache.http.impl.client.MinimalHttpClient, 
+org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy, 
+org.apache.http.impl.client.HttpRequestFutureTask, 
+org.apache.http.impl.client.CloseableHttpClient, 
+org.apache.http.impl.client.NoopUserTokenHandler, 
+org.apache.http.impl.client.RedirectLocations, 
+org.apache.http.impl.client.DefaultServiceUnavailableRetryStrategy, 
+org.apache.http.impl.client.ProxyAuthenticationStrategy, 
+org.apache.http.impl.client.LaxRedirectStrategy, 
+org.apache.http.impl.client.Clock, 
+org.apache.http.impl.client.AuthenticationStrategyImpl, 
+org.apache.http.impl.client.BasicCredentialsProvider, 
+org.apache.http.impl.client.InternalHttpClient, 
+org.apache.http.impl.client.DefaultRedirectStrategy, 
+org.apache.http.impl.client.StandardHttpRequestRetryHandler, 
+org.apache.http.impl.client.BasicAuthCache, 
+org.apache.http.impl.client.HttpClients, 
+org.apache.http.impl.client.HttpClientBuilder, 
+org.apache.http.impl.client.ProxyClient, 
+org.apache.http.impl.client.DefaultHttpRequestRetryHandler, 
+org.apache.http.impl.client.AIMDBackoffManager, 
+org.apache.http.impl.client.FutureRequestExecutionMetrics, 
+org.apache.http.impl.client.BasicResponseHandler, 
+org.apache.http.impl.client.DefaultClientConnectionReuseStrategy, 
+org.apache.http.impl.client.NullBackoffStrategy, 
+org.apache.http.impl.client.TargetAuthenticationStrategy, 
+org.apache.http.impl.client.DefaultBackoffStrategy, 
+org.apache.http.impl.client.RequestWrapper, 
+org.apache.http.impl.client.FutureRequestExecutionService, 
+org.apache.http.impl.client.BasicCookieStore, 
+org.apache.http.impl.client.IdleConnectionEvictor, 
+org.apache.http.impl.client.AbstractResponseHandler, 
+org.apache.http.impl.client.HttpRequestTaskCallable, 
+org.apache.http.impl.conn.DefaultHttpResponseParserFactory, 
+org.apache.http.impl.conn.DefaultProxyRoutePlanner, 
+org.apache.http.impl.conn.ConnectionShutdownException, 
+org.apache.http.impl.conn.LoggingInputStream, 
+org.apache.http.impl.conn.LoggingManagedHttpClientConnection, 
+org.apache.http.impl.conn.DefaultManagedHttpClientConnection, 
+org.apache.http.impl.conn.CPoolEntry, 
+org.apache.http.impl.conn.Wire, 
+org.apache.http.impl.conn.DefaultRoutePlanner, 
+org.apache.http.impl.conn.ManagedHttpClientConnectionFactory, 
+org.apache.http.impl.conn.SystemDefaultRoutePlanner, 
+org.apache.http.impl.conn.InMemoryDnsResolver, 
+org.apache.http.impl.conn.DefaultSchemePortResolver, 
+org.apache.http.impl.conn.DefaultHttpResponseParser, 
+org.apache.http.impl.conn.CPoolProxy, 
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager, 
+org.apache.http.impl.conn.BasicHttpClientConnectionManager, 
+org.apache.http.impl.conn.SystemDefaultDnsResolver, 
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator, 
+org.apache.http.impl.conn.CPool, 
+org.apache.http.impl.conn.LoggingOutputStream, 
+org.apache.http.impl.cookie.RFC2109Spec, 
+org.apache.http.impl.cookie.RFC6265CookieSpecProvider, 
+org.apache.http.impl.cookie.RFC2965SpecProvider, 
+org.apache.http.impl.cookie.RFC2109VersionHandler, 
+org.apache.http.impl.cookie.LaxMaxAgeHandler, 
+org.apache.http.impl.cookie.IgnoreSpecProvider, 
+org.apache.http.impl.cookie.RFC2965CommentUrlAttributeHandler, 
+org.apache.http.impl.cookie.BasicSecureHandler, 
+org.apache.http.impl.cookie.RFC2965DomainAttributeHandler, 
+org.apache.http.impl.cookie.RFC2965Spec, 
+org.apache.http.impl.cookie.RFC2965DiscardAttributeHandler, 
+org.apache.http.impl.cookie.BasicPathHandler, 
+org.apache.http.impl.cookie.AbstractCookieAttributeHandler, 
+org.apache.http.impl.cookie.PublicSuffixDomainFilter, 
+org.apache.http.impl.cookie.RFC2965PortAttributeHandler, 
+org.apache.http.impl.cookie.NetscapeDraftHeaderParser, 
+org.apache.http.impl.cookie.BasicClientCookie, 
+org.apache.http.impl.cookie.RFC2109DomainHandler, 
+org.apache.http.impl.cookie.RFC2965VersionAttributeHandler, 
+org.apache.http.impl.cookie.BasicMaxAgeHandler, 
+org.apache.http.impl.cookie.BasicCommentHandler, 
+org.apache.http.impl.cookie.NetscapeDraftSpecProvider, 
+org.apache.http.impl.cookie.RFC2109SpecProvider, 
+org.apache.http.impl.cookie.NetscapeDomainHandler, 
+org.apache.http.impl.cookie.BasicDomainHandler, 
+org.apache.http.impl.cookie.DefaultCookieSpecProvider, 
+org.apache.http.impl.cookie.RFC6265StrictSpec, 
+org.apache.http.impl.cookie.DefaultCookieSpec, 
+org.apache.http.impl.cookie.IgnoreSpec, 
+org.apache.http.impl.cookie.RFC6265CookieSpec, 
+org.apache.http.impl.cookie.RFC6265CookieSpecBase, 
+org.apache.http.impl.cookie.RFC6265LaxSpec, 
+org.apache.http.impl.cookie.CookieSpecBase, 
+org.apache.http.impl.cookie.BasicClientCookie2, 
+org.apache.http.impl.cookie.AbstractCookieSpec, 
+org.apache.http.impl.cookie.LaxExpiresHandler, 
+org.apache.http.impl.cookie.BasicExpiresHandler, 
+org.apache.http.impl.cookie.NetscapeDraftSpec, 
+org.apache.http.impl.execchain.RedirectExec, 
+org.apache.http.impl.execchain.TunnelRefusedException, 
+org.apache.http.impl.execchain.MainClientExec, 
+org.apache.http.impl.execchain.RequestEntityProxy, 
+org.apache.http.impl.execchain.MinimalClientExec, 
+org.apache.http.impl.execchain.ServiceUnavailableRetryExec, 
+org.apache.http.impl.execchain.ResponseEntityProxy, 
+org.apache.http.impl.execchain.RetryExec, 
+org.apache.http.impl.execchain.BackoffStrategyExec, 
+org.apache.http.impl.execchain.ConnectionHolder, 
+org.apache.http.impl.execchain.ProtocolExec, 
+org.apache.http.impl.execchain.RequestAbortedException, 
+org.apache.http.impl.execchain.HttpResponseProxy, 
+org.apache.http.impl.execchain.ClientExecChain, 
+org.apache.http.cookie.MalformedCookieException, 
+org.apache.http.cookie.SetCookie, 
+org.apache.http.cookie.CookiePriorityComparator, 
+org.apache.http.cookie.SM, 
+org.apache.http.cookie.CookieIdentityComparator, 
+org.apache.http.cookie.params.CookieSpecPNames, 
+org.apache.http.cookie.CookieOrigin, 
+org.apache.http.cookie.CookieSpecProvider, 
+org.apache.http.cookie.CookiePathComparator, 
+org.apache.http.cookie.ClientCookie, 
+org.apache.http.cookie.CookieAttributeHandler, 
+org.apache.http.cookie.CookieRestrictionViolationException, 
+org.apache.http.cookie.Cookie, 
+org.apache.http.cookie.CommonCookieAttributeHandler, 
+org.apache.http.cookie.SetCookie2, 
+org.apache.http.cookie.CookieSpecFactory, 
+org.apache.http.cookie.CookieSpec, 
+org.apache.http.cookie.CookieSpecRegistry, 
+org.apache.http.auth.params.AuthParams, 
+org.apache.http.auth.params.AuthParamBean, 
+org.apache.http.client.protocol.ClientContext, 
+org.apache.http.client.protocol.ResponseAuthCache, 
+org.apache.http.client.protocol.RequestAuthenticationBase, 
+org.apache.http.client.protocol.RequestTargetAuthentication, 
+org.apache.http.client.protocol.RequestProxyAuthentication, 
+org.apache.http.client.protocol.ClientContextConfigurer, 
+org.apache.http.client.params.CookiePolicy, 
+org.apache.http.client.params.ClientParamBean, 
+org.apache.http.client.params.AuthPolicy, 
+org.apache.http.client.params.HttpClientParams, 
+org.apache.http.client.utils.Punycode, 
+org.apache.http.client.utils.Idn, 
+org.apache.http.client.utils.JdkIdn, 
+org.apache.http.client.utils.Rfc3492Idn, 
+org.apache.http.client.RequestDirector, 
+org.apache.http.client.AuthenticationHandler, 
+org.apache.http.client.RedirectHandler, 
+org.apache.http.conn.BasicEofSensorWatcher, 
+org.apache.http.conn.ClientConnectionManagerFactory, 
+org.apache.http.conn.MultihomePlainSocketFactory, 
+org.apache.http.conn.OperatedClientConnection, 
+org.apache.http.conn.params.ConnRouteParamBean, 
+org.apache.http.conn.params.ConnRouteParams, 
+org.apache.http.conn.params.ConnConnectionParamBean, 
+org.apache.http.conn.params.ConnPerRoute, 
+org.apache.http.conn.params.ConnManagerParamBean, 
+org.apache.http.conn.params.ConnManagerParams, 
+org.apache.http.conn.params.ConnPerRouteBean, 
+org.apache.http.conn.ClientConnectionOperator, 
+org.apache.http.conn.scheme.PlainSocketFactory, 
+org.apache.http.conn.scheme.HostNameResolver, 
+org.apache.http.conn.BasicManagedEntity, 
+org.apache.http.conn.ssl.SSLSocketFactory, 
+org.apache.http.conn.ssl.SSLContextBuilder, 
+org.apache.http.conn.ssl.SSLContexts, 
+org.apache.http.conn.ssl.PrivateKeyStrategy, 
+org.apache.http.conn.ssl.PrivateKeyDetails, 
+org.apache.http.impl.auth.NegotiateSchemeFactory, 
+org.apache.http.impl.auth.NegotiateScheme, 
+org.apache.http.impl.auth.SpnegoTokenGenerator, 
+org.apache.http.impl.client.TunnelRefusedException, 
+org.apache.http.impl.client.AutoRetryHttpClient, 
+org.apache.http.impl.client.ContentEncodingHttpClient, 
+org.apache.http.impl.client.ClientParamsStack, 
+org.apache.http.impl.client.DecompressingHttpClient, 
+org.apache.http.impl.client.DefaultRedirectHandler, 
+org.apache.http.impl.client.CloseableHttpResponseProxy, 
+org.apache.http.impl.client.RoutedRequest, 
+org.apache.http.impl.client.AuthenticationStrategyAdaptor, 
+org.apache.http.impl.client.DefaultHttpClient, 
+org.apache.http.impl.client.HttpAuthenticator, 
+org.apache.http.impl.client.DefaultProxyAuthenticationHandler, 
+org.apache.http.impl.client.DefaultRequestDirector, 
+org.apache.http.impl.client.DefaultTargetAuthenticationHandler, 
+org.apache.http.impl.client.SystemDefaultHttpClient, 
+org.apache.http.impl.client.AbstractHttpClient, 
+org.apache.http.impl.client.AbstractAuthenticationHandler, 
+org.apache.http.impl.client.DefaultRedirectStrategyAdaptor, 
+org.apache.http.impl.conn.DefaultResponseParser, 
+org.apache.http.impl.conn.HttpPoolEntry, 
+org.apache.http.impl.conn.AbstractPooledConnAdapter, 
+org.apache.http.impl.conn.AbstractPoolEntry, 
+org.apache.http.impl.conn.SingleClientConnManager, 
+org.apache.http.impl.conn.HttpConnPool, 
+org.apache.http.impl.conn.ManagedClientConnectionImpl, 
+org.apache.http.impl.conn.AbstractClientConnAdapter, 
+org.apache.http.impl.conn.BasicClientConnectionManager, 
+org.apache.http.impl.conn.ProxySelectorRoutePlanner, 
+org.apache.http.impl.conn.tsccm.BasicPoolEntry, 
+org.apache.http.impl.conn.tsccm.AbstractConnPool, 
+org.apache.http.impl.conn.tsccm.WaitingThread, 
+org.apache.http.impl.conn.tsccm.RouteSpecificPool, 
+org.apache.http.impl.conn.tsccm.PoolEntryRequest, 
+org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager, 
+org.apache.http.impl.conn.tsccm.ConnPoolByRoute, 
+org.apache.http.impl.conn.tsccm.BasicPooledConnAdapter, 
+org.apache.http.impl.conn.tsccm.BasicPoolEntryRef, 
+org.apache.http.impl.conn.tsccm.WaitingThreadAborter, 
+org.apache.http.impl.conn.LoggingSessionInputBuffer, 
+org.apache.http.impl.conn.IdleConnectionHandler, 
+org.apache.http.impl.conn.PoolingClientConnectionManager, 
+org.apache.http.impl.conn.DefaultClientConnectionOperator, 
+org.apache.http.impl.conn.SchemeRegistryFactory, 
+org.apache.http.impl.conn.DefaultHttpRoutePlanner, 
+org.apache.http.impl.conn.LoggingSessionOutputBuffer, 
+org.apache.http.impl.conn.DefaultClientConnection, 
+org.apache.http.impl.cookie.RFC2109SpecFactory, 
+org.apache.http.impl.cookie.IgnoreSpecFactory, 
+org.apache.http.impl.cookie.BestMatchSpec, 
+org.apache.http.impl.cookie.PublicSuffixFilter, 
+org.apache.http.impl.cookie.BrowserCompatSpecFactory, 
+org.apache.http.impl.cookie.DateParseException, 
+org.apache.http.impl.cookie.NetscapeDraftSpecFactory, 
+org.apache.http.impl.cookie.PublicSuffixListParser, 
+org.apache.http.impl.cookie.BestMatchSpecFactory, 
+org.apache.http.impl.cookie.BrowserCompatSpec, 
+org.apache.http.impl.cookie.DateUtils, 
+org.apache.http.impl.cookie.BrowserCompatVersionAttributeHandler, 
+org.apache.http.impl.cookie.RFC2965SpecFactory, 
+org.apache.http.cookie.params.CookieSpecParamBean, 
+org.apache.http.client.cache.TestHttpCacheEntry, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestAsynchronousValidationRequest, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.memcached.TestMemcachedHttpCacheStorage, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.memcached.TestSHA256HashingScheme, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.memcached.TestPrefixKeyHashingScheme, stereotypeCOMMANDER
+org.apache.http.impl.client.cache.memcached.TestMemcachedCacheEntryFactoryImpl, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.memcached.TestMemcachedCacheEntryImpl, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.ConsumableInputStream, stereotypeMINIMAL_ENTITY
+org.apache.http.impl.client.cache.TestRequestProtocolCompliance, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestCacheValidityPolicy, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestCacheInvalidator, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestProtocolRequirements, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestRFC5861Compliance, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestDefaultFailureCache, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestCachingHttpClientBuilder, stereotype
+org.apache.http.impl.client.cache.TestResponseProtocolCompliance, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestCachedHttpResponseGenerator, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestCombinedEntity, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.OKStatus, stereotypeDEGENERATE
+org.apache.http.impl.client.cache.Serializer, 
+org.apache.http.impl.client.cache.AbstractProtocolTest, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestProtocolDeviations, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.TestProtocolRecommendations, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestCacheableRequestPolicy, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestStaleWhileRevalidationReleasesConnection, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.Counter, stereotypeLAZY_CLASS
+org.apache.http.impl.client.cache.TestResponseCachingPolicy, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestWarningValue, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.TestCachingExecChain, 
+org.apache.http.impl.client.cache.TestHttpCacheJiraNumber1147, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.TestCacheEntryUpdater, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.ResponseEquivalent, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.ehcache.TestEhcacheProtocolRequirements, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.ehcache.TestEhcacheHttpCacheStorage, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestExponentialBackingOffSchedulingStrategy, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.SimpleHttpCacheStorage, stereotypeMINIMAL_ENTITY
+org.apache.http.impl.client.cache.TestCachingExec, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.RequestEquivalent, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.TestSizeLimitedResponseReader, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.DummyBackend, stereotypeMINIMAL_ENTITY
+org.apache.http.impl.client.cache.TestImmediateSchedulingStrategy, stereotypeCOMMANDER
+org.apache.http.impl.client.cache.TestProtocolAllowedBehavior, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestHttpCacheEntrySerializers, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.TestCachedResponseSuitabilityChecker, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.HttpTestUtils, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.TestBasicHttpCache, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestAsynchronousValidator, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestConditionalRequestBuilder, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.TestCacheKeyGenerator, stereotypeBOUNDARY COMMANDER
+org.apache.http.client.cache.HttpCacheUpdateException, stereotypeDEGENERATE
+org.apache.http.client.cache.ResourceFactory, stereotypeINTERFACE
+org.apache.http.client.cache.HeaderConstants, stereotypePOOLstereotypePOOL
+org.apache.http.client.cache.HttpCacheContext, stereotypeFACTORY
+org.apache.http.client.cache.HttpCacheEntrySerializationException, stereotypeDEGENERATE
+org.apache.http.client.cache.InputLimit, stereotypeMINIMAL_ENTITY
+org.apache.http.client.cache.Resource, stereotypeINTERFACE
+org.apache.http.client.cache.HttpCacheInvalidator, stereotypeINTERFACE
+org.apache.http.client.cache.HttpCacheStorage, stereotypeINTERFACE
+org.apache.http.client.cache.HttpCacheEntry, stereotypeDATA_PROVIDER
+org.apache.http.client.cache.HttpCacheUpdateCallback, stereotypeINTERFACE
+org.apache.http.client.cache.CacheResponseStatus, 
+org.apache.http.client.cache.HttpCacheEntrySerializer, stereotypeINTERFACE
+org.apache.http.impl.client.cache.Variant, stereotypeDATA_CLASS
+org.apache.http.impl.client.cache.FailureCacheValue, stereotypeDATA_CLASS
+org.apache.http.impl.client.cache.ExponentialBackOffSchedulingStrategy, 
+org.apache.http.impl.client.cache.Proxies, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.BasicIdGenerator, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.CacheEntity, stereotypeDATA_PROVIDER
+org.apache.http.impl.client.cache.HeapResourceFactory, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.memcached.MemcachedHttpCacheStorage, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.memcached.MemcachedKeyHashingException, stereotypeDEGENERATE
+org.apache.http.impl.client.cache.memcached.MemcachedOperationTimeoutException, stereotypeDEGENERATE
+org.apache.http.impl.client.cache.memcached.SHA256KeyHashingScheme, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.memcached.KeyHashingScheme, stereotypeINTERFACE
+org.apache.http.impl.client.cache.memcached.MemcachedCacheEntryFactory, stereotypeINTERFACE
+org.apache.http.impl.client.cache.memcached.MemcachedSerializationException, stereotypeDEGENERATE
+org.apache.http.impl.client.cache.memcached.MemcachedCacheEntryImpl, stereotypeENTITY
+org.apache.http.impl.client.cache.memcached.MemcachedCacheEntryFactoryImpl, stereotypeFACTORY
+org.apache.http.impl.client.cache.memcached.PrefixKeyHashingScheme, stereotypeDATA_PROVIDER
+org.apache.http.impl.client.cache.memcached.MemcachedCacheEntry, stereotypeINTERFACE
+org.apache.http.impl.client.cache.CachingHttpClients, stereotype
+org.apache.http.impl.client.cache.ImmediateSchedulingStrategy, stereotypeCOMMANDER
+org.apache.http.impl.client.cache.CacheValidityPolicy, stereotypeBOUNDARY DATA_PROVIDER
+org.apache.http.impl.client.cache.ResponseCachingPolicy, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.DefaultHttpCacheEntrySerializer, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.ResponseProxyHandler, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.CachedResponseSuitabilityChecker, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.CacheMap, stereotypeDATA_PROVIDER
+org.apache.http.impl.client.cache.BasicHttpCache, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.ResponseProtocolCompliance, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.CacheKeyGenerator, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.DefaultFailureCache, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.CachedHttpResponseGenerator, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.FileResource, stereotype
+org.apache.http.impl.client.cache.CacheInvalidator, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.SchedulingStrategy, stereotypeINTERFACE
+org.apache.http.impl.client.cache.ManagedHttpCacheStorage, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.IOUtils, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.OptionsHttp11Response, stereotypeDATA_PROVIDER
+org.apache.http.impl.client.cache.WarningValue, stereotypeENTITY
+org.apache.http.impl.client.cache.SizeLimitedResponseReader, stereotype
+org.apache.http.impl.client.cache.ehcache.EhcacheHttpCacheStorage, stereotypeMINIMAL_ENTITY
+org.apache.http.impl.client.cache.CachingHttpClientBuilder, stereotype
+org.apache.http.impl.client.cache.ResourceReference, stereotypeDATA_PROVIDER
+org.apache.http.impl.client.cache.RequestProtocolError, 
+org.apache.http.impl.client.cache.CacheConfig, stereotype
+org.apache.http.impl.client.cache.AsynchronousValidationRequest, stereotypeENTITY
+org.apache.http.impl.client.cache.CombinedEntity, stereotype
+org.apache.http.impl.client.cache.AsynchronousValidator, stereotypeCOMMANDER
+org.apache.http.impl.client.cache.CacheableRequestPolicy, stereotypeBOUNDARY COMMANDER
+org.apache.http.impl.client.cache.RequestProtocolCompliance, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.FailureCache, stereotypeINTERFACE
+org.apache.http.impl.client.cache.FileResourceFactory, stereotypeFACTORY
+org.apache.http.impl.client.cache.ConditionalRequestBuilder, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.BasicHttpCacheStorage, stereotypeMINIMAL_ENTITY
+org.apache.http.impl.client.cache.CacheEntryUpdater, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.HttpCache, stereotypeINTERFACE
+org.apache.http.impl.client.cache.HeapResource, stereotype
+org.apache.http.impl.client.cache.CachingExec, stereotypeBOUNDARY
+org.apache.http.impl.client.cache.CachingHttpClient, 

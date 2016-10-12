@@ -1,0 +1,1456 @@
+Starting a new procedure
+Running matching
+Total codeterms to match = 168
+Starting to write
+Total example blocks to match = 82
+Starting to write
+PoolingHttpClientConnectionManager(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+PoolingHttpClientConnectionManager(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+PoolingHttpClientConnectionManager(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+PoolingHttpClientConnectionManager(), METHOD, 2483, 17, 7.1 Custom client connections, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+PoolingHttpClientConnectionManager(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+PoolingHttpClientConnectionManager(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+PoolingHttpClientConnectionManager(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+PoolingHttpClientConnectionManager(), METHOD, 2483, 17, 7.1 Custom client connections, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+RequestConfig.custom(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.config.RequestConfig.custom(), @FACTORY
+
+RequestConfig.custom(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.config.RequestConfig.custom(), @FACTORY
+
+RequestConfig.custom(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.client.config.RequestConfig.custom(), @FACTORY
+
+RequestConfig.custom(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.config.RequestConfig.custom(), @FACTORY
+
+context.setCookieStore(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.HttpClientContext.setCookieStore(), @
+
+DefaultHostnameVerifier(), METHOD, 1332, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory.getDefaultHostnameVerifier(), @CONSTRUCTOR
+
+DefaultHostnameVerifier(), METHOD, 1340, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory.getDefaultHostnameVerifier(), @CONSTRUCTOR
+
+response.getEntity(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.entity.mime.MultipartEntity.getEntity(), @
+
+response.getEntity(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.entity.mime.MultipartEntity.getEntity(), @
+
+response.getEntity(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.entity.mime.MultipartEntity.getEntity(), @
+
+response.getEntity(), METHOD, 351, 13, 1.1.6 Consuming entity content, org.apache.http.entity.mime.MultipartEntity.getEntity(), @
+
+response.getEntity(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.entity.mime.MultipartEntity.getEntity(), @
+
+response.getEntity(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.entity.mime.MultipartEntity.getEntity(), @
+
+response.getEntity(), METHOD, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @
+
+response.getEntity(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @
+
+response.getEntity(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.mime.MultipartEntity.getEntity(), @
+
+HttpPost(), METHOD, 370, 13, 1.1.7 Producing entity content, org.apache.http.client.methods.HttpPost.HttpPost(), @CONSTRUCTOR
+
+HttpPost(), METHOD, 390, 17, 1.1.7.1 HTML forms, org.apache.http.client.methods.HttpPost.HttpPost(), @CONSTRUCTOR
+
+HttpPost(), METHOD, 414, 17, 1.1.7.2 Content chunking, org.apache.http.client.methods.HttpPost.HttpPost(), @CONSTRUCTOR
+
+HttpPost(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpPost.HttpPost(), @CONSTRUCTOR
+
+connMrg.connect(), UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(), @
+
+CachingHttpClients.custom(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClients.custom(), @
+
+Cookie, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.cookie.Cookie, @
+
+Cookie, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.cookie.Cookie, @
+
+context.setCredentialsProvider(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.setCredentialsProvider(), @
+
+context.setCredentialsProvider(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.protocol.HttpClientContext.setCredentialsProvider(), @
+
+context.setCredentialsProvider(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.protocol.HttpClientContext.setCredentialsProvider(), @
+
+context.setAuthCache(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.setAuthCache(), @
+
+context.setAuthCache(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.protocol.HttpClientContext.setAuthCache(), @
+
+UsernamePasswordCredentials(), METHOD, 1655, 9, 4.1 User credentials, org.apache.http.auth.UsernamePasswordCredentials.UsernamePasswordCredentials(), @
+
+UsernamePasswordCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.UsernamePasswordCredentials.UsernamePasswordCredentials(), @
+
+UsernamePasswordCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.UsernamePasswordCredentials.UsernamePasswordCredentials(), @
+
+UsernamePasswordCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.UsernamePasswordCredentials.UsernamePasswordCredentials(), @
+
+UsernamePasswordCredentials(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.auth.UsernamePasswordCredentials.UsernamePasswordCredentials(), @
+
+HttpClientContext, CLASS/INTERFACE, 587, 9, 1.3 HTTP execution context, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 838, 9, 1.7 Redirect handling, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 1222, 9, 2.7 Connection socket factories, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 2517, 13, 7.2.1 User token handler, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.protocol.HttpClientContext, @
+
+HttpClientContext, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.protocol.HttpClientContext, @
+
+BasicClientCookie, CLASS/INTERFACE, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie, @
+
+BasicClientCookie, CLASS/INTERFACE, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.cookie.BasicClientCookie, @
+
+futureRequestExecutionService.execute(), UNIDENTIFIED-TYPE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.impl.client.FutureRequestExecutionService.execute(), @
+
+futureRequestExecutionService.execute(), UNIDENTIFIED-TYPE, 2634, 17, 7.3.4 Callbacks, org.apache.http.impl.client.FutureRequestExecutionService.execute(), @
+
+build(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 477, 9, 1.2 HttpClient interface, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.methods.RequestBuilder.build(), @
+
+build(), METHOD, 824, 9, 1.7 Redirect handling, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.conn.ssl.SSLContextBuilder.build(), @
+
+build(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.conn.ssl.SSLContextBuilder.build(), @
+
+build(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.conn.ssl.SSLContextBuilder.build(), @
+
+build(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.ssl.SSLContextBuilder.build(), @
+
+build(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.ssl.SSLContextBuilder.build(), @
+
+build(), METHOD, 1269, 13, 2.7.3 SSL/TLS customization, org.apache.http.ssl.SSLContextBuilder.build(), @
+
+build(), METHOD, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.ssl.SSLContextBuilder.build(), @
+
+build(), METHOD, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.ssl.SSLContextBuilder.build(), @
+
+build(), METHOD, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.ssl.SSLContextBuilder.build(), @
+
+build(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.client.entity.EntityBuilder.build(), @
+
+build(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClientBuilder.build(), @
+
+build(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClientBuilder.build(), @
+
+build(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClientBuilder.build(), @
+
+build(), METHOD, 2483, 17, 7.1 Custom client connections, org.apache.http.entity.mime.MultipartEntityBuilder.build(), @
+
+build(), METHOD, 2531, 13, 7.2.1 User token handler, org.apache.http.client.entity.EntityBuilder.build(), @
+
+targetAuthState.getAuthScheme(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getAuthScheme(), @PROPERTY
+
+proxyAuthState.getCredentials(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getCredentials(), @PROPERTY
+
+BasicScheme(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.auth.BasicScheme.BasicScheme(), @
+
+HttpRequestFutureTask, CLASS/INTERFACE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.impl.client.HttpRequestFutureTask, @
+
+HttpRequestFutureTask, CLASS/INTERFACE, 2634, 17, 7.3.4 Callbacks, org.apache.http.impl.client.HttpRequestFutureTask, @
+
+CookieOrigin, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.cookie.CookieOrigin, @DATA_PROVIDER
+
+executor.execute(), UNIDENTIFIED-TYPE, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.execute(), @
+
+executor.execute(), UNIDENTIFIED-TYPE, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.execute(), @
+
+CacheConfig, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CacheConfig, @
+
+BasicScheme, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.auth.BasicScheme, @
+
+AuthCache, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.AuthCache, @INTERFACE
+
+AuthCache, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.AuthCache, @INTERFACE
+
+AuthCache, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.AuthCache, @INTERFACE
+
+AuthCache, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.AuthCache, @INTERFACE
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.BasicCredentialsProvider.setCredentials(), @
+
+ManagedHttpClientConnection, CLASS/INTERFACE, 2474, 17, 7.1 Custom client connections, org.apache.http.conn.ManagedHttpClientConnection, @INTERFACE
+
+BasicCookieStore(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.client.BasicCookieStore.BasicCookieStore(), @CONSTRUCTOR
+
+HttpClients.createDefault(), METHOD, 15, 9, 1.1 Request execution, org.apache.http.impl.client.HttpClients.createDefault(), @CONTROLLER
+
+HttpClients.createDefault(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.client.HttpClients.createDefault(), @CONTROLLER
+
+HttpClients.createDefault(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.client.HttpClients.createDefault(), @CONTROLLER
+
+HttpClients.createDefault(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.impl.client.HttpClients.createDefault(), @CONTROLLER
+
+HttpClients.createDefault(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.impl.client.HttpClients.createDefault(), @CONTROLLER
+
+HttpClients.createDefault(), METHOD, 510, 13, 1.2.2 HttpClient resource deallocation, org.apache.http.impl.client.HttpClients.createDefault(), @CONTROLLER
+
+HttpClients.createDefault(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.impl.client.HttpClients.createDefault(), @CONTROLLER
+
+HttpClients.createDefault(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.impl.client.HttpClients.createDefault(), @CONTROLLER
+
+HttpClients.createDefault(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.HttpClients.createDefault(), @CONTROLLER
+
+HttpClients.createDefault(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.HttpClients.createDefault(), @CONTROLLER
+
+AuthState, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState, @MINIMAL_ENTITY
+
+AuthState, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState, @MINIMAL_ENTITY
+
+HttpClient, CLASS/INTERFACE, 2594, 13, 7.3.1 Creating the FutureRequestExecutionService, org.apache.http.client.HttpClient, @
+
+context.getCookieOrigin(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.HttpClientContext.getCookieOrigin(), @
+
+httpClient.execute(), UNIDENTIFIED-TYPE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.HttpClient.execute(), @
+
+connMgr.closeIdleConnections(), METHOD, 1125, 9, 2.5 Connection eviction policy, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeIdleConnections(), @
+
+metrics.getFailedConnectionCount(), METHOD, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionMetrics.getFailedConnectionCount(), @PROPERTY
+
+HttpPost, CLASS/INTERFACE, 370, 13, 1.1.7 Producing entity content, org.apache.http.client.methods.HttpPost, @DATA_CLASS
+
+HttpPost, CLASS/INTERFACE, 390, 17, 1.1.7.1 HTML forms, org.apache.http.client.methods.HttpPost, @DATA_CLASS
+
+HttpPost, CLASS/INTERFACE, 414, 17, 1.1.7.2 Content chunking, org.apache.http.client.methods.HttpPost, @DATA_CLASS
+
+HttpPost, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpPost, @DATA_CLASS
+
+connMrg.releaseConnection(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(), @
+
+proxyAuthState.getAuthScheme(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getAuthScheme(), @PROPERTY
+
+ResponseHandler, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.client.ResponseHandler, @
+
+ResponseHandler, CLASS/INTERFACE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.ResponseHandler, @
+
+proxyAuthState.getState(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getState(), @PROPERTY
+
+FutureRequestExecutionMetrics, CLASS/INTERFACE, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionMetrics, @DATA_PROVIDER
+
+PlainConnectionSocketFactory.getSocketFactory(), METHOD, 1222, 9, 2.7 Connection socket factories, org.apache.http.conn.socket.PlainConnectionSocketFactory.getSocketFactory(), @GET
+
+PlainConnectionSocketFactory, CLASS/INTERFACE, 1222, 9, 2.7 Connection socket factories, org.apache.http.conn.socket.PlainConnectionSocketFactory, @
+
+HttpGet(), METHOD, 15, 9, 1.1 Request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 40, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+ClientProtocolException, CLASS/INTERFACE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.ClientProtocolException, @DEGENERATE
+
+context2.setUserToken(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.protocol.HttpClientContext.setUserToken(), @
+
+response.close(), UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @
+
+response.close(), UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @
+
+response.close(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @
+
+response.close(), UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @
+
+response.close(), UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @
+
+response.close(), UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @
+
+response.close(), UNIDENTIFIED-TYPE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.CloseableHttpClient.close(), @
+
+response.close(), UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.auth.HttpEntityDigester.close(), @
+
+response.close(), UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.ExponentialBackOffSchedulingStrategy.close(), @
+
+response.close(), UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient.close(), @
+
+HttpRoutePlanner, CLASS/INTERFACE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.routing.HttpRoutePlanner, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 15, 9, 1.1 Request execution, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 351, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+CloseableHttpResponse, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.CloseableHttpResponse, @INTERFACE
+
+HttpRoutePlanner(), METHOD, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.routing.HttpRoutePlanner.HttpRoutePlanner(), @
+
+executor.execute(), UNIDENTIFIED-TYPE, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.execute(), @
+
+executor.execute(), UNIDENTIFIED-TYPE, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.execute(), @
+
+connMgr.closeExpiredConnections(), METHOD, 1125, 9, 2.5 Connection eviction policy, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(), @ABSTRACT
+
+UsernamePasswordCredentials, CLASS/INTERFACE, 1655, 9, 4.1 User credentials, org.apache.http.auth.UsernamePasswordCredentials, @DATA_PROVIDER
+
+CookieStore, CLASS/INTERFACE, 1574, 9, 3.5 Cookie persistence, org.apache.http.client.CookieStore, @INTERFACE
+
+CookieStore, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.CookieStore, @INTERFACE
+
+targetAuthState.getCredentials(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getCredentials(), @PROPERTY
+
+BasicCredentialsProvider(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.impl.client.BasicCredentialsProvider.BasicCredentialsProvider(), @CONSTRUCTOR
+
+BasicCredentialsProvider(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.client.BasicCredentialsProvider.BasicCredentialsProvider(), @CONSTRUCTOR
+
+BasicCredentialsProvider(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.BasicCredentialsProvider.BasicCredentialsProvider(), @CONSTRUCTOR
+
+HttpRoute(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.conn.routing.HttpRoute.HttpRoute(), @
+
+HttpRoute(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.conn.routing.HttpRoute.HttpRoute(), @
+
+HttpRoute(), METHOD, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.client.protocol.HttpClientContext.getHttpRoute(), @
+
+cookie.setAttribute(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.setAttribute(), @
+
+cookie.setAttribute(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.setAttribute(), @
+
+HttpEntity, CLASS/INTERFACE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.entity.BufferedHttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.entity.BufferedHttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.entity.BufferedHttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 351, 13, 1.1.6 Consuming entity content, org.apache.http.entity.BufferedHttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.entity.BufferedHttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.entity.BufferedHttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.entity.BufferedHttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.entity.BufferedHttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.nio.protocol.NullNHttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.HttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.HttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.HttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.TestAbstractHttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.HttpEntity, @
+
+HttpEntity, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.HttpEntity, @
+
+HttpGet, CLASS/INTERFACE, 15, 9, 1.1 Request execution, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 40, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 46, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+HttpGet, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet, @DATA_CLASS
+
+DefaultProxyRoutePlanner, CLASS/INTERFACE, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.conn.DefaultProxyRoutePlanner, @DATA_CLASS
+
+CacheConfig.custom(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CacheConfig.custom(), @
+
+cm.setMaxTotal(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setMaxTotal(), @
+
+SSLConnectionSocketFactory, CLASS/INTERFACE, 1269, 13, 2.7.3 SSL/TLS customization, org.apache.http.conn.ssl.SSLConnectionSocketFactory, @BOUNDARY
+
+SSLConnectionSocketFactory, CLASS/INTERFACE, 1316, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory, @BOUNDARY
+
+PublicSuffixMatcherLoader.getDefault(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.conn.util.PublicSuffixMatcherLoader.getDefault(), @
+
+response.getStatusLine(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.CloseableHttpResponse.getStatusLine(), @
+
+response.getStatusLine(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.HttpResponse.getStatusLine(), @
+
+response.getStatusLine(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.CloseableHttpResponse.getStatusLine(), @
+
+SSLConnectionSocketFactory(), METHOD, 1269, 13, 2.7.3 SSL/TLS customization, org.apache.http.conn.ssl.SSLConnectionSocketFactory.SSLConnectionSocketFactory(), @
+
+SSLConnectionSocketFactory(), METHOD, 1316, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory.SSLConnectionSocketFactory(), @
+
+PublicSuffixMatcher, CLASS/INTERFACE, 1332, 13, 2.7.4 Hostname verification, org.apache.http.conn.util.PublicSuffixMatcher, @
+
+PublicSuffixMatcher, CLASS/INTERFACE, 1543, 9, 3.4 Custom cookie policy, org.apache.http.conn.util.PublicSuffixMatcher, @
+
+httpGet.setConfig(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.fluent.InternalHttpRequest.setConfig(), @
+
+metrics.getSuccessfulConnectionAverageDuration(), METHOD, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionMetrics.getSuccessfulConnectionAverageDuration(), @PROPERTY
+
+ConnectionKeepAliveStrategy, CLASS/INTERFACE, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy, @INTERFACE
+
+ConnectionKeepAliveStrategy, CLASS/INTERFACE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.conn.ConnectionKeepAliveStrategy, @INTERFACE
+
+metrics.getSuccessfulConnectionCount(), METHOD, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionMetrics.getSuccessfulConnectionCount(), @PROPERTY
+
+CredentialsProvider, CLASS/INTERFACE, 1757, 9, 4.3 Credentials provider, org.apache.http.impl.auth.win.WindowsCredentialsProvider, @INTERFACE
+
+CredentialsProvider, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.impl.auth.win.WindowsCredentialsProvider, @INTERFACE
+
+CredentialsProvider, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.auth.win.WindowsCredentialsProvider, @INTERFACE
+
+CredentialsProvider, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.BasicCredentialsProvider, @INTERFACE
+
+HttpCacheContext, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.client.cache.HttpCacheContext, @
+
+response1.getEntity(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.entity.mime.MultipartEntity.getEntity(), @
+
+response1.getEntity(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @
+
+response1.getEntity(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @
+
+connRequest.get(), UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.conn.routing.HttpRoute.getHopTarget(), @
+
+connMrg.routeComplete(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.routeComplete(), @
+
+cm.setDefaultMaxPerRoute(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setDefaultMaxPerRoute(), @
+
+CookieSpec, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.cookie.CookieSpec, @
+
+CacheResponseStatus, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.client.cache.CacheResponseStatus, @
+
+response2.close(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @
+
+response2.close(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse.close(), @
+
+response2.close(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.close(), @
+
+targetAuthState.getState(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getState(), @PROPERTY
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.BasicCredentialsProvider.setCredentials(), @
+
+metrics.getTaskCount(), METHOD, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionMetrics.getTaskCount(), @PROPERTY
+
+metrics.getTaskAverageDuration(), METHOD, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionMetrics.getTaskAverageDuration(), @PROPERTY
+
+HttpCacheContext.create(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.cache.HttpCacheContext.create(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+ResponseHandler, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.client.ResponseHandler, @
+
+ResponseHandler, CLASS/INTERFACE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.ResponseHandler, @
+
+httpClient.close(), UNIDENTIFIED-TYPE, 1018, 13, 2.3.4 Connection manager shutdown, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.close(), @
+
+BasicAuthCache(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.client.BasicAuthCache.BasicAuthCache(), @CONSTRUCTOR
+
+httppost.setEntity(), METHOD, 370, 13, 1.1.7 Producing entity content, org.apache.http.client.methods.CloseableHttpResponse.setEntity(), @
+
+httppost.setEntity(), METHOD, 390, 17, 1.1.7.1 HTML forms, org.apache.http.message.BasicHttpEntityEnclosingRequest.setEntity(), @
+
+httppost.setEntity(), METHOD, 414, 17, 1.1.7.2 Content chunking, org.apache.http.message.BasicHttpEntityEnclosingRequest.setEntity(), @
+
+httppost.setEntity(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse.setEntity(), @
+
+metrics.getRequestCount(), METHOD, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionMetrics.getRequestCount(), @PROPERTY
+
+ManagedHttpClientConnectionFactory(), METHOD, 2474, 17, 7.1 Custom client connections, org.apache.http.impl.conn.ManagedHttpClientConnectionFactory.ManagedHttpClientConnectionFactory(), @CONSTRUCTOR
+
+RequestConfig, CLASS/INTERFACE, 587, 9, 1.3 HTTP execution context, org.apache.http.client.config.RequestConfig, @DATA_PROVIDER
+
+RequestConfig, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.config.RequestConfig, @DATA_PROVIDER
+
+RequestConfig, CLASS/INTERFACE, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.config.RequestConfig, @DATA_PROVIDER
+
+RequestConfig, CLASS/INTERFACE, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.config.RequestConfig, @DATA_PROVIDER
+
+RequestConfig, CLASS/INTERFACE, 1543, 9, 3.4 Custom cookie policy, org.apache.http.client.config.RequestConfig, @DATA_PROVIDER
+
+RequestConfig, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClientBuilder.defaultRequestConfig, @DATA_PROVIDER
+
+DefaultProxyRoutePlanner(), METHOD, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.conn.DefaultProxyRoutePlanner.DefaultProxyRoutePlanner(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+DefaultHostnameVerifier(), METHOD, 1332, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory.getDefaultHostnameVerifier(), @CONSTRUCTOR
+
+DefaultHostnameVerifier(), METHOD, 1340, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory.getDefaultHostnameVerifier(), @CONSTRUCTOR
+
+ConnectionKeepAliveStrategy(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.conn.ConnectionKeepAliveStrategy.ConnectionKeepAliveStrategy(), @
+
+context.getProxyAuthState(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.getProxyAuthState(), @
+
+metrics.getFailedConnectionAverageDuration(), METHOD, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionMetrics.getFailedConnectionAverageDuration(), @PROPERTY
+
+HttpGet(), METHOD, 15, 9, 1.1 Request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 40, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.BasicCredentialsProvider.setCredentials(), @
+
+PublicSuffixMatcherLoader.load(), METHOD, 1332, 13, 2.7.4 Hostname verification, org.apache.http.conn.util.PublicSuffixMatcherLoader.load(), @
+
+HttpClientBuilder.create(), METHOD, 2594, 13, 7.3.1 Creating the FutureRequestExecutionService, org.apache.http.impl.client.HttpClientBuilder.create(), @FACTORY
+
+context.setCookieSpecRegistry(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.HttpClientContext.setCookieSpecRegistry(), @
+
+setHost(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setHost(), @
+
+cookie.setAttribute(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.setAttribute(), @
+
+cookie.setAttribute(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.setAttribute(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.BasicCredentialsProvider.setCredentials(), @
+
+metrics.getRequestAverageDuration(), METHOD, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionMetrics.getRequestAverageDuration(), @PROPERTY
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+httpClient.execute(), UNIDENTIFIED-TYPE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.HttpClient.execute(), @
+
+ConnectionSocketFactory, CLASS/INTERFACE, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.conn.socket.ConnectionSocketFactory, @INTERFACE
+
+FutureRequestExecutionService, CLASS/INTERFACE, 2594, 13, 7.3.1 Creating the FutureRequestExecutionService, org.apache.http.impl.client.FutureRequestExecutionService, @
+
+Executor, CLASS/INTERFACE, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Executor, @BOUNDARY COMMANDER
+
+sf.createSocket(), METHOD, 1222, 9, 2.7 Connection socket factories, org.apache.http.conn.socket.ConnectionSocketFactory.createSocket(), @
+
+CloseableHttpClient, CLASS/INTERFACE, 15, 9, 1.1 Request execution, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 510, 13, 1.2.2 HttpClient resource deallocation, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 754, 13, 1.5.4 Request retry handler, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 824, 9, 1.7 Redirect handling, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 838, 9, 1.7 Redirect handling, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1018, 13, 2.3.4 Connection manager shutdown, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1543, 9, 3.4 Custom cookie policy, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 2483, 17, 7.1 Custom client connections, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 2531, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient, @
+
+CloseableHttpClient, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient, @
+
+cookie.setDomain(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.setDomain(), @
+
+cookie.setDomain(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.cookie.BasicClientCookie.setDomain(), @
+
+sf.connectSocket(), METHOD, 1222, 9, 2.7 Connection socket factories, org.apache.http.conn.socket.ConnectionSocketFactory.connectSocket(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+HttpResponse, CLASS/INTERFACE, 70, 13, 1.1.2 HTTP response, org.apache.http.client.methods.CloseableHttpResponse, @
+
+HttpResponse, CLASS/INTERFACE, 92, 13, 1.1.3 Working with message headers, org.apache.http.client.methods.CloseableHttpResponse, @
+
+HttpResponse, CLASS/INTERFACE, 114, 13, 1.1.3 Working with message headers, org.apache.http.client.methods.CloseableHttpResponse, @
+
+HttpResponse, CLASS/INTERFACE, 135, 13, 1.1.3 Working with message headers, org.apache.http.client.methods.CloseableHttpResponse, @
+
+HttpResponse, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.CloseableHttpResponse, @
+
+HttpResponse, CLASS/INTERFACE, 477, 9, 1.2 HttpClient interface, org.apache.http.client.methods.CloseableHttpResponse, @
+
+HttpResponse, CLASS/INTERFACE, 587, 9, 1.3 HTTP execution context, org.apache.http.client.methods.CloseableHttpResponse, @
+
+HttpResponse, CLASS/INTERFACE, 2185, 7, 5.1.1 Response handling, org.apache.http.HttpResponse, @
+
+HttpResponse, CLASS/INTERFACE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.CloseableHttpResponse, @
+
+HttpGet(), METHOD, 15, 9, 1.1 Request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 40, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+context.getTargetAuthState(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.getTargetAuthState(), @
+
+Executor.newInstance(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Executor.newInstance(), @FACTORY
+
+PoolingHttpClientConnectionManager, CLASS/INTERFACE, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @
+
+PoolingHttpClientConnectionManager, CLASS/INTERFACE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @
+
+PoolingHttpClientConnectionManager, CLASS/INTERFACE, 2483, 17, 7.1 Custom client connections, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @
+
+PoolingHttpClientConnectionManager(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+PoolingHttpClientConnectionManager(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+PoolingHttpClientConnectionManager(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+PoolingHttpClientConnectionManager(), METHOD, 2483, 17, 7.1 Custom client connections, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @CONSTRUCTOR LOCAL_CONTROLLER
+
+FutureCallback, CLASS/INTERFACE, 2634, 17, 7.3.4 Callbacks, org.apache.http.concurrent.FutureCallback, @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+HttpClientContext.create(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 1222, 9, 2.7 Connection socket factories, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+HttpClientContext.create(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.protocol.HttpClientContext.create(), @
+
+LayeredConnectionSocketFactory, CLASS/INTERFACE, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.conn.socket.LayeredConnectionSocketFactory, @INTERFACE
+
+futureRequestExecutionService.execute(), UNIDENTIFIED-TYPE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.impl.client.FutureRequestExecutionService.execute(), @
+
+futureRequestExecutionService.execute(), UNIDENTIFIED-TYPE, 2634, 17, 7.3.4 Callbacks, org.apache.http.impl.client.FutureRequestExecutionService.execute(), @
+
+metrics.getScheduledConnectionCount(), METHOD, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionMetrics.getScheduledConnectionCount(), @PROPERTY
+
+connMrg.requestConnection(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(), @
+
+futureRequestExecutionService.metrics(), UNIDENTIFIED-TYPE, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionService.metrics(), @
+
+NTCredentials, CLASS/INTERFACE, 1670, 9, 4.1 User credentials, org.apache.http.auth.NTCredentials, @DATA_PROVIDER
+
+setPath(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setPath(), @
+
+DefaultHostnameVerifier, CLASS/INTERFACE, 1332, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.DefaultHostnameVerifier, @BOUNDARY COMMANDER
+
+DefaultHostnameVerifier, CLASS/INTERFACE, 1340, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.DefaultHostnameVerifier, @BOUNDARY COMMANDER
+
+HttpGet(), METHOD, 15, 9, 1.1 Request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 40, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+context.setAuthSchemeRegistry(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.setAuthSchemeRegistry(), @
+
+HttpClientConnectionManager, CLASS/INTERFACE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @INTERFACE
+
+HttpClientConnectionManager, CLASS/INTERFACE, 1125, 9, 2.5 Connection eviction policy, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @INTERFACE
+
+HttpClientConnectionManager, CLASS/INTERFACE, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @INTERFACE
+
+SystemDefaultRoutePlanner, CLASS/INTERFACE, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.conn.SystemDefaultRoutePlanner, @BOUNDARY
+
+cookie.setPath(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.setPath(), @
+
+cookie.setPath(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.cookie.BasicClientCookie.setPath(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+setScheme(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setScheme(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.auth.AuthState.setCredentials(), @
+
+credsProvider.setCredentials(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.BasicCredentialsProvider.setCredentials(), @
+
+cachingClient.execute(), UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClient.execute(), @
+
+cookieStore.addCookie(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.client.CookieStore.addCookie(), @
+
+response1.close(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @
+
+response1.close(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse.close(), @
+
+response1.close(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.close(), @
+
+HttpGet(), METHOD, 15, 9, 1.1 Request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 40, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+RequestConfig.copy(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.config.RequestConfig.copy(), @
+
+FutureRequestExecutionService(), METHOD, 2594, 13, 7.3.1 Creating the FutureRequestExecutionService, org.apache.http.impl.client.FutureRequestExecutionService.FutureRequestExecutionService(), @
+
+HttpClients.custom(), METHOD, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 754, 13, 1.5.4 Request retry handler, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 824, 9, 1.7 Redirect handling, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 2483, 17, 7.1 Custom client connections, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+HttpClients.custom(), METHOD, 2531, 13, 7.2.1 User token handler, org.apache.http.impl.client.HttpClients.custom(), @CONTROLLER
+
+metrics.getActiveConnectionCount(), METHOD, 2665, 13, , org.apache.http.impl.client.FutureRequestExecutionMetrics.getActiveConnectionCount(), @PROPERTY
+
+BasicClientCookie(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.BasicClientCookie(), @
+
+BasicClientCookie(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.cookie.BasicClientCookie.BasicClientCookie(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @
+
+ConnectionRequest, CLASS/INTERFACE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.conn.ConnectionRequest, @INTERFACE
+
+context.getCookieSpec(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.cookie.CookieSpecRegistry.getCookieSpec(), @
+
+HttpGet(), METHOD, 15, 9, 1.1 Request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 40, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+cm.setMaxPerRoute(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setMaxPerRoute(), @
+
+HttpGet(), METHOD, 15, 9, 1.1 Request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 40, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpGet(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.methods.HttpGet.HttpGet(), @CONSTRUCTOR
+
+HttpConnectionFactory, CLASS/INTERFACE, 2474, 17, 7.1 Custom client connections, org.apache.http.HttpConnectionFactory, @
+
+HttpRoute, CLASS/INTERFACE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.conn.routing.HttpRoute, @DATA_PROVIDER
+
+HttpRoute, CLASS/INTERFACE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.routing.HttpRoute, @DATA_PROVIDER
+
+response2.getEntity(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.entity.mime.MultipartEntity.getEntity(), @
+
+response2.getEntity(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @
+
+response2.getEntity(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @
+
+context.getCacheResponseStatus(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.cache.HttpCacheContext.getCacheResponseStatus(), @
+

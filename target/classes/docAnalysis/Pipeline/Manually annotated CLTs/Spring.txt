@@ -1,0 +1,51 @@
+ExpressionParser;org.springframework.expression.ExpressionParser
+SpelExpressionParser();org.springframework.expression.spel.standard.SpelExpressionParser
+Expression;org.springframework.expression.Expression 
+parser.parseExpression("'Hello World'");org.springframework.expression.ExpressionParser.parseExpression(String)
+exp.getValue();org.springframework.expression.Expression.getValue()
+ExpressionParser;org.springframework.expression.ExpressionParser
+Expression;org.springframework.expression.Expression
+parser.parseExpression;org.springframework.expression.ExpressionParser.parseExpression(String)
+exp.getValue;org.springframework.expression.Expression.getValue()
+ExpressionParser;org.springframework.expression.ExpressionParser
+SpelExpressionParser();org.springframework.expression.spel.standard.SpelExpressionParser
+Expression;org.springframework.expression.Expression
+parser.parseExpression("'Hello World'.concat('!')");org.springframework.expression.ExpressionParser.parseExpression(String)
+exp.getValue();org.springframework.expression.Expression.getValue()
+ExpressionParser;org.springframework.expression.ExpressionParser
+SpelExpressionParser();org.springframework.expression.spel.standard.SpelExpressionParser
+Expression;org.springframework.expression.Expression
+parser.parseExpression("'Hello World'.bytes");org.springframework.expression.ExpressionParser.parseExpression(String)
+exp.getValue();org.springframework.expression.Expression.getValue()
+ExpressionParser;org.springframework.expression.ExpressionParser
+SpelExpressionParser();org.springframework.expression.spel.standard.SpelExpressionParser
+Expression;org.springframework.expression.Expression
+parser.parseExpression("'Hello World'.bytes.length");org.springframework.expression.ExpressionParser.parseExpression(String)
+exp.getValue();org.springframework.expression.Expression.getValue()
+ExpressionParser;org.springframework.expression.ExpressionParser
+SpelExpressionParser();org.springframework.expression.spel.standard.SpelExpressionParser
+Expression;org.springframework.expression.Expression
+parser.parseExpression("new String('hello world').toUpperCase()");org.springframework.expression.ExpressionParser.parseExpression(String)
+exp.getValue(String.class);org.springframework.expression.Expression.getValue(Object)
+public <T> T getValue(Class<T> desiredResultType);org.springframework.expression.Expression.getValue(Class<T>)
+ExpressionParser;org.springframework.expression.ExpressionParser
+SpelExpressionParser();org.springframework.expression.spel.standard.SpelExpressionParser
+Expression;org.springframework.expression.Expression
+parser.parseExpression("name");org.springframework.expression.ExpressionParser.parseExpression(String)
+EvaluationContext;org.springframework.expression.EvaluationContext
+StandardEvaluationContext(tesla);org.springframework.expression.spel.support.StandardEvaluationContext(Object)
+exp.getValue(context);org.springframework.expression.Expression.getValue(EvaluationContext)
+StandardEvaluationContext;org.springframework.expression.spel.support.StandardEvaluationContext
+getValue;org.springframework.expression.Expression.getValue()
+ExpressionParser;org.springframework.expression.ExpressionParser
+SpelExpressionParser();org.springframework.expression.spel.standard.SpelExpressionParser
+Expression;org.springframework.expression.Expression
+parser.parseExpression("name");org.springframework.expression.ExpressionParser.parseExpression(String)
+exp.getValue(tesla);org.springframework.expression.Expression.getValue(Class<T>)
+getValue;org.springframework.expression.Expression.getValue()
+StandardEvaluationContext;org.springframework.expression.spel.support.StandardEvaluationContext
+getValue;org.springframework.expression.Expression.getValue()
+getValue;org.springframework.expression.Expression.getValue()
+Expression;org.springframework.expression.Expression
+parser.parseExpression("name == 'Nikola Tesla'");org.springframework.expression.ExpressionParser.parseExpression(String)
+exp.getValue(context, Boolean.class);org.springframework.expression.Expression.getValue(EvaluationContext, Class<T>)

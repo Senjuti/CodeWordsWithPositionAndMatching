@@ -1,0 +1,48 @@
+I collected stereotypes for the methods and classes mentioned in the tutorial. JStereoCode was unable to collect stereotype information for every code like element mentioned in the tutorial, although I tried different project configurations and Eclipse releases. It was more likely to be able to collect stereotype information for methods than for classes. 
+
+The aim was to search for relationships between class and method stereotypes, frequency of classes or methods mentioned and the text within each Chapter of the tutorial. However I could not find any concrete relationship that could be explored further, beyond certain superficial surface relationships (for example, Chapter 2 refers to a great many interfaces and explains them and the most commonly found stereotype was found to be INTERFACE for all the CLTs mentioned in this chapter). 
+
+---
+Some results:
+Most commonly occurring stereotype: CONSTRUCTOR
+
+Chapter 1 introduces the most commonly used HttpClient classes and methods to the reader and provides examples of fundamental tasks that the user can perform to quickly get started. 
+Most commonly occurring stereotype in Chapter 1 is CONSTRUCTOR
+Most commonly mentioned class (and methods within the class) in Chapter 1 is org.apache.http.client.methods.HttpGet
+
+Chapter 2 deals with connection management. It goes into depth about the details of several interfaces and provides lengthy examples for the concrete usage for tasks like opening a connection, multithreaded request execution etc. 
+Most commonly occurring stereotype in Chapter 2 is INTERFACE
+Most commonly mentioned class (and methods within the class) in Chapter 2 is org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+
+Chapter 3 deals primarily with Cookie management. Unfortunately, JStereoCode was unable to discover stereotypes for the Cookie classes mentioned in the tutorial, which leads to skewed results such as considering org.apache.http.client.config.RequestConfig (not a Cookie class) to be the most commonly mentioned class. Therefore the results of this chapter can be considered misleading. 
+Most commonly occurring stereotype in Chapter 3 is DATA_PROVIDER
+Most commonly mentioned class (and methods within the class) in Chapter 3 is org.apache.http.client.config.RequestConfig
+
+Chapter 4 discusses authentication schemes and appropriately the most commonly appearing stereotype is Interface. 
+Most commonly occurring stereotype in Chapter 4 is INTERFACE
+Most commonly mentioned class (and methods within the class) in Chapter 4 is org.apache.http.auth.AuthState
+
+Chapter 5 discusses the Fluent API and is very brief. 
+Most commonly occurring stereotype in Chapter 5 is BOUNDARY, FACTORY, COMMANDER (all equally likely)
+Most commonly mentioned class (and methods within the class) in Chapter 5 is org.apache.http.client.fluent.Executor
+
+Chapter 6 discusses caching. The most commonly identified stereotype is Factory, which is a creational pattern. However from the text, there does not seem to be any special frequency of creational style methods or classes. This can also be considered a skewed result. 
+Most commonly occurring stereotype in Chapter 6 is FACTORY
+Most commonly mentioned class (and methods within the class) in Chapter 6 is org.apache.http.client.cache.HttpCacheContext
+
+Chapter 7 deals with types of connections and has 3 short, mostly separate subsections. Thus it is structured differently from the previous chapters which focused on a broad topic. Of them, the largest is the subsection dealing with Future Request Execution Metrics. 
+Most commonly occurring stereotype in Chapter 7 is PROPERTY
+Most commonly mentioned class (and methods within the class) in Chapter 7 is org.apache.http.impl.client.FutureRequestExecutionMetrics
+
+---
+
+Currently I am working on discovering Documentation Patterns within the tutorial. One problem with this is deciding how much of a threshold to keep while combining documentation patterns. One other question I also have is that it is not clear what is referred to as point 8 of computing code patterns:
+
+"The sets of code elements declared by C that start, end, or contain the same token."
+The example given is: Code elements declared by AbstractBean ending with Property: {getProperty, setProperty, readProperty}.
+
+However a list of specific tokens would then have to be chosen to look into and I am not sure about the steps for doing so.
+
+
+
+

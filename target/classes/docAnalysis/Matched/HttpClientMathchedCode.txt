@@ -1,0 +1,984 @@
+BasicClientCookie, CLASS/INTERFACE, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie, @null
+BasicClientCookie(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.BasicClientCookie(), @null
+domain, UNIDENTIFIED-TYPE, 1430, 9,  3.1 HTTP cookies, org.apache.http.auth.NTUserPrincipal.domain, @null
+attributes, UNIDENTIFIED-TYPE, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.conn.DefaultClientConnection.attributes, @null
+cookie.setDomain(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.setDomain(), @null
+cookie.setPath(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.setPath(), @null
+attributes, UNIDENTIFIED-TYPE, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.conn.DefaultClientConnection.attributes, @null
+server, UNIDENTIFIED-TYPE, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.client.integration.TestCookieVirtualHost.server, @null
+cookie.setAttribute(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.setAttribute(), @null
+cookie.setAttribute(), METHOD, 1430, 9,  3.1 HTTP cookies, org.apache.http.impl.cookie.BasicClientCookie.setAttribute(), @null
+CloseableHttpClient, CLASS/INTERFACE, 15, 9, 1.1 Request execution, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.createDefault(), METHOD, 15, 9, 1.1 Request execution, org.apache.http.impl.client.HttpClients.createDefault(), @null
+HttpGet, CLASS/INTERFACE, 15, 9, 1.1 Request execution, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 15, 9, 1.1 Request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 15, 9, 1.1 Request execution, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.nio.protocol.TestBasicAsyncResponseConsumer.response, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.client.HttpClient.execute(), @null
+response.close(), UNIDENTIFIED-TYPE, 15, 9, 1.1 Request execution, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @null
+HttpGet, CLASS/INTERFACE, 40, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 40, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+URIBuilder(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.URIBuilder(), @null
+setScheme(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setScheme(), @null
+setHost(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setHost(), @null
+setPath(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setPath(), @null
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @null
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @null
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @null
+setParameter(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.utils.URIBuilder.setParameter(), @null
+build(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.entity.EntityBuilder.build(), @null
+HttpGet, CLASS/INTERFACE, 46, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 46, 13, 1.1.1 HTTP request, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+HttpResponse, CLASS/INTERFACE, 70, 13, 1.1.2 HTTP response, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 70, 13, 1.1.2 HTTP response, org.apache.http.client.fluent.Response.response, @null
+BasicHttpResponse(), METHOD, 70, 13, 1.1.2 HTTP response, org.apache.http.message.BasicHttpResponse.BasicHttpResponse(), @null
+1.1(), UNIDENTIFIED-TYPE, 80, 13, 1.1.2 HTTP response, org.apache.http.entity.mime.TestMultipartContentBody.testStringBodyInvalidConstruction1(), @null
+1.1(), UNIDENTIFIED-TYPE, 80, 13, 1.1.2 HTTP response, org.apache.http.entity.mime.TestMultipartContentBody.testStringBodyInvalidConstruction1(), @null
+HttpResponse, CLASS/INTERFACE, 92, 13, 1.1.3 Working with message headers, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 92, 13, 1.1.3 Working with message headers, org.apache.http.client.fluent.Response.response, @null
+BasicHttpResponse(), METHOD, 92, 13, 1.1.3 Working with message headers, org.apache.http.message.BasicHttpResponse.BasicHttpResponse(), @null
+response.addHeader(), METHOD, 92, 13, 1.1.3 Working with message headers, org.apache.http.impl.entity.DummyHttpMessage.addHeader(), @null
+response.addHeader(), METHOD, 92, 13, 1.1.3 Working with message headers, org.apache.http.impl.entity.DummyHttpMessage.addHeader(), @null
+Header, CLASS/INTERFACE, 92, 13, 1.1.3 Working with message headers, org.apache.http.entity.mime.Header, @null
+response.getFirstHeader(), METHOD, 92, 13, 1.1.3 Working with message headers, org.apache.http.impl.entity.DummyHttpMessage.getFirstHeader(), @null
+Header, CLASS/INTERFACE, 92, 13, 1.1.3 Working with message headers, org.apache.http.entity.mime.Header, @null
+response.getLastHeader(), METHOD, 92, 13, 1.1.3 Working with message headers, org.apache.http.impl.entity.DummyHttpMessage.getLastHeader(), @null
+response.getHeaders(), METHOD, 92, 13, 1.1.3 Working with message headers, org.apache.http.impl.entity.DummyHttpMessage.getHeaders(), @null
+Set(), METHOD, 107, 13, 1.1.3 Working with message headers, org.apache.http.client.protocol.TestRequestAuthCache.testAuthSchemeAlreadySet(), @null
+Set(), METHOD, 107, 13, 1.1.3 Working with message headers, org.apache.http.client.protocol.TestRequestAuthCache.testAuthSchemeAlreadySet(), @null
+HttpResponse, CLASS/INTERFACE, 114, 13, 1.1.3 Working with message headers, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 114, 13, 1.1.3 Working with message headers, org.apache.http.client.fluent.Response.response, @null
+BasicHttpResponse(), METHOD, 114, 13, 1.1.3 Working with message headers, org.apache.http.message.BasicHttpResponse.BasicHttpResponse(), @null
+response.addHeader(), METHOD, 114, 13, 1.1.3 Working with message headers, org.apache.http.impl.entity.DummyHttpMessage.addHeader(), @null
+response.addHeader(), METHOD, 114, 13, 1.1.3 Working with message headers, org.apache.http.impl.entity.DummyHttpMessage.addHeader(), @null
+HeaderIterator, CLASS/INTERFACE, 114, 13, 1.1.3 Working with message headers, org.apache.http.message.BasicListHeaderIterator, @null
+response.headerIterator(), METHOD, 114, 13, 1.1.3 Working with message headers, org.apache.http.impl.entity.DummyHttpMessage.headerIterator(), @null
+Set(), METHOD, 129, 13, 1.1.3 Working with message headers, org.apache.http.client.protocol.TestRequestAuthCache.testAuthSchemeAlreadySet(), @null
+Set(), METHOD, 129, 13, 1.1.3 Working with message headers, org.apache.http.client.protocol.TestRequestAuthCache.testAuthSchemeAlreadySet(), @null
+HttpResponse, CLASS/INTERFACE, 135, 13, 1.1.3 Working with message headers, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 135, 13, 1.1.3 Working with message headers, org.apache.http.client.fluent.Response.response, @null
+BasicHttpResponse(), METHOD, 135, 13, 1.1.3 Working with message headers, org.apache.http.message.BasicHttpResponse.BasicHttpResponse(), @null
+response.addHeader(), METHOD, 135, 13, 1.1.3 Working with message headers, org.apache.http.impl.entity.DummyHttpMessage.addHeader(), @null
+response.addHeader(), METHOD, 135, 13, 1.1.3 Working with message headers, org.apache.http.impl.entity.DummyHttpMessage.addHeader(), @null
+HeaderElementIterator, CLASS/INTERFACE, 135, 13, 1.1.3 Working with message headers, org.apache.http.message.BasicHeaderElementIterator, @null
+BasicHeaderElementIterator(), METHOD, 135, 13, 1.1.3 Working with message headers, org.apache.http.message.BasicHeaderElementIterator.BasicHeaderElementIterator(), @null
+response.headerIterator(), METHOD, 135, 13, 1.1.3 Working with message headers, org.apache.http.impl.entity.DummyHttpMessage.headerIterator(), @null
+HeaderElement, CLASS/INTERFACE, 135, 13, 1.1.3 Working with message headers, org.apache.http.message.TestHeaderElement, @null
+it.nextElement(), METHOD, 135, 13, 1.1.3 Working with message headers, org.apache.http.message.BasicHeaderElementIterator.nextElement(), @null
+elem.getValue(), METHOD, 135, 13, 1.1.3 Working with message headers, org.apache.http.cookie.Cookie.getValue(), @null
+params, UNIDENTIFIED-TYPE, 135, 13, 1.1.3 Working with message headers, org.apache.http.entity.ContentType.params, @null
+elem.getParameters(), METHOD, 135, 13, 1.1.3 Working with message headers, org.apache.http.client.entity.EntityBuilder.getParameters(), @null
+params.length(), UNIDENTIFIED-TYPE, 135, 13, 1.1.3 Working with message headers, org.apache.http.client.cache.Resource.length(), @null
+StringEntity, CLASS/INTERFACE, 239, 17, 1.1.4.2 Using HTTP entities, org.apache.http.entity.StringEntity, @null
+StringEntity(), METHOD, 239, 17, 1.1.4.2 Using HTTP entities, org.apache.http.entity.StringEntity.StringEntity(), @null
+ContentType.create(), METHOD, 239, 17, 1.1.4.2 Using HTTP entities, org.apache.http.entity.ContentType.create(), @null
+Content(), METHOD, 248, 17, 1.1.4.2 Using HTTP entities, org.apache.http.entity.StringEntity.getContent(), @null
+message, UNIDENTIFIED-TYPE, 248, 17, 1.1.4.2 Using HTTP entities, org.apache.http.impl.io.HttpRequestParser.message, @null
+CloseableHttpClient, CLASS/INTERFACE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.createDefault(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.client.HttpClients.createDefault(), @null
+HttpGet, CLASS/INTERFACE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.fluent.Response.response, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @null
+HttpEntity, CLASS/INTERFACE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.entity.BufferedHttpEntity, @null
+entity, UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.entity.mime.MultipartEntity.entity, @null
+response.getEntity(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.entity.mime.MultipartEntity.getEntity(), @null
+InputStream, CLASS/INTERFACE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.entity.LazyDecompressingInputStream, @null
+instream, UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.io.SocketInputBuffer.instream, @null
+entity.getContent(), METHOD, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.entity.UrlEncodedFormEntity.getContent(), @null
+instream.close(), UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @null
+response.close(), UNIDENTIFIED-TYPE, 260, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @null
+CloseableHttpClient, CLASS/INTERFACE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.createDefault(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.client.HttpClients.createDefault(), @null
+HttpGet, CLASS/INTERFACE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.fluent.Response.response, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.HttpClient.execute(), @null
+HttpEntity, CLASS/INTERFACE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.entity.BufferedHttpEntity, @null
+entity, UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.entity.mime.MultipartEntity.entity, @null
+response.getEntity(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.entity.mime.MultipartEntity.getEntity(), @null
+InputStream, CLASS/INTERFACE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.entity.LazyDecompressingInputStream, @null
+instream, UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.impl.io.SocketInputBuffer.instream, @null
+entity.getContent(), METHOD, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.entity.UrlEncodedFormEntity.getContent(), @null
+instream.read(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.entity.LazyDecompressingInputStream.read(), @null
+instream.read(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.entity.LazyDecompressingInputStream.read(), @null
+response.close(), UNIDENTIFIED-TYPE, 296, 13, 1.1.5 Ensuring release of low level resources, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @null
+CloseableHttpClient, CLASS/INTERFACE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.createDefault(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.impl.client.HttpClients.createDefault(), @null
+HttpGet, CLASS/INTERFACE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.fluent.Response.response, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.HttpClient.execute(), @null
+HttpEntity, CLASS/INTERFACE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.entity.BufferedHttpEntity, @null
+entity, UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.entity.mime.MultipartEntity.entity, @null
+response.getEntity(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.entity.mime.MultipartEntity.getEntity(), @null
+entity.getContentLength(), METHOD, 327, 13, 1.1.6 Consuming entity content, org.apache.http.entity.mime.content.ByteArrayBody.getContentLength(), @null
+Stream, CLASS/INTERFACE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.entity.LazyDecompressingInputStream, @null
+content, UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.entity.mime.content.StringBody.content, @null
+response.close(), UNIDENTIFIED-TYPE, 327, 13, 1.1.6 Consuming entity content, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 351, 13, 1.1.6 Consuming entity content, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 351, 13, 1.1.6 Consuming entity content, org.apache.http.client.fluent.Response.response, @null
+HttpEntity, CLASS/INTERFACE, 351, 13, 1.1.6 Consuming entity content, org.apache.http.entity.BufferedHttpEntity, @null
+entity, UNIDENTIFIED-TYPE, 351, 13, 1.1.6 Consuming entity content, org.apache.http.entity.mime.MultipartEntity.entity, @null
+response.getEntity(), METHOD, 351, 13, 1.1.6 Consuming entity content, org.apache.http.entity.mime.MultipartEntity.getEntity(), @null
+entity, UNIDENTIFIED-TYPE, 351, 13, 1.1.6 Consuming entity content, org.apache.http.entity.mime.MultipartEntity.entity, @null
+BufferedHttpEntity(), METHOD, 351, 13, 1.1.6 Consuming entity content, org.apache.http.entity.BufferedHttpEntity.BufferedHttpEntity(), @null
+File(), METHOD, 370, 13, 1.1.7 Producing entity content, org.apache.http.entity.mime.content.FileBody.getFile(), @null
+FileEntity, CLASS/INTERFACE, 370, 13, 1.1.7 Producing entity content, org.apache.http.entity.FileEntity, @null
+entity, UNIDENTIFIED-TYPE, 370, 13, 1.1.7 Producing entity content, org.apache.http.entity.mime.MultipartEntity.entity, @null
+FileEntity(), METHOD, 370, 13, 1.1.7 Producing entity content, org.apache.http.entity.FileEntity.FileEntity(), @null
+ContentType.create(), METHOD, 370, 13, 1.1.7 Producing entity content, org.apache.http.entity.ContentType.create(), @null
+HttpPost, CLASS/INTERFACE, 370, 13, 1.1.7 Producing entity content, org.apache.http.client.methods.HttpPost, @null
+HttpPost(), METHOD, 370, 13, 1.1.7 Producing entity content, org.apache.http.client.methods.HttpPost.HttpPost(), @null
+httppost.setEntity(), METHOD, 370, 13, 1.1.7 Producing entity content, org.apache.http.client.methods.CloseableHttpResponse.setEntity(), @null
+formparams.add(), UNIDENTIFIED-TYPE, 390, 17, 1.1.7.1 HTML forms, org.apache.http.protocol.HttpProcessorBuilder.add(), @null
+BasicNameValuePair(), METHOD, 390, 17, 1.1.7.1 HTML forms, org.apache.http.message.BasicNameValuePair.BasicNameValuePair(), @null
+formparams.add(), UNIDENTIFIED-TYPE, 390, 17, 1.1.7.1 HTML forms, org.apache.http.protocol.HttpProcessorBuilder.add(), @null
+BasicNameValuePair(), METHOD, 390, 17, 1.1.7.1 HTML forms, org.apache.http.message.BasicNameValuePair.BasicNameValuePair(), @null
+UrlEncodedFormEntity, CLASS/INTERFACE, 390, 17, 1.1.7.1 HTML forms, org.apache.http.client.entity.UrlEncodedFormEntity, @null
+entity, UNIDENTIFIED-TYPE, 390, 17, 1.1.7.1 HTML forms, org.apache.http.entity.mime.MultipartEntity.entity, @null
+UrlEncodedFormEntity(), METHOD, 390, 17, 1.1.7.1 HTML forms, org.apache.http.client.entity.UrlEncodedFormEntity.UrlEncodedFormEntity(), @null
+HttpPost, CLASS/INTERFACE, 390, 17, 1.1.7.1 HTML forms, org.apache.http.client.methods.HttpPost, @null
+HttpPost(), METHOD, 390, 17, 1.1.7.1 HTML forms, org.apache.http.client.methods.HttpPost.HttpPost(), @null
+httppost.setEntity(), METHOD, 390, 17, 1.1.7.1 HTML forms, org.apache.http.message.BasicHttpEntityEnclosingRequest.setEntity(), @null
+StringEntity, CLASS/INTERFACE, 414, 17, 1.1.7.2 Content chunking, org.apache.http.entity.StringEntity, @null
+entity, UNIDENTIFIED-TYPE, 414, 17, 1.1.7.2 Content chunking, org.apache.http.entity.mime.MultipartEntity.entity, @null
+StringEntity(), METHOD, 414, 17, 1.1.7.2 Content chunking, org.apache.http.client.entity.UrlEncodedFormEntity.StringEntity(), @null
+ContentType.create(), METHOD, 414, 17, 1.1.7.2 Content chunking, org.apache.http.entity.ContentType.create(), @null
+entity.setChunked(), METHOD, 414, 17, 1.1.7.2 Content chunking, org.apache.http.entity.FileEntity.setChunked(), @null
+HttpPost, CLASS/INTERFACE, 414, 17, 1.1.7.2 Content chunking, org.apache.http.client.methods.HttpPost, @null
+HttpPost(), METHOD, 414, 17, 1.1.7.2 Content chunking, org.apache.http.client.methods.HttpPost.HttpPost(), @null
+httppost.setEntity(), METHOD, 414, 17, 1.1.7.2 Content chunking, org.apache.http.message.BasicHttpEntityEnclosingRequest.setEntity(), @null
+CloseableHttpClient, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 433, 13, 1.1.8 Response handlers, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.createDefault(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.impl.client.HttpClients.createDefault(), @null
+HttpGet, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+ResponseHandler, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.client.ResponseHandler, @null
+handleResponse(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.ResponseHandler.handleResponse(), @null
+HttpResponse, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.CloseableHttpResponse, @null
+StatusLine, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.message.TestStatusLine, @null
+statusLine, UNIDENTIFIED-TYPE, 433, 13, 1.1.8 Response handlers, org.apache.http.client.cache.TestHttpCacheEntry.statusLine, @null
+response.getStatusLine(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.methods.CloseableHttpResponse.getStatusLine(), @null
+HttpEntity, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.entity.BufferedHttpEntity, @null
+entity, UNIDENTIFIED-TYPE, 433, 13, 1.1.8 Response handlers, org.apache.http.entity.mime.MultipartEntity.entity, @null
+response.getEntity(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.entity.mime.MultipartEntity.getEntity(), @null
+HttpResponseException(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.HttpResponseException.HttpResponseException(), @null
+statusLine.getStatusCode(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.message.BasicStatusLine.getStatusCode(), @null
+statusLine.getReasonPhrase(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.message.BasicStatusLine.getReasonPhrase(), @null
+ClientProtocolException(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.client.ClientProtocolException.ClientProtocolException(), @null
+ContentType, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.entity.ContentType, @null
+contentType, UNIDENTIFIED-TYPE, 433, 13, 1.1.8 Response handlers, org.apache.http.entity.mime.content.AbstractContentBody.contentType, @null
+ContentType.getOrDefault(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.entity.ContentType.getOrDefault(), @null
+Charset, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.impl.auth.RFC2617Scheme.credentialsCharset, @null
+charset, UNIDENTIFIED-TYPE, 433, 13, 1.1.8 Response handlers, org.apache.http.entity.ContentType.charset, @null
+contentType.getCharset(), METHOD, 433, 13, 1.1.8 Response handlers, org.apache.http.entity.mime.content.ByteArrayBody.getCharset(), @null
+Reader, CLASS/INTERFACE, 433, 13, 1.1.8 Response handlers, org.apache.http.impl.client.cache.TestSizeLimitedResponseReader, @null
+client.execute(), UNIDENTIFIED-TYPE, 433, 13, 1.1.8 Response handlers, org.apache.http.client.HttpClient.execute(), @null
+ConnectionKeepAliveStrategy, CLASS/INTERFACE, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy, @null
+DefaultConnectionKeepAliveStrategy(), METHOD, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy.DefaultConnectionKeepAliveStrategy(), @null
+getKeepAliveDuration(), METHOD, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy.getKeepAliveDuration(), @null
+HttpResponse, CLASS/INTERFACE, 477, 9, 1.2 HttpClient interface, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 477, 9, 1.2 HttpClient interface, org.apache.http.nio.protocol.TestBasicAsyncResponseConsumer.response, @null
+HttpContext, CLASS/INTERFACE, 477, 9, 1.2 HttpClient interface, org.apache.http.protocol.HttpContext, @null
+keepAlive, UNIDENTIFIED-TYPE, 477, 9, 1.2 HttpClient interface, org.apache.http.nio.protocol.PipeliningClientExchangeHandler.keepAlive, @null
+super.getKeepAliveDuration(), METHOD, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy.getKeepAliveDuration(), @null
+value, UNIDENTIFIED-TYPE, 477, 9, 1.2 HttpClient interface, org.apache.http.entity.mime.MinimalField.value, @null
+server, UNIDENTIFIED-TYPE, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.integration.TestCookieVirtualHost.server, @null
+keepAlive, UNIDENTIFIED-TYPE, 477, 9, 1.2 HttpClient interface, org.apache.http.nio.protocol.PipeliningClientExchangeHandler.keepAlive, @null
+keepAlive, UNIDENTIFIED-TYPE, 477, 9, 1.2 HttpClient interface, org.apache.http.nio.protocol.PipeliningClientExchangeHandler.keepAlive, @null
+CloseableHttpClient, CLASS/INTERFACE, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.HttpClients.custom(), @null
+setKeepAliveStrategy(), METHOD, 477, 9, 1.2 HttpClient interface, org.apache.http.impl.client.AbstractHttpClient.setKeepAliveStrategy(), @null
+build(), METHOD, 477, 9, 1.2 HttpClient interface, org.apache.http.client.entity.EntityBuilder.build(), @null
+CloseableHttpClient, CLASS/INTERFACE, 510, 13, 1.2.2 HttpClient resource deallocation, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 510, 13, 1.2.2 HttpClient resource deallocation, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.createDefault(), METHOD, 510, 13, 1.2.2 HttpClient resource deallocation, org.apache.http.impl.client.HttpClients.createDefault(), @null
+httpclient.close(), UNIDENTIFIED-TYPE, 510, 13, 1.2.2 HttpClient resource deallocation, org.apache.http.impl.client.CloseableHttpClient.close(), @null
+HttpContext, CLASS/INTERFACE, 587, 9, 1.3 HTTP execution context, org.apache.http.protocol.HttpContext, @null
+context, UNIDENTIFIED-TYPE, 587, 9, 1.3 HTTP execution context, org.apache.http.client.protocol.HttpClientContext.context, @null
+HttpClientContext, CLASS/INTERFACE, 587, 9, 1.3 HTTP execution context, org.apache.http.client.protocol.HttpClientContext, @null
+HttpClientContext.adapt(), METHOD, 587, 9, 1.3 HTTP execution context, org.apache.http.client.protocol.HttpClientContext.adapt(), @null
+HttpHost, CLASS/INTERFACE, 587, 9, 1.3 HTTP execution context, org.apache.http.HttpHost, @null
+target, UNIDENTIFIED-TYPE, 587, 9, 1.3 HTTP execution context, org.apache.http.client.protocol.TestRequestAddCookies.target, @null
+clientContext.getTargetHost(), METHOD, 587, 9, 1.3 HTTP execution context, org.apache.http.client.protocol.HttpClientContext.getTargetHost(), @null
+HttpRequest, CLASS/INTERFACE, 587, 9, 1.3 HTTP execution context, org.apache.http.client.methods.AbortableHttpRequest, @null
+request, UNIDENTIFIED-TYPE, 587, 9, 1.3 HTTP execution context, org.apache.http.nio.protocol.TestBasicAsyncRequestConsumer.request, @null
+clientContext.getRequest(), METHOD, 587, 9, 1.3 HTTP execution context, org.apache.http.client.protocol.HttpClientContext.getRequest(), @null
+HttpResponse, CLASS/INTERFACE, 587, 9, 1.3 HTTP execution context, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 587, 9, 1.3 HTTP execution context, org.apache.http.nio.protocol.TestBasicAsyncResponseConsumer.response, @null
+clientContext.getResponse(), METHOD, 587, 9, 1.3 HTTP execution context, org.apache.http.client.protocol.HttpClientContext.getResponse(), @null
+RequestConfig, CLASS/INTERFACE, 587, 9, 1.3 HTTP execution context, org.apache.http.client.config.RequestConfig, @null
+config, UNIDENTIFIED-TYPE, 587, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpDelete.config, @null
+clientContext.getRequestConfig(), METHOD, 587, 9, 1.3 HTTP execution context, org.apache.http.client.protocol.HttpClientContext.getRequestConfig(), @null
+CloseableHttpClient, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.createDefault(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.impl.client.HttpClients.createDefault(), @null
+RequestConfig, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.config.RequestConfig, @null
+requestConfig, UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.impl.client.ProxyClient.requestConfig, @null
+RequestConfig.custom(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.config.RequestConfig.custom(), @null
+setSocketTimeout(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.HttpConnection.setSocketTimeout(), @null
+setConnectTimeout(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.nio.reactor.SessionRequest.setConnectTimeout(), @null
+build(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.entity.EntityBuilder.build(), @null
+HttpGet, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+httpget1.setConfig(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpDelete.setConfig(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.CloseableHttpResponse, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @null
+HttpEntity, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.entity.BufferedHttpEntity, @null
+response1.getEntity(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.entity.mime.MultipartEntity.getEntity(), @null
+response1.close(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @null
+HttpGet, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.methods.CloseableHttpResponse, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.HttpClient.execute(), @null
+HttpEntity, CLASS/INTERFACE, 602, 9, 1.3 HTTP execution context, org.apache.http.entity.BufferedHttpEntity, @null
+response2.getEntity(), METHOD, 602, 9, 1.3 HTTP execution context, org.apache.http.entity.mime.MultipartEntity.getEntity(), @null
+response2.close(), UNIDENTIFIED-TYPE, 602, 9, 1.3 HTTP execution context, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @null
+CloseableHttpClient, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.impl.client.HttpClients.custom(), @null
+addInterceptorLast(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.impl.client.cache.CachingHttpClientBuilder.addInterceptorLast(), @null
+HttpRequestInterceptor(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.HttpRequestInterceptor.HttpRequestInterceptor(), @null
+process(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.protocol.RequestDefaultHeaders.process(), @null
+HttpRequest, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.AbortableHttpRequest, @null
+request, UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.nio.protocol.TestBasicAsyncRequestConsumer.request, @null
+HttpContext, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.protocol.HttpContext, @null
+HttpException, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.HttpException, @null
+count, UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.impl.client.cache.BasicIdGenerator.count, @null
+context.getAttribute(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.protocol.HttpClientContext.getAttribute(), @null
+request.addHeader(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.impl.entity.DummyHttpMessage.addHeader(), @null
+Integer.toString(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.entity.mime.content.AbstractContentBody.toString(), @null
+build(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.entity.EntityBuilder.build(), @null
+count, UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.impl.client.cache.BasicIdGenerator.count, @null
+HttpClientContext, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.protocol.HttpClientContext, @null
+localContext, UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.nio.protocol.BasicAsyncRequestExecutionHandler.localContext, @null
+HttpClientContext.create(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.protocol.HttpClientContext.create(), @null
+localContext.setAttribute(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.protocol.HttpClientContext.setAttribute(), @null
+HttpGet, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.nio.protocol.TestBasicAsyncResponseConsumer.response, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.HttpClient.execute(), @null
+HttpEntity, CLASS/INTERFACE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.entity.BufferedHttpEntity, @null
+entity, UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.entity.mime.MultipartEntity.entity, @null
+response.getEntity(), METHOD, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.entity.mime.MultipartEntity.getEntity(), @null
+response.close(), UNIDENTIFIED-TYPE, 649, 5, 1.4 HTTP protocol interceptors, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @null
+HttpRequestRetryHandler, CLASS/INTERFACE, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.HttpRequestRetryHandler, @null
+HttpRequestRetryHandler(), METHOD, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.HttpRequestRetryHandler.HttpRequestRetryHandler(), @null
+retryRequest(), METHOD, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.HttpRequestRetryHandler.retryRequest(), @null
+exception, UNIDENTIFIED-TYPE, 754, 13, 1.5.4 Request retry handler, org.apache.http.impl.client.IdleConnectionEvictor.exception, @null
+HttpContext, CLASS/INTERFACE, 754, 13, 1.5.4 Request retry handler, org.apache.http.protocol.HttpContext, @null
+count, UNIDENTIFIED-TYPE, 754, 13, 1.5.4 Request retry handler, org.apache.http.impl.client.cache.BasicIdGenerator.count, @null
+Timeout, CLASS/INTERFACE, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.fluent.Request.connectTimeout, @null
+Unknown, CLASS/INTERFACE, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.protocol.ResponseContentEncoding.ignoreUnknown, @null
+Connection, CLASS/INTERFACE, 754, 13, 1.5.4 Request retry handler, org.apache.http.impl.client.cache.TestStaleWhileRevalidationReleasesConnection, @null
+exception, UNIDENTIFIED-TYPE, 754, 13, 1.5.4 Request retry handler, org.apache.http.impl.client.IdleConnectionEvictor.exception, @null
+HttpClientContext, CLASS/INTERFACE, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.protocol.HttpClientContext, @null
+HttpClientContext.adapt(), METHOD, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.protocol.HttpClientContext.adapt(), @null
+HttpRequest, CLASS/INTERFACE, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.methods.AbortableHttpRequest, @null
+request, UNIDENTIFIED-TYPE, 754, 13, 1.5.4 Request retry handler, org.apache.http.nio.protocol.TestBasicAsyncRequestConsumer.request, @null
+clientContext.getRequest(), METHOD, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.protocol.HttpClientContext.getRequest(), @null
+request, UNIDENTIFIED-TYPE, 754, 13, 1.5.4 Request retry handler, org.apache.http.nio.protocol.TestBasicAsyncRequestConsumer.request, @null
+CloseableHttpClient, CLASS/INTERFACE, 754, 13, 1.5.4 Request retry handler, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 754, 13, 1.5.4 Request retry handler, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 754, 13, 1.5.4 Request retry handler, org.apache.http.impl.client.HttpClients.custom(), @null
+setRetryHandler(), METHOD, 754, 13, 1.5.4 Request retry handler, org.apache.http.impl.client.cache.CachingHttpClientBuilder.setRetryHandler(), @null
+build(), METHOD, 754, 13, 1.5.4 Request retry handler, org.apache.http.client.methods.RequestBuilder.build(), @null
+LaxRedirectStrategy, CLASS/INTERFACE, 824, 9, 1.7 Redirect handling, org.apache.http.impl.client.LaxRedirectStrategy, @null
+redirectStrategy, UNIDENTIFIED-TYPE, 824, 9, 1.7 Redirect handling, org.apache.http.impl.client.AbstractHttpClient.redirectStrategy, @null
+LaxRedirectStrategy(), METHOD, 824, 9, 1.7 Redirect handling, org.apache.http.impl.client.LaxRedirectStrategy.LaxRedirectStrategy(), @null
+CloseableHttpClient, CLASS/INTERFACE, 824, 9, 1.7 Redirect handling, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 824, 9, 1.7 Redirect handling, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 824, 9, 1.7 Redirect handling, org.apache.http.impl.client.HttpClients.custom(), @null
+setRedirectStrategy(), METHOD, 824, 9, 1.7 Redirect handling, org.apache.http.impl.client.AbstractHttpClient.setRedirectStrategy(), @null
+build(), METHOD, 824, 9, 1.7 Redirect handling, org.apache.http.client.entity.EntityBuilder.build(), @null
+CloseableHttpClient, CLASS/INTERFACE, 838, 9, 1.7 Redirect handling, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.createDefault(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.impl.client.HttpClients.createDefault(), @null
+HttpClientContext, CLASS/INTERFACE, 838, 9, 1.7 Redirect handling, org.apache.http.client.protocol.HttpClientContext, @null
+context, UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.protocol.HttpClientContext.context, @null
+HttpClientContext.create(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.protocol.HttpClientContext.create(), @null
+HttpGet, CLASS/INTERFACE, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 838, 9, 1.7 Redirect handling, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.nio.protocol.TestBasicAsyncResponseConsumer.response, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.HttpClient.execute(), @null
+HttpHost, CLASS/INTERFACE, 838, 9, 1.7 Redirect handling, org.apache.http.HttpHost, @null
+target, UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.protocol.TestRequestAddCookies.target, @null
+context.getTargetHost(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.protocol.HttpClientContext.getTargetHost(), @null
+context.getRedirectLocations(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.protocol.HttpClientContext.getRedirectLocations(), @null
+URIUtils.resolve(), METHOD, 838, 9, 1.7 Redirect handling, org.apache.http.client.utils.URIUtils.resolve(), @null
+target, UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.protocol.TestRequestAddCookies.target, @null
+response.close(), UNIDENTIFIED-TYPE, 838, 9, 1.7 Redirect handling, org.apache.http.client.entity.LazyDecompressingInputStream.close(), @null
+HttpClientContext, CLASS/INTERFACE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.client.protocol.HttpClientContext, @null
+context, UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.client.protocol.HttpClientContext.context, @null
+HttpClientContext.create(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.client.protocol.HttpClientContext.create(), @null
+HttpClientConnectionManager, CLASS/INTERFACE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @null
+BasicHttpClientConnectionManager(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.BasicHttpClientConnectionManager.BasicHttpClientConnectionManager(), @null
+HttpRoute, CLASS/INTERFACE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.conn.routing.HttpRoute, @null
+route, UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.BasicHttpClientConnectionManager.route, @null
+HttpRoute(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.conn.routing.HttpRoute.HttpRoute(), @null
+HttpHost(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.conn.HttpInetSocketAddress.getHttpHost(), @null
+Request, CLASS/INTERFACE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.conn.ConnectionRequest, @null
+connection.(), UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.protocol.HTTP.notify(), @null
+ConnectionRequest, CLASS/INTERFACE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.conn.ConnectionRequest, @null
+connRequest, UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.execchain.TestMainClientExec.connRequest, @null
+connMrg.requestConnection(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(), @null
+connection, UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.AbstractPoolEntry.connection, @null
+HttpClientConnection, CLASS/INTERFACE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.conn.ManagedHttpClientConnection, @null
+connRequest.get(), UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.conn.routing.HttpRoute.getHopTarget(), @null
+connection, UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.AbstractPoolEntry.connection, @null
+route, UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.BasicHttpClientConnectionManager.route, @null
+connMrg.connect(), UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(), @null
+route, UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.BasicHttpClientConnectionManager.route, @null
+route, UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.BasicHttpClientConnectionManager.route, @null
+complete, UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.auth.DigestScheme.complete, @null
+connMrg.routeComplete(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.routeComplete(), @null
+route, UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.BasicHttpClientConnectionManager.route, @null
+connection.(), UNIDENTIFIED-TYPE, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.protocol.HTTP.notify(), @null
+connMrg.releaseConnection(), METHOD, 942, 13, 2.3.1 Managed connections and connection managers, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(), @null
+PoolingHttpClientConnectionManager, CLASS/INTERFACE, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @null
+PoolingHttpClientConnectionManager(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @null
+total, UNIDENTIFIED-TYPE, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.io.ContentLengthOutputStream.total, @null
+connection, UNIDENTIFIED-TYPE, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.AbstractPoolEntry.connection, @null
+cm.setMaxTotal(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setMaxTotal(), @null
+connection, UNIDENTIFIED-TYPE, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.AbstractPoolEntry.connection, @null
+route, UNIDENTIFIED-TYPE, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.BasicHttpClientConnectionManager.route, @null
+cm.setDefaultMaxPerRoute(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setDefaultMaxPerRoute(), @null
+HttpHost, CLASS/INTERFACE, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.HttpHost, @null
+HttpHost(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.conn.HttpInetSocketAddress.getHttpHost(), @null
+cm.setMaxPerRoute(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setMaxPerRoute(), @null
+HttpRoute(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.conn.routing.HttpRoute.HttpRoute(), @null
+CloseableHttpClient, CLASS/INTERFACE, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.client.CloseableHttpClient, @null
+HttpClients.custom(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.client.HttpClients.custom(), @null
+setConnectionManager(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.impl.client.cache.CachingHttpClientBuilder.setConnectionManager(), @null
+build(), METHOD, 997, 13, 2.3.3 Pooling connection manager, org.apache.http.conn.ssl.SSLContextBuilder.build(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1018, 13, 2.3.4 Connection manager shutdown, org.apache.http.impl.client.CloseableHttpClient, @null
+httpClient.close(), UNIDENTIFIED-TYPE, 1018, 13, 2.3.4 Connection manager shutdown, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.close(), @null
+PoolingHttpClientConnectionManager, CLASS/INTERFACE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @null
+PoolingHttpClientConnectionManager(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.CloseableHttpClient, @null
+HttpClients.custom(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.HttpClients.custom(), @null
+setConnectionManager(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.cache.CachingHttpClientBuilder.setConnectionManager(), @null
+build(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.conn.ssl.SSLContextBuilder.build(), @null
+thread, UNIDENTIFIED-TYPE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.IdleConnectionEvictor.thread, @null
+threads, UNIDENTIFIED-TYPE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.threads, @null
+threads.length(), UNIDENTIFIED-TYPE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.conn.SessionInputBufferMock.length(), @null
+HttpGet, CLASS/INTERFACE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+threads, UNIDENTIFIED-TYPE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.threads, @null
+threads.length(), UNIDENTIFIED-TYPE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.conn.SessionInputBufferMock.length(), @null
+threads[j].start(), UNIDENTIFIED-TYPE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.integration.TestCookieVirtualHost.start(), @null
+threads, UNIDENTIFIED-TYPE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.threads, @null
+threads.length(), UNIDENTIFIED-TYPE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.impl.conn.SessionInputBufferMock.length(), @null
+threads[j].join(), UNIDENTIFIED-TYPE, 1037, 9, 2.4 Multithreaded request execution, org.apache.http.nio.testserver.HttpClientNio.join(), @null
+Thread, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.impl.conn.tsccm.WaitingThreadAborter.waitingThread, @null
+CloseableHttpClient, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.CloseableHttpClient, @null
+HttpContext, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.protocol.HttpContext, @null
+context, UNIDENTIFIED-TYPE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.testserver.HttpClient.context, @null
+HttpGet, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet, @null
+HttpGet, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.HttpGet, @null
+this.context(), UNIDENTIFIED-TYPE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.cache.CachingHttpClientBuilder.setSslcontext(), @null
+HttpClientContext.create(), METHOD, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.protocol.HttpClientContext.create(), @null
+run(), METHOD, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.cache.AsynchronousValidationRequest.run(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.nio.protocol.TestBasicAsyncResponseConsumer.response, @null
+httpClient.execute(), UNIDENTIFIED-TYPE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.HttpClient.execute(), @null
+HttpEntity, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.nio.protocol.NullNHttpEntity, @null
+entity, UNIDENTIFIED-TYPE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.nio.protocol.TestErrorResponseProducer.entity, @null
+response.getEntity(), METHOD, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @null
+response.close(), UNIDENTIFIED-TYPE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.impl.client.CloseableHttpClient.close(), @null
+Handle, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.impl.nio.reactor.SessionRequestHandle, @null
+protocol, UNIDENTIFIED-TYPE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.conn.ssl.SSLContextBuilder.protocol, @null
+Handle, CLASS/INTERFACE, 1073, 9, 2.4 Multithreaded request execution, org.apache.http.impl.nio.reactor.SessionRequestHandle, @null
+Thread, CLASS/INTERFACE, 1125, 9, 2.5 Connection eviction policy, org.apache.http.impl.conn.tsccm.WaitingThreadAborter.waitingThread, @null
+HttpClientConnectionManager, CLASS/INTERFACE, 1125, 9, 2.5 Connection eviction policy, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @null
+shutdown, UNIDENTIFIED-TYPE, 1125, 9, 2.5 Connection eviction policy, org.apache.http.impl.conn.BasicClientConnectionManager.shutdown, @null
+run(), METHOD, 1125, 9, 2.5 Connection eviction policy, org.apache.http.impl.client.cache.AsynchronousValidationRequest.run(), @null
+wait(), METHOD, 1125, 9, 2.5 Connection eviction policy, org.apache.http.protocol.HTTP.wait(), @null
+connMgr.closeExpiredConnections(), METHOD, 1125, 9, 2.5 Connection eviction policy, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(), @null
+connMgr.closeIdleConnections(), METHOD, 1125, 9, 2.5 Connection eviction policy, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeIdleConnections(), @null
+shutdown(), METHOD, 1125, 9, 2.5 Connection eviction policy, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(), @null
+shutdown, UNIDENTIFIED-TYPE, 1125, 9, 2.5 Connection eviction policy, org.apache.http.impl.conn.BasicClientConnectionManager.shutdown, @null
+notifyAll(), METHOD, 1125, 9, 2.5 Connection eviction policy, org.apache.http.protocol.HTTP.notifyAll(), @null
+ConnectionKeepAliveStrategy, CLASS/INTERFACE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.conn.ConnectionKeepAliveStrategy, @null
+ConnectionKeepAliveStrategy(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.conn.ConnectionKeepAliveStrategy.ConnectionKeepAliveStrategy(), @null
+getKeepAliveDuration(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.conn.ConnectionKeepAliveStrategy.getKeepAliveDuration(), @null
+response, UNIDENTIFIED-TYPE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.nio.protocol.TestBasicAsyncResponseConsumer.response, @null
+HttpContext, CLASS/INTERFACE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.protocol.HttpContext, @null
+header, UNIDENTIFIED-TYPE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.entity.mime.FormBodyPart.header, @null
+HeaderElementIterator, CLASS/INTERFACE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.message.BasicHeaderElementIterator, @null
+BasicHeaderElementIterator(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.message.BasicHeaderElementIterator.BasicHeaderElementIterator(), @null
+response.headerIterator(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.client.fluent.InternalHttpRequest.headerIterator(), @null
+HeaderElement, CLASS/INTERFACE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.HeaderElement, @null
+it.nextElement(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.message.BasicHeaderElementIterator.nextElement(), @null
+String, CLASS/INTERFACE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.impl.client.cache.ResponseCachingPolicy.neverCache1_0ResponsesWithQueryString, @null
+he.getName(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.conn.scheme.Scheme.getName(), @null
+String, CLASS/INTERFACE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.impl.client.cache.ResponseCachingPolicy.neverCache1_0ResponsesWithQueryString, @null
+value, UNIDENTIFIED-TYPE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.client.cache.InputLimit.value, @null
+he.getValue(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.client.cache.InputLimit.getValue(), @null
+HttpHost, CLASS/INTERFACE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.HttpHost, @null
+target, UNIDENTIFIED-TYPE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.client.protocol.TestRequestAddCookies.target, @null
+context.getAttribute(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.client.protocol.HttpClientContext.getAttribute(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.impl.client.CloseableHttpClient, @null
+client, UNIDENTIFIED-TYPE, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.impl.client.TestInternalHttpClient.client, @null
+HttpClients.custom(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.impl.client.HttpClients.custom(), @null
+setKeepAliveStrategy(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.impl.client.AbstractHttpClient.setKeepAliveStrategy(), @null
+build(), METHOD, 1176, 9, 2.6 Connection keep alive strategy, org.apache.http.conn.ssl.SSLContextBuilder.build(), @null
+HttpClientContext, CLASS/INTERFACE, 1222, 9, 2.7 Connection socket factories, org.apache.http.client.protocol.HttpClientContext, @null
+HttpClientContext.create(), METHOD, 1222, 9, 2.7 Connection socket factories, org.apache.http.client.protocol.HttpClientContext.create(), @null
+PlainConnectionSocketFactory, CLASS/INTERFACE, 1222, 9, 2.7 Connection socket factories, org.apache.http.conn.socket.PlainConnectionSocketFactory, @null
+PlainConnectionSocketFactory.getSocketFactory(), METHOD, 1222, 9, 2.7 Connection socket factories, org.apache.http.conn.socket.PlainConnectionSocketFactory.getSocketFactory(), @null
+Socket, CLASS/INTERFACE, 1222, 9, 2.7 Connection socket factories, org.apache.http.nio.integration.TestHttpAsyncTimeout.serverSocket, @null
+socket, UNIDENTIFIED-TYPE, 1222, 9, 2.7 Connection socket factories, org.apache.http.impl.conn.TestHttpClientConnectionOperator.socket, @null
+sf.createSocket(), METHOD, 1222, 9, 2.7 Connection socket factories, org.apache.http.conn.socket.ConnectionSocketFactory.createSocket(), @null
+timeout, UNIDENTIFIED-TYPE, 1222, 9, 2.7 Connection socket factories, org.apache.http.testserver.HttpClient.timeout, @null
+HttpHost, CLASS/INTERFACE, 1222, 9, 2.7 Connection socket factories, org.apache.http.HttpHost, @null
+target, UNIDENTIFIED-TYPE, 1222, 9, 2.7 Connection socket factories, org.apache.http.client.protocol.TestRequestAddCookies.target, @null
+HttpHost(), METHOD, 1222, 9, 2.7 Connection socket factories, org.apache.http.HttpHost.HttpHost(), @null
+InetSocketAddress, CLASS/INTERFACE, 1222, 9, 2.7 Connection socket factories, org.apache.http.conn.HttpInetSocketAddress, @null
+remoteAddress, UNIDENTIFIED-TYPE, 1222, 9, 2.7 Connection socket factories, org.apache.http.impl.nio.reactor.SessionRequestImpl.remoteAddress, @null
+InetSocketAddress(), METHOD, 1222, 9, 2.7 Connection socket factories, org.apache.http.conn.HttpInetSocketAddress.HttpInetSocketAddress(), @null
+sf.connectSocket(), METHOD, 1222, 9, 2.7 Connection socket factories, org.apache.http.conn.socket.ConnectionSocketFactory.connectSocket(), @null
+socket, UNIDENTIFIED-TYPE, 1222, 9, 2.7 Connection socket factories, org.apache.http.impl.conn.TestHttpClientConnectionOperator.socket, @null
+target, UNIDENTIFIED-TYPE, 1222, 9, 2.7 Connection socket factories, org.apache.http.client.protocol.TestRequestAddCookies.target, @null
+remoteAddress, UNIDENTIFIED-TYPE, 1222, 9, 2.7 Connection socket factories, org.apache.http.impl.nio.reactor.SessionRequestImpl.remoteAddress, @null
+ConnectionSocketFactory, CLASS/INTERFACE, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.conn.socket.ConnectionSocketFactory, @null
+LayeredConnectionSocketFactory, CLASS/INTERFACE, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.conn.socket.LayeredConnectionSocketFactory, @null
+Registry, CLASS/INTERFACE, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.client.protocol.ResponseContentEncoding.decoderRegistry, @null
+register(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.nio.protocol.NHttpRequestHandlerRegistry.unregister(), @null
+register(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.nio.protocol.NHttpRequestHandlerRegistry.unregister(), @null
+build(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.ssl.SSLContextBuilder.build(), @null
+HttpClientConnectionManager, CLASS/INTERFACE, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @null
+PoolingHttpClientConnectionManager(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @null
+HttpClients.custom(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.impl.client.HttpClients.custom(), @null
+setConnectionManager(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.impl.client.cache.CachingHttpClientBuilder.setConnectionManager(), @null
+build(), METHOD, 1248, 13, 2.7.2 Integration with connection manager, org.apache.http.ssl.SSLContextBuilder.build(), @null
+sslContext, UNIDENTIFIED-TYPE, 1269, 13, 2.7.3 SSL/TLS customization, org.apache.http.impl.client.cache.CachingHttpClientBuilder.sslContext, @null
+SSLContexts.custom(), METHOD, 1269, 13, 2.7.3 SSL/TLS customization, org.apache.http.ssl.SSLContexts.custom(), @null
+loadTrustMaterial(), METHOD, 1269, 13, 2.7.3 SSL/TLS customization, org.apache.http.ssl.SSLContextBuilder.loadTrustMaterial(), @null
+build(), METHOD, 1269, 13, 2.7.3 SSL/TLS customization, org.apache.http.ssl.SSLContextBuilder.build(), @null
+SSLConnectionSocketFactory, CLASS/INTERFACE, 1269, 13, 2.7.3 SSL/TLS customization, org.apache.http.conn.ssl.SSLConnectionSocketFactory, @null
+SSLConnectionSocketFactory(), METHOD, 1269, 13, 2.7.3 SSL/TLS customization, org.apache.http.conn.ssl.SSLConnectionSocketFactory.SSLConnectionSocketFactory(), @null
+sslContext, UNIDENTIFIED-TYPE, 1316, 13, 2.7.4 Hostname verification, org.apache.http.impl.client.cache.CachingHttpClientBuilder.sslContext, @null
+SSLContexts.createSystemDefault(), METHOD, 1316, 13, 2.7.4 Hostname verification, org.apache.http.ssl.SSLContexts.createSystemDefault(), @null
+SSLConnectionSocketFactory, CLASS/INTERFACE, 1316, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory, @null
+SSLConnectionSocketFactory(), METHOD, 1316, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory.SSLConnectionSocketFactory(), @null
+sslContext, UNIDENTIFIED-TYPE, 1316, 13, 2.7.4 Hostname verification, org.apache.http.impl.client.cache.CachingHttpClientBuilder.sslContext, @null
+PublicSuffixMatcher, CLASS/INTERFACE, 1332, 13, 2.7.4 Hostname verification, org.apache.http.conn.util.PublicSuffixMatcher, @null
+publicSuffixMatcher, UNIDENTIFIED-TYPE, 1332, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.DefaultHostnameVerifier.publicSuffixMatcher, @null
+PublicSuffixMatcherLoader.load(), METHOD, 1332, 13, 2.7.4 Hostname verification, org.apache.http.conn.util.PublicSuffixMatcherLoader.load(), @null
+PublicSuffixMatcher.class.getResource(), METHOD, 1332, 13, 2.7.4 Hostname verification, org.apache.http.client.cache.HttpCacheEntry.getResource(), @null
+DefaultHostnameVerifier, CLASS/INTERFACE, 1332, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.DefaultHostnameVerifier, @null
+hostnameVerifier, UNIDENTIFIED-TYPE, 1332, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory.hostnameVerifier, @null
+DefaultHostnameVerifier(), METHOD, 1332, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory.getDefaultHostnameVerifier(), @null
+DefaultHostnameVerifier, CLASS/INTERFACE, 1340, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.DefaultHostnameVerifier, @null
+hostnameVerifier, UNIDENTIFIED-TYPE, 1340, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory.hostnameVerifier, @null
+DefaultHostnameVerifier(), METHOD, 1340, 13, 2.7.4 Hostname verification, org.apache.http.conn.ssl.SSLConnectionSocketFactory.getDefaultHostnameVerifier(), @null
+HttpHost, CLASS/INTERFACE, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.HttpHost, @null
+proxy, UNIDENTIFIED-TYPE, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.client.protocol.TestRequestAuthCache.proxy, @null
+HttpHost(), METHOD, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.HttpHost.HttpHost(), @null
+DefaultProxyRoutePlanner, CLASS/INTERFACE, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.conn.DefaultProxyRoutePlanner, @null
+routePlanner, UNIDENTIFIED-TYPE, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.AbstractHttpClient.routePlanner, @null
+DefaultProxyRoutePlanner(), METHOD, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.conn.DefaultProxyRoutePlanner.DefaultProxyRoutePlanner(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.HttpClients.custom(), @null
+setRoutePlanner(), METHOD, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.AbstractHttpClient.setRoutePlanner(), @null
+build(), METHOD, 1351, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.ssl.SSLContextBuilder.build(), @null
+SystemDefaultRoutePlanner, CLASS/INTERFACE, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.conn.SystemDefaultRoutePlanner, @null
+routePlanner, UNIDENTIFIED-TYPE, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.AbstractHttpClient.routePlanner, @null
+SystemDefaultRoutePlanner(), METHOD, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.conn.SystemDefaultRoutePlanner.SystemDefaultRoutePlanner(), @null
+ProxySelector.getDefault(), METHOD, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.util.PublicSuffixMatcherLoader.getDefault(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.HttpClients.custom(), @null
+setRoutePlanner(), METHOD, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.AbstractHttpClient.setRoutePlanner(), @null
+build(), METHOD, 1360, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.ssl.SSLContextBuilder.build(), @null
+HttpRoutePlanner, CLASS/INTERFACE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.routing.HttpRoutePlanner, @null
+routePlanner, UNIDENTIFIED-TYPE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.AbstractHttpClient.routePlanner, @null
+HttpRoutePlanner(), METHOD, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.routing.HttpRoutePlanner.HttpRoutePlanner(), @null
+HttpRoute, CLASS/INTERFACE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.routing.HttpRoute, @null
+determineRoute(), METHOD, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.routing.HttpRoutePlanner.determineRoute(), @null
+HttpHost, CLASS/INTERFACE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.HttpHost, @null
+target, UNIDENTIFIED-TYPE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.client.protocol.TestRequestAddCookies.target, @null
+HttpRequest, CLASS/INTERFACE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.client.fluent.InternalHttpRequest, @null
+request, UNIDENTIFIED-TYPE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.client.fluent.Request.request, @null
+HttpContext, CLASS/INTERFACE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.protocol.HttpContext, @null
+HttpException, CLASS/INTERFACE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.HttpException, @null
+HttpRoute(), METHOD, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.client.protocol.HttpClientContext.getHttpRoute(), @null
+HttpHost(), METHOD, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.HttpHost.HttpHost(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.HttpClients.custom(), @null
+setRoutePlanner(), METHOD, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.impl.client.AbstractHttpClient.setRoutePlanner(), @null
+build(), METHOD, 1370, 9, 2.8 HttpClient proxy configuration, org.apache.http.conn.ssl.SSLContextBuilder.build(), @null
+RequestConfig, CLASS/INTERFACE, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.config.RequestConfig, @null
+RequestConfig.custom(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.config.RequestConfig.custom(), @null
+build(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.impl.client.HttpClients.custom(), @null
+setDefaultRequestConfig(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.impl.client.cache.CachingHttpClientBuilder.setDefaultRequestConfig(), @null
+build(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @null
+RequestConfig, CLASS/INTERFACE, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.config.RequestConfig, @null
+RequestConfig.copy(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.config.RequestConfig.copy(), @null
+build(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @null
+HttpGet, CLASS/INTERFACE, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+httpGet.setConfig(), METHOD, 1521, 9, 3.3 Choosing cookie policy, org.apache.http.client.fluent.InternalHttpRequest.setConfig(), @null
+PublicSuffixMatcher, CLASS/INTERFACE, 1543, 9, 3.4 Custom cookie policy, org.apache.http.conn.util.PublicSuffixMatcher, @null
+publicSuffixMatcher, UNIDENTIFIED-TYPE, 1543, 9, 3.4 Custom cookie policy, org.apache.http.impl.cookie.DefaultCookieSpecProvider.publicSuffixMatcher, @null
+PublicSuffixMatcherLoader.getDefault(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.conn.util.PublicSuffixMatcherLoader.getDefault(), @null
+Registry, CLASS/INTERFACE, 1543, 9, 3.4 Custom cookie policy, org.apache.http.cookie.CookieSpecRegistry, @null
+register(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.cookie.CookieSpecRegistry.unregister(), @null
+DefaultCookieSpecProvider(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.impl.cookie.DefaultCookieSpecProvider.DefaultCookieSpecProvider(), @null
+register(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.cookie.CookieSpecRegistry.unregister(), @null
+RFC6265CookieSpecProvider(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.impl.cookie.RFC6265CookieSpecProvider.RFC6265CookieSpecProvider(), @null
+register(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.cookie.CookieSpecRegistry.unregister(), @null
+build(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @null
+RequestConfig, CLASS/INTERFACE, 1543, 9, 3.4 Custom cookie policy, org.apache.http.client.config.RequestConfig, @null
+requestConfig, UNIDENTIFIED-TYPE, 1543, 9, 3.4 Custom cookie policy, org.apache.http.impl.client.ProxyClient.requestConfig, @null
+RequestConfig.custom(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.client.config.RequestConfig.custom(), @null
+build(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1543, 9, 3.4 Custom cookie policy, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 1543, 9, 3.4 Custom cookie policy, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.impl.client.HttpClients.custom(), @null
+setDefaultCookieSpecRegistry(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.impl.client.cache.CachingHttpClientBuilder.setDefaultCookieSpecRegistry(), @null
+setDefaultRequestConfig(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.impl.client.cache.CachingHttpClientBuilder.setDefaultRequestConfig(), @null
+build(), METHOD, 1543, 9, 3.4 Custom cookie policy, org.apache.http.client.entity.EntityBuilder.build(), @null
+local, UNIDENTIFIED-TYPE, 1574, 9, 3.5 Cookie persistence, org.apache.http.protocol.DefaultedHttpContext.local, @null
+CookieStore, CLASS/INTERFACE, 1574, 9, 3.5 Cookie persistence, org.apache.http.client.CookieStore, @null
+cookieStore, UNIDENTIFIED-TYPE, 1574, 9, 3.5 Cookie persistence, org.apache.http.client.protocol.TestResponseProcessCookies.cookieStore, @null
+BasicCookieStore(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.client.BasicCookieStore.BasicCookieStore(), @null
+cookies, UNIDENTIFIED-TYPE, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.client.BasicCookieStore.cookies, @null
+BasicClientCookie, CLASS/INTERFACE, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.cookie.BasicClientCookie, @null
+BasicClientCookie(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.cookie.BasicClientCookie.BasicClientCookie(), @null
+cookie.setDomain(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.cookie.BasicClientCookie.setDomain(), @null
+cookie.setPath(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.cookie.BasicClientCookie.setPath(), @null
+cookieStore.addCookie(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.client.CookieStore.addCookie(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.client.HttpClients.custom(), @null
+setDefaultCookieStore(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.impl.client.cache.CachingHttpClientBuilder.setDefaultCookieStore(), @null
+build(), METHOD, 1574, 9, 3.5 Cookie persistence, org.apache.http.client.entity.EntityBuilder.build(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+Lookup, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.config.Lookup, @null
+CookieStore, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.CookieStore, @null
+cookieStore, UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.TestResponseProcessCookies.cookieStore, @null
+HttpClientContext, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.HttpClientContext, @null
+context, UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.HttpClientContext.context, @null
+HttpClientContext.create(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.HttpClientContext.create(), @null
+context.setCookieSpecRegistry(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.HttpClientContext.setCookieSpecRegistry(), @null
+context.setCookieStore(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.HttpClientContext.setCookieStore(), @null
+HttpGet, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.methods.CloseableHttpResponse, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.HttpClient.execute(), @null
+Cookie, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.cookie.Cookie, @null
+origin, UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.auth.AuthScope.origin, @null
+CookieOrigin, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.cookie.CookieOrigin, @null
+cookieOrigin, UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.TestResponseProcessCookies.cookieOrigin, @null
+context.getCookieOrigin(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.client.protocol.HttpClientContext.getCookieOrigin(), @null
+Cookie, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.cookie.Cookie, @null
+CookieSpec, CLASS/INTERFACE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.cookie.CookieSpec, @null
+cookieSpec, UNIDENTIFIED-TYPE, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.impl.cookie.DefaultCookieSpecProvider.cookieSpec, @null
+context.getCookieSpec(), METHOD, 1621, 9, 3.6 HTTP state management and execution context, org.apache.http.cookie.CookieSpecRegistry.getCookieSpec(), @null
+UsernamePasswordCredentials, CLASS/INTERFACE, 1655, 9, 4.1 User credentials, org.apache.http.auth.UsernamePasswordCredentials, @null
+creds, UNIDENTIFIED-TYPE, 1655, 9, 4.1 User credentials, org.apache.http.auth.AuthOption.creds, @null
+UsernamePasswordCredentials(), METHOD, 1655, 9, 4.1 User credentials, org.apache.http.auth.UsernamePasswordCredentials.UsernamePasswordCredentials(), @null
+NTCredentials, CLASS/INTERFACE, 1670, 9, 4.1 User credentials, org.apache.http.auth.NTCredentials, @null
+creds, UNIDENTIFIED-TYPE, 1670, 9, 4.1 User credentials, org.apache.http.auth.AuthOption.creds, @null
+NTCredentials(), METHOD, 1670, 9, 4.1 User credentials, org.apache.http.auth.NTCredentials.NTCredentials(), @null
+CredentialsProvider, CLASS/INTERFACE, 1757, 9, 4.3 Credentials provider, org.apache.http.impl.auth.win.WindowsCredentialsProvider, @null
+credsProvider, UNIDENTIFIED-TYPE, 1757, 9, 4.3 Credentials provider, org.apache.http.impl.client.AbstractHttpClient.credsProvider, @null
+BasicCredentialsProvider(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.impl.client.BasicCredentialsProvider.BasicCredentialsProvider(), @null
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @null
+AuthScope(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthScope.AuthScope(), @null
+UsernamePasswordCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.UsernamePasswordCredentials.UsernamePasswordCredentials(), @null
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @null
+AuthScope(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthScope.AuthScope(), @null
+UsernamePasswordCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.UsernamePasswordCredentials.UsernamePasswordCredentials(), @null
+credsProvider.setCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthState.setCredentials(), @null
+AuthScope(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthScope.AuthScope(), @null
+UsernamePasswordCredentials(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.UsernamePasswordCredentials.UsernamePasswordCredentials(), @null
+AuthScope(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthScope.AuthScope(), @null
+AuthScope(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthScope.AuthScope(), @null
+AuthScope(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthScope.AuthScope(), @null
+AuthScope(), METHOD, 1757, 9, 4.3 Credentials provider, org.apache.http.auth.AuthScope.AuthScope(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+CredentialsProvider, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.impl.auth.win.WindowsCredentialsProvider, @null
+credsProvider, UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.impl.client.AbstractHttpClient.credsProvider, @null
+Lookup, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.config.Lookup, @null
+AuthCache, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.AuthCache, @null
+authCache, UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.impl.auth.TestHttpAuthenticator.authCache, @null
+HttpClientContext, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext, @null
+context, UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.testserver.HttpClient.context, @null
+HttpClientContext.create(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.create(), @null
+context.setCredentialsProvider(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.setCredentialsProvider(), @null
+context.setAuthSchemeRegistry(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.setAuthSchemeRegistry(), @null
+context.setAuthCache(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.setAuthCache(), @null
+HttpGet, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.methods.CloseableHttpResponse, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.HttpClient.execute(), @null
+AuthState, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState, @null
+proxyAuthState, UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.impl.client.ProxyClient.proxyAuthState, @null
+context.getProxyAuthState(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.getProxyAuthState(), @null
+proxyAuthState.getState(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getState(), @null
+proxyAuthState.getAuthScheme(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getAuthScheme(), @null
+proxyAuthState.getCredentials(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getCredentials(), @null
+AuthState, CLASS/INTERFACE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState, @null
+targetAuthState, UNIDENTIFIED-TYPE, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.impl.client.DefaultRequestDirector.targetAuthState, @null
+context.getTargetAuthState(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.client.protocol.HttpClientContext.getTargetAuthState(), @null
+targetAuthState.getState(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getState(), @null
+targetAuthState.getAuthScheme(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getAuthScheme(), @null
+targetAuthState.getCredentials(), METHOD, 1837, 9, 4.4 HTTP authentication and execution context, org.apache.http.auth.AuthState.getCredentials(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpHost, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.HttpHost, @null
+targetHost, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.benchmark.BenchmarkWorker.targetHost, @null
+HttpHost(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.client.DecompressingHttpClient.getHttpHost(), @null
+CredentialsProvider, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.auth.win.WindowsCredentialsProvider, @null
+credsProvider, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.client.AbstractHttpClient.credsProvider, @null
+BasicCredentialsProvider(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.client.BasicCredentialsProvider.BasicCredentialsProvider(), @null
+credsProvider.setCredentials(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.auth.AuthState.setCredentials(), @null
+AuthScope(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.auth.AuthScope.AuthScope(), @null
+targetHost.getPort(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.auth.AuthScope.getPort(), @null
+UsernamePasswordCredentials(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.auth.UsernamePasswordCredentials.UsernamePasswordCredentials(), @null
+AuthCache, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.AuthCache, @null
+AuthCache, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.AuthCache, @null
+authCache, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.auth.TestHttpAuthenticator.authCache, @null
+BasicAuthCache(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.client.BasicAuthCache.BasicAuthCache(), @null
+BASIC, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.config.AuthSchemes.BASIC, @null
+scheme, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.auth.AuthScope.scheme, @null
+local, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.protocol.DefaultedHttpContext.local, @null
+cache, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.client.cache.AbstractProtocolTest.cache, @null
+BasicScheme, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.auth.BasicScheme, @null
+BasicScheme(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.auth.BasicScheme.BasicScheme(), @null
+authCache.put(), UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.auth.TestDigestScheme.testDigestAuthenticationInvalidInput(), @null
+AuthCache, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.AuthCache, @null
+context, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.testserver.HttpClient.context, @null
+HttpClientContext, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.protocol.HttpClientContext, @null
+context, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.testserver.HttpClient.context, @null
+HttpClientContext.create(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.protocol.HttpClientContext.create(), @null
+context.setCredentialsProvider(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.protocol.HttpClientContext.setCredentialsProvider(), @null
+context.setAuthCache(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.protocol.HttpClientContext.setAuthCache(), @null
+HttpGet, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.client.cache.TestResponseCachingPolicy.response, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.HttpClient.execute(), @null
+targetHost, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.benchmark.BenchmarkWorker.targetHost, @null
+HttpEntity, CLASS/INTERFACE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.HttpEntity, @null
+entity, UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.HttpPut.entity, @null
+response.getEntity(), METHOD, 1880, 9, 4.6 Preemptive authentication, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @null
+response.close(), UNIDENTIFIED-TYPE, 1880, 9, 4.6 Preemptive authentication, org.apache.http.impl.auth.HttpEntityDigester.close(), @null
+CloseableHttpClient, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+CredentialsProvider, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.BasicCredentialsProvider, @null
+credsProvider, UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.AbstractHttpClient.credsProvider, @null
+BasicCredentialsProvider(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.BasicCredentialsProvider.BasicCredentialsProvider(), @null
+credsProvider.setCredentials(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.BasicCredentialsProvider.setCredentials(), @null
+NTCredentials(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.auth.NTCredentials.NTCredentials(), @null
+HttpHost, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.HttpHost, @null
+target, UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpRequestWrapper.target, @null
+HttpHost(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.HttpHost.HttpHost(), @null
+context, UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.testserver.HttpClient.context, @null
+requests, UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.FutureRequestExecutionMetrics.requests, @null
+HttpClientContext, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.protocol.HttpClientContext, @null
+context, UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.testserver.HttpClient.context, @null
+HttpClientContext.create(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.protocol.HttpClientContext.create(), @null
+context.setCredentialsProvider(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.protocol.HttpClientContext.setCredentialsProvider(), @null
+method, UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpRequestWrapper.method, @null
+first.(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse.setEntity(), @null
+authentication, UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.impl.client.integration.TestClientReauthentication, @null
+HttpGet, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @null
+HttpEntity, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.HttpEntity, @null
+response1.getEntity(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @null
+response1.close(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse.close(), @null
+method, UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpRequestWrapper.method, @null
+context, UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.testserver.HttpClient.context, @null
+HttpPost, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpPost, @null
+HttpPost(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.HttpPost.HttpPost(), @null
+httppost.setEntity(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse.setEntity(), @null
+StringEntity(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.entity.StringEntity.StringEntity(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.HttpClient.execute(), @null
+HttpEntity, CLASS/INTERFACE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.HttpEntity, @null
+response2.getEntity(), METHOD, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @null
+response2.close(), UNIDENTIFIED-TYPE, 1946, 13, 4.7.1 NTLM connection persistence, org.apache.http.client.methods.CloseableHttpResponse.close(), @null
+Value, CLASS/INTERFACE, 2098, 13, 4.8.5 Windows Specific configuration, org.apache.http.impl.client.cache.TestWarningValue, @null
+Value, CLASS/INTERFACE, 2098, 13, 4.8.5 Windows Specific configuration, org.apache.http.impl.client.cache.TestWarningValue, @null
+Value, CLASS/INTERFACE, 2106, 13, 4.8.5 Windows Specific configuration, org.apache.http.impl.client.cache.TestWarningValue, @null
+Value, CLASS/INTERFACE, 2106, 13, 4.8.5 Windows Specific configuration, org.apache.http.impl.client.cache.TestWarningValue, @null
+timeout, UNIDENTIFIED-TYPE, 2131, 5, 5.1 Easy to use facade API, org.apache.http.testserver.HttpClient.timeout, @null
+response, UNIDENTIFIED-TYPE, 2131, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Response.response, @null
+content, UNIDENTIFIED-TYPE, 2131, 5, 5.1 Easy to use facade API, org.apache.http.entity.mime.content.StringBody.content, @null
+String.(), UNIDENTIFIED-TYPE, 2131, 5, 5.1 Easy to use facade API, org.apache.http.entity.mime.content.AbstractContentBody.notify(), @null
+Request.Get(), UNIDENTIFIED-TYPE, 2131, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.Get(), @null
+connectTimeout(), METHOD, 2131, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.connectTimeout(), @null
+socketTimeout(), METHOD, 2131, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.socketTimeout(), @null
+execute(), METHOD, 2131, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.execute(), @null
+1.1(), UNIDENTIFIED-TYPE, 2139, 5, 5.1 Easy to use facade API, org.apache.http.entity.mime.TestMultipartContentBody.testStringBodyInvalidConstruction1(), @null
+request, UNIDENTIFIED-TYPE, 2139, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.request, @null
+String, CLASS/INTERFACE, 2139, 5, 5.1 Easy to use facade API, org.apache.http.impl.client.cache.ResponseCachingPolicy.neverCache1_0ResponsesWithQueryString, @null
+response, UNIDENTIFIED-TYPE, 2139, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Response.response, @null
+content, UNIDENTIFIED-TYPE, 2139, 5, 5.1 Easy to use facade API, org.apache.http.entity.mime.content.StringBody.content, @null
+array.(), UNIDENTIFIED-TYPE, 2139, 5, 5.1 Easy to use facade API, org.apache.http.entity.mime.content.AbstractContentBody.notify(), @null
+Request.Post(), UNIDENTIFIED-TYPE, 2139, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.Post(), @null
+useExpectContinue(), METHOD, 2139, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.useExpectContinue(), @null
+version(), METHOD, 2139, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.version(), @null
+bodyString(), METHOD, 2139, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.bodyString(), @null
+execute(), METHOD, 2139, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.execute(), @null
+header, UNIDENTIFIED-TYPE, 2149, 5, 5.1 Easy to use facade API, org.apache.http.entity.mime.FormBodyPart.header, @null
+proxy, UNIDENTIFIED-TYPE, 2149, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.proxy, @null
+request, UNIDENTIFIED-TYPE, 2149, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.request, @null
+result, UNIDENTIFIED-TYPE, 2149, 5, 5.1 Easy to use facade API, org.apache.http.nio.pool.LeaseRequest.result, @null
+Request.Post(), UNIDENTIFIED-TYPE, 2149, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.Post(), @null
+addHeader(), METHOD, 2149, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.addHeader(), @null
+viaProxy(), METHOD, 2149, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.viaProxy(), @null
+HttpHost(), METHOD, 2149, 5, 5.1 Easy to use facade API, org.apache.http.HttpHost.HttpHost(), @null
+bodyForm(), METHOD, 2149, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.bodyForm(), @null
+execute(), METHOD, 2149, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.execute(), @null
+File(), METHOD, 2149, 5, 5.1 Easy to use facade API, org.apache.http.entity.mime.content.FileBody.getFile(), @null
+Executor, CLASS/INTERFACE, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Executor, @null
+executor, UNIDENTIFIED-TYPE, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Async.executor, @null
+Executor.newInstance(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Executor.newInstance(), @null
+auth(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Executor.auth(), @null
+HttpHost(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.HttpHost.HttpHost(), @null
+auth(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Executor.auth(), @null
+HttpHost(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.HttpHost.HttpHost(), @null
+authPreemptive(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Executor.authPreemptive(), @null
+HttpHost(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.HttpHost.HttpHost(), @null
+executor.execute(), UNIDENTIFIED-TYPE, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.execute(), @null
+returnContent(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Response.returnContent(), @null
+executor.execute(), UNIDENTIFIED-TYPE, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.execute(), @null
+useExpectContinue(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.useExpectContinue(), @null
+bodyString(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Request.bodyString(), @null
+returnContent(), METHOD, 2163, 5, 5.1 Easy to use facade API, org.apache.http.client.fluent.Response.returnContent(), @null
+result, UNIDENTIFIED-TYPE, 2185, 7, 5.1.1 Response handling, org.apache.http.nio.pool.LeaseRequest.result, @null
+Request.Get(), UNIDENTIFIED-TYPE, 2185, 7, 5.1.1 Response handling, org.apache.http.client.fluent.Request.Get(), @null
+execute(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.client.fluent.Request.execute(), @null
+handleResponse(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.client.fluent.Response.handleResponse(), @null
+HttpResponse, CLASS/INTERFACE, 2185, 7, 5.1.1 Response handling, org.apache.http.HttpResponse, @null
+StatusLine, CLASS/INTERFACE, 2185, 7, 5.1.1 Response handling, org.apache.http.StatusLine, @null
+statusLine, UNIDENTIFIED-TYPE, 2185, 7, 5.1.1 Response handling, org.apache.http.client.cache.TestHttpCacheEntry.statusLine, @null
+response.getStatusLine(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.HttpResponse.getStatusLine(), @null
+HttpEntity, CLASS/INTERFACE, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.TestAbstractHttpEntity, @null
+entity, UNIDENTIFIED-TYPE, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.mime.MultipartEntity.entity, @null
+response.getEntity(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.mime.MultipartEntity.getEntity(), @null
+HttpResponseException(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.client.HttpResponseException.HttpResponseException(), @null
+statusLine.getStatusCode(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.client.HttpResponseException.getStatusCode(), @null
+statusLine.getReasonPhrase(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.StatusLine.getReasonPhrase(), @null
+ClientProtocolException(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.client.ClientProtocolException.ClientProtocolException(), @null
+DocumentBuilderFactory.newInstance(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.client.fluent.Executor.newInstance(), @null
+ContentType, CLASS/INTERFACE, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.ContentType, @null
+contentType, UNIDENTIFIED-TYPE, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.mime.content.AbstractContentBody.contentType, @null
+ContentType.getOrDefault(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.ContentType.getOrDefault(), @null
+ClientProtocolException(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.client.ClientProtocolException.ClientProtocolException(), @null
+content, UNIDENTIFIED-TYPE, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.mime.content.StringBody.content, @null
+String, CLASS/INTERFACE, 2185, 7, 5.1.1 Response handling, org.apache.http.impl.client.cache.ResponseCachingPolicy.neverCache1_0ResponsesWithQueryString, @null
+charset, UNIDENTIFIED-TYPE, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.ContentType.charset, @null
+contentType.getCharset(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.mime.content.ByteArrayBody.getCharset(), @null
+charset, UNIDENTIFIED-TYPE, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.ContentType.charset, @null
+docBuilder.parse(), UNIDENTIFIED-TYPE, 2185, 7, 5.1.1 Response handling, org.apache.http.entity.ContentType.parse(), @null
+IllegalStateException(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.impl.conn.ConnectionShutdownException.IllegalStateException(), @null
+ClientProtocolException(), METHOD, 2185, 7, 5.1.1 Response handling, org.apache.http.client.ClientProtocolException.ClientProtocolException(), @null
+CacheConfig, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CacheConfig, @null
+cacheConfig, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClientBuilder.cacheConfig, @null
+CacheConfig.custom(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CacheConfig.custom(), @null
+setMaxCacheEntries(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CacheConfig.setMaxCacheEntries(), @null
+setMaxObjectSize(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CacheConfig.setMaxObjectSize(), @null
+build(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClientBuilder.build(), @null
+RequestConfig, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClientBuilder.defaultRequestConfig, @null
+requestConfig, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.ProxyClient.requestConfig, @null
+RequestConfig.custom(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.config.RequestConfig.custom(), @null
+setConnectTimeout(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.nio.reactor.SessionRequest.setConnectTimeout(), @null
+setSocketTimeout(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.nio.pool.BasicNIOPoolEntry.setSocketTimeout(), @null
+build(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClientBuilder.build(), @null
+CloseableHttpClient, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.CloseableHttpClient, @null
+CachingHttpClients.custom(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClients.custom(), @null
+setCacheConfig(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClientBuilder.setCacheConfig(), @null
+setDefaultRequestConfig(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClientBuilder.setDefaultRequestConfig(), @null
+build(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClientBuilder.build(), @null
+HttpCacheContext, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.client.cache.HttpCacheContext, @null
+context, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.TestAsynchronousValidationRequest.context, @null
+HttpCacheContext.create(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.cache.HttpCacheContext.create(), @null
+HttpGet, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.TestResponseCachingPolicy.response, @null
+cachingClient.execute(), UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.CachingHttpClient.execute(), @null
+CacheResponseStatus, CLASS/INTERFACE, 2328, 5, 6.3 Example Usage, org.apache.http.client.cache.CacheResponseStatus, @null
+context.getCacheResponseStatus(), METHOD, 2328, 5, 6.3 Example Usage, org.apache.http.client.cache.HttpCacheContext.getCacheResponseStatus(), @null
+response, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.TestResponseCachingPolicy.response, @null
+cache, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.AbstractProtocolTest.cache, @null
+requests, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.FutureRequestExecutionMetrics.requests, @null
+response, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.TestResponseCachingPolicy.response, @null
+response, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.TestResponseCachingPolicy.response, @null
+response, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.TestResponseCachingPolicy.response, @null
+cache, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.AbstractProtocolTest.cache, @null
+entry, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.memcached.TestMemcachedCacheEntryImpl.entry, @null
+origin, UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.auth.AuthScope.origin, @null
+response.close(), UNIDENTIFIED-TYPE, 2328, 5, 6.3 Example Usage, org.apache.http.impl.client.cache.ExponentialBackOffSchedulingStrategy.close(), @null
+BasicLineParser, CLASS/INTERFACE, 2454, 17, 7.1 Custom client connections, org.apache.http.message.BasicLineParser, @null
+Header, CLASS/INTERFACE, 2454, 17, 7.1 Custom client connections, org.apache.http.message.BasicHeader, @null
+parseHeader(), METHOD, 2454, 17, 7.1 Custom client connections, org.apache.http.message.BasicLineParser.parseHeader(), @null
+CharArrayBuffer, CLASS/INTERFACE, 2454, 17, 7.1 Custom client connections, org.apache.http.util.CharArrayBuffer, @null
+ParseException, CLASS/INTERFACE, 2454, 17, 7.1 Custom client connections, org.apache.http.ParseException, @null
+super.parseHeader(), METHOD, 2454, 17, 7.1 Custom client connections, org.apache.http.message.BasicLineParser.parseHeader(), @null
+ParseException, CLASS/INTERFACE, 2454, 17, 7.1 Custom client connections, org.apache.http.ParseException, @null
+exception, UNIDENTIFIED-TYPE, 2454, 17, 7.1 Custom client connections, org.apache.http.impl.client.IdleConnectionEvictor.exception, @null
+BasicHeader(), METHOD, 2454, 17, 7.1 Custom client connections, org.apache.http.message.BasicHeader.BasicHeader(), @null
+HttpConnectionFactory, CLASS/INTERFACE, 2474, 17, 7.1 Custom client connections, org.apache.http.HttpConnectionFactory, @null
+ManagedHttpClientConnection, CLASS/INTERFACE, 2474, 17, 7.1 Custom client connections, org.apache.http.conn.ManagedHttpClientConnection, @null
+connFactory, UNIDENTIFIED-TYPE, 2474, 17, 7.1 Custom client connections, org.apache.http.impl.pool.BasicConnFactory.connFactory, @null
+ManagedHttpClientConnectionFactory(), METHOD, 2474, 17, 7.1 Custom client connections, org.apache.http.impl.conn.ManagedHttpClientConnectionFactory.ManagedHttpClientConnectionFactory(), @null
+DefaultHttpRequestWriterFactory(), METHOD, 2474, 17, 7.1 Custom client connections, org.apache.http.impl.nio.codecs.DefaultHttpRequestWriterFactory.DefaultHttpRequestWriterFactory(), @null
+DefaultHttpResponseParserFactory(), METHOD, 2474, 17, 7.1 Custom client connections, org.apache.http.impl.nio.codecs.DefaultHttpResponseParserFactory.DefaultHttpResponseParserFactory(), @null
+DefaultHttpResponseFactory(), METHOD, 2474, 17, 7.1 Custom client connections, org.apache.http.impl.DefaultHttpResponseFactory.DefaultHttpResponseFactory(), @null
+PoolingHttpClientConnectionManager, CLASS/INTERFACE, 2483, 17, 7.1 Custom client connections, org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @null
+PoolingHttpClientConnectionManager(), METHOD, 2483, 17, 7.1 Custom client connections, org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(), @null
+CloseableHttpClient, CLASS/INTERFACE, 2483, 17, 7.1 Custom client connections, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 2483, 17, 7.1 Custom client connections, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 2483, 17, 7.1 Custom client connections, org.apache.http.impl.client.HttpClients.custom(), @null
+setConnectionManager(), METHOD, 2483, 17, 7.1 Custom client connections, org.apache.http.osgi.impl.OSGiHttpClientBuilder.setConnectionManager(), @null
+build(), METHOD, 2483, 17, 7.1 Custom client connections, org.apache.http.entity.mime.MultipartEntityBuilder.build(), @null
+CloseableHttpClient, CLASS/INTERFACE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.createDefault(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.HttpClients.createDefault(), @null
+HttpClientContext, CLASS/INTERFACE, 2517, 13, 7.2.1 User token handler, org.apache.http.client.protocol.HttpClientContext, @null
+context, UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.client.protocol.HttpClientContext.context, @null
+HttpClientContext.create(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.client.protocol.HttpClientContext.create(), @null
+HttpGet, CLASS/INTERFACE, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 2517, 13, 7.2.1 User token handler, org.apache.http.client.methods.CloseableHttpResponse, @null
+response, UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.cache.TestResponseCachingPolicy.response, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient.execute(), @null
+Principal, CLASS/INTERFACE, 2517, 13, 7.2.1 User token handler, org.apache.http.auth.BasicUserPrincipal, @null
+principal, UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.auth.UsernamePasswordCredentials.principal, @null
+context.getUserToken(), METHOD, 2517, 13, 7.2.1 User token handler, org.apache.http.client.protocol.HttpClientContext.getUserToken(), @null
+response.close(), UNIDENTIFIED-TYPE, 2517, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient.close(), @null
+UserTokenHandler, CLASS/INTERFACE, 2531, 13, 7.2.1 User token handler, org.apache.http.client.UserTokenHandler, @null
+userTokenHandler, UNIDENTIFIED-TYPE, 2531, 13, 7.2.1 User token handler, org.apache.http.impl.client.AbstractHttpClient.userTokenHandler, @null
+UserTokenHandler(), METHOD, 2531, 13, 7.2.1 User token handler, org.apache.http.client.UserTokenHandler.UserTokenHandler(), @null
+getUserToken(), METHOD, 2531, 13, 7.2.1 User token handler, org.apache.http.client.protocol.HttpClientContext.getUserToken(), @null
+context.getAttribute(), METHOD, 2531, 13, 7.2.1 User token handler, org.apache.http.client.protocol.HttpClientContext.getAttribute(), @null
+CloseableHttpClient, CLASS/INTERFACE, 2531, 13, 7.2.1 User token handler, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 2531, 13, 7.2.1 User token handler, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.custom(), METHOD, 2531, 13, 7.2.1 User token handler, org.apache.http.impl.client.HttpClients.custom(), @null
+setUserTokenHandler(), METHOD, 2531, 13, 7.2.1 User token handler, org.apache.http.impl.client.AbstractHttpClient.setUserTokenHandler(), @null
+build(), METHOD, 2531, 13, 7.2.1 User token handler, org.apache.http.client.entity.EntityBuilder.build(), @null
+CloseableHttpClient, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient, @null
+httpclient, UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.integration.TestCookieVirtualHost.httpclient, @null
+HttpClients.createDefault(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.HttpClients.createDefault(), @null
+HttpClientContext, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.protocol.HttpClientContext, @null
+HttpClientContext.create(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.protocol.HttpClientContext.create(), @null
+HttpGet, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.CloseableHttpResponse, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @null
+HttpEntity, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.HttpEntity, @null
+response1.getEntity(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @null
+response1.close(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.close(), @null
+Principal, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.auth.BasicUserPrincipal, @null
+principal, UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.auth.UsernamePasswordCredentials.principal, @null
+context1.getUserToken(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.protocol.HttpClientContext.getUserToken(), @null
+HttpClientContext, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.protocol.HttpClientContext, @null
+HttpClientContext.create(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.protocol.HttpClientContext.create(), @null
+context2.setUserToken(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.protocol.HttpClientContext.setUserToken(), @null
+HttpGet, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet, @null
+HttpGet(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+CloseableHttpResponse, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.CloseableHttpResponse, @null
+httpclient.execute(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.execute(), @null
+HttpEntity, CLASS/INTERFACE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.HttpEntity, @null
+response2.getEntity(), METHOD, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.client.methods.CloseableHttpResponse.getEntity(), @null
+response2.close(), UNIDENTIFIED-TYPE, 2551, 13, 7.2.2 Persistent stateful connections, org.apache.http.impl.client.CloseableHttpClient.close(), @null
+HttpClient, CLASS/INTERFACE, 2594, 13, 7.3.1 Creating the FutureRequestExecutionService, org.apache.http.client.HttpClient, @null
+HttpClientBuilder.create(), METHOD, 2594, 13, 7.3.1 Creating the FutureRequestExecutionService, org.apache.http.impl.client.HttpClientBuilder.create(), @null
+ExecutorService, CLASS/INTERFACE, 2594, 13, 7.3.1 Creating the FutureRequestExecutionService, org.apache.http.impl.nio.bootstrap.HttpServer.listenerExecutorService, @null
+executorService, UNIDENTIFIED-TYPE, 2594, 13, 7.3.1 Creating the FutureRequestExecutionService, org.apache.http.impl.client.FutureRequestExecutionService.executorService, @null
+FutureRequestExecutionService, CLASS/INTERFACE, 2594, 13, 7.3.1 Creating the FutureRequestExecutionService, org.apache.http.impl.client.FutureRequestExecutionService, @null
+FutureRequestExecutionService(), METHOD, 2594, 13, 7.3.1 Creating the FutureRequestExecutionService, org.apache.http.impl.client.FutureRequestExecutionService.FutureRequestExecutionService(), @null
+ResponseHandler, CLASS/INTERFACE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.ResponseHandler, @null
+handleResponse(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.ResponseHandler.handleResponse(), @null
+HttpResponse, CLASS/INTERFACE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.CloseableHttpResponse, @null
+ClientProtocolException, CLASS/INTERFACE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.ClientProtocolException, @null
+response.getStatusLine(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.CloseableHttpResponse.getStatusLine(), @null
+HttpRequestFutureTask, CLASS/INTERFACE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.impl.client.HttpRequestFutureTask, @null
+futureRequestExecutionService.execute(), UNIDENTIFIED-TYPE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.impl.client.FutureRequestExecutionService.execute(), @null
+HttpGet(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+HttpClientContext.create(), METHOD, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.client.protocol.HttpClientContext.create(), @null
+request, UNIDENTIFIED-TYPE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.impl.client.HttpRequestFutureTask.request, @null
+complete, UNIDENTIFIED-TYPE, 2607, 13, 7.3.2 Scheduling requests, org.apache.http.impl.auth.DigestScheme.complete, @null
+task.cancel(), UNIDENTIFIED-TYPE, 2625, 13, 7.3.3 Canceling tasks, org.apache.http.impl.client.HttpRequestFutureTask.cancel(), @null
+task.get(), UNIDENTIFIED-TYPE, 2625, 13, 7.3.3 Canceling tasks, org.apache.http.impl.client.HttpRequestFutureTask.get(), @null
+Exception, CLASS/INTERFACE, 2625, 13, 7.3.3 Canceling tasks, org.apache.http.client.ClientProtocolException, @null
+FutureCallback, CLASS/INTERFACE, 2634, 17, 7.3.4 Callbacks, org.apache.http.concurrent.FutureCallback, @null
+failed(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.concurrent.FutureCallback.failed(), @null
+Exception, CLASS/INTERFACE, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.ClientProtocolException, @null
+completed(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.methods.RequestBuilderInternalRequest.completed(), @null
+cancelled(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.concurrent.FutureCallback.cancelled(), @null
+HttpRequestFutureTask, CLASS/INTERFACE, 2634, 17, 7.3.4 Callbacks, org.apache.http.impl.client.HttpRequestFutureTask, @null
+futureRequestExecutionService.execute(), UNIDENTIFIED-TYPE, 2634, 17, 7.3.4 Callbacks, org.apache.http.impl.client.FutureRequestExecutionService.execute(), @null
+HttpGet(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.methods.HttpGet.HttpGet(), @null
+HttpClientContext.create(), METHOD, 2634, 17, 7.3.4 Callbacks, org.apache.http.client.protocol.HttpClientContext.create(), @null
+task.scheduledTime(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestFutureTask.scheduledTime(), @null
+scheduled, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestTaskCallable.scheduled, @null
+task.startedTime(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestFutureTask.startedTime(), @null
+started, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestTaskCallable.started, @null
+task.endedTime(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestFutureTask.endedTime(), @null
+task.requestDuration(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestFutureTask.requestDuration(), @null
+duration, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.conn.AbstractClientConnAdapter.duration, @null
+request, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestFutureTask.request, @null
+task.taskDuration(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestFutureTask.taskDuration(), @null
+duration, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.conn.AbstractClientConnAdapter.duration, @null
+scheduled, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestTaskCallable.scheduled, @null
+FutureRequestExecutionMetrics, CLASS/INTERFACE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics, @null
+metrics, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionService.metrics, @null
+futureRequestExecutionService.metrics(), UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionService.metrics(), @null
+metrics.getActiveConnectionCount(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.getActiveConnectionCount(), @null
+active, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.cache.ManagedHttpCacheStorage.active, @null
+metrics.getScheduledConnectionCount(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.getScheduledConnectionCount(), @null
+scheduled, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestTaskCallable.scheduled, @null
+metrics.getSuccessfulConnectionCount(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.getSuccessfulConnectionCount(), @null
+total, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.io.ContentLengthOutputStream.total, @null
+requests, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.requests, @null
+metrics.getSuccessfulConnectionAverageDuration(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.getSuccessfulConnectionAverageDuration(), @null
+request, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestFutureTask.request, @null
+duration, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.conn.AbstractClientConnAdapter.duration, @null
+metrics.getFailedConnectionCount(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.getFailedConnectionCount(), @null
+total, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.io.ContentLengthOutputStream.total, @null
+failed, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.concurrent.BasicFutureCallback.failed, @null
+tasks, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.tasks, @null
+metrics.getFailedConnectionAverageDuration(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.getFailedConnectionAverageDuration(), @null
+duration, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.conn.AbstractClientConnAdapter.duration, @null
+failed, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.concurrent.BasicFutureCallback.failed, @null
+tasks, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.tasks, @null
+metrics.getTaskCount(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.getTaskCount(), @null
+total, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.io.ContentLengthOutputStream.total, @null
+tasks, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.tasks, @null
+scheduled, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestTaskCallable.scheduled, @null
+metrics.getRequestCount(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.getRequestCount(), @null
+total, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.io.ContentLengthOutputStream.total, @null
+requests, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.requests, @null
+metrics.getRequestAverageDuration(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.getRequestAverageDuration(), @null
+request, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.HttpRequestFutureTask.request, @null
+duration, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.conn.AbstractClientConnAdapter.duration, @null
+metrics.getTaskAverageDuration(), METHOD, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.client.FutureRequestExecutionMetrics.getTaskAverageDuration(), @null
+duration, UNIDENTIFIED-TYPE, 2665, 13, 7.3.5 Metrics, org.apache.http.impl.conn.AbstractClientConnAdapter.duration, @null

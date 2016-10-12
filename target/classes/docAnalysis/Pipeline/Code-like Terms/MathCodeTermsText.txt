@@ -1,0 +1,593 @@
+Double.NaN
+Double.NaN
+NullPointerException
+MathIllegalArgumentException
+evaluate()
+increment(),
+getResult()
+increment()
+DescriptiveStatistics
+SummaryStatistics
+SummaryStatistics
+MultivariateSummaryStatistics
+SummaryStatistics
+DescriptiveStatistics
+SummaryStatistics
+MultivariateSummaryStatistics.
+DescriptiveStatistics
+SummaryStatistics
+StatUtils
+DescriptiveStatistics
+SynchronizedDescriptiveStatistics
+AggregateSummaryStatistics.
+AggregateSummaryStatistics
+SummaryStatistics
+addValue
+SummaryStatistics
+Comparable.
+Comparator
+IllegalArgumentException.
+ y = intercept + slope * x  
+ y = slope * x 
+intercept
+slope
+NaN
+false
+hasIntercept
+getIntercept()
+0
+ Y=X*b+u 
+IllegalArgumentException
+noIntercept
+true.
+ranks
+{6, 5, 7, 8, 5, 9, 2, 2, 5}.
+{5, 2, 6, 7, 3, 8, 1, 4}.
+NaNStrategy
+NaN
+Double.POSITIVE_INFINITY
+TiesStrategy
+TiesStrategy.AVERAGE,
+cov(X, Y) = sum [(xi - E(X))(yi - E(Y))] / (n - 1)
+E(X)
+X
+E(Y)
+Y
+n
+n - 1.
+true.
+cor(X, Y) = sum[(xi - E(X))(yi - E(Y))] / [(n - 1)s(X)s(Y)]
+E(X)
+E(Y)
+X
+Y
+s(X)
+s(Y)
+x
+y
+data
+data.
+x
+y
+data
+data.
+PearsonsCorrelation
+data
+RealMatrix.
+SEr = ((1 - r2) / (n - 2))1/2
+r
+n
+getCorrelationPValues().getEntry(i,j)
+tn-2
+|rij|((n - 2) / (1 - rij2))1/2
+rij
+data
+data
+x
+y
+x
+y
+t-
+Chi-Square
+G
+One-Way ANOVA
+Mann-Whitney U
+Wilcoxon signed rank
+Kolmogorov-Smirnov
+TestUtils
+TestUtils.getTTest()
+new TTest()
+distributions
+gTest(expected, observed)
+g(expected, observed)
+gTestIntrinsic(expected, observed)
+RealDistribution
+t
+observed
+mu.
+observed
+mu.
+0 < alpha < 0.5
+true
+1 - alpha
+alpha = 0.05
+double[]
+sample1
+sample2
+true
+TestUtils.pairedTTest(sample1, sample2)
+.05
+StatisticalSummary
+StatisticalSummary
+DescriptiveStatistics
+SummaryStatistics
+summary1
+summary2
+SummaryStatistics
+SummaryStatistics
+SummaryStatistics
+long[]
+double[]
+sum((expected[i] - observed[i])^2 / expected[i])
+observed
+expected
+observed
+expected
+alpha
+100 * (1-alpha)%
+
+          0 < alpha < 1 
+true
+1 - alpha
+counts
+count[0], ... , count[count.length - 1]. 
+sum((counts[i][j] - expected[i][j])^2/expected[i][j])
+expected[i][j]
+i
+j
+alpha
+100 * (1-alpha)%
+0 < alpha < 1 
+true
+1 - alpha
+GTest
+long[]
+double[]
+2 * sum(observed[i]) * log(observed[i]/expected[i])
+observed
+expected
+observed
+expected
+alpha
+100 * (1-alpha)%
+
+          0 < alpha < 1 
+true
+1 - alpha
+gDataSetsComparison
+rootLogLikelihoodRatio
+OneWayAnova
+TestUtils
+data
+y
+x
+y
+x
+y
+false
+exactP
+java.util.Random
+RandomGenerator
+Math.random(),
+nextXxx
+RandomDataGenerator
+SecureRandom
+setSecureAlgorithm
+ISAACRandom
+RandomDataGenerator
+RandomDataGenerator
+reSeed()
+ RandomDataGenerator
+mean
+covariance
+GaussianRandomGenerator
+nextHexString
+nextSecureHexString
+nextHexString(n)
+RandomDataGenerator
+n
+RandomDataGenerator
+nextSecureHexString
+SecureRandom.
+nextSecureHexString
+nextSample
+RandomDataGenerator
+c
+k
+randomData
+RandomDataGenerator
+randomData.nextSample(c, k)
+object[]
+k
+c
+randomData
+RandomDataGenerator
+n
+k
+ k <= n
+randomData.nextPermutation(n, k)
+int[]
+k
+0
+n-1
+randomData.nextPermutation(n, k)
+n
+k
+ValueServer
+url
+java.net.URL
+getNext()
+ValueServer
+EmpiricalDistribution
+computeDistribution()
+java.util.Random
+java.util.Random
+nextDouble()
+java.util.Random
+java.util.Random
+RandomGenerator
+AbstractRandomGenerator
+java.util.Random
+RandomData
+Random
+solve()
+RealMatrix
+RealVector
+solve(RealVector)
+solution
+solution.getEntry(0)
+solution.getEntry(1)
+solution.getEntry(2)
+RealVector
+solve(RealMatrix),
+getEigenvalue()
+getEigenvalues()
+getEigenVector()
+getV()
+getD()
+getVT()
+EigenDecomposition
+getSingularValues()
+getU()
+getS()
+getV()
+SingularValueDecomposition
+solve
+maxEval
+f
+min
+max
+startValue
+ConvergenceException
+ANY_SIDE
+LEFT_SIDE
+RIGHT_SIDE
+BELOW_SIDE
+ABOVE_SIDE
+c
+f(c) = 0.0
+min <= c <= max
+BrentSolver
+BracketingNthOrderBrentSolver
+SecantSolver
+RegulaFalsiSolver
+IllinoisSolver
+PegasusSolver
+BisectionSolver
+UnivariateSolver
+f
+xi
+yi
+f(xi)=yi
+N
+N-1
+x0
+xN
+f
+xi
+yj
+fij
+f(xi,yj)=fij
+xi
+yj
+f
+xi
+yj
+zk
+fijk
+f(xi,yj,zk)=fijk
+xi
+yj
+zk
+y=f(x)
+x
+y=f(x)
+y
+x
+y
+x
+y
+x
+p0
+y
+x
+p0
+p0
+x
+x
+x
+x
+x
+y
+f
+z = g(y)
+z
+z.getPartialDerivative(1)
+g
+y
+p0
+f
+g
+g(f(x, y))
+x
+y
+dg/dx
+dg/dy
+d2g/dx2
+d2g/dxdy
+d2g/dy2
+x
+p0
+y
+p1
+x
+y
+x
+y
+getPartialDerivative
+special
+java.lang.Math
+Gamma
+Gamma.gamma(x)
+x[i] = i / 1024, i = -5119, ..., -4097
+x[i] = i / 1024, i = -4095, ..., -3073
+x[i] = i / 1024, i = -3071, ..., -2049
+x[i] = i / 1024, i = -2047, ..., -1025
+x[i] = i / 1024, i = -1023, ..., -1
+x[i] = i / 1024, i = 1, ..., 8192
+x[i] = i / 64, i = 513, ..., 9024
+Gamma.logGamma(x)
+x[i] = i / 1024, i = 1, ..., 8192
+x[i] = i / 8, i = 65, ..., 8192
+x[i], i = 1025, ..., 8192
+x[i] = 2**(i / 8), i = 105, ..., 8112
+Gamma.regularizedGammaP(a, x)
+Beta.logBeta(a, b)
+x[i] = i / 32, i = 1, ..., 256
+y[j] = j / 32, j = 1, ..., 256
+x[i] = i / 32, i = 1, ..., 256
+y[j] = j / 32, j = 257, ..., 512
+x[i] = i / 32, i = 1, ..., 256
+y[j] = j, j = 17, ..., 256
+x[i] = i / 32, i = 257, ..., 512
+y[j] = j / 32, j = 257, ..., 512
+x[i] = i / 32, i = 257, ..., 512
+y[j] = j, j = 17, ..., 256
+x[i] = i, i = 17, ..., 256
+y[j] = j, j = 17, ..., 256
+util
+addElementRolling(double)
+addElementRolling
+DoubleArray
+addElementRolling
+expansionMode
+expansionFactor
+contractionCriteria.
+java.util.HashMap
+ContinuedFraction
+getA
+getB
+evalute
+evalute
+binomialCoefficient(int, int)
+binomialCoefficientDouble(int, int)
+binomialCoefficientLog(int, int)
+stirlingS2(int, int)
+factorial(int)
+factorialDouble(int)
+factorialLog(int)
+Math
+StrictMath
+Math.sin(x)
+Math.cbrt(y)
+FastMath.sin(x)
+FastMath.cbrt(y)
+java.lang.Double
+NaN
+polar2Complex
+ComplexUtils
+Complex
+java.math.BigDecimal
+Complex
+ComplexFormat
+java.text.Format
+java.text.SimpleDateFormat
+java.text.NumberFormat
+ComplexFormat
+ComplexFormat
+setImaginaryCharacter
+ComplexFormat
+parse
+density()
+probability()
+cumulativeProbability()
+f
+F
+x
+f.cumulativeProbability(x)
+P(X <= x)
+X
+f
+f.cumulativeProbability()
+f
+f
+RealDistribution
+f
+f.density()
+f
+IntegerDistribution
+f.probability()
+probability()
+f.probability(x)
+P(X = x)
+X
+f
+sample()
+RandomGenerator
+inverseCumulativeProbability
+f
+p
+f.inverseCumulativeProbability(p)
+
+X
+f
+f
+Z
+R
+p
+Fraction
+java.math.BigDecimal
+Fraction
+FractionFormat
+java.text.Format
+java.text.SimpleDateFormat
+java.text.NumberFormat
+FractionFormat
+FractionFormat
+parse
+Complex
+Rotation
+VECTOR_OPERATOR
+FRAME_TRANSFORM
+VECTOR_OPERATOR
+FRAME_TRANSFORM
+projectVectorIntoDestinationFrame
+computeTransformedDirection
+applyTo(Vector3D)
+applyInverseTo(Vector3D)
+r = r1 o r2
+u
+r(u) = r1(r2(u))
+r1
+r2
+r =
+          r1 o r2
+compose(Rotation, RotationConvention)
+composeInverse(Rotation, RotationConvention)
+applyTo(Rotation)
+compose(Rotation, RotationConvention.VECTOR_OPERATOR)
+applyInverseTo(Rotation)
+composeInverse(Rotation, RotationConvention.VECTOR_OPERATOR)
+Boolean
+tolerance
+IntervalsSet
+PolygonsSet
+PolyhedronsSet
+ArcsSet
+SphericalPolygonsSet
+RegionFactory.getComplement()
+IntervalsSet
+PolygonsSet
+PolyhedronsSet
+ArcsSet
+SphericalPolygonsSet
+Boolean
+Boolean.TRUE
+Boolean.FALSE
+analysis
+MAXIMIZE
+MINIMIZE
+f
+solve
+optimize
+minimizes
+etMinima
+minimizes
+direct
+estimate
+estimate
+f(x) = a x2 + b x + c
+MultivariateMatrixFunction jacobian()
+[a = 1, b = 1, c = 1]
+MultivariateMatrixFunction jacobian()
+x
+double[] value(double[] point)
+double
+create
+Collection
+fit
+WeightedObservedPoint
+toList
+add
+withStartPoint
+ParameterGuesser
+fit
+start
+target
+model
+build
+LeastSquaresFactory.create
+point
+value
+lazyEvaluation
+true
+logit
+sigmoid
+log
+exp
+maxIterations
+maxEvaluations
+optim
+withXxx
+optimize
+Integer.MAX_VALUE
+RealFieldElement
+RealFieldElement
+DerivativeStructure
+Dfp
+FirstOrderIntegrator.integrate
+FirstOrderIntegrator.integrate
+Serializable
+GeneticAlgorithm
+evolve
+GeneticAlgorithm
+nextGeneration
+current
+SelectionPolicy
+current
+CrossoverPolicy
+MutationPolicy
+GeneticAlgorithm
+initial
+Chromosomes.
+double getX()
+double getY()
+RuntimeException
+IllegalArgumentException
+MathIllegalArgumentException
+IllegalStateException
+MathIllegalStateException
+ArithmeticException
+MathArithmeticException
+UnsupportedOperationException
+MathUnsupportedOperationException

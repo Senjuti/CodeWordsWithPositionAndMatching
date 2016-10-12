@@ -1,0 +1,546 @@
+org.apache.http.client.fluent.TestFluent, @stereotype BOUNDARY
+org.apache.http.client.fluent.ContentResponseHandler, @stereotype FACTORY
+org.apache.http.client.fluent.InternalFileEntity, @stereotype 
+org.apache.http.client.fluent.InternalInputStreamEntity, @stereotype DATA_PROVIDER
+org.apache.http.client.fluent.Request, @stereotype 
+org.apache.http.client.fluent.HttpHeader, @stereotype POOL
+org.apache.http.client.fluent.InternalEntityEnclosingHttpRequest, @stereotype 
+org.apache.http.client.fluent.Executor, @stereotype BOUNDARY COMMANDER
+org.apache.http.client.fluent.InternalByteArrayEntity, @stereotype 
+org.apache.http.client.fluent.InternalHttpRequest, @stereotype 
+org.apache.http.client.fluent.Form, @stereotype FACTORY
+org.apache.http.client.fluent.Content, @stereotype 
+org.apache.http.entity.mime.TestMultipartFormHttpEntity, @stereotype BOUNDARY
+org.apache.http.entity.mime.TestMultipartEntityBuilder, @stereotype BOUNDARY
+org.apache.http.entity.mime.TestMultipartContentBody, @stereotype 
+org.apache.http.entity.mime.FormBodyPartTest, @stereotype BOUNDARY
+org.apache.http.entity.mime.TestMultipartForm, @stereotype BOUNDARY COMMANDER
+org.apache.http.entity.mime.TestFormBodyPartBuilder, @stereotype BOUNDARY
+org.apache.http.entity.mime.FormBodyPartBuilder, @stereotype BOUNDARY
+org.apache.http.entity.mime.HttpStrictMultipart, @stereotype BOUNDARY DATA_PROVIDER
+org.apache.http.entity.mime.HttpRFC6532Multipart, @stereotype BOUNDARY DATA_PROVIDER
+org.apache.http.entity.mime.MinimalField, @stereotype DATA_PROVIDER
+org.apache.http.entity.mime.MultipartFormEntity, @stereotype DATA_PROVIDER
+org.apache.http.entity.mime.HttpBrowserCompatibleMultipart, @stereotype BOUNDARY DATA_PROVIDER
+org.apache.http.entity.mime.FormBodyPart, @stereotype ENTITY
+org.apache.http.entity.mime.MIME, @stereotype POOL
+org.apache.http.entity.mime.Header, @stereotype BOUNDARY
+org.apache.http.entity.mime.MultipartEntityBuilder, @stereotype BOUNDARY COMMANDER
+org.apache.http.entity.mime.AbstractMultipartForm, @stereotype BOUNDARY
+org.apache.http.entity.mime.content.ByteArrayBody, @stereotype DATA_PROVIDER
+org.apache.http.entity.mime.content.StringBody, @stereotype BOUNDARY
+org.apache.http.entity.mime.content.ContentDescriptor, @stereotype INTERFACE
+org.apache.http.entity.mime.content.ContentBody, @stereotype INTERFACE
+org.apache.http.entity.mime.content.InputStreamBody, @stereotype 
+org.apache.http.entity.mime.content.FileBody, @stereotype DATA_PROVIDER
+org.apache.http.entity.mime.content.AbstractContentBody, @stereotype BOUNDARY DATA_PROVIDER
+org.apache.http.entity.mime.MultipartEntity, @stereotype COMMANDER
+org.apache.http.entity.mime.HttpMultipart, @stereotype DATA_PROVIDER
+org.apache.http.impl.auth.win.TestWindowsNegotiateScheme, @stereotype COMMANDER
+org.apache.http.impl.auth.win.WindowsNegotiateScheme, @stereotype ENTITY
+org.apache.http.impl.auth.win.WindowsNegotiateSchemeFactory, @stereotype FACTORY
+org.apache.http.impl.auth.win.WindowsCredentialsProvider, @stereotype MINIMAL_ENTITY
+org.apache.http.impl.auth.win.CurrentWindowsCredentials, @stereotype 
+org.apache.http.impl.auth.win.WindowsNTLMSchemeFactory, @stereotype FACTORY
+org.apache.http.impl.client.WinHttpClients, @stereotype 
+org.apache.http.auth.TestAuthScope, @stereotype BOUNDARY
+org.apache.http.auth.TestCredentials, @stereotype BOUNDARY
+org.apache.http.localserver.LocalServerTestBase, @stereotype 
+org.apache.http.localserver.BasicAuthTokenExtractor, @stereotype BOUNDARY
+org.apache.http.localserver.EchoHandler, @stereotype BOUNDARY
+org.apache.http.localserver.SSLTestContexts, @stereotype PURE_CONTROLLER
+org.apache.http.localserver.RequestBasicAuth, @stereotype BOUNDARY
+org.apache.http.localserver.ResponseBasicUnauthorized, @stereotype BOUNDARY
+org.apache.http.localserver.RandomHandler, @stereotype BOUNDARY
+org.apache.http.client.protocol.TestResponseProcessCookies, @stereotype BOUNDARY COMMANDER
+org.apache.http.client.protocol.TestResponseContentEncoding, @stereotype BOUNDARY
+org.apache.http.client.protocol.TestRequestAddCookies, @stereotype BOUNDARY COMMANDER
+org.apache.http.client.protocol.TestRequestDefaultHeaders, @stereotype BOUNDARY
+org.apache.http.client.protocol.TestRequestExpectContinue, @stereotype BOUNDARY
+org.apache.http.client.protocol.TestRequestAuthCache, @stereotype BOUNDARY COMMANDER
+org.apache.http.client.protocol.TestRequestClientConnControl, @stereotype BOUNDARY
+org.apache.http.client.protocol.TestRequestAcceptEncoding, @stereotype BOUNDARY
+org.apache.http.client.utils.TestURIUtils, @stereotype BOUNDARY
+org.apache.http.client.utils.TestHttpClientUtils, @stereotype BOUNDARY
+org.apache.http.client.utils.TestURIBuilder, @stereotype BOUNDARY
+org.apache.http.client.utils.TestRequestBuilder, @stereotype BOUNDARY
+org.apache.http.client.utils.TestURLEncodedUtils, @stereotype BOUNDARY
+org.apache.http.client.utils.TestDateUtils, @stereotype BOUNDARY
+org.apache.http.client.methods.TestHttpRequestBase, @stereotype BOUNDARY
+org.apache.http.client.methods.TestHttpOptions, @stereotype BOUNDARY
+org.apache.http.client.methods.TestRequestBuilder, @stereotype BOUNDARY
+org.apache.http.client.entity.TestGZip, @stereotype BOUNDARY
+org.apache.http.client.entity.TestEntityBuilder, @stereotype BOUNDARY
+org.apache.http.client.entity.TestDeflate, @stereotype BOUNDARY
+org.apache.http.client.entity.TestDecompressingEntity, @stereotype BOUNDARY
+org.apache.http.client.config.TestRequestConfig, @stereotype BOUNDARY
+org.apache.http.conn.routing.TestHttpRoute, @stereotype BOUNDARY
+org.apache.http.conn.routing.TestRouteDirector, @stereotype BOUNDARY
+org.apache.http.conn.routing.TestRouteTracker, @stereotype BOUNDARY
+org.apache.http.conn.util.TestPublicSuffixListParser, @stereotype BOUNDARY
+org.apache.http.conn.util.TestInetAddressUtils, @stereotype PURE_CONTROLLER
+org.apache.http.conn.util.TestPublicSuffixMatcher, @stereotype BOUNDARY COMMANDER
+org.apache.http.conn.TestExceptions, @stereotype BOUNDARY
+org.apache.http.conn.TestEofSensorInputStream, @stereotype BOUNDARY COMMANDER
+org.apache.http.conn.ssl.TestSSLSocketFactory, @stereotype BOUNDARY COMMANDER
+org.apache.http.conn.ssl.TestHostnameVerifier, @stereotype BOUNDARY
+org.apache.http.conn.ssl.CertificatesToPlayWith, @stereotype POOL
+org.apache.http.conn.ssl.TestDefaultHostnameVerifier, @stereotype 
+org.apache.http.impl.auth.TestHttpAuthenticator, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.auth.TestBasicScheme, @stereotype BOUNDARY
+org.apache.http.impl.auth.TestDigestScheme, @stereotype BOUNDARY
+org.apache.http.impl.auth.TestNTLMEngineImpl, @stereotype BOUNDARY
+org.apache.http.impl.auth.TestRFC2617Scheme, @stereotype BOUNDARY
+org.apache.http.impl.client.TestAuthenticationStrategy, @stereotype BOUNDARY
+org.apache.http.impl.client.TestBasicAuthCache, @stereotype BOUNDARY
+org.apache.http.impl.client.TestDefaultConnKeepAliveStrategy, @stereotype BOUNDARY
+org.apache.http.impl.client.MockConnPoolControl, @stereotype 
+org.apache.http.impl.client.TestFutureRequestExecutionService, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.TestBasicResponseHandler, @stereotype BOUNDARY
+org.apache.http.impl.client.TestInternalHttpClient, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.TestCookieIdentityComparator, @stereotype BOUNDARY
+org.apache.http.impl.client.integration.TestConnectionManagement, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestClientReauthentication, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestClientAuthenticationFallBack, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestClientAuthentication, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestCookieVirtualHost, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestContentCodings, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestStatefulConnManagement, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestSPNegoScheme, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestClientAuthenticationFakeNTLM, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestRedirects, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestBasicConnectionManager, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestClientRequestExecution, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestAbortHandling, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestIdleConnectionEviction, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestMinimalClientRequestExecution, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestConnectionAutoRelease, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestConnectionReuse, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.integration.TestMalformedServerResponse, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.TestNullBackoffStrategy, @stereotype COMMANDER
+org.apache.http.impl.client.TestDefaultRedirectStrategy, @stereotype BOUNDARY
+org.apache.http.impl.client.TestDefaultHttpRequestRetryHandler, @stereotype BOUNDARY
+org.apache.http.impl.client.TestAIMDBackoffManager, @stereotype COMMANDER
+org.apache.http.impl.client.TestIdleConnectionEvictor, @stereotype BOUNDARY
+org.apache.http.impl.client.TestRedirectLocation, @stereotype BOUNDARY
+org.apache.http.impl.client.TestCloseableHttpClient, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.TestAbstractResponseHandler, @stereotype BOUNDARY
+org.apache.http.impl.client.MockClock, @stereotype DATA_CLASS
+org.apache.http.impl.client.TestBasicCookieStore, @stereotype BOUNDARY
+org.apache.http.impl.client.TestBasicCredentialsProvider, @stereotype BOUNDARY
+org.apache.http.impl.client.TestDefaultBackoffStrategy, @stereotype COMMANDER
+org.apache.http.impl.conn.TestBasicHttpClientConnectionManager, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.SessionInputBufferMock, @stereotype LAZY_CLASS
+org.apache.http.impl.conn.TestSystemDefaultRoutePlanner, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.TestHttpClientConnectionOperator, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.TestDefaultProxyRoutePlanner, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.TestDefaultHttpResponseParser, @stereotype BOUNDARY
+org.apache.http.impl.conn.TestPoolingHttpClientConnectionManager, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.TestDefaultRoutePlanner, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.cookie.TestBasicClientCookie, @stereotype BOUNDARY
+org.apache.http.impl.cookie.TestCookieNetscapeDraft, @stereotype BOUNDARY
+org.apache.http.impl.cookie.TestCookieRFC2109Spec, @stereotype BOUNDARY
+org.apache.http.impl.cookie.TestPublicSuffixListParser, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.cookie.TestBasicClientCookie2, @stereotype BOUNDARY
+org.apache.http.impl.cookie.TestBasicCookieAttribHandlers, @stereotype BOUNDARY
+org.apache.http.impl.cookie.TestRFC6265CookieSpec, @stereotype BOUNDARY
+org.apache.http.impl.cookie.TestNetscapeCookieAttribHandlers, @stereotype BOUNDARY
+org.apache.http.impl.cookie.TestCookieRFC2965Spec, @stereotype BOUNDARY
+org.apache.http.impl.cookie.TestNetscapeDraftHeaderParser, @stereotype BOUNDARY
+org.apache.http.impl.cookie.TestLaxCookieAttribHandlers, @stereotype BOUNDARY
+org.apache.http.impl.cookie.TestRFC2109CookieAttribHandlers, @stereotype BOUNDARY
+org.apache.http.impl.cookie.TestDefaultCookieSpec, @stereotype BOUNDARY
+org.apache.http.impl.execchain.TestServiceUnavailableRetryExec, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.TestRedirectExec, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.TestResponseEntityWrapper, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.TestProtocolExec, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.TestConnectionHolder, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.TestMainClientExec, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.TestRetryExec, @stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.TestMinimalClientExec, @stereotype BOUNDARY COMMANDER
+org.apache.http.cookie.TestCookiePathComparator, @stereotype BOUNDARY
+org.apache.http.cookie.TestCookiePriorityComparator, @stereotype BOUNDARY COMMANDER
+org.apache.http.cookie.TestCookieOrigin, @stereotype 
+org.apache.http.auth.AuthSchemeRegistry, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.auth.Credentials, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.auth.InvalidCredentialsException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.auth.ContextAwareAuthScheme, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.auth.BasicUserPrincipal, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.auth.NTCredentials, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.auth.params.AuthPNames, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.auth.KerberosCredentials, @stereotype LAZY_CLASS@stereotype LAZY_CLASS
+org.apache.http.auth.AuthSchemeFactory, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.auth.NTUserPrincipal, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.auth.AuthenticationException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.auth.AuthSchemeProvider, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.auth.AuthState, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.auth.AUTH, @stereotype POOL@stereotype POOL
+org.apache.http.auth.AuthScope, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.auth.AuthOption, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.auth.UsernamePasswordCredentials, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.auth.AuthScheme, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.auth.MalformedChallengeException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.client.protocol.ResponseProcessCookies, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.client.protocol.ResponseContentEncoding, @stereotype POOL@stereotype POOL
+org.apache.http.client.protocol.RequestExpectContinue, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.client.protocol.RequestAuthCache, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.client.protocol.RequestClientConnControl, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.client.protocol.RequestDefaultHeaders, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.client.protocol.RequestAddCookies, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.client.protocol.RequestAcceptEncoding, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.client.RedirectStrategy, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.CookieStore, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.params.HttpClientParamConfig, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.client.params.ClientPNames, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.params.AllClientPNames, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.HttpResponseException, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.client.utils.URIBuilder, @stereotype @stereotype 
+org.apache.http.client.utils.URLEncodedUtils, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.client.utils.HttpClientUtils, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.client.utils.DateUtils, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.client.utils.URIUtils, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.client.NonRepeatableRequestException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.client.methods.Configurable, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.methods.HttpRequestWrapper, @stereotype @stereotype 
+org.apache.http.client.methods.HttpPost, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpGet, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpOptions, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.client.methods.HttpEntityEnclosingRequestBase, @stereotype @stereotype 
+org.apache.http.client.methods.AbstractExecutionAwareRequest, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.client.methods.HttpRequestBase, @stereotype @stereotype 
+org.apache.http.client.methods.AbortableHttpRequest, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.methods.HttpPut, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpTrace, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpHead, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpPatch, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpUriRequest, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.methods.HttpDelete, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.client.methods.CloseableHttpResponse, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.methods.RequestBuilder, @stereotype @stereotype 
+org.apache.http.client.methods.HttpExecutionAware, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.RedirectException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.client.ServiceUnavailableRetryStrategy, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.BackoffManager, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.entity.DeflateDecompressingEntity, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.client.entity.LazyDecompressingInputStream, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.client.entity.GzipDecompressingEntity, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.client.entity.UrlEncodedFormEntity, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.client.entity.EntityBuilder, @stereotype @stereotype 
+org.apache.http.client.entity.DecompressingEntity, @stereotype @stereotype 
+org.apache.http.client.entity.DeflateInputStream, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.client.entity.GzipCompressingEntity, @stereotype LAZY_CLASS@stereotype LAZY_CLASS
+org.apache.http.client.entity.InputStreamFactory, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.CredentialsProvider, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.AuthCache, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.ClientProtocolException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.client.HttpRequestRetryHandler, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.config.RequestConfig, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.client.config.AuthSchemes, @stereotype POOL@stereotype POOL
+org.apache.http.client.config.CookieSpecs, @stereotype POOL@stereotype POOL
+org.apache.http.client.AuthenticationStrategy, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.ConnectionBackoffStrategy, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.CircularRedirectException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.client.UserTokenHandler, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.ConnectionKeepAliveStrategy, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.routing.RouteTracker, @stereotype @stereotype 
+org.apache.http.conn.routing.RouteInfo, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.routing.HttpRoute, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.conn.routing.HttpRouteDirector, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.routing.HttpRoutePlanner, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.routing.BasicRouteDirector, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.conn.EofSensorWatcher, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.ConnectionReleaseTrigger, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.SchemePortResolver, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.ConnectionPoolTimeoutException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.conn.EofSensorInputStream, @stereotype @stereotype 
+org.apache.http.conn.ConnectTimeoutException, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.conn.HttpRoutedConnection, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.util.PublicSuffixMatcherLoader, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.util.PublicSuffixListParser, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.conn.util.InetAddressUtils, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.conn.util.PublicSuffixList, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.conn.util.PublicSuffixMatcher, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.ClientConnectionManager, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.HttpHostConnectException, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.conn.params.ConnRoutePNames, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.params.ConnManagerPNames, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.params.ConnConnectionPNames, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.UnsupportedSchemeException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.conn.socket.LayeredConnectionSocketFactory, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.socket.ConnectionSocketFactory, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.socket.PlainConnectionSocketFactory, @stereotype @stereotype 
+org.apache.http.conn.ManagedHttpClientConnection, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.scheme.SocketFactoryAdaptor, @stereotype BOUNDARY DATA_PROVIDER@stereotype BOUNDARY DATA_PROVIDER
+org.apache.http.conn.scheme.LayeredSocketFactory, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.scheme.SchemeLayeredSocketFactoryAdaptor2, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.conn.scheme.SchemeSocketFactoryAdaptor, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.conn.scheme.SchemeSocketFactory, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.scheme.SchemeRegistry, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.scheme.SocketFactory, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.scheme.LayeredSchemeSocketFactory, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.scheme.SchemeLayeredSocketFactoryAdaptor, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.conn.scheme.LayeredSocketFactoryAdaptor, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.conn.scheme.SchemeLayeredSocketFactory, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.scheme.Scheme, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.conn.ConnectionRequest, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.HttpInetSocketAddress, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.conn.ManagedClientConnection, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.ClientConnectionRequest, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.ssl.StrictHostnameVerifier, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.ssl.TrustStrategy, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.ssl.BrowserCompatHostnameVerifier, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.ssl.NoopHostnameVerifier, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.ssl.SSLConnectionSocketFactory, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.ssl.AbstractVerifier, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.conn.ssl.AllowAllHostnameVerifier, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.conn.ssl.SSLInitializationException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.conn.ssl.X509HostnameVerifier, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.ssl.DefaultHostnameVerifier, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.conn.ssl.TrustSelfSignedStrategy, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.HttpClientConnectionOperator, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.HttpClientConnectionManager, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.DnsResolver, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.impl.auth.BasicSchemeFactory, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.impl.auth.NTLMEngineException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.impl.auth.SPNegoSchemeFactory, @stereotype @stereotype 
+org.apache.http.impl.auth.NTLMScheme, @stereotype @stereotype 
+org.apache.http.impl.auth.SPNegoScheme, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.auth.NTLMEngine, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.impl.auth.UnsupportedDigestAlgorithmException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.impl.auth.AuthSchemeBase, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.impl.auth.KerberosScheme, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.auth.NTLMEngineImpl, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.auth.KerberosSchemeFactory, @stereotype @stereotype 
+org.apache.http.impl.auth.GGSSchemeBase, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.auth.HttpAuthenticator, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.auth.BasicScheme, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.impl.auth.NTLMSchemeFactory, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.impl.auth.DigestScheme, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.impl.auth.DigestSchemeFactory, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.impl.auth.RFC2617Scheme, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.impl.auth.HttpEntityDigester, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.impl.client.CookieSpecRegistries, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.SystemDefaultCredentialsProvider, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.EntityEnclosingRequestWrapper, @stereotype @stereotype 
+org.apache.http.impl.client.DefaultUserTokenHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.SystemClock, @stereotype PURE_CONTROLLER@stereotype PURE_CONTROLLER
+org.apache.http.impl.client.MinimalHttpClient, @stereotype @stereotype 
+org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.HttpRequestFutureTask, @stereotype @stereotype 
+org.apache.http.impl.client.NoopUserTokenHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.RedirectLocations, @stereotype @stereotype 
+org.apache.http.impl.client.DefaultServiceUnavailableRetryStrategy, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.impl.client.ProxyAuthenticationStrategy, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.LaxRedirectStrategy, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.Clock, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.impl.client.AuthenticationStrategyImpl, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.BasicCredentialsProvider, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.InternalHttpClient, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.impl.client.DefaultRedirectStrategy, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.StandardHttpRequestRetryHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.BasicAuthCache, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.HttpClients, @stereotype PURE_CONTROLLER@stereotype PURE_CONTROLLER
+org.apache.http.impl.client.HttpClientBuilder, @stereotype COMMANDER@stereotype COMMANDER
+org.apache.http.impl.client.ProxyClient, @stereotype @stereotype 
+org.apache.http.impl.client.DefaultHttpRequestRetryHandler, @stereotype BOUNDARY DATA_PROVIDER@stereotype BOUNDARY DATA_PROVIDER
+org.apache.http.impl.client.AIMDBackoffManager, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.FutureRequestExecutionMetrics, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.impl.client.BasicResponseHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.DefaultClientConnectionReuseStrategy, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.NullBackoffStrategy, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.TargetAuthenticationStrategy, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.DefaultBackoffStrategy, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.RequestWrapper, @stereotype @stereotype 
+org.apache.http.impl.client.BasicCookieStore, @stereotype @stereotype 
+org.apache.http.impl.client.IdleConnectionEvictor, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.impl.conn.DefaultHttpResponseParserFactory, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.impl.conn.DefaultProxyRoutePlanner, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.impl.conn.ConnectionShutdownException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.impl.conn.LoggingInputStream, @stereotype COMMANDER@stereotype COMMANDER
+org.apache.http.impl.conn.LoggingManagedHttpClientConnection, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.impl.conn.DefaultManagedHttpClientConnection, @stereotype @stereotype 
+org.apache.http.impl.conn.CPoolEntry, @stereotype COMMANDER@stereotype COMMANDER
+org.apache.http.impl.conn.Wire, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.DefaultRoutePlanner, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.ManagedHttpClientConnectionFactory, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.impl.conn.SystemDefaultRoutePlanner, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.InMemoryDnsResolver, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.DefaultSchemePortResolver, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.DefaultHttpResponseParser, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.CPoolProxy, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager, @stereotype @stereotype 
+org.apache.http.impl.conn.BasicHttpClientConnectionManager, @stereotype COMMANDER@stereotype COMMANDER
+org.apache.http.impl.conn.SystemDefaultDnsResolver, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.CPool, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.LoggingOutputStream, @stereotype COMMANDER@stereotype COMMANDER
+org.apache.http.impl.cookie.RFC2109Spec, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.RFC6265CookieSpecProvider, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.cookie.RFC2965SpecProvider, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.cookie.RFC2109VersionHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.LaxMaxAgeHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.IgnoreSpecProvider, @stereotype COMMANDER@stereotype COMMANDER
+org.apache.http.impl.cookie.RFC2965CommentUrlAttributeHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.BasicSecureHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.RFC2965DomainAttributeHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.RFC2965Spec, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.RFC2965DiscardAttributeHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.BasicPathHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.AbstractCookieAttributeHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.PublicSuffixDomainFilter, @stereotype @stereotype 
+org.apache.http.impl.cookie.RFC2965PortAttributeHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.NetscapeDraftHeaderParser, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.impl.cookie.BasicClientCookie, @stereotype @stereotype 
+org.apache.http.impl.cookie.RFC2109DomainHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.RFC2965VersionAttributeHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.BasicMaxAgeHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.BasicCommentHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.NetscapeDraftSpecProvider, @stereotype COMMANDER@stereotype COMMANDER
+org.apache.http.impl.cookie.RFC2109SpecProvider, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.cookie.NetscapeDomainHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.BasicDomainHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.DefaultCookieSpecProvider, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.cookie.RFC6265StrictSpec, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.impl.cookie.DefaultCookieSpec, @stereotype BOUNDARY DATA_PROVIDER@stereotype BOUNDARY DATA_PROVIDER
+org.apache.http.impl.cookie.IgnoreSpec, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.RFC6265CookieSpec, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.RFC6265CookieSpecBase, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.impl.cookie.RFC6265LaxSpec, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.impl.cookie.CookieSpecBase, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.BasicClientCookie2, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.impl.cookie.AbstractCookieSpec, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.impl.cookie.LaxExpiresHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.BasicExpiresHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.NetscapeDraftSpec, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.execchain.RedirectExec, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.TunnelRefusedException, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.impl.execchain.MainClientExec, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.execchain.RequestEntityProxy, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.impl.execchain.MinimalClientExec, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.execchain.ServiceUnavailableRetryExec, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.ResponseEntityProxy, @stereotype COMMANDER@stereotype COMMANDER
+org.apache.http.impl.execchain.RetryExec, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.BackoffStrategyExec, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.ConnectionHolder, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.impl.execchain.ProtocolExec, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.execchain.RequestAbortedException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.impl.execchain.HttpResponseProxy, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.impl.execchain.ClientExecChain, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.MalformedCookieException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.cookie.SetCookie, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.CookiePriorityComparator, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.cookie.SM, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.CookieIdentityComparator, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.cookie.params.CookieSpecPNames, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.CookieOrigin, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.cookie.CookieSpecProvider, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.CookiePathComparator, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.cookie.ClientCookie, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.CookieAttributeHandler, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.CookieRestrictionViolationException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.cookie.Cookie, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.CommonCookieAttributeHandler, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.SetCookie2, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.CookieSpecFactory, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.CookieSpec, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.cookie.CookieSpecRegistry, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.auth.params.AuthParams, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.auth.params.AuthParamBean, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.client.protocol.ClientContext, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.protocol.ResponseAuthCache, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.client.protocol.RequestAuthenticationBase, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.client.protocol.RequestTargetAuthentication, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.client.protocol.RequestProxyAuthentication, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.client.protocol.ClientContextConfigurer, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.client.params.CookiePolicy, @stereotype POOL@stereotype POOL
+org.apache.http.client.params.ClientParamBean, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.client.params.AuthPolicy, @stereotype POOL@stereotype POOL
+org.apache.http.client.params.HttpClientParams, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.client.utils.Punycode, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.client.utils.Idn, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.utils.JdkIdn, @stereotype BOUNDARY DATA_PROVIDER@stereotype BOUNDARY DATA_PROVIDER
+org.apache.http.client.utils.Rfc3492Idn, @stereotype BOUNDARY DATA_PROVIDER@stereotype BOUNDARY DATA_PROVIDER
+org.apache.http.client.RequestDirector, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.AuthenticationHandler, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.client.RedirectHandler, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.BasicEofSensorWatcher, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.conn.ClientConnectionManagerFactory, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.MultihomePlainSocketFactory, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.OperatedClientConnection, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.params.ConnRouteParamBean, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.conn.params.ConnRouteParams, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.params.ConnConnectionParamBean, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.conn.params.ConnPerRoute, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.params.ConnManagerParamBean, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.conn.params.ConnManagerParams, @stereotype BOUNDARY DATA_PROVIDER@stereotype BOUNDARY DATA_PROVIDER
+org.apache.http.conn.params.ConnPerRouteBean, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.conn.ClientConnectionOperator, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.scheme.PlainSocketFactory, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.scheme.HostNameResolver, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.BasicManagedEntity, @stereotype COMMANDER@stereotype COMMANDER
+org.apache.http.conn.ssl.SSLSocketFactory, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.ssl.SSLContextBuilder, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.conn.ssl.SSLContexts, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.conn.ssl.PrivateKeyStrategy, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.conn.ssl.PrivateKeyDetails, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.impl.auth.NegotiateSchemeFactory, @stereotype @stereotype 
+org.apache.http.impl.auth.NegotiateScheme, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.auth.SpnegoTokenGenerator, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.impl.client.TunnelRefusedException, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.impl.client.ContentEncodingHttpClient, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.ClientParamsStack, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.impl.client.DefaultRedirectHandler, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.CloseableHttpResponseProxy, @stereotype BOUNDARY DATA_PROVIDER@stereotype BOUNDARY DATA_PROVIDER
+org.apache.http.impl.client.RoutedRequest, @stereotype DATA_CLASS@stereotype DATA_CLASS
+org.apache.http.impl.client.AuthenticationStrategyAdaptor, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.impl.client.DefaultHttpClient, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.impl.client.HttpAuthenticator, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.DefaultProxyAuthenticationHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.DefaultRequestDirector, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.client.DefaultTargetAuthenticationHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.SystemDefaultHttpClient, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.impl.client.AbstractHttpClient, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.impl.client.AbstractAuthenticationHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.client.DefaultRedirectStrategyAdaptor, @stereotype @stereotype 
+org.apache.http.impl.conn.DefaultResponseParser, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.HttpPoolEntry, @stereotype @stereotype 
+org.apache.http.impl.conn.AbstractPooledConnAdapter, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.AbstractPoolEntry, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.impl.conn.SingleClientConnManager, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.impl.conn.HttpConnPool, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.impl.conn.ManagedClientConnectionImpl, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.AbstractClientConnAdapter, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.BasicClientConnectionManager, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.impl.conn.ProxySelectorRoutePlanner, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.tsccm.BasicPoolEntry, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.impl.conn.tsccm.AbstractConnPool, @stereotype COMMANDER@stereotype COMMANDER
+org.apache.http.impl.conn.tsccm.WaitingThread, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.impl.conn.tsccm.RouteSpecificPool, @stereotype @stereotype 
+org.apache.http.impl.conn.tsccm.PoolEntryRequest, @stereotype INTERFACE@stereotype INTERFACE
+org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager, @stereotype @stereotype 
+org.apache.http.impl.conn.tsccm.ConnPoolByRoute, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.tsccm.BasicPooledConnAdapter, @stereotype LAZY_CLASS@stereotype LAZY_CLASS
+org.apache.http.impl.conn.tsccm.BasicPoolEntryRef, @stereotype DATA_PROVIDER@stereotype DATA_PROVIDER
+org.apache.http.impl.conn.tsccm.WaitingThreadAborter, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.LoggingSessionInputBuffer, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.impl.conn.IdleConnectionHandler, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.PoolingClientConnectionManager, @stereotype @stereotype 
+org.apache.http.impl.conn.DefaultClientConnectionOperator, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.SchemeRegistryFactory, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.impl.conn.DefaultHttpRoutePlanner, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.conn.LoggingSessionOutputBuffer, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.impl.conn.DefaultClientConnection, @stereotype ENTITY@stereotype ENTITY
+org.apache.http.impl.cookie.RFC2109SpecFactory, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.IgnoreSpecFactory, @stereotype FACTORY@stereotype FACTORY
+org.apache.http.impl.cookie.BestMatchSpec, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.impl.cookie.PublicSuffixFilter, @stereotype MINIMAL_ENTITY@stereotype MINIMAL_ENTITY
+org.apache.http.impl.cookie.BrowserCompatSpecFactory, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.DateParseException, @stereotype DEGENERATE@stereotype DEGENERATE
+org.apache.http.impl.cookie.NetscapeDraftSpecFactory, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.PublicSuffixListParser, @stereotype BOUNDARY COMMANDER@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.cookie.BestMatchSpecFactory, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.BrowserCompatSpec, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.DateUtils, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.BrowserCompatVersionAttributeHandler, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.impl.cookie.RFC2965SpecFactory, @stereotype BOUNDARY@stereotype BOUNDARY
+org.apache.http.cookie.params.CookieSpecParamBean, @stereotype DATA_CLASS@stereotype DATA_CLASS

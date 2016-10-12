@@ -1,0 +1,85 @@
+ExpressionParser, CLASS/INTERFACE, 8, 1, , org.springframework.expression.spel.standard.SpelExpressionParser, @
+parser, UNIDENTIFIED-TYPE, 8, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.parser, @
+SpelExpressionParser(), METHOD, 8, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.mockSpelExpressionParser(), @
+Expression, CLASS/INTERFACE, 8, 1, , org.springframework.expression.Expression, @
+parser.parseExpression(), METHOD, 8, 1, , org.springframework.expression.spel.standard.SpelExpressionParser.parseExpression(), @
+String, CLASS/INTERFACE, 8, 1, , org.springframework.expression.spel.standard.Tokenizer.expressionString, @
+message, UNIDENTIFIED-TYPE, 8, 1, , org.springframework.expression.spel.SpelEvaluationException.message, @
+exp.getValue(), METHOD, 8, 1, , org.springframework.expression.Expression.getValue(), @
+ExpressionParser, CLASS/INTERFACE, 23, 1, , org.springframework.expression.spel.standard.SpelExpressionParser, @
+parser, UNIDENTIFIED-TYPE, 23, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.parser, @
+SpelExpressionParser(), METHOD, 23, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.mockSpelExpressionParser(), @
+Expression, CLASS/INTERFACE, 23, 1, , org.springframework.expression.Expression, @
+parser.parseExpression(), METHOD, 23, 1, , org.springframework.expression.spel.standard.SpelExpressionParser.parseExpression(), @
+World.concat(), METHOD, 23, 1, , org.springframework.expression.spel.SpelCompilationCoverageTests.concat(), @
+String, CLASS/INTERFACE, 23, 1, , org.springframework.expression.spel.standard.Tokenizer.expressionString, @
+message, UNIDENTIFIED-TYPE, 23, 1, , org.springframework.expression.spel.SpelEvaluationException.message, @
+exp.getValue(), METHOD, 23, 1, , org.springframework.expression.Expression.getValue(), @
+ExpressionParser, CLASS/INTERFACE, 29, 1, , org.springframework.expression.spel.standard.SpelExpressionParser, @
+parser, UNIDENTIFIED-TYPE, 29, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.parser, @
+SpelExpressionParser(), METHOD, 29, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.mockSpelExpressionParser(), @
+getBytes(), METHOD, 29, 1, , org.springframework.http.converter.json.GsonFactoryBeanTests.ByteArrayBean.getBytes(), @
+Expression, CLASS/INTERFACE, 29, 1, , org.springframework.expression.Expression, @
+parser.parseExpression(), METHOD, 29, 1, , org.springframework.expression.spel.standard.SpelExpressionParser.parseExpression(), @
+bytes, UNIDENTIFIED-TYPE, 29, 1, , org.springframework.expression.spel.testresources.ArrayContainer.bytes, @
+exp.getValue(), METHOD, 29, 1, , org.springframework.expression.Expression.getValue(), @
+ExpressionParser, CLASS/INTERFACE, 37, 1, , org.springframework.expression.spel.standard.SpelExpressionParser, @
+parser, UNIDENTIFIED-TYPE, 37, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.parser, @
+SpelExpressionParser(), METHOD, 37, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.mockSpelExpressionParser(), @
+getBytes(), METHOD, 37, 1, , org.springframework.http.converter.json.GsonFactoryBeanTests.ByteArrayBean.getBytes(), @
+Expression, CLASS/INTERFACE, 37, 1, , org.springframework.expression.Expression, @
+parser.parseExpression(), METHOD, 37, 1, , org.springframework.expression.spel.standard.SpelExpressionParser.parseExpression(), @
+length, UNIDENTIFIED-TYPE, 37, 1, , org.springframework.jdbc.core.support.SqlLobValue.length, @
+exp.getValue(), METHOD, 37, 1, , org.springframework.expression.Expression.getValue(), @
+ExpressionParser, CLASS/INTERFACE, 43, 1, , org.springframework.expression.spel.standard.SpelExpressionParser, @
+parser, UNIDENTIFIED-TYPE, 43, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.parser, @
+SpelExpressionParser(), METHOD, 43, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.mockSpelExpressionParser(), @
+Expression, CLASS/INTERFACE, 43, 1, , org.springframework.expression.Expression, @
+parser.parseExpression(), METHOD, 43, 1, , org.springframework.expression.spel.standard.SpelExpressionParser.parseExpression(), @
+String(), METHOD, 43, 1, , org.springframework.context.expression.AnnotatedElementKey.toString(), @
+String, CLASS/INTERFACE, 43, 1, , org.springframework.expression.spel.standard.Tokenizer.expressionString, @
+message, UNIDENTIFIED-TYPE, 43, 1, , org.springframework.expression.spel.SpelEvaluationException.message, @
+exp.getValue(), METHOD, 43, 1, , org.springframework.expression.Expression.getValue(), @
+Create, CLASS/INTERFACE, 55, 1, , org.springframework.orm.jdo.support.SpringPersistenceManagerProxyBean.allowCreate, @
+calendar, UNIDENTIFIED-TYPE, 55, 1, , org.springframework.scheduling.support.CronTriggerTests.calendar, @
+GregorianCalendar(), METHOD, 55, 1, , org.springframework.oxm.jaxb.StandardClasses.standardClassGregorianCalendar(), @
+c.set(), UNIDENTIFIED-TYPE, 55, 1, , org.springframework.expression.spel.SpelCompilationCoverageTests.TestClass7.reset(), @
+constructor, UNIDENTIFIED-TYPE, 55, 1, , org.springframework.web.method.HandlerMethod.HandlerMethodParameter.constructor, @
+arguments, UNIDENTIFIED-TYPE, 55, 1, , org.springframework.context.expression.MethodBasedEvaluationContext.arguments, @
+nationality.(), UNIDENTIFIED-TYPE, 55, 1, , org.springframework.context.annotation.configuration.a.BaseConfig.reproBar(), @
+Inventor, CLASS/INTERFACE, 55, 1, , org.springframework.expression.spel.testresources.Inventor, @
+tesla, UNIDENTIFIED-TYPE, 55, 1, , org.springframework.expression.spel.SpelDocumentationTests.tesla, @
+Inventor(), METHOD, 55, 1, , org.springframework.expression.spel.testresources.Inventor(), @
+c.getTime(), METHOD, 55, 1, , org.springframework.jdbc.support.rowset.ResultSetWrappingSqlRowSet.getTime(), @
+ExpressionParser, CLASS/INTERFACE, 55, 1, , org.springframework.expression.spel.standard.SpelExpressionParser, @
+parser, UNIDENTIFIED-TYPE, 55, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.parser, @
+SpelExpressionParser(), METHOD, 55, 1, , org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.mockSpelExpressionParser(), @
+Expression, CLASS/INTERFACE, 55, 1, , org.springframework.expression.Expression, @
+parser.parseExpression(), METHOD, 55, 1, , org.springframework.expression.spel.standard.SpelExpressionParser.parseExpression(), @
+EvaluationContext, CLASS/INTERFACE, 55, 1, , org.springframework.context.expression.MethodBasedEvaluationContext, @
+context, UNIDENTIFIED-TYPE, 55, 1, , org.springframework.expression.spel.CachedMethodExecutorTests.context, @
+StandardEvaluationContext(), METHOD, 55, 1, , org.springframework.expression.spel.support.StandardComponentsTests.testStandardEvaluationContext(), @
+String, CLASS/INTERFACE, 55, 1, , org.springframework.expression.spel.standard.Tokenizer.expressionString, @
+exp.getValue(), METHOD, 55, 1, , org.springframework.expression.Expression.getValue(), @
+Create, CLASS/INTERFACE, 73, 1, 1. Getting Started with Spring, org.springframework.orm.jdo.support.SpringPersistenceManagerProxyBean.allowCreate, @
+calendar, UNIDENTIFIED-TYPE, 73, 1, 1. Getting Started with Spring, org.springframework.scheduling.support.CronTriggerTests.calendar, @
+GregorianCalendar(), METHOD, 73, 1, 1. Getting Started with Spring, org.springframework.oxm.jaxb.StandardClasses.standardClassGregorianCalendar(), @
+c.set(), UNIDENTIFIED-TYPE, 73, 1, 1. Getting Started with Spring, org.springframework.expression.spel.SpelCompilationCoverageTests.TestClass7.reset(), @
+constructor, UNIDENTIFIED-TYPE, 73, 1, 1. Getting Started with Spring, org.springframework.web.method.HandlerMethod.HandlerMethodParameter.constructor, @
+arguments, UNIDENTIFIED-TYPE, 73, 1, 1. Getting Started with Spring, org.springframework.context.expression.MethodBasedEvaluationContext.arguments, @
+nationality.(), UNIDENTIFIED-TYPE, 73, 1, 1. Getting Started with Spring, org.springframework.context.annotation.configuration.a.BaseConfig.reproBar(), @
+Inventor, CLASS/INTERFACE, 73, 1, 1. Getting Started with Spring, org.springframework.expression.spel.testresources.Inventor, @
+tesla, UNIDENTIFIED-TYPE, 73, 1, 1. Getting Started with Spring, org.springframework.expression.spel.SpelDocumentationTests.tesla, @
+Inventor(), METHOD, 73, 1, 1. Getting Started with Spring, org.springframework.expression.spel.testresources.Inventor(), @
+c.getTime(), METHOD, 73, 1, 1. Getting Started with Spring, org.springframework.jdbc.support.rowset.ResultSetWrappingSqlRowSet.getTime(), @
+ExpressionParser, CLASS/INTERFACE, 73, 1, 1. Getting Started with Spring, org.springframework.expression.spel.standard.SpelExpressionParser, @
+parser, UNIDENTIFIED-TYPE, 73, 1, 1. Getting Started with Spring, org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.parser, @
+SpelExpressionParser(), METHOD, 73, 1, 1. Getting Started with Spring, org.springframework.context.expression.CachedExpressionEvaluatorTests.TestExpressionEvaluator.mockSpelExpressionParser(), @
+Expression, CLASS/INTERFACE, 73, 1, 1. Getting Started with Spring, org.springframework.expression.Expression, @
+parser.parseExpression(), METHOD, 73, 1, 1. Getting Started with Spring, org.springframework.expression.spel.standard.SpelExpressionParser.parseExpression(), @
+String, CLASS/INTERFACE, 73, 1, 1. Getting Started with Spring, org.springframework.expression.spel.standard.Tokenizer.expressionString, @
+exp.getValue(), METHOD, 73, 1, 1. Getting Started with Spring, org.springframework.expression.Expression.getValue(), @
+Expression, CLASS/INTERFACE, 104, 1, 2.1 Dependency Injection and Inversion of Control, org.springframework.expression.Expression, @
+parser.parseExpression(), METHOD, 104, 1, 2.1 Dependency Injection and Inversion of Control, org.springframework.expression.spel.standard.SpelExpressionParser.parseExpression(), @
+result, UNIDENTIFIED-TYPE, 104, 1, 2.1 Dependency Injection and Inversion of Control, org.springframework.web.context.request.async.DeferredResult.result, @
+exp.getValue(), METHOD, 104, 1, 2.1 Dependency Injection and Inversion of Control, org.springframework.expression.Expression.getValue(), @

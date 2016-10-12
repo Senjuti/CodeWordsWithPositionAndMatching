@@ -1,0 +1,220 @@
+819,819,Getting Started
+1674,1674,Building Your First App
+2599,2599,Creating an Android Project
+3540,3540,Running Your App
+4702,4702,Building a Simple User Interface
+4726,4726,Starting Another Activity
+5601,5601,Supporting Different Devices
+6565,6565,Supporting Different Languages
+7568,7568,Supporting Different Screens
+8529,8529,Supporting Different Platform Versions
+9464,9464,Managing the Activity Lifecycle
+10599,10599,Starting an Activity
+11614,11614,Pausing and Resuming an Activity
+12656,12656,Stopping and Restarting an Activity
+13689,13689,Recreating an Activity
+14586,14586,Building a Dynamic UI with Fragments
+15565,15565,Creating a Fragment
+16580,16580,Building a Flexible UI
+17582,17582,Communicating with Other Fragments
+18501,18501,Saving Data
+19474,19474,Saving Key-Value Sets
+20706,20706,Saving Files
+21872,21872,Saving Data in SQL Databases
+22796,22796,Interacting with Other Apps
+23903,23903,Sending the User to Another App
+24937,24937,Getting a Result from an Activity
+26022,26022,Allowing Other Apps to Start Your Activity
+26927,26927,Working with System Permissions
+27708,27708,Building Apps with Content Sharing
+28579,28579,Sharing Simple Data
+29584,29584,Sending Simple Data to Other Apps
+30555,30555,Receiving Simple Data from Other Apps
+31506,31506,Adding an Easy Share Action
+32413,32413,Sharing Files
+33387,33387,Setting Up File Sharing
+34511,34511,Sharing a File
+35487,35487,Requesting a Shared File
+36425,36425,Retrieving File Information
+37313,37313,Sharing Files with NFC
+38434,38434,Sending Files to Another Device
+39577,39577,Receiving Files from Another Device
+40358,40358,Building Apps with Multimedia
+41246,41246,Managing Audio Playback
+42220,42220,Controlling Your App’s Volume and Playback
+43222,43222,Managing Audio Focus
+44134,44134,Dealing with Audio Output Hardware
+45021,45021,Capturing Photos
+46180,46180,Taking Photos Simply
+47114,47114,Recording Videos Simply
+48202,48202,Controlling the Camera
+49094,49094,Printing Content
+49877,49877,Building Apps with Graphics & Animation
+50795,50795,Displaying Bitmaps Efficiently
+51772,51772,Loading Large Bitmaps Efficiently
+52822,52822,Processing Bitmaps Off the UI Thread
+54008,54008,Caching Bitmaps
+55145,55145,Managing Bitmap Memory
+56365,56365,Displaying Bitmaps in Your UI
+57268,57268,Displaying Graphics with OpenGL ES
+58300,58300,Building an OpenGL ES Environment
+59277,59277,Defining Shapes
+60335,60335,Drawing Shapes
+61336,61336,Applying Projection and Camera Views
+62255,62255,Adding Motion
+63243,63243,Responding to Touch Events
+64152,64152,Animating Views Using Scenes and Transitions
+65068,65068,Adding Animations
+66112,66112,Crossfading Two Views
+67319,67319,Using ViewPager for Screen Slides
+68548,68548,Displaying Card Flip Animations
+69702,69702,Zooming a View
+70618,70618,Animating Layout Changes
+71400,71400,Building Apps with Connectivity & the Cloud
+72293,72293,Connecting Devices Wirelessly
+73201,73201,Performing Network Operations
+74300,74300,Connecting to the Network
+75558,75558,Managing Network Usage
+76932,76932,Parsing XML Data
+77809,77809,Transferring Data Without Draining the Battery
+78803,78803,Optimizing Downloads for Efficient Network Access
+79728,79728,Minimizing the Effect of Regular Updates
+80638,80638,Redundant Downloads are Redundant
+81538,81538,Modifying your Download Patterns Based on the Connectivity Type
+82342,82342,Backing up App Data to the Cloud
+83304,83304,Transferring Data Using Sync Adapters
+84423,84423,Creating a Stub Authenticator
+85454,85454,Creating a Stub Content Provider
+86933,86933,Creating a Sync Adapter
+88219,88219,Running a Sync Adapter
+89169,89169,Transmitting Network Data Using Volley
+89953,89953,Building Apps with Location & Maps
+90881,90881,Making Your App Location-Aware
+91897,91897,Getting the Last Known Location
+92979,92979,Changing Location Settings
+94118,94118,Receiving Location Updates
+95416,95416,Displaying a Location Address
+96682,96682,Creating and Monitoring Geofences
+97465,97465,Building Apps with Contacts & Sign-In
+98390,98390,Accessing Contacts Data
+100024,100024,Retrieving a List of Contacts
+101229,101229,Retrieving Details for a Contact
+102358,102358,Modifying Contacts Using Intents
+103820,103820,Displaying the Quick Contact Badge
+104620,104620,Building Apps for Wearables
+105501,105501,Adding Wearable Features to Notifications
+106423,106423,Creating Wearable Apps
+107311,107311,Creating Custom UIs for Wear Devices
+108266,108266,Sending and Syncing Data
+109177,109177,Creating Watch Faces
+109977,109977,Building Apps for TV
+110874,110874,Building TV Apps
+111785,111785,Building TV Playback Apps
+113058,113058,Creating a Catalog Browser
+114134,114134,Building a Details View
+115210,115210,Building a Details View
+116213,116213,Displaying a Now Playing Card
+117424,117424,Adding a Guided Step
+118317,118317,Enabling Background Playback
+119195,119195,Helping Users Find Your Content on TV
+120386,120386,Recommending TV Content
+121587,121587,Making TV Apps Searchable
+122556,122556,Searching within TV Apps
+123458,123458,Building TV Channels
+124453,124453,Developing a TV Input Service
+125631,125631,Working with Channel Data
+126761,126761,Managing User Interaction
+127687,127687,Building Apps for Auto
+128473,128473,Best Practices for Interaction and Engagement
+129349,129349,Designing Effective Navigation
+130253,130253,Implementing Effective Navigation
+131182,131182,Notifying the User
+132098,132098,Supporting Swipe-to-Refresh
+133051,133051,Adding Swipe-to-Refresh To Your App
+134017,134017,Responding to a Refresh Request
+134897,134897,Adding Search Functionality
+135915,135915,Setting Up the Search Interface
+136954,136954,Storing and Searching for Data
+137867,137867,Remaining Backward Compatible
+138776,138776,Making Your App Content Searchable by Google
+139746,139746,Enabling Deep Links for App Content
+140684,140684,Specifying App Content for Indexing
+141468,141468,Best Practices for User Interface
+142410,142410,Designing for Multiple Screens
+143792,143792,Supporting Different Screen Sizes
+144803,144803,Supporting Different Densities
+145928,145928,Implementing Adaptative UI Flows
+146854,146854,Adding the App Bar
+147847,147847,Setting Up the App Bar
+148821,148821,Adding and Handling Actions
+149776,149776,Adding an Up Action
+150834,150834,Action Views and Action Providers
+151752,151752,Showing Pop-Up Messages
+152764,152764,Building and Displaying a Pop-Up Message
+153682,153682,Adding an Action to a Message
+154587,154587,Creating Custom Views
+155680,155680,Creating a View Class
+156760,156760,Custom Drawing
+157860,157860,Making the View Interactive
+158751,158751,Optimizing the View
+159634,159634,Creating Backward-Compatible UIs
+160517,160517,Implementing Accessibility
+161528,161528,Developing Accessible Applications
+162628,162628,Developing an Accessibility Service
+163712,163712,Accessibility Testing Checklist
+164659,164659,Managing the System UI
+165629,165629,Material Design for Developers
+166410,166410,Best Practices for User Input
+167336,167336,Using Touch Gestures
+168218,168218,Handling Keyboard Input
+169215,169215,Specifying the Input Method Type
+170179,170179,Handling Input Method Visibility
+171169,171169,Supporting Keyboard Navigation
+172104,172104,Handling Keyboard Actions
+172991,172991,Supporting Game Controllers
+174452,174452,Handling Controller Actions
+175904,175904,Supporting Controllers Across Android Versions
+176864,176864,Supporting Multiple Game Controllers
+177646,177646,Best Practices for Background Jobs
+178545,178545,Running in a Background Service
+179508,179508,Creating a Background Service
+180422,180422,Sending Work Requests to the Background Service
+181452,181452,Reporting Work Status
+182360,182360,Loading Data in the Background
+183253,183253,Managing Device Awake State
+184040,184040,Best Practices for Performance
+184931,184931,Improving Layout Performance
+185913,185913,Optimizing Layout Hierarchies
+186884,186884,Re-using Layouts with <include/>
+187790,187790,Loading Views On Demand
+188733,188733,Making ListView Scrolling Smooth
+189661,189661,Optimizing Battery Life
+190595,190595,Reducing Network Battery Drain
+191879,191879,Optimizing for Doze and App Standby
+192890,192890,Monitoring the Battery Level and Charging State
+193830,193830,Determining and Monitoring the Docking State and Type
+194771,194771,Determining and Monitoring the Connectivity Status
+195700,195700,Manipulating Broadcast Receivers On Demand
+196634,196634,Reducing Network Battery Drain
+197544,197544,Sending Operations to Multiple Threads
+198483,198483,Specifying the Code to Run on a Thread
+199551,199551,Creating a Manager for Multiple Threads
+200528,200528,Running Code on a Thread Pool Thread
+201620,201620,Communicating with the UI Thread
+202401,202401,Best Practices for Security & Privacy
+203182,203182,Best Practices for Permissions and Identifiers
+204077,204077,Best Practices for Testing
+204966,204966,Building Effective Unit Tests
+205868,205868,Automating User Interface Tests
+206748,206748,Testing App Component Integrations
+207529,207529,Using Google Play to Distribute & Monetize
+208401,208401,Selling In-app Products
+209464,209464,Preparing Your In-app Billing Application
+210378,210378,Establishing In-app Billing Products for Sale
+211339,211339,Purchasing In-app Billing Products
+212223,212223,Testing Your In-app Billing Application
+213120,213120,Maintaining Multiple APKs
+214321,214321,Creating Multiple APKs for Different API Levels
+215495,215495,Creating Multiple APKs for Different Screen Sizes
+216615,216615,Creating Multiple APKs for Different GL Textures
+217914,217914,Creating Multiple APKs with 2+ Dimensions

@@ -1,0 +1,2461 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+                            <title>Intercept Execution - Stripes Wiki - Stripes Framework Wiki</title>
+    
+        
+
+                        
+    
+                        
+    
+
+    
+                
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+<meta charset="UTF-8">
+<meta id="confluence-context-path" name="confluence-context-path" content="/wiki">
+<meta id="confluence-base-url" name="confluence-base-url" content="https://stripesframework.atlassian.net/wiki">
+
+<meta id="atlassian-token" name="atlassian-token" content="2b691def484e40540ceea1998a2c12ce7f7b5929">
+
+<meta id="confluence-space-key" name="confluence-space-key" content="STRIPES">
+<script type="text/javascript">
+        var contextPath = '/wiki';
+</script>
+
+    
+
+    <meta name="confluence-request-time" content="1467830080711">
+        
+    
+        
+            <meta name="ajs-is-space-admin" content=""> <meta name="ajs-has-space-config" content="">
+            <style>.ia-fixed-sidebar, .ia-splitter-left {width: 285px;}.theme-default .ia-splitter #main {margin-left: 285px;}.ia-fixed-sidebar {visibility: hidden;}</style>
+            <meta name="ajs-use-keyboard-shortcuts" content="true">
+            <meta name="ajs-discovered-plugin-features" content="$discoveredList">
+            <meta name="ajs-keyboardshortcut-hash" content="7154fdca9018459500c1eb2685780605">
+            <meta id="team-calendars-has-jira-link" content="true">
+            <meta name="ajs-team-calendars-display-time-format" content="displayTimeFormat12">
+            <meta id="team-calendars-display-week-number" content="false">
+            <meta id="team-calendars-user-timezone" content="America/Chicago">
+            <script type="text/x-template" id="team-calendars-messages" title="team-calendars-messages"><fieldset class="i18n hidden"><input type="hidden" name="calendar3.month.long.july" value="July"><input type="hidden" name="calendar3.day.short.wednesday" value="Wed"><input type="hidden" name="calendar3.day.short.thursday" value="Thu"><input type="hidden" name="calendar3.month.short.march" value="Mar"><input type="hidden" name="calendar3.month.long.april" value="April"><input type="hidden" name="calendar3.month.long.october" value="October"><input type="hidden" name="calendar3.month.long.august" value="August"><input type="hidden" name="calendar3.month.short.july" value="Jul"><input type="hidden" name="calendar3.month.short.may" value="May"><input type="hidden" name="calendar3.month.short.november" value="Nov"><input type="hidden" name="calendar3.day.long.friday" value="Friday"><input type="hidden" name="calendar3.day.long.sunday" value="Sunday"><input type="hidden" name="calendar3.day.long.saturday" value="Saturday"><input type="hidden" name="calendar3.month.short.april" value="Apr"><input type="hidden" name="calendar3.day.long.wednesday" value="Wednesday"><input type="hidden" name="calendar3.month.long.december" value="December"><input type="hidden" name="calendar3.month.short.october" value="Oct"><input type="hidden" name="calendar3.day.long.monday" value="Monday"><input type="hidden" name="calendar3.month.short.june" value="Jun"><input type="hidden" name="calendar3.day.short.monday" value="Mon"><input type="hidden" name="calendar3.day.short.tuesday" value="Tue"><input type="hidden" name="calendar3.day.short.saturday" value="Sat"><input type="hidden" name="calendar3.month.long.march" value="March"><input type="hidden" name="calendar3.month.long.june" value="June"><input type="hidden" name="calendar3.month.short.february" value="Feb"><input type="hidden" name="calendar3.month.short.august" value="Aug"><input type="hidden" name="calendar3.month.short.december" value="Dec"><input type="hidden" name="calendar3.day.short.sunday" value="Sun"><input type="hidden" name="calendar3.month.long.february" value="February"><input type="hidden" name="calendar3.day.long.tuesday" value="Tuesday"><input type="hidden" name="calendar3.month.long.may" value="May"><input type="hidden" name="calendar3.month.long.september" value="September"><input type="hidden" name="calendar3.month.long.november" value="November"><input type="hidden" name="calendar3.month.short.january" value="Jan"><input type="hidden" name="calendar3.month.short.september" value="Sep"><input type="hidden" name="calendar3.day.long.thursday" value="Thursday"><input type="hidden" name="calendar3.month.long.january" value="January"><input type="hidden" name="calendar3.day.short.friday" value="Fri"></fieldset></script>
+            
+
+            <meta name="ajs-is-confluence-admin" content="false">
+            <meta name="ajs-connection-timeout" content="10000">
+            <meta name="gliffy-license-type" content="${pluginLicenseManager.licenseType}">
+<meta name="gliffy-license-quantity" content="${pluginLicenseManager.userCount}">
+
+            
+    
+    
+            <meta name="ajs-page-id" content="491997">
+            <meta name="ajs-latest-page-id" content="491997">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-page-title" content="Intercept Execution">
+            <meta name="ajs-latest-published-page-title" content="Intercept Execution">
+            <meta name="ajs-parent-page-title" content="How To's">
+            <meta name="ajs-parent-page-id" content="491981">
+            <meta name="ajs-space-key" content="STRIPES">
+            <meta name="ajs-space-name" content="Stripes Wiki">
+            <meta name="ajs-jira-metadata-count" content="-1">
+            <meta name="ajs-from-page-title" content="">
+            <meta name="ajs-can-remove-page" content="false">
+            <meta name="ajs-browse-page-tree-mode" content="view">
+            <meta name="ajs-shared-drafts" content="false">
+            <meta name="ajs-context-path" content="/wiki">
+            <meta name="ajs-base-url" content="https://stripesframework.atlassian.net/wiki">
+            <meta name="ajs-version-number" content="1000.150.0">
+            <meta name="ajs-build-number" content="6442">
+            <meta name="ajs-remote-user" content="">
+            <meta name="ajs-remote-user-key" content="">
+            <meta name="ajs-remote-user-has-licensed-access" content="false">
+            <meta name="ajs-current-user-fullname" content="">
+            <meta name="ajs-current-user-avatar-url" content="">
+            <meta name="ajs-current-user-avatar-uri-reference" content="/wiki/images/icons/profilepics/anonymous.png">
+            <meta name="ajs-static-resource-url-prefix" content="/wiki/s/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/_">
+            <meta name="ajs-global-settings-attachment-max-size" content="104857600">
+            <meta name="ajs-user-locale" content="en_GB">
+            <meta name="ajs-enabled-dark-features" content="es.shadow.recent.updates,confluence.view.edit.transition,confluence-inline-comments-resolved,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareContentEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.mentions.api.ConfluenceMentionEvent,rotp.admin.shortcuts,notification.plugin.api.enabled.com.atlassian.confluence.event.events.security.ForgotPasswordEvent,vertigo.space.finder,notification.plugin.api.enabled.com.atlassian.confluence.plugins.tasklist.event.SendTaskEmailEvent,jquery.external,unified.usermanagement,sidebar.deferred,file-annotations,confluence.efi.onboarding.rich.space.content,unified.usermanagement.licensing.users.disable,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentCreateEvent,confluence.vertigo.space.finder,confluence.sidebar.deferred,notification.plugin.api.enabled.com.atlassian.confluence.event.events.follow.FollowEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentReplyEvent,confluence.baseurl.cdn.enabled,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostCreateEvent,connect.no-applinks,confluence.table.resizable,notification.batch,confluence-inline-comments-rich-editor,non.polling.index.flush,confluence.non.polling.index.flush,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostUpdateEvent,rotp.project.shortcuts,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageCreatedEvent,baseurl.cdn.enabled,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingWelcomeEmailEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentMentionUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.hipchat.api.events.HipChatUserMapped,quick-reload-inline-comments-flags,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostMovedEvent,jquery.feature.detection.cache,clc.quick.create,cql.search.screen,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,pdf-preview,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageMovedEvent,previews.sharing,previews.versions,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.attachment.AttachmentBatchUploadCompletedEvent,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingLessUsersEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentRemoveEvent,confluence.wrap.macro,atlassian.aui.raphael.disabled,previews.conversion-service,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentUpdateEvent,editor.ajax.save,app-switcher.new,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageEditedEvent,previews.trigger-all-file-types,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentResolveEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.like.LikeCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentCreateEvent,previews.sharing.pushstate,fusion.bitbucket.rebrand,file-annotations.likes,confluence.pagenav.deferred,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingNoSpaceCreatedEvent,pagenav.deferred,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareAttachmentEvent,confluence-inline-comments,confluence-inline-comments-dangling-comment,early.header.flush">
+            <meta name="ajs-atl-token" content="2b691def484e40540ceea1998a2c12ce7f7b5929">
+            <meta name="ajs-confluence-flavour" content="ALACARTE">
+            <meta name="ajs-user-date-pattern" content="dd MMM yyyy">
+            <meta name="ajs-date.format" content="MMM dd, yyyy">
+    
+    <link rel="shortcut icon" href="https://stripesframework.atlassian.net/wiki/s/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/5/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://stripesframework.atlassian.net/wiki/s/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/5/_/favicon.ico">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://stripesframework.atlassian.net/wiki/opensearch/osd.action" title="Stripes Framework Wiki">
+    
+                        
+            <meta name="ajs-create-issue-metadata-show-discovery" content="false">
+                
+
+    <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\"/wiki\"";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-hipchat-integration-plugin:discovery-javascript-data.link-active"]="{\"linkActive\":false,\"conditionsMet\":true,\"admin\":false}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-help-paths"]="{\"entries\":{\"applinks.docs.root\":\"https://confluence.atlassian.com/display/APPLINKS-060/\",\"applinks.docs.diagnostics.troubleshoot.sslunmatched\":\"SSL+and+application+link+troubleshooting+guide\",\"applinks.docs.diagnostics.troubleshoot.oauthsignatureinvalid\":\"OAuth+troubleshooting+guide\",\"applinks.docs.diagnostics.troubleshoot.oauthtimestamprefused\":\"OAuth+troubleshooting+guide\",\"applinks.docs.delete.entity.link\":\"Create+links+between+projects\",\"applinks.docs.adding.application.link\":\"Link+Atlassian+applications+to+work+together\",\"applinks.docs.administration.guide\":\"Application+Links+Documentation\",\"applinks.docs.oauth.security\":\"OAuth+security+for+application+links\",\"applinks.docs.troubleshoot.application.links\":\"Troubleshoot+application+links\",\"applinks.docs.diagnostics.troubleshoot.unknownerror\":\"Network+and+connectivity+troubleshooting+guide\",\"applinks.docs.configuring.auth.trusted.apps\":\"Configuring+Trusted+Applications+authentication+for+an+application+link\",\"applinks.docs.diagnostics.troubleshoot.authlevelunsupported\":\"OAuth+troubleshooting+guide\",\"applinks.docs.diagnostics.troubleshoot.ssluntrusted\":\"SSL+and+application+link+troubleshooting+guide\",\"applinks.docs.diagnostics.troubleshoot.unknownhost\":\"Network+and+connectivity+troubleshooting+guide\",\"applinks.docs.delete.application.link\":\"Link+Atlassian+applications+to+work+together\",\"applinks.docs.link.applications\":\"Link+Atlassian+applications+to+work+together\",\"applinks.docs.diagnostics.troubleshoot.oauthproblem\":\"OAuth+troubleshooting+guide\",\"applinks.docs.diagnostics.troubleshoot.migration\":\"Update+application+links+to+use+OAuth\",\"applinks.docs.relocate.application.link\":\"Link+Atlassian+applications+to+work+together\",\"applinks.docs.administering.entity.links\":\"Create+links+between+projects\",\"applinks.docs.upgrade.application.link\":\"OAuth+security+for+application+links\",\"applinks.docs.diagnostics.troubleshoot.connectionrefused\":\"Network+and+connectivity+troubleshooting+guide\",\"applinks.docs.configuring.auth.oauth\":\"OAuth+security+for+application+links\",\"applinks.docs.insufficient.remote.permission\":\"OAuth+security+for+application+links\",\"applinks.docs.configuring.application.link.auth\":\"OAuth+security+for+application+links\",\"applinks.docs.diagnostics\":\"Application+links+diagnostics\",\"applinks.docs.configured.authentication.types\":\"OAuth+security+for+application+links\",\"applinks.docs.adding.entity.link\":\"Create+links+between+projects\",\"applinks.docs.diagnostics.troubleshoot.unexpectedresponse\":\"Network+and+connectivity+troubleshooting+guide\",\"applinks.docs.configuring.auth.basic\":\"Configuring+Basic+HTTP+Authentication+for+an+Application+Link\",\"applinks.docs.diagnostics.troubleshoot.authlevelmismatch\":\"OAuth+troubleshooting+guide\"}}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-types"]="{\"crowd\":\"Crowd\",\"confluence\":\"Confluence\",\"remote.plugin.container\":\"Atlassian Connect\",\"fecru\":\"FishEye / Crucible\",\"stash\":\"Stash\",\"jira\":\"JIRA\",\"refapp\":\"Reference Application\",\"bamboo\":\"Bamboo\",\"generic\":\"Generic Application\"}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.entity-types"]="{\"singular\":{\"refapp.charlie\":\"Charlie\",\"fecru.project\":\"Crucible Project\",\"fecru.repository\":\"FishEye Repository\",\"stash.project\":\"Stash Project\",\"generic.entity\":\"Generic Project\",\"confluence.space\":\"Confluence Space\",\"bamboo.project\":\"Bamboo Project\",\"jira.project\":\"JIRA Project\"},\"plural\":{\"refapp.charlie\":\"Charlies\",\"fecru.project\":\"Crucible Projects\",\"fecru.repository\":\"FishEye Repositories\",\"stash.project\":\"Stash Projects\",\"generic.entity\":\"Generic Projects\",\"confluence.space\":\"Confluence Spaces\",\"bamboo.project\":\"Bamboo Projects\",\"jira.project\":\"JIRA Projects\"}}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.authentication-types"]="{\"com.atlassian.applinks.api.auth.types.BasicAuthenticationProvider\":\"Basic Access\",\"com.atlassian.applinks.api.auth.types.TrustedAppsAuthenticationProvider\":\"Trusted Applications\",\"com.atlassian.applinks.api.auth.types.CorsAuthenticationProvider\":\"CORS\",\"com.atlassian.applinks.api.auth.types.OAuthAuthenticationProvider\":\"OAuth\",\"com.atlassian.applinks.api.auth.types.TwoLeggedOAuthAuthenticationProvider\":\"OAuth\",\"com.atlassian.applinks.api.auth.types.TwoLeggedOAuthWithImpersonationAuthenticationProvider\":\"OAuth\"}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"]="false";
+WRM._unparsedData["com.atlassian.crowd.user-provisioning-plugin:create-users-resources.isSiteAdmin"]="false";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link type="text/css" rel="stylesheet" href="11%20Intercept%20Execution_files/batch_002.css" data-wrm-key="_super" data-wrm-batch-type="context" media="all">
+<link type="text/css" rel="stylesheet" href="11%20Intercept%20Execution_files/batch_004.css" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super" data-wrm-batch-type="context" media="all">
+<link type="text/css" rel="stylesheet" href="11%20Intercept%20Execution_files/batch_003.css" media="print" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super" data-wrm-batch-type="context">
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/16a9592f6c10c28da52c88b170309383-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/765b941cf9c5b1d21b4b1e9a422d0bb1/_/download/contextbatch/css/atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super/batch.css?analytics-enabled=true&amp;anonymous-access-enabled=true&amp;atlassian.aui.raphael.disabled=true&amp;build-number=6442&amp;conditionalComment=lt+IE+9&amp;confluence.table.resizable=true&amp;confluence.view.edit.transition=true&amp;highlightactions=true&amp;hostenabled=true&amp;jquery.external=true&amp;relative-url=true" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super" data-wrm-batch-type="context" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="11%20Intercept%20Execution_files/colors.css" media="all">
+<script type="text/javascript" src="11%20Intercept%20Execution_files/jquery-1.js"></script>
+<script type="text/javascript" src="11%20Intercept%20Execution_files/batch.js" data-wrm-key="_super" data-wrm-batch-type="context"></script><style type="text/css"></style><style type="text/css"></style>
+<script type="text/javascript" src="11%20Intercept%20Execution_files/batch_005.js" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super" data-wrm-batch-type="context"></script>
+
+            
+    
+        
+                
+            <script type="text/javascript" src="11%20Intercept%20Execution_files/main.js"></script>
+        
+                    
+    
+
+        
+        <meta name="ajs-site-title" content="Stripes Framework Wiki">
+            
+    
+
+    
+                <link rel="canonical" href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Intercept+Execution">
+        <link rel="shortlink" href="https://stripesframework.atlassian.net/wiki/x/3YEH">
+    <meta name="wikilink" content="[STRIPES:Intercept Execution]">
+    <meta name="page-version" content="3">
+    <meta name="ajs-page-version" content="3">
+
+    <style>.grow-3838-toggle-button {
+        float: left;
+        margin: 0;
+        padding-top: 6px !important;
+}
+
+.grow-3838-label {
+        padding-top: 9px !important;
+        padding-right: 5px !important;
+}
+
+#grow-3838-dialog-anchor {
+        height: 10px;
+}
+
+.aui-toggle-input:checked+.aui-toggle-view {
+        background-color: rgba(22,22,22,0.3) !important;
+}
+
+.aui-toggle-input {
+        width: 0px !important;
+}
+
+.aui-toggle-tick.aui-iconfont-success::before {
+        content: "OFF" !important;
+        font-family: "Helvetica Neue", Arial, sans-serif !important;
+        font-size: 10px !important;
+        padding-top: 3px !important;
+        font-weight: bold;
+        z-index: 1;
+        color: #fff !important;
+        margin-left: -1px;
+}
+
+.aui-toggle-cross.aui-iconfont-close-dialog::before {
+        content: "ON" !important;
+        font-family: "Helvetica Neue", Arial, sans-serif !important;
+        font-size: 10px !important;
+        font-weight: bold;
+        color: #fff !important;
+        z-index: 10;
+        padding-left: 3px;
+}
+
+.aui-toggle-cross.aui-iconfont-close-dialog {
+        padding-top: 6px !important;
+}
+
+.aui-toggle-view::before {
+        background-color: #3F80C2 !important;
+        border-color: #3F80C2 !important;
+        min-height: 28px;
+        min-width: 30px;
+        margin-top: -2px;
+        margin-left: -2px;
+        color: #fff;
+}
+
+.aui-toggle-view::after {
+        background-color: #3F80C2 !important;
+        border-color: #3F80C2 !important;
+        min-height: 28px;
+        min-width: 30px;
+        margin-top: -2px;
+        margin-left: -2px;
+        color: #fff;
+}
+.aui-toggle-view {
+        border-radius: 5px !important;
+        background-color: rgba(22,22,22,0.3) !important;
+}
+
+#grow-3838-dialog-onboarding {
+        width: 400px;
+        min-width: 400px;
+}
+
+#grow-3838-dialog-onboarding > p {
+        line-break: auto;
+}
+
+.grow-3838-onboarding-buttons {
+        padding-top: 10px;
+}
+
+#grow-3838-dialog-optout {
+        width: 400px;
+        min-width: 400px;
+}
+
+#grow-3838-dialog-optout > h2 {
+        line-height: 1.5;
+}
+
+.grow-3838-optout-reason {
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+#grow-3838-optout-feedback {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        border: 1px solid #ccc;
+        height: 80px;
+        font-size: 12px;
+        max-width: 356px;
+}</style><style>.grow-3838-twixie { z-index: 103; position: fixed; left: 7px; bottom: 9px; width: 19px; height: 16px; border-radius: 3px; box-shadow: inset 0 0 0 1px transparent; transition: box-shadow .2s; padding: 6px 6.5px; cursor: pointer; }
+.grow-3838-twixie:hover { box-shadow: inset 0 0 0 1px #CCC; }
+.grow-3838-twixie .grow-3838-icon-expand { margin-top: -16px; }
+.grow-3838-twixie[sidebar-state="collapsed"] .grow-3838-icon-collapse { opacity: 1; }
+.grow-3838-twixie[sidebar-state="collapsed"] #grow-3838-arrows-left { opacity: 1; }
+.grow-3838-twixie[sidebar-state="collapsed"] #grow-3838-arrows-right { opacity: 0; }
+.grow-3838-twixie[sidebar-state="expanded"] .grow-3838-icon-expand { opacity: 1; }
+.grow-3838-twixie[sidebar-state="expanded"] #grow-3838-arrows-right { opacity: 1; }
+.grow-3838-twixie[sidebar-state="expanded"] #grow-3838-arrows-left { opacity: 0; }
+.grow-3838-icon-collapse, .grow-3838-icon-expand { background-repeat: no-repeat; background-position: center center; background-size: 19px 16px; width: 19px; height: 16px; opacity: 0; transition: opacity .2s; }
+.grow-3838-icon-collapse { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAYAAAD0xERiAAAAAXNSR0IArs4c6QAAAWtJREFUOBGdlDtOw0AQhr1r+wSIJlEapJSAwC9cIQ7gIwANSop0iBpZpIsAiZKVaDiDe2q/oKAjoopExw0sO/9IrOQHOMYrjXY2O/PNzr/OMsMwdM75PM/zU0VRBrDWwRgTSZJMLcuaIOcRwddpms4pSSNQURR7mI/iOF79RULRAklM7iNWwBe+73PMuyjicToRnGkbSAJ+mwHL6XccaEbUQV+QhOPE757njQjWGI7jjE3TJD06jyAIkgaMQFmWvaD1ZWcSAtHmQQWGG9r5AT2g9dv/wFD8UCsn4DIusB6iygK3tyjvbfLxubxVYEh4gp3D7iHqXRlAn0Z5Xfeh8WulTQA+VVU9QeAlWr6qJ7StG5pRcBRFHwTE5rgtub5Hmimbji+TusRV2pSJfWap2Rf0GfUByBzbtrfgb9PJnqGP6At0XXcInb91Xd9n0EIH8AZ2Bmt9giCyQOEJXhh6GAT95bD2NE07DsNwuQaVWI5IJ3+7VAAAAABJRU5ErkJggg=="); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .grow-3838-icon-collapse { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAgCAYAAAB+ZAqzAAAAAXNSR0IArs4c6QAAAxVJREFUWAnNmM9rE0EUx7Ob5ifJRRGsojcvehDc/CDkUMQfELyLHm0DbdMWD0L/B8GT0bZK9aB/gJ48iEIUkphfvVnQgxd/IDmIYEUISdbvd92Rpc1utmaycWDzZva9ee+zM29nMqv4zKLrupJKpfL9fn9OUZSTaMeFToLUWq3WlvCjaVoL9TNme8fv92v1ev290FNO8QeG08lk8jFgzrENSeFVUaPR6Ic9wThSiUTiBeB0yI+4rmaz2SN7DF3eoB9eLs19mUwmImxzuVwIfW+wPcXp40hh+j4FAoHT1Wr1mzD0QiLeLxGn3W4/Qv0yBue7ypwyFateQwkgITE4T1nHQOVVJjoboVDoFeUkSzAYfMn4YDqlgs54+8rl8pdJQjF2pVJpx+PxQCwWO2C8lZMGssYvlUpdtvcFxjcYy8ptrDvrtVpt2+pQVh2J/2DfYOh0B50KvV7vEOQVWTBWP3j4WbZV602nuoCiDZLztZOtDJ0rMELhSZYYUFXVpUajsSYjuJOPoTkGqKKAwkgtjxsKMYx11REM28MtQC3zydBhpdls3nV6Shk6xHhIP7Zg6XT6RLfbNfYtGgKwCNAi614U2xzDm2er8wLMdsQwpO/M/FoBiI6kX0B+3R8GhVF1/c9ikC/ENNYxx1EByHXk1j04ULDZb6DT/CBnMu8hZWZ5OYIBSgfcooBDh3WMyIJMEDtfjmDsZIHbYBPXGuAWqRtnGQrG4CZcAdKAg5wZFxR888wxZ5v8uwPDGDOpF7CJ97CJj23lH7qO7QZjm3AQxoI7SC/znquplBnQrS/XU+nW4ah2WJK4Jen/HRjy+BofjoeRH6yMcpZkfxkFy9A0/ZCJh5G3bHQ6nbOUkyx4248i/k8wbXPENgmDLecmDr8HJwmG7xfNSCRyDIDzXMl9SLjnoLyA6mdcq+FwuPSvxzmxieMjiuGb/p0K7I8DhB9VnljtjM5YNA8DjB9VzluVI9Y19OdXHVG2AMt7RgEQv/b81WPmLmFxfWaq/xxGsFF/xXURyjwUb5h8wsADuYN4dfytCllj/QZTJxsaGfVSMAAAAABJRU5ErkJggg=="); } }
+.grow-3838-icon-expand { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAYAAAD0xERiAAAAAXNSR0IArs4c6QAAAWNJREFUOBGVVLtKxEAUdSabL9BK2UbYWjQvUvoB+QQ72RR2q9XCSth2O7sN2OgnbHqxzUNBsRGthHT+QUg8N+zAOGTzCIT7PGfm3rkzbG/7GYaxgLrknPtJkoSmaa6rqpqKeIvMgXksy3LBAJoDtPE87yMIglIFYZEqyzKm+oVtWdYY+DVj7I1DuaJAE5EAtElU8QMiHzu74NjRGCu/twG6YkSInEMeRVHalSzHqZeO40xkn9CpzFNh9JRfRVE8NRFy1HvWk6ROS9N0BcwdEaL5xzJ2hOCr7GjS6URlP6qpTTT9EspcxEbowQsIW3enjgbIr0Eww38viEgO7hlKuwFupmnaORb5/kc2tGcocUJEcRx/ykS9dLVfu0CUx9GzzgPYRaD6ORwHtm3vq4EhNt1P5Odc1/UT1P/ruu7REAKRu73oIeyH+jWgacYQPuMwNhgTHwlTzBC9BCEa3vUM5USE//YPv0WRLE1KKO8AAAAASUVORK5CYII="); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .grow-3838-icon-expand { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAgCAYAAAB+ZAqzAAAAAXNSR0IArs4c6QAAAxRJREFUWAnNmL9rU1EUx30vzzZCstTFH50V6mZ+ETqoY9ycxMEllda2EQcFNwc3BadqrZL4B7g4ObVIkPwgvwodWhBxqSAiokMRQmISP6fkwmvMS16a3NQLj3PPvefHN+eee+7NNY51tGAweL7VapUZ9rWnNiuVSkCJBQKBi/Qrih+WGoaxh78d0zRTxWIxCd8Sm2anYZ/P97nbeKfcqHhA+bEVaTabr0Kh0Do//PS+bSYMmHuxWGxSOYtGoydUvx9FtyVfPzmn+dnZ2TOs0g2+L2IHuiGYDDpzdJIovmHJrjsZcBpXoNA1nGTcjBOMqXq9vgWWaZZ13qRzSxRZ27duDOiSyefzP8HyQOyzrHETQBeEmZiYeC/0KJvX602Lf8FkkuxTfr//eC6X+36UoMR3Npv9KpTI+a10Ov1HmP+tmSR/Sj5dwCKRyAz2Vwa1L8kfl29QRbfyjUbjIfYT7N7nbnVE7p8CO4iyG1kS+UNbbonIPXOjIzLagZVKpVXq0rI4I3LLbsFJuZiTTxR1NQGHj4TYb4Prm3NDVWtxNEjlJ1oJgClQTzkt7osNe1P2RgbMbtxt37Ksc4VC4ZNdXgHTnmN2p519dqyjf4vw7tewcrk8VJ65OcS51sxzDq4BkJQzVvD5sROs4rXXMeWIACzYQL1kQ9xVc92oYyi7CR92jLy5TdK/QF8iJaAWoT3vcNqBAWoRQKttUGtuQEkALJAPlVtipFfD/iWiBTEE1BK0Z6SULYsEfK0YHdTj8Txi9/0A1B23oASHpQOM3SZ1agc+ASj7cN++9hzri8BBQN3HtC6ng++ewxaJGW9LKNpTYVyTcrvYE2dU5VPjcurkR/5jypxgksovyfkbZtpJYVzjtVrtivgC07bFdl7gr9tuJpP5NS4A3fyEw+GTlJXHMkeQkhYPGVt2QQSuIcCZXNm1j+vqy/JVq9XL+HyCj7OAWqe2pg4UFw7aq4TxnQ1EAICbiud4kVceee1RLUBnlC8/GwC7STH+dqDAcjef5AZQBNwMDtUzlAKhhQJEnqG2ZfkkUsrJX1iaNXMehym4AAAAAElFTkSuQmCC"); } }
+.grow-3838-global-twixie { position: absolute; bottom: 0; left: 0; right: 0; width: 100%; height: 34px; border-top: solid 1px #ccc; border-radius: 0px; }
+.grow-3838-global-twixie:hover { box-shadow: none !important; }
+
+#grow-3838-arrows-left { color: #707070; position: absolute; bottom: 15px; right: 30px; }
+#grow-3838-arrows-right { color: #707070; position: absolute; bottom: 15px; left: 20px; }
+
+[grow-3838="no-transition"] #title-heading:after, [grow-3838="no-transition"] #breadcrumb-section, [grow-3838="no-transition"] #footer:after, [grow-3838="no-transition"] #system-content-items:after { transition: none; }
+
+[grow-3838="preview"] #system-content-items:after { left: 47px; width: calc(100% - 47px); }
+[grow-3838="preview"] #system-content-items { margin-left: 1px; }
+[grow-3838="preview"] #breadcrumb-section { margin-left: -13px; }
+[grow-3838="preview"] #footer:after { left: 47px; }
+[grow-3838="preview"] .ia-splitter-handle { right: 0; }
+[grow-3838="preview"] .ia-splitter-handle-highlight { background-color: transparent; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAMCAQAAADitaTfAAAAFUlEQVQIW2O++j+bkWUTAwZgJiwBAB9kCOy+u0d3AAAAAElFTkSuQmCC"), linear-gradient(to bottom, transparent 60px, #fff 50px); }
+[grow-3838="preview"] .ia-fixed-sidebar { z-index: 101; }
+
+#main { padding-left: 80px; padding-right: 80px; }
+
+#main-header:not(.doctheme-no-override) #title-text { padding-top: 45px; }
+
+#breadcrumb-section { margin-left: -60px; transition: margin-left .1s; }
+
+.content-navigation .ajs-menu-bar { margin-right: -60px; }
+
+#footer:after { content: ''; height: 100%; position: absolute; top: 0; width: 10px; z-index: 102; left: 0; box-shadow: 0 -1px 0 #ccc; background: #F5F5F5; transition: left .1s; }
+
+#system-content-items:after { content: ''; position: absolute; left: 0; background: #ccc; height: 1px; width: 100%; margin-top: 35px; z-index: 100; transition: left .1s, width .1s; }
+
+#system-content-items { margin-left: 0; transition: margin-left .1s; }
+
+.view-attachments + #title-heading #breadcrumb-section:after { content: ''; position: absolute; width: 100%; height: 1px; background: #ccc; top: 50px; left: 0; z-index: 10; }
+
+.view-attachments.content-navigation { margin-top: -6px; }
+
+#breadcrumbs li.first { display: none !important; }
+
+#breadcrumbs li:last-of-type { display: block !important; }
+
+#breadcrumbs li:nth-child(2)::before { display: none !important; }
+
+/** Hide/drop all unnecessary stuff in sidebar ----- ----- ----- ----- ----- */
+.acs-side-bar-space-info, .acs-nav-wrapper, .ia-secondary-container .ia-secondary-header, .ia-secondary-container .plugin_pagetree_childtoggle_container .no-children.icon { display: none; }
+
+.ia-fixed-sidebar { overflow: hidden; }
+
+.ia-fixed-sidebar .plugin_pagetree { margin-top: 0; }
+
+.ia-splitter-handle { right: 0; }
+.ia-splitter-handle-highlight { background-color: #fff; }
+
+/** Styling the page-tree ----- ----- ----- ----- ----- */
+.ia-secondary-container { padding: 0; margin: 0; }
+
+.ia-secondary-content { margin-left: 0; }
+
+.acs-side-bar { background-color: #fff; margin-right: 7px; width: calc(100% - 7px); }
+
+.space-tools-section { display: none; }
+
+.ia-fixed-sidebar div.plugin_pagetree ul.plugin_pagetree_children_list .plugin_pagetree_children_span { height: 36px; display: block; padding-right: 10px; padding-left: 12px; padding-top: 0; padding-bottom: 0; }
+
+.ia-fixed-sidebar div.plugin_pagetree ul.plugin_pagetree_children_list .plugin_pagetree_children_span a { display: block; width: 100%; line-height: 30px; height: 30px; color: #3b73af; }
+
+.ia-fixed-sidebar div.plugin_pagetree ul.plugin_pagetree_children_list .plugin_pagetree_children_span.plugin_pagetree_current { transition: background-color .2s; color: #2472AD; box-sizing: border-box; }
+
+.ia-fixed-sidebar div.plugin_pagetree ul.plugin_pagetree_children_list .plugin_pagetree_children_span.plugin_pagetree_current a { color: #3572B0 !important; line-height: 36px; height: 36px; }
+
+.plugin_pagetree_childtoggle.icon-section-opened, .plugin_pagetree_childtoggle.icon-section-closed, .ia-pagetree .acs-tree-item .icon-section-opened, .ia-pagetree .acs-tree-item .icon-section-closed { background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjExcHgiIGhlaWdodD0iNnB4IiB2aWV3Qm94PSIwIDAgMTEgNiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy42LjEgKDI2MzEzKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5pMDIxMl9hcnJvdy11cC0xNjwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJBcHJpbC0yMDE2LWludGVyaW0tZXhwZXJpZW5jZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkludGVyaW0tMS40LVZpZXctcGFnZS13aXRoLXNpZGViYXItKHRyZWUpIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTEuMDAwMDAwLCAtNTMuMDAwMDAwKSIgZmlsbD0iIzcwNzA3MCI+CiAgICAgICAgICAgIDxnIGlkPSJTcGFjZS1zaWRlYmFyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NS4wMDAwMDAsIC0xNDIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0icGFnZS10cmVlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyLjAwMDAwMCwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTcuMDAwMDAwLCA5NC4wMDAwMDApIiBpZD0iaTAyMTJfYXJyb3ctdXAtMTYiPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMjIsMTA3IEwyNi41MDkyNDI1LDEwMi41IEwzMSwxMDcgTDMyLDEwNi41IEwyNi41MDkyNDI1LDEwMSBMMjEsMTA2LjUgTDIyLDEwNyBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNi41MDAwMDAsIDEwNC4wMDAwMDApIHNjYWxlKDEsIC0xKSB0cmFuc2xhdGUoLTI2LjUwMDAwMCwgLTEwNC4wMDAwMDApICI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"); transition: transform .2s; }
+
+.plugin_pagetree_childtoggle.icon-section-closed, .ia-pagetree .acs-tree-item .icon-section-closed { transform: rotate(-90deg); }
+
+.ia-pagetree > .acs-tree-item > .icon { margin-left: -3px; }
+
+.ia-fixed-sidebar .plugin_pagetree_childtoggle_container > .icon { margin-top: -8px; margin-left: 8px; }
+
+.grow-3838-icon-section-on-current { margin-top: -5px !important; }
+
+.ia-fixed-sidebar .ia-secondary-content { display: block; transition: opacity .2s; }
+
+.ia-fixed-sidebar.collapsed .ia-secondary-content { display: block; opacity: .1; padding-top: 7px; }
+
+.acs-side-bar ul, .acs-side-bar-flyout ul.ia-pagetree { padding-left: 10px; }
+
+.ia-pagetree .acs-tree-item .leaf a { margin-left: 17px; }
+
+.ia-pagetree .acs-tree-item .leaf .icon { display: none; }
+
+[grow-3838-sidebar-type="pagetree"] { /** Styling the page-tree ----- ----- ----- ----- ----- */ }
+[grow-3838-sidebar-type="pagetree"] .acs-side-bar-content { position: relative; height: 100%; margin-bottom: 0; padding-bottom: 0; overflow: hidden; }
+[grow-3838-sidebar-type="pagetree"] .ia-secondary-container { padding: 0; height: 100%; position: relative; margin: 0; width: 100%; }
+[grow-3838-sidebar-type="pagetree"] .ia-secondary-content { height: 100%; position: relative; overflow: auto; box-sizing: border-box; padding: 7px 0; }
+
+[grow-3838-sidebar-type="childpages"] .ia-scrollable-section { width: calc(100% - 47px - 7px); margin-left: 47px; }
+[grow-3838-sidebar-type="childpages"] .acs-side-bar-content { padding-left: 0; padding-top: 12px; padding-bottom: 12px; }
+[grow-3838-sidebar-type="childpages"] .ia-fixed-sidebar .ia-secondary-content { width: calc(100% - 7px); }
+
+.collapsed .acs-side-bar, .acs-side-bar { bottom: 0; }
+
+.acs-side-bar-content { padding-left: 46px; }
+
+.ia-fixed-sidebar { overflow: hidden; }
+
+#grow-3838-space { text-decoration: none; }
+
+.grow-3838-global-header { display: inline-block; margin: 5px 15px 0 15px; padding-bottom: 7px; }
+.grow-3838-space-directory { position: absolute; right: 20px; margin-top: 3px; }
+.grow-3838-title { display: inline-block; color: #333; padding-top: 5px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; width: calc(100% - 52px); }
+.grow-3838-icon-expandable { display: inline-block; vertical-align: middle; margin-top: 6px; }
+.grow-3838-global-sidebar-icon { padding-left: 15px; }
+.grow-3838-global-sidebar-icon:hover { text-decoration: none; }
+.grow-3838-space { padding-left: 20px; padding-right: 10px; height: 38px; margin-top: 10px; }
+.grow-3838-space-icon-expandable { display: inline-block !important; }
+.grow-3838-space-title { display: inline-block; font-weight: bold; color: #000; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; position: relative; line-height: 24px; width: calc(100% - 10px); }
+.grow-3838-space-title-expandable { display: inline-block; color: #000; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; position: relative; line-height: 24px; width: calc(100% - 33px); padding-left: 5px; }
+.grow-3838-space-name { font-weight: bold; color: #000; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; position: relative; line-height: 24px; width: calc(100% - 10px); }
+.grow-3838-global-sidebar { width: 46px; height: 100%; position: absolute; top: 0; bottom: 40px; /* this is just here until we remove the space tools thing i think */ background-color: #F5F5F5; box-shadow: 1px 0 0 #E9E9E9; transition: opacity .2s; }
+.grow-3838-global-sidebar-expandable { width: 100%; height: 100%; }
+.grow-3838-global-sidebar-inner { height: calc(100% - 46px); overflow: auto; background-image: linear-gradient(to bottom, #F5F5F5 1px, transparent 1px, transparent 100%), linear-gradient(to top, #F5F5F5 1px, transparent 1px, transparent 100%), linear-gradient(to bottom, #E9E9E9 1px, transparent 1px, transparent 100%), linear-gradient(to top, #E9E9E9 1px, transparent 1px, transparent 100%); background-attachment: local, local, scroll, scroll; }
+.grow-3838-sidebar-discover, .grow-3838-sidebar-my-work, .grow-3838-sidebar-my-spaces { position: relative; margin-top: 15px; margin-bottom: 20px; }
+.grow-3838-sidebar-discover:after, .grow-3838-sidebar-my-work:after, .grow-3838-sidebar-my-spaces:after { content: ''; width: 100%; position: absolute; height: 1px; background-color: #E9E9E9; left: 0; bottom: -10px; }
+.grow-3838-sidebar-discover:last-child:after, .grow-3838-sidebar-my-work:last-child:after, .grow-3838-sidebar-my-spaces:last-child:after { display: none; }
+.grow-3838-sidebar-discover a, .grow-3838-sidebar-my-work a, .grow-3838-sidebar-my-spaces a { display: block; height: 34px; transition: background-color .4s; }
+.grow-3838-sidebar-discover a:hover, .grow-3838-sidebar-my-work a:hover, .grow-3838-sidebar-my-spaces a:hover { background-color: #e6e6e6; }
+.grow-3838-sidebar-discover-expandable, .grow-3838-sidebar-my-work-expandable { margin-left: 2px; padding-bottom: 10px; margin-bottom: 0px; }
+.grow-3838-sidebar-discover-expandable:after, .grow-3838-sidebar-my-work-expandable:after { display: none; }
+.grow-3838-sidebar-my-spaces-expandable { margin-top: 10px; }
+.grow-3838-sidebar-my-spaces-expandable:after { display: none; }
+.grow-3838-sidebar-my-spaces { margin-bottom: 0; }
+.grow-3838-global-sidebar-icon { background-repeat: no-repeat; background-position: center center; }
+.grow-3838-icon { /* discover */ /* my work */ }
+.grow-3838-icon-all-updates { background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4zLjIgKDEyMDQzKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5pY29uLWFsbC11cGRhdGVzPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9ImFzc2V0cyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc2tldGNoOnR5cGU9Ik1TUGFnZSI+CiAgICAgICAgPGcgaWQ9Imljb24tYWxsLXVwZGF0ZXMiIHNrZXRjaDp0eXBlPSJNU0FydGJvYXJkR3JvdXAiIGZpbGw9IiMzMzMzMzMiPgogICAgICAgICAgICA8cGF0aCBkPSJNMSw0IEw0LDQgTDQsNyBMMSw3IEwxLDQgWiBNNC44NzE3NjE2NiwzIEwwLjEyOTUzMzY3OSwzIEMwLjA1ODI5MDE1NTQsMyAwLDMuMDU4Mjc1MDYgMCwzLjEyOTUwMDEzIEwwLDcuODcwNDk5ODcgQzAsNy45NDE3MjQ5NCAwLjA1ODI5MDE1NTQsOCAwLjEyOTUzMzY3OSw4IEw0Ljg3MTc2MTY2LDggQzQuOTQxNzA5ODQsOCA1LDcuOTQxNzI0OTQgNSw3Ljg3MDQ5OTg3IEw1LDMuMTI5NTAwMTMgQzUsMy4wNTgyNzUwNiA0Ljk0MTcwOTg0LDMgNC44NzE3NjE2NiwzIEw0Ljg3MTc2MTY2LDMgWiIgaWQ9IkZpbGwtMSIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMSwxMyBMNCwxMyBMNCwxNiBMMSwxNiBMMSwxMyBaIE00Ljg3MTc2MTY2LDEyIEwwLjEyOTUzMzY3OSwxMiBDMC4wNTgyOTAxNTU0LDEyIDAsMTIuMDU4Mjc1MSAwLDEyLjEyOTUwMDEgTDAsMTYuODcwNDk5OSBDMCwxNi45NDE3MjQ5IDAuMDU4MjkwMTU1NCwxNyAwLjEyOTUzMzY3OSwxNyBMNC44NzE3NjE2NiwxNyBDNC45NDE3MDk4NCwxNyA1LDE2Ljk0MTcyNDkgNSwxNi44NzA0OTk5IEw1LDEyLjEyOTUwMDEgQzUsMTIuMDU4Mjc1MSA0Ljk0MTcwOTg0LDEyIDQuODcxNzYxNjYsMTIgTDQuODcxNzYxNjYsMTIgWiIgaWQ9IkZpbGwtMS1Db3B5LTIiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTgsMyBMMjAsMyBMMjAsMy43NSBMOCwzLjc1IEw4LDMgWiIgaWQ9IkZpbGwtMiIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNOCwxMiBMMjAsMTIgTDIwLDEyLjc1IEw4LDEyLjc1IEw4LDEyIFoiIGlkPSJGaWxsLTItQ29weSIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNOCw3IEwxNiw3IEwxNiw3Ljc1IEw4LDcuNzUgTDgsNyBaIiBpZD0iRmlsbC0zIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik04LDE2IEwxNiwxNiBMMTYsMTYuNzUgTDgsMTYuNzUgTDgsMTYgWiIgaWQ9IkZpbGwtMy1Db3B5IiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4="); }
+.grow-3838-icon-popular { background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4zLjIgKDEyMDQzKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5pY29uLXBvcHVsYXI8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iYXNzZXRzIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4KICAgICAgICA8ZyBpZD0iaWNvbi1wb3B1bGFyIiBza2V0Y2g6dHlwZT0iTVNBcnRib2FyZEdyb3VwIiBmaWxsPSIjMzMzMzMzIj4KICAgICAgICAgICAgPHBhdGggZD0iTTAsMTggTDIwLDE4IEwyMCwxOC43NSBMMCwxOC43NSBMMCwxOCBaIiBpZD0iRmlsbC0xIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMC4wMDAwMDAsIDE4LjUwMDAwMCkgc2NhbGUoMSwgLTEpIHRyYW5zbGF0ZSgtMTAuMDAwMDAwLCAtMTguNTAwMDAwKSAiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTEwLjQ5OTk5OTksMTEgTDE5LjAzMDEyODUsMi41IEwxOS4wMzAxMjg1LDYgTDE5Ljk2NDc3Nyw2IEwxOS45NjQ3NzcsMSBMMTUsMSBMMTUsMS45NTEyNDU2MSBMMTguNSwxLjk1MTI0NTYxIEwxMC41LDEwIEw3LjUsNyBMMCwxNC41IEwwLjUsMTUgTDcuNDk5OTk5OTUsOCBMMTAuNDk5OTk5OSwxMSBaIiBpZD0iRmlsbC0yIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4="); }
+.grow-3838-icon-recently-worked { background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4zLjMgKDEyMDgxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5Xb3JrZWQgb248L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iRXhwb3J0cyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc2tldGNoOnR5cGU9Ik1TUGFnZSI+CiAgICAgICAgPGcgaWQ9IldvcmtlZC1vbiIgc2tldGNoOnR5cGU9Ik1TQXJ0Ym9hcmRHcm91cCI+CiAgICAgICAgICAgIDxnIGlkPSJlZGl0ZWQtcGFnZS1pY29uIiBza2V0Y2g6dHlwZT0iTVNMYXllckdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjAwMDAwMCwgMS4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zLjAwOTQ3NzYyLDEgQzEuMzM2NjMxMDYsMSAwLDIuMzM5ODA1NjkgMCwzLjk5MjUzOTc2IEwwLDE1LjAwNzQ2MDIgQzAsMTYuNjQ3MDc0NSAxLjM0NzM4OTAyLDE4IDMuMDA5NDc3NjIsMTggTDEyLjk5MDUyMjQsMTggQzE0LjY2MzM2ODksMTggMTYsMTYuNjYwMTk0MyAxNiwxNS4wMDc0NjAyIEwxNiwxMSBMMTUsMTEgTDE1LDE1LjAwNzQ2MDIgQzE1LDE2LjExMDkwMiAxNC4xMDgwNzc1LDE3IDEyLjk5MDUyMjQsMTcgTDMuMDA5NDc3NjIsMTcgQzEuOTAzNjMxMTcsMTcgMSwxNi4wOTg3MzM1IDEsMTUuMDA3NDYwMiBMMSwzLjk5MjUzOTc2IEMxLDIuODg5MDk3OTggMS44OTE5MjI1MiwyIDMuMDA5NDc3NjIsMiBMMTAsMiBMMTAsMSBMMTEuOTk1MjYxMiwxIEwzLjAwOTQ3NzYyLDEgWiIgaWQ9IlNoYXBlIiBmaWxsPSIjMzMzMzMzIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8ZyBpZD0iZWRpdC1pY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3LjAwMDAwMCwgMC4wMDAwMDApIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMCwxMi4wODEzODcyIEw0LDExLjA4OTcyMDggTDExLjI5MDA1MzQsMy44NjA0MTc2NSBDMTEuNjgyMTQ2MSwzLjQ3MTU5MjM4IDExLjY3ODk0NzQsMi44MzgwMTAxIDExLjI4OTA0MTksMi40NTEzNTM3MyBMOS43MTA5NTgxMiwwLjg4NjQyMDY0NiBDOS4zMTgzMDY3OSwwLjQ5NzA0MTQwNCA4LjY3NjQ4MjIsMC41MDIyMDg5NzMgOC4yOTAwNTMzNywwLjg4NTQxNzU1OCBMMSw4LjExNDcyMDM0IEwwLDEyLjA4MTM4NzIgWiIgaWQ9Imljb24tZWRpdC0xNiIgc3Ryb2tlPSIjMzMzMzMzIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTYuNjQ3OTI4OTksMy4zMzgzNjI5MiBMOC42NDc5Mjg5OSw1LjMyMTY5NjI1IEw5LjAwMjk1ODU4LDUuNjczNzY3MjYgTDkuNzA3MTAwNTksNC45NjM3MDgwOSBMOS4zNTIwNzEwMSw0LjYxMTYzNzA4IEw3LjM1MjA3MTAxLDIuNjI4MzAzNzUgTDYuOTk3MDQxNDIsMi4yNzYyMzI3NCBMNi4yOTI4OTk0MSwyLjk4NjI5MTkxIEw2LjY0NzkyODk5LDMuMzM4MzYyOTIgTDYuNjQ3OTI4OTksMy4zMzgzNjI5MiBaIiBpZD0iU2hhcGUiIGZpbGw9IiMzMzMzMzMiPjwvcGF0aD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"); }
+.grow-3838-icon-recently-viewed { background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4zLjMgKDEyMDgxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5WaXNpdGVkPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IkV4cG9ydHMiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPgogICAgICAgIDxnIGlkPSJWaXNpdGVkIiBza2V0Y2g6dHlwZT0iTVNBcnRib2FyZEdyb3VwIiBmaWxsPSIjMzMzMzMzIj4KICAgICAgICAgICAgPGcgaWQ9Imhpc3RvcnktaWNvbiIgc2tldGNoOnR5cGU9Ik1TTGF5ZXJHcm91cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMS4wMDAwMDAsIDAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNOS41LDE4IEw5LjUsMTggQzE0LjE5NDQyMDQsMTggMTgsMTQuMTk0NDIwNCAxOCw5LjUgQzE4LDQuODA1NTc5NjMgMTQuMTk0NDIwNCwxIDkuNSwxIEM0LjgwNTU3OTYzLDEgMSw0LjgwNTU3OTYzIDEsOS41IEMxLDE0LjE5NDQyMDQgNC44MDU1Nzk2MywxOCA5LjUsMTggTDkuNSwxOCBaIE05LjUsMTkgTDkuNSwxOSBDNC4yNTMyOTQ4OCwxOSAwLDE0Ljc0NjcwNTEgMCw5LjUgQzAsNC4yNTMyOTQ4OCA0LjI1MzI5NDg4LDAgOS41LDAgQzE0Ljc0NjcwNTEsMCAxOSw0LjI1MzI5NDg4IDE5LDkuNSBDMTksMTQuNzQ2NzA1MSAxNC43NDY3MDUxLDE5IDkuNSwxOSBMOS41LDE5IFoiIGlkPSJTaGFwZSIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTgsNCBMOCwxMCBDOCwxMC4yNzYxNDI0IDguMjIzODU3NjMsMTAuNSA4LjUsMTAuNSBDOC43NzYxNDIzNywxMC41IDksMTAuMjc2MTQyNCA5LDEwIEw5LDQgQzksMy43MjM4NTc2MyA4Ljc3NjE0MjM3LDMuNSA4LjUsMy41IEM4LjIyMzg1NzYzLDMuNSA4LDMuNzIzODU3NjMgOCw0IEw4LDQgWiIgaWQ9IlNoYXBlIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTIuNzI1NTc4MywxMi4wNTM3Nzc2IEw4Ljc0MDIyODQzLDEwLjAzOTA2NjggQzguNDkzNzg2NjMsOS45MTQ0ODMyNCA4LjE5MzAxMTE5LDEwLjAxMzI2ODkgOC4wNjg0Mjc2NiwxMC4yNTk3MTA3IEM3Ljk0Mzg0NDE0LDEwLjUwNjE1MjUgOC4wNDI2Mjk3OSwxMC44MDY5Mjc5IDguMjg5MDcxNTgsMTAuOTMxNTExNCBMMTIuMjc0NDIxNSwxMi45NDYyMjIyIEMxMi41MjA4NjMzLDEzLjA3MDgwNTggMTIuODIxNjM4NywxMi45NzIwMjAxIDEyLjk0NjIyMjMsMTIuNzI1NTc4MyBDMTMuMDcwODA1OCwxMi40NzkxMzY1IDEyLjk3MjAyMDEsMTIuMTc4MzYxMSAxMi43MjU1NzgzLDEyLjA1Mzc3NzYgTDEyLjcyNTU3ODMsMTIuMDUzNzc3NiBaIiBpZD0iU2hhcGUiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"); }
+.grow-3838-icon-starred { background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4zLjIgKDEyMDQzKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5pY29uLXN0YXI8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iYXNzZXRzIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4KICAgICAgICA8ZyBpZD0iaWNvbi1zdGFyIiBza2V0Y2g6dHlwZT0iTVNBcnRib2FyZEdyb3VwIiBmaWxsPSIjMzMzMzMzIj4KICAgICAgICAgICAgPHBhdGggZD0iTTEyLjE0NDIwMzgsNy41NjgwMzA3NyBMMTIuMjQ3Nzg5NSw3Ljc4NTU2NDM4IEwxMi40OTUzOTMsNy44MTUzODEzIEwxOC44OTA4MDYzLDguNTg1NTMwMyBMMTguNjU0MjY5Miw3LjgzNTg0MDg4IEwxMy43OTY1NTA5LDExLjg1NDAwOTYgTDEzLjU5MjE0MDUsMTIuMDIzMDkyMSBMMTMuNjUzMDgwMSwxMi4yNzUxNjAzIEwxNS4wODU5MzIzLDE4LjIwMTk1OTEgTDE1Ljc1NDAwMzUsMTcuNzM4OTQ2MyBMMTAuMjMyMjgwNSwxNC41MjQ0MTE0IEwxMCwxNC4zODkxODY2IEw5Ljc2NzcxOTUyLDE0LjUyNDQxMTQgTDQuMjQ1OTk2NDksMTcuNzM4OTQ2MyBMNC45MTQwNjc3MSwxOC4yMDE5NTkxIEw2LjM0NjkxOTg5LDEyLjI3NTE2MDMgTDYuNDA3ODU5NDUsMTIuMDIzMDkyMSBMNi4yMDM0NDkxNCwxMS44NTQwMDk2IEwxLjM0NTczMDc3LDcuODM1ODQwODggTDEuMTA5MTkzNjYsOC41ODU1MzAzIEw3LjUwNDYwNzA1LDcuODE1MzgxMyBMNy43NTIyMTA0Nyw3Ljc4NTU2NDM4IEw3Ljg1NTc5NjE4LDcuNTY4MDMwNzcgTDEwLjQwNjk3MiwyLjIxMDQ3MjUyIEw5LjU5MzAyNzk5LDIuMjEwNDcyNTIgTDEyLjE0NDIwMzgsNy41NjgwMzA3NyBaIE0xMCwxIEw5LjU5MzAyNzk5LDEuODU0NjU1NDMgTDcuMDQxODUyMTUsNy4yMTIyMTM2OCBMNy4zOTMwNDEyOCw2Ljk2NDg2MzE1IEwwLjk5NzYyNzg5MSw3LjczNTAxMjE1IEwwLDcuODU1MTQ4NTggTDAuNzYxMDkwNzc2LDguNDg0NzAxNTcgTDUuNjE4ODA5MTUsMTIuNTAyODcwMyBMNS40NzUzMzgzOSwxMi4wODE3MTk1IEw0LjA0MjQ4NjIxLDE4LjAwODUxODQgTDMuODAyNzg3NCwxOSBMNC43MTA1NTc0NCwxOC40NzE1MzEyIEwxMC4yMzIyODA1LDE1LjI1Njk5NjIgTDkuNzY3NzE5NTIsMTUuMjU2OTk2MiBMMTUuMjg5NDQyNiwxOC40NzE1MzEyIEwxNi4xOTcyMTI2LDE5IEwxNS45NTc1MTM4LDE4LjAwODUxODQgTDE0LjUyNDY2MTYsMTIuMDgxNzE5NSBMMTQuMzgxMTkwOSwxMi41MDI4NzAzIEwxOS4yMzg5MDkyLDguNDg0NzAxNTcgTDIwLDcuODU1MTQ4NTggTDE5LjAwMjM3MjEsNy43MzUwMTIxNSBMMTIuNjA2OTU4Nyw2Ljk2NDg2MzE1IEwxMi45NTgxNDc4LDcuMjEyMjEzNjggTDEwLjQwNjk3MiwxLjg1NDY1NTQzIEwxMCwxIFoiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="); }
+.grow-3838-space-link-expandable { display: block; padding-left: 15px; height: 37px; }
+.grow-3838-space-link-expandable:hover { background-color: #e6e6e6; text-decoration: none; }
+.grow-3838-space-link-expandable--current { box-shadow: inset 3px 0 0 #3572B0; background-color: #e6e6e6; font-weight: bold; }
+.grow-3838-space-link-expandable img { width: 24px; height: 24px; border-radius: 100%; margin-left: auto; margin-top: 5px; margin-right: auto; }
+.grow-3838-space-link { display: block; margin-bottom: -5px; }
+.grow-3838-space-link:hover { background-color: #e6e6e6; }
+.grow-3838-space-link img { width: 24px; height: 24px; border-radius: 100%; margin-left: auto; margin-top: 5px; margin-right: auto; display: block; position: relative; top: 5px; }
+.grow-3838-space-link--current { box-shadow: inset 3px 0 0 #3572B0; background-color: #e6e6e6; font-weight: bold; }
+</style><script src="11%20Intercept%20Execution_files/batch_002.js" charset="utf-8" type="text/javascript"></script><link href="11%20Intercept%20Execution_files/com_005.css" type="text/css" rel="stylesheet"><link href="11%20Intercept%20Execution_files/com_002.css" type="text/css" rel="stylesheet"><script src="11%20Intercept%20Execution_files/com.js" charset="utf-8" type="text/javascript"></script><script src="11%20Intercept%20Execution_files/com_002.js" charset="utf-8" type="text/javascript"></script><link href="11%20Intercept%20Execution_files/com_003.css" type="text/css" rel="stylesheet"><link href="11%20Intercept%20Execution_files/com.css" type="text/css" rel="stylesheet"><script src="11%20Intercept%20Execution_files/com_003.js" charset="utf-8" type="text/javascript"></script><script src="11%20Intercept%20Execution_files/com_006.js" charset="utf-8" type="text/javascript"></script><script src="11%20Intercept%20Execution_files/com_005.js" charset="utf-8" type="text/javascript"></script><script src="11%20Intercept%20Execution_files/com_004.js" charset="utf-8" type="text/javascript"></script><link href="11%20Intercept%20Execution_files/com_004.css" type="text/css" rel="stylesheet"><script src="11%20Intercept%20Execution_files/batch_006.js" charset="utf-8" type="text/javascript"></script><link href="11%20Intercept%20Execution_files/batch.css" type="text/css" rel="stylesheet"><script src="11%20Intercept%20Execution_files/batch_004.js" charset="utf-8" type="text/javascript"></script>
+            <meta name="ajs-use-watch" content="false">
+            <meta name="ajs-attachment-source-content-id" content="491997">
+            <meta name="ajs-use-inline-tasks" content="true">
+            <meta name="ajs-heartbeat" content="true">
+            <meta name="ajs-action-locale" content="en_GB">
+            <meta name="ajs-editor-plugin-resource-prefix" content="/wiki/s/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1000.150.0/_">
+            <meta name="ajs-edit-mode" content="legacy">
+            <meta name="ajs-existing-draft-id" content="0">
+            <meta name="ajs-user-watching-own-content" content="false">
+            <meta name="ajs-new-page" content="false">
+            <meta name="ajs-content-id" content="491997">
+            <meta name="ajs-editor-mode" content="richtext">
+            <meta name="ajs-form-name" content="inlinecommentform">
+            <meta name="ajs-auto-start" content="false">
+            <meta name="ajs-can-attach-files" content="false">
+            <meta name="ajs-show-draft-message" content="false">
+            <meta name="ajs-conf-revision" content="confluence$content$491997.0">
+            <meta name="ajs-draft-id" content="0">
+            <meta name="ajs-shared-drafts" content="false">
+            <meta name="ajs-min-editor-height" content="150">
+            <meta name="ajs-draft-share-id" content="">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-version-comment" content="">
+            <meta name="ajs-draft-type" content="page">
+                
+                <meta name="ajs-synchrony-token" content="">
+    <meta name="ajs-synchrony-service-uri" content="">
+    <meta name="ajs-synchrony-resources-uri" content="">
+    <meta name="ajs-synchrony-app-id" content="">
+    <meta name="ajs-synchrony-dark-enabled" content="false">
+    <meta name="ajs-synchrony-expiry" content="">
+
+            		    <meta name="ajs-max-thumb-width" content="300">
+		    <meta name="ajs-max-thumb-height" content="300">
+		    <meta name="ajs-can-send-email" content="true">
+		    <meta name="ajs-is-dev-mode" content="false">
+		    <meta name="ajs-draft-save-interval" content="30000">
+		    <meta name="ajs-show-hidden-user-macros" content="false">
+		    <meta name="ajs-is-admin" content="false">
+		    <meta name="ajs-heartbeat-interval" content="30000">
+	
+    <link href="11%20Intercept%20Execution_files/batch_005.css" type="text/css" rel="stylesheet"><script src="11%20Intercept%20Execution_files/batch_003.js" charset="utf-8" type="text/javascript"></script><style type="text/css"></style></head>
+
+    
+<body grow-3838-sidebar-type="pagetree" data-aui-version="5.9.19" id="com-atlassian-confluence" class="theme-default   aui-layout aui-theme-default">
+
+        
+    <ul id="assistive-skip-links" class="assistive">
+    <li><a href="#title-heading">Skip to content</a></li>
+    <li><a href="#breadcrumbs">Skip to breadcrumbs</a></li>
+    <li><a href="#header-menu-bar">Skip to header menu</a></li>
+    <li><a href="#navigation">Skip to action menu</a></li>
+    <li><a href="#quick-search-query">Skip to quick search</a></li>
+</ul>
+<div id="page">
+<div id="full-height-container">
+    <div id="header-precursor">
+        <div class="cell">
+            
+                            </div>
+    </div>
+
+                
+
+
+
+
+
+<header id="header" role="banner">
+    <nav data-aui-responsive="true" class="aui-header aui-dropdown2-trigger-group" role="navigation"><div class="aui-header-inner"><div class="aui-header-before"><a aria-expanded="false" resolved="" class=" aui-dropdown2-trigger app-switcher-trigger" aria-controls="app-switcher" aria-haspopup="true" role="button" tabindex="0" data-aui-trigger="" href="#app-switcher"><span class="aui-icon aui-icon-small aui-iconfont-appswitcher">Linked Applications</span></a><div resolved="" id="app-switcher" class="aui-dropdown2 aui-style-default aui-layer" role="menu" aria-hidden="true" data-is-switcher="true" data-environment="{&quot;isUserAdmin&quot;:false,&quot;isAppSuggestionAvailable&quot;:false,&quot;isSiteAdminUser&quot;:false}"><div role="application"><div class="app-switcher-loading">Loading…</div></div></div></div><div class="aui-header-primary"><h1 id="logo" class="aui-header-logo aui-header-logo-custom"><a href="https://stripesframework.atlassian.net/wiki/"><img data-aui-responsive-header-index="0" src="11%20Intercept%20Execution_files/atl.png" alt="Stripes Framework Wiki"></a></h1><ul style="width: auto;" resolved="" class="aui-nav">
+                            <li>
+            
+        
+        
+<a href="#space-menu-link-content" aria-expanded="false" resolved="" id="space-menu-link" class=" aui-dropdown2-trigger aui-nav-link" aria-controls="space-menu-link-content" aria-haspopup="true" role="button" title="Spaces" tabindex="0" data-aui-trigger="">Spaces<span class="icon aui-icon-dropdown"></span></a><div resolved="" id="space-menu-link-content" class="aui-dropdown2 aui-style-default aui-dropdown2-in-header aui-layer" role="menu" aria-hidden="true"><div role="application"></div></div>
+        </li>
+                                        <li class="aui-buttons">
+            </li>
+    </ul>
+</div><div class="aui-header-secondary"><ul resolved="" class="aui-nav"><li id="grow-3838-label" class="grow-3838-label">
+    <div>Beta</div>
+</li>
+<li id="grow-3838-toggle-button" class="grow-3838-toggle-button">
+    <!-- the below tooltip weirdery is because the current version of AUI actively tries to prevent you from not having a tooltip. -->
+    <aui-toggle resolved="" checked="checked" id="grow-3838-toggle" class="grow-3838-toggle" label="grow-3838-optin-optout" tooltip-on=" " tooltip-off=" "><input original-title="" checked="checked" id="grow-3838-toggle-input" aria-label="grow-3838-optin-optout" tooltip-on=" " tooltip-off=" " class="aui-toggle-input" type="checkbox"><span class="aui-toggle-view"><span class="aui-toggle-tick aui-icon aui-icon-small aui-iconfont-success"></span><span class="aui-toggle-cross aui-icon aui-icon-small aui-iconfont-close-dialog"></span></span></aui-toggle>
+</li>
+
+<aui-inline-dialog aria-hidden="true" resolved="" id="grow-3838-dialog-onboarding" class="aui-help aui-layer" alignment="bottom center" responds-to="hover"><div class="aui-inline-dialog-contents">
+    <h2>Want to try the latest and greatest?</h2>
+    <p>We're testing a new navigation experience to help you get to your
+ work with fewer clicks. Turn it on above to try it out - you can always
+ turn it off if you don't like it.</p>
+    <div class="grow-3838-onboarding-buttons">
+        <button id="grow-3838-onboarding-ok-button" class="aui-button">OK, got it</button>
+        <button id="grow-3838-onboarding-dismiss-button" class="aui-button aui-button-link">Dismiss</button>
+    </div>
+</div></aui-inline-dialog>
+
+<aui-inline-dialog aria-hidden="true" resolved="" id="grow-3838-dialog-optout" class="aui-help aui-layer" alignment="bottom center"><div class="aui-inline-dialog-contents">
+    <h2>Thanks for trying out our new navigation.<br>
+        What did you think?</h2>
+    <div class="grow-3838-optout-reason">
+        <form class="aui">
+            <textarea class="textarea" name="grow-3838-optout-feedback" id="grow-3838-optout-feedback"></textarea>
+        </form>
+    </div>
+    <div class="grow-3838-optout-button">
+        <button id="grow-3838-optout-submit-button" class="aui-button">Leave Feedback</button>
+    </div>
+</div></aui-inline-dialog>
+                        <li>
+        <form id="quick-search" class="aui-quicksearch dont-default-focus header-quicksearch" action="/wiki/dosearchsite.action" method="get"><fieldset><label for="quick-search-query" class="assistive">Quick Search</label><input id="quick-search-query" class="text app-search search quick-search-query" accesskey="q" autocomplete="off" name="queryString" title="Quick Search (/or g , g)" type="text"><input id="quick-search-submit" class="quick-search-submit" value="Search" type="submit"><div class="aui-dd-parent quick-nav-drop-down"></div></fieldset></form>
+    </li>
+        <li>
+            
+        <a aria-expanded="false" aria-controls="help-menu-link-content" resolved="" id="help-menu-link" class="aui-nav-link aui-dropdown2-trigger" href="#" aria-haspopup="true" title="Help">
+        <span class="aui-icon aui-icon-small aui-iconfont-help">Help</span>
+    </a>
+    <nav resolved="" id="help-menu-link-content" class="aui-dropdown2 aui-style-default aui-layer" aria-hidden="true">
+                    <div class="aui-dropdown2-section">
+                                <ul id="help-menu-link-leading" class="aui-list-truncate section-leading first">
+                                            <li>
+        
+            
+<a id="confluence-help-link" href="https://confluence.atlassian.com/display/ConfCloud/" class="    " title="Visit the Confluence documentation home" target="_blank">
+        Online Help
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="keyboard-shortcuts-link" href="https://stripesframework.atlassian.net/wiki" class="    " title="View available keyboard shortcuts (?)">
+        Keyboard Shortcuts
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="feed-builder-link" href="https://stripesframework.atlassian.net/wiki/dashboard/configurerssfeed.action" class="    " title="Create your custom RSS feed.">
+        Feed Builder
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="whats-new-menu-link" href="https://confluence.atlassian.com/x/cLPwK" class="    " title="See what’s new in Confluence">
+        What’s new
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="gadget-directory-link" href="https://stripesframework.atlassian.net/wiki" class="   user-item administration-link " title="Browse gadgets provided by Confluence">
+        Available Gadgets
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="confluence-about-link" href="https://stripesframework.atlassian.net/wiki/aboutconfluencepage.action" class="    " title="Get more information about Confluence">
+        About Confluence
+</a>
+</li>
+                                    </ul>
+            </div>
+            </nav>
+    
+    </li>
+        <li>
+                
+    
+    </li>
+        <li>
+            
+    </li>
+        <li>
+                                            </li><li>
+        
+            
+<a id="login-link" href="https://stripesframework.atlassian.net/wiki/login.action?os_destination=%2Fdisplay%2FSTRIPES%2FIntercept%2BExecution%3Fsrc%3Dcontextnavpagetreemode" class="   user-item login-link " title="">
+        Log in
+</a>
+</li>
+                        <li>
+    
+            
+<a id="signup-link" href="https://stripesframework.atlassian.net/admin/users/sign-up" class="   user-item signup-link " title="">
+        Sign up
+</a>
+</li>
+                        
+    
+    </ul>
+</div></div><!-- .aui-header-inner--></nav><!-- .aui-header -->
+    <br class="clear">
+</header>
+    
+
+        
+            <div class="ia-splitter">
+                <div class="ia-splitter-left">
+                    <div style="width: 285px; visibility: visible; top: 41px; left: 0px; opacity: 1;" class="ia-fixed-sidebar">
+                                                                                    <div class="acs-side-bar"><div class="acs-side-bar-space-info tipsy-enabled" data-configure-tooltip="Edit space details"><div class="avatar"><div class="space-logo" data-key="STRIPES" data-name="Stripes Wiki" data-entity-type="confluence.space"><div class="avatar-img-container"><div class="avatar-img-wrapper"><a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Home?src=sidebar" title="Stripes Wiki"><img class="avatar-img" src="11%20Intercept%20Execution_files/STRIPES.png" alt="Stripes Wiki"></a></div></div></div></div><div class="space-information-container"><div class="name"><a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Home?src=sidebar" title="Stripes Wiki">Stripes Wiki</a></div><div class="flyout-handle icon"></div></div></div><div class="acs-side-bar-content"><div class="acs-nav-wrapper"><div class="acs-nav" data-has-create-permission="false" data-quick-links-state="null" data-page-tree-state="null" data-nav-type="page-tree"><div class="acs-nav-sections"><div class="quick-links-wrapper"><h5 class="ia-quick-links-header-title">Space shortcuts</h5><div data-collapsed-tooltip="Space shortcuts" class="quick-links-section tipsy-enabled "><ul class="acs-nav-list"><li class="acs-nav-item external_link"><a class="acs-nav-item-link tipsy-enabled" href="https://stripesframework.atlassian.net/browse/STS" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">Stripes JIRA (Issue Tracking)</span></a></li><li class="acs-nav-item external_link"><a class="acs-nav-item-link tipsy-enabled" href="https://stripesframework.ci.cloudbees.com/job/Stripes%201.6.0/javadoc/" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">Stripes JavaDoc</span></a></li><li class="acs-nav-item external_link"><a class="acs-nav-item-link tipsy-enabled" href="https://stripesframework.ci.cloudbees.com/job/Stripes%201.6.0/ws/stripes/target/site/tlddoc/index.html" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">Stripes Tag Library Doc</span></a></li><li class="acs-nav-item external_link"><a class="acs-nav-item-link tipsy-enabled" href="https://github.com/StripesFramework/stripes" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">Stripes On GitHub</span></a></li><li class="acs-nav-item external_link"><a class="acs-nav-item-link tipsy-enabled" href="https://stripesframework.ci.cloudbees.com/" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">Stripes Jenkins</span></a></li><li class="acs-nav-item external_link"><a class="acs-nav-item-link tipsy-enabled" href="http://webchat.freenode.net/?nick=stripesnoob...&amp;channels=stripes&amp;prompt=1" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">#stripes on IRC</span></a></li></ul></div></div></div></div></div><div class="ia-secondary-container tipsy-enabled" data-tree-type="page-tree"><div class="ia-secondary-header"><h5 class="ia-secondary-header-title page-tree"><span class="icon"></span><span class="label">Page tree</span></h5></div><div class="ia-secondary-content ia-scrollable-section"><div class="grow-3838-space"><a id="grow-3838-space" href="https://stripesframework.atlassian.net/wiki/display/STRIPES"><div id="grow-3838-space-name" class="grow-3838-space-name">Stripes Wiki</div></a></div>
+
+
+<div class="plugin_pagetree conf-macro output-inline" data-hasbody="false" data-macro-name="pagetree">
+
+        
+        
+    <ul class="plugin_pagetree_children_list plugin_pagetree_children_list_noleftspace">
+        <div id="children491934-0" class="plugin_pagetree_children">
+<ul class="plugin_pagetree_children_list" id="child_ul491934-0">
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491966-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/An+Overview+-+Guiding+Principles?src=contextnavpagetreemode">An Overview - Guiding Principles</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -46px; padding-left: 46px;" id="children491966-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus491968-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491968-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Beginning+Stripes?src=contextnavpagetreemode">Beginning Stripes</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -46px; padding-left: 46px;" id="children491968-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus491977-0" class="plugin_pagetree_childtoggle icon icon-section-opened" href="">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491977-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Documentation?src=contextnavpagetreemode">Documentation</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -46px; padding-left: 46px;" id="children491977-0" class="plugin_pagetree_children_container">
+                                                        <ul class="plugin_pagetree_children_list" id="child_ul491977-0">
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491979-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Best+Practices?src=contextnavpagetreemode">Best Practices</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -62px; padding-left: 62px;" id="children491979-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus491981-0" class="plugin_pagetree_childtoggle icon icon-section-opened" href="">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491981-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/How+To%27s?src=contextnavpagetreemode">How To's</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -62px; padding-left: 62px;" id="children491981-0" class="plugin_pagetree_children_container">
+                                                        <ul class="plugin_pagetree_children_list" id="child_ul491981-0">
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491983-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/AJAX?src=contextnavpagetreemode">AJAX</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children491983-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan21397507-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Asynchronous+Actions?src=contextnavpagetreemode">Asynchronous Actions</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children21397507-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491985-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Display+Errors?src=contextnavpagetreemode">Display Errors</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children491985-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491987-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Exception+Handling?src=contextnavpagetreemode">Exception Handling</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children491987-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491989-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Extensions?src=contextnavpagetreemode">Extensions</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children491989-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491991-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/File+Uploads?src=contextnavpagetreemode">File Uploads</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children491991-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491993-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/FreeMarker+with+Stripes?src=contextnavpagetreemode">FreeMarker with Stripes</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children491993-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491995-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Indexed+Properties?src=contextnavpagetreemode">Indexed Properties</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children491995-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span style="width: 269px; padding-left: 59px; margin-left: -47px; background-color: rgb(234, 242, 249);" class="plugin_pagetree_children_span plugin_pagetree_current" id="childrenspan491997-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Intercept+Execution?src=contextnavpagetreemode">Intercept Execution</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children491997-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491999-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Layout+Reuse?src=contextnavpagetreemode">Layout Reuse</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children491999-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492001-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Localization?src=contextnavpagetreemode">Localization</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children492001-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492003-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Spring+with+Stripes?src=contextnavpagetreemode">Spring with Stripes</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children492003-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492007-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/State+Management?src=contextnavpagetreemode">State Management</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children492007-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492011-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Stripes+EJB3+Interceptor?src=contextnavpagetreemode">Stripes EJB3 Interceptor</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children492011-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492005-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Stripes+Injection+Enricher?src=contextnavpagetreemode">Stripes Injection Enricher</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children492005-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492014-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Unit+Testing?src=contextnavpagetreemode">Unit Testing</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children492014-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492016-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Use+Defaults+More?src=contextnavpagetreemode">Use Defaults More</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children492016-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492018-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Wizard+Forms?src=contextnavpagetreemode">Wizard Forms</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -78px; padding-left: 78px;" id="children492018-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+                                        </ul>
+                                        </div>
+    </li>
+                                            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus492120-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492120-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/References?src=contextnavpagetreemode">References</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -62px; padding-left: 62px;" id="children492120-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+                                        </ul>
+                                        </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492138-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Download?src=contextnavpagetreemode">Download</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -46px; padding-left: 46px;" id="children492138-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492020-0">                        <a href="https://stripesframework.atlassian.net/wiki/pages/viewpage.action?pageId=492020&amp;src=contextnavpagetreemode">Mailing Lists &amp; Bugs</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -46px; padding-left: 46px;" id="children492020-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492022-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Sponsors+and+Tools?src=contextnavpagetreemode">Sponsors and Tools</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -46px; padding-left: 46px;" id="children492022-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492025-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Stripes+Around+The+Web?src=contextnavpagetreemode">Stripes Around The Web</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -46px; padding-left: 46px;" id="children492025-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan491964-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Stripes+vs.+Struts?src=contextnavpagetreemode">Stripes vs. Struts</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -46px; padding-left: 46px;" id="children491964-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492027-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Stripes+vs.+Struts2?src=contextnavpagetreemode">Stripes vs. Struts2</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -46px; padding-left: 46px;" id="children492027-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                                            <a id="plusminus492029-0" class="plugin_pagetree_childtoggle icon icon-section-closed" href="">
+            </a>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492029-0">                        <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/User+Additions?src=contextnavpagetreemode">User Additions</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -46px; padding-left: 46px;" id="children492029-0" class="plugin_pagetree_children_container">
+                                                            </div>
+    </li>
+            <li>
+    <div class="plugin_pagetree_childtoggle_container">
+                    <span class="no-children icon"></span>
+            </div>
+    <div class="plugin_pagetree_children_content">
+          
+        
+                    <span class="plugin_pagetree_children_span" id="childrenspan492065-0">                        <a href="https://stripesframework.atlassian.net/wiki/pages/viewpage.action?pageId=492065&amp;src=contextnavpagetreemode">Frequently-Asked Questions (FAQ)</a>
+        </span>
+            </div>
+
+        <div grow-3838-adapted="true" style="margin-left: -46px; padding-left: 46px;" id="children492065-0" class="plugin_pagetree_children_container">
+            </div>
+    </li>
+    </ul>
+</div>
+    </ul>
+
+    <fieldset class="hidden">
+        <input name="treeId" value="" type="hidden">
+        <input name="treeRequestId" value="/wiki/plugins/pagetree/naturalchildren.action?decorator=none&amp;excerpt=false&amp;sort=position&amp;reverse=false&amp;disableLinks=false&amp;expandCurrent=true" type="hidden">
+        <input name="treePageId" value="491997" type="hidden">
+
+        <input name="noRoot" value="false" type="hidden">
+        <input name="rootPageId" value="491934" type="hidden">
+
+        <input name="rootPage" value="" type="hidden">
+        <input name="startDepth" value="0" type="hidden">
+        <input name="spaceKey" value="STRIPES" type="hidden">
+
+        <input name="i18n-pagetree.loading" value="Loading..." type="hidden">
+        <input name="i18n-pagetree.error.permission" value="Unable to load page tree. It seems that you do not have permission to view the root page." type="hidden">
+        <input name="i18n-pagetree.eeror.general" value="There was a problem retrieving the page tree. Please check the server log file for more information." type="hidden">
+        <input name="loginUrl" value="/wiki/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3DSTRIPES%26title%3DIntercept%2BExecution&amp;permissionViolation=true" type="hidden">
+        <input name="mobile" value="false" type="hidden">
+
+                <fieldset class="hidden">
+                                                <input name="ancestorId" value="491981" type="hidden">
+                                    <input name="ancestorId" value="491977" type="hidden">
+                                    <input name="ancestorId" value="491934" type="hidden">
+                                    </fieldset>
+    </fieldset>
+</div>
+</div></div></div><div class="hidden"><a title=" (g , s)" href="https://stripesframework.atlassian.net/wiki/collector/pages.action?key=STRIPES&amp;src=sidebar" id="space-pages-link"></a><script type="text/x-template" title="logo-config-content"><h2>Space Details</h2><div class="personal-space-logo-hint">Your profile picture is used as the logo for your personal space. <a href="/wiki/users/profile/editmyprofilepicture.action" target="_blank">Change your profile picture</a>.</div></script></div></div><div class="space-tools-section"><div id="space-tools-menu-additional-items" class="hidden"><div data-label="Browse pages" data-class="" data-href="/wiki/pages/reorderpages.action?key=STRIPES">Browse pages</div></div><button data-collapsed-tooltip="Space tools" aria-expanded="false" resolved="" id="space-tools-menu-trigger" class=" aui-dropdown2-trigger aui-button aui-button-subtle tipsy-enabled" aria-controls="space-tools-menu" aria-haspopup="true" role="button" data-aui-trigger=""><span class="aui-icon aui-icon-small aui-iconfont-configure">Configure</span><span class="aui-button-label">Space tools</span><span class="icon aui-icon-dropdown"></span></button><div resolved="" id="space-tools-menu" class="aui-dropdown2 aui-style-default space-tools-dropdown aui-layer" role="menu" aria-hidden="true" data-aui-alignment="top left"><div role="presentation" class="aui-dropdown2-section space-tools-navigation"><div role="group"><ul class="aui-list-truncate" role="presentation"><li role="presentation"><a role="menuitem" tabindex="-1" class="" href="https://stripesframework.atlassian.net/wiki/spaces/viewspacesummary.action?key=STRIPES&amp;src=spacetools">Overview</a></li><li role="presentation"><a role="menuitem" tabindex="-1" class="" href="https://stripesframework.atlassian.net/wiki/pages/reorderpages.action?key=STRIPES&amp;src=spacetools">Content Tools</a></li></ul></div></div><div role="presentation" class="aui-dropdown2-section space-operations"><div role="group"><ul class="aui-list-truncate" role="presentation"><li role="presentation"><a role="menuitem" tabindex="-1" class="" href="https://stripesframework.atlassian.net/wiki/pages/reorderpages.action?key=STRIPES&amp;src=spacetools">Browse pages</a></li></ul></div></div></div><a data-tooltip="Collapse sidebar ( [ )" class="expand-collapse-trigger"></a></div>
+                                                                        <div title=" ([)" data-tooltip="Collapse sidebar ( [ )" class="ia-splitter-handle tipsy-enabled"><div class="ia-splitter-handle-highlight"></div></div><div class="grow-3838-global-sidebar" data-type="fixed">
+
+    <div class="grow-3838-global-sidebar-inner">
+        <div class="grow-3838-sidebar-discover">
+            
+            <a href="https://stripesframework.atlassian.net/wiki/all-updates" id="grow-3838-icon-all-updates" class="grow-3838-global-sidebar-icon grow-3838-icon-all-updates" original-title="All updates">
+            </a>
+            
+            <a href="https://stripesframework.atlassian.net/wiki/popular" id="grow-3838-icon-popular" class="grow-3838-global-sidebar-icon grow-3838-icon-popular" original-title="Popular">
+            </a>
+            
+        </div>
+
+        <div class="grow-3838-sidebar-my-work">
+            
+            <a href="https://stripesframework.atlassian.net/wiki/recently-worked" id="grow-3838-icon-recently-worked" class="grow-3838-global-sidebar-icon grow-3838-icon-recently-worked" original-title="Recently worked on">
+            </a>
+            
+            <a href="https://stripesframework.atlassian.net/wiki/recently-viewed" id="grow-3838-icon-recently-viewed" class="grow-3838-global-sidebar-icon grow-3838-icon-recently-viewed" original-title="Recently visited">
+            </a>
+            
+            <a href="https://stripesframework.atlassian.net/wiki/starred" id="grow-3838-icon-starred" class="grow-3838-global-sidebar-icon grow-3838-icon-starred" original-title="Saved for later">
+            </a>
+            
+        </div>
+
+        <div class="grow-3838-sidebar-my-spaces">
+
+        
+<a original-title="Stripes Wiki" id="grow-3838-space-link" class="grow-3838-space-link grow-3838-space-link--current" href="https://stripesframework.atlassian.net/wiki/display/STRIPES" original-space-title="Stripes Wiki">
+    <img src="11%20Intercept%20Execution_files/STRIPES.png" alt="Stripes Wiki" height="24" width="24">
+</a>
+
+</div>
+    </div>
+</div>
+</div>
+                </div>
+                <!-- \#header -->
+
+            
+                
+        <div style="margin-left: 279px; min-height: 2677px;" id="main" class=" aui-page-panel ">
+                                                <div id="main-header">
+                                                                                            <content tag="content-navigation">
+    <div id="navigation" class="content-navigation view">
+                    <!-- putMetadata failed to add value for key "page-id" so rendering metadata inline - see server debug log for details -->
+        <meta name="ajs-page-id" content="491997">
+            <ul class="ajs-menu-bar">
+                                            
+        <li class="normal ajs-menu-item">
+        <a aria-expanded="false" aria-controls="action-menu" resolved="" id="action-menu-link" class="action aui-dropdown2-trigger-arrowless aui-button aui-button-subtle ajs-menu-title aui-dropdown2-trigger" href="#" aria-haspopup="true" data-container="#navigation">
+            <span>
+                                    <span class="aui-icon aui-icon-small aui-iconfont-more"></span>
+                                
+            </span>
+        </a>         <div resolved="" id="action-menu" class="aui-dropdown2 aui-style-default aui-layer most-right-menu-item" aria-hidden="true">
+                            <div class="aui-dropdown2-section">
+                    <ul id="action-menu-primary" class="section-primary first">
+                                                    <li>
+
+    
+        
+                                            
+    
+    
+    <a id="view-attachments-link" href="https://stripesframework.atlassian.net/wiki/pages/viewpageattachments.action?pageId=491997" rel="nofollow" class="action-view-attachments" accesskey="t" title="View Attachments (t)">
+                <span>
+                        A<u>t</u>tachments (0)
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-view-history-link" href="https://stripesframework.atlassian.net/wiki/pages/viewpreviousversions.action?pageId=491997" rel="nofollow" class="action-view-history" title="">
+                <span>
+                        Page History
+        </span>    </a>
+</li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul id="action-menu-secondary" class="section-secondary">
+                                                    <li>
+
+    
+        
+                                            
+    
+    
+    <a id="view-page-info-link" href="https://stripesframework.atlassian.net/wiki/pages/viewinfo.action?pageId=491997" rel="nofollow" class="action-view-info" title="">
+                <span>
+                        Page Information
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="view-resolved-comments" href="https://stripesframework.atlassian.net/wiki" rel="nofollow" class="" title="">
+                <span>Resolved comments (0)</span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="link-to-page-link" href="https://stripesframework.atlassian.net/wiki/pages/viewinfo.action?pageId=491997" rel="nofollow" class="" title="Link to this Page (k)">
+                <span>
+                        Link to this Page…
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="view-in-hierarchy-link" href="https://stripesframework.atlassian.net/wiki/pages/reorderpages.action?key=STRIPES&amp;openId=491997#selectedPageInHierarchy" rel="nofollow" class="" title="">
+                <span>
+                        View in Hierarchy
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-view-source-link" href="https://stripesframework.atlassian.net/wiki/plugins/viewsource/viewpagesrc.action?pageId=491997" rel="nofollow" class="action-view-source popup-link" title="">
+                <span>
+                        View Source
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-export-pdf-link" href="https://stripesframework.atlassian.net/wiki/spaces/flyingpdf/pdfpageexport.action?pageId=491997" rel="nofollow" class="" title="">
+                <span>
+                        Export to PDF
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-export-word-link" href="https://stripesframework.atlassian.net/wiki/exportword?pageId=491997" rel="nofollow" class="action-export-word" title="">
+                <span>
+                        Export to Word
+        </span>    </a>
+</li>
+                                        </ul>
+                </div>
+                    </div>
+    </li>
+            </ul>
+    </div>
+</content>
+                                        
+                    
+                    <div id="title-heading" class="pagetitle with-breadcrumbs">
+                        
+                                                    <div id="breadcrumb-section">
+                                
+    
+    
+    <ol id="breadcrumbs">
+                                        
+                        
+        <li class="first">
+                        
+                            <span class=""><a href="https://stripesframework.atlassian.net/wiki/collector/pages.action?key=STRIPES&amp;src=breadcrumbs-collector">Pages</a></span>
+                                                                                                            </li><li id="ellipsis" title="Show all breadcrumbs"><span><strong>…</strong></span></li>
+                                                
+                        
+        <li class="hidden-crumb">
+                        
+                            <span class=""><a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Home?src=breadcrumbs-expanded">Home</a></span>
+                                                                                                    
+                        
+        </li><li class="hidden-crumb">
+                        
+                            <span class=""><a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Documentation?src=breadcrumbs-expanded">Documentation</a></span>
+                                                                                    
+                        
+        </li><li>
+                        
+                            <span class=""><a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/How+To%27s?src=breadcrumbs-parent">How To's</a></span>
+                                                                    </li></ol>
+
+
+                            </div>
+                        
+                        
+        <a href="#page-banner-end" class="assistive">Skip to end of banner</a>
+<div id="page-banner-start" class="assistive"></div>
+
+                    
+            <div style="visibility: visible;" id="page-metadata-banner"><ul class="banner"><li id="system-content-items" class="noprint hidden"><a href="" title="Unrestricted" id="content-metadata-page-restrictions-hidden" class="hidden"></a></li><li class="page-metadata-item noprint has-button" id="content-metadata-jira-wrapper"><a href="" title="" id="content-metadata-jira" class="aui-button aui-button-subtle content-metadata-jira tipsy-disabled hidden"><span>JIRA links</span></a></li></ul></div>
+            
+
+<a href="#page-banner-start" class="assistive">Go to start of banner</a>
+<div id="page-banner-end" class="assistive"></div>
+    
+
+                        <h1 id="title-text" class="with-breadcrumbs">
+                                                                <a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Intercept+Execution">Intercept Execution</a>
+                                                    </h1>
+                    </div>
+                </div><!-- \#main-header -->
+            
+                            
+
+                <div id="sidebar-container">
+                                                                                        </div><!-- \#sidebar-container -->
+                            
+    
+
+        
+
+
+
+
+            
+    
+
+
+                                
+    
+
+    
+    
+        
+    
+    
+                    
+    
+
+    
+
+    
+                        
+        
+
+    
+    
+
+    
+            
+        
+
+
+
+    
+<div id="content" class="page view">
+    
+
+
+<div id="action-messages">
+                        </div>
+
+
+
+        <script type="text/x-template" title="searchResultsGrid">
+    <table class="aui">
+        <thead>
+            <tr class="header">
+                <th class="search-result-title">Page Title</th>
+                <th class="search-result-space">Space</th>
+                <th class="search-result-date">Updated</th>
+            </tr>
+        </thead>
+    </table>
+</script>
+<script type="text/x-template" title="searchResultsGridCount">
+    <p class="search-result-count">{0}</p>
+</script>
+<script type="text/x-template" title="searchResultsGridRow">
+    <tr class="search-result">
+        <td class="search-result-title"><a href="{1}" class="content-type-{2}"><span>{0}</span></a></td>
+        <td class="search-result-space"><a class="space" href="/wiki/display/{4}/" title="{3}">{3}</a></td>
+        <td class="search-result-date"><span class="date" title="{6}">{5}</span></td>
+    </tr>
+</script>
+        
+    
+                                
+    
+
+                    
+
+            
+                            
+
+            
+            <a href="#page-metadata-end" class="assistive">Skip to end of metadata</a>
+<div id="page-metadata-start" class="assistive"></div>
+
+    <div class="page-metadata">
+        <ul>
+            <li class="page-metadata-modification-info">
+                
+        
+    
+        
+    
+        
+            
+            Created by <span class="author">     <a href="https://stripesframework.atlassian.net/wiki/display/%7Ergrashel" class="url fn">Rick Grashel [Administrator]</a></span>, last modified by <span class="editor">     <a href="https://stripesframework.atlassian.net/wiki/display/%7Elumpyoatmeal" class="url fn">Rusty Wright</a></span> on <a class="last-modified" title="Show changes" href="https://stripesframework.atlassian.net/wiki/pages/diffpagesbyversion.action?pageId=491997&amp;selectedPageVersions=2&amp;selectedPageVersions=3">Oct 30, 2014</a>
+                </li>
+                    </ul>
+    </div>
+
+
+<a href="#page-metadata-start" class="assistive">Go to start of metadata</a>
+<div id="page-metadata-end" class="assistive"></div>
+
+            
+                                                            
+            <div id="main-content" class="wiki-content">
+                                
+        <p style="margin-top: 0.0px;">Stripes includes an <a href="http://stripes.sourceforge.net/docs/current/javadoc/index.html?net/sourceforge/stripes/controller/Interceptor.html" class="external-link" rel="nofollow">Interceptor</a>
+ system designed to make it easy to add functionality to Stripes. For 
+cross-cutting behaviour it is often simpler to write an interceptor than
+ to extend Stripes' built in components.</p><p>The following classes form the core of the Stripes lifecycle and interceptor system:</p><ul><li><a href="http://stripes.sourceforge.net/docs/current/javadoc/index.html?net/sourceforge/stripes/controller/LifecycleStage.html" class="external-link" rel="nofollow">LifecycleStage</a> is an enum that describes the stages through which a request progresses. This is discussed in great detail in the <a href="https://stripesframework.atlassian.net/wiki/pages/viewpage.action?pageId=492132">Lifecycles Etc.</a> page.</li><li><a href="http://stripes.sourceforge.net/docs/current/javadoc/index.html?net/sourceforge/stripes/controller/Interceptor.html" class="external-link" rel="nofollow">Interceptor</a> defines the interface contract that interceptors use.</li><li><a href="http://stripes.sourceforge.net/docs/current/javadoc/index.html?net/sourceforge/stripes/controller/Intercepts.html" class="external-link" rel="nofollow">Intercepts</a> is an annotation used to mark interceptors with the stages that they will intercept</li><li><a href="http://stripes.sourceforge.net/docs/current/javadoc/index.html?net/sourceforge/stripes/controller/ExecutionContext.html" class="external-link" rel="nofollow">ExecutionContext</a> wraps up all the context associated with an ActionBean invocation, and is supplied to interceptors</li></ul><h3 id="InterceptExecution-AnExampleInterceptor">An Example Interceptor</h3><p>Let's look at an example. The following is a simply interceptor that "logs" a message before and after every lifecycle stage:</p><div class="code panel pdl conf-macro output-block" style="border-width: 1px;" data-hasbody="true" data-macro-name="code"><div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>NoisyInterceptor.java</b></div><div class="codeContent panelContent pdl">
+<div><div id="highlighter_55247" class="syntaxhighlighter sh-default nogutter  java"><div class="toolbar"><span><a href="#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java color1">@Intercepts</code><code class="java plain">({LifecycleStage.ActionBeanResolution, </code></div><div class="line number2 index1 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">LifecycleStage.HandlerResolution, </code></div><div class="line number3 index2 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">LifecycleStage.BindingAndValidation, </code></div><div class="line number4 index3 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">LifecycleStage.CustomValidation, </code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">LifecycleStage.EventHandling, </code></div><div class="line number6 index5 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">LifecycleStage.ResolutionExecution}) </code></div><div class="line number7 index6 alt2"><code class="java keyword">public</code> <code class="java keyword">class</code> <code class="java plain">NoisyInterceptor </code><code class="java keyword">implements</code> <code class="java plain">Interceptor { </code></div><div class="line number8 index7 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">public</code> <code class="java plain">Resolution intercept(ExecutionContext ctx) </code><code class="java keyword">throws</code> <code class="java plain">Exception { </code></div><div class="line number9 index8 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">System.out.println(</code><code class="java string">"Before "</code> <code class="java plain">+ ctx.getLifecycleStage()); </code></div><div class="line number10 index9 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">Resolution resolution = ctx.proceed(); </code></div><div class="line number11 index10 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">System.out.println(</code><code class="java string">"After "</code> <code class="java plain">+ ctx.getLifecycleStage()); </code></div><div class="line number12 index11 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">return</code> <code class="java plain">resolution </code></div><div class="line number13 index12 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">} </code></div><div class="line number14 index13 alt1"><code class="java plain">} </code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>While this interceptor does nothing of practical value, it does illustrate some basic concepts. Firstly the <code>@Intercepts</code>
+ is used to specify what lifecycle stages are intercepted. In this case 
+we specify all stages, so the interceptor will be invoked up to six 
+times during every request to an ActionBean! Secondly, interceptors 
+intercept <em>around</em> the lifecycle stage. As a result they can 
+execute code before it and after it. When the interceptor is ready to 
+execute the lifecycle code (and/or any downstream interceptors) it 
+simply calls <code>ExecutionContext.proceed()</code>.</p><p>In fact 
+interceptors can decide to skip a stage entirely, or even abort 
+execution early by returning a Resolution. When an interceptors does 
+this, the resolution is executed and the rest of the lifecycle is 
+omitted.</p><h3 id="InterceptExecution-ConfiguringInterceptors">Configuring Interceptors</h3><p>Configuring
+ interceptors is fairly straightforward. With Stripes 1.5 and up, your 
+interceptors will automatically be detected if they are in a package 
+configured with the <code>Extension.Packages</code> parameter. You can also use an initialization parameter of the Stripes Filter:</p><div class="code panel pdl conf-macro output-block" style="border-width: 1px;" data-hasbody="true" data-macro-name="code"><div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>"Configuring Interceptors in the web.xml (Stripes 1.5 and up)"</b></div><div class="codeContent panelContent pdl">
+<div><div id="highlighter_700714" class="syntaxhighlighter sh-default nogutter  xml"><div class="toolbar"><span><a href="#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">init-param</code><code class="xml plain">&gt; </code></div><div class="line number2 index1 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">param-name</code><code class="xml plain">&gt;Interceptor.Classes&lt;/</code><code class="xml keyword">param-name</code><code class="xml plain">&gt; </code></div><div class="line number3 index2 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">param-value</code><code class="xml plain">&gt; </code></div><div class="line number4 index3 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">com.myco.NoisyInterceptor </code></div><div class="line number5 index4 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;/</code><code class="xml keyword">param-value</code><code class="xml plain">&gt; </code></div><div class="line number6 index5 alt1"><code class="xml plain">&lt;/</code><code class="xml keyword">init-param</code><code class="xml plain">&gt; </code></div><div class="line number7 index6 alt2"><code class="xml plain">&lt;/</code><code class="xml keyword">filter</code><code class="xml plain">&gt; </code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>Normally, you would only use the web.xml configuration 
+method if the ordering of the interceptors is important. When multiple 
+interceptors intercept at the same lifecycle stage they are executed in 
+the order they are listed.</p><p>If you are using Stripes 1.4.x or earlier, you <strong>must</strong> use the web.xml configuration, and the only gotcha is that Stripes by default configures a single interceptor, the <a href="http://stripes.sourceforge.net/docs/current/javadoc/index.html?net/sourceforge/stripes/controller/BeforeAfterMethodInterceptor.html" class="external-link" rel="nofollow">BeforeAfterMethodInterceptor</a>. When specifying interceptors you need to also specify the <code>BeforeAfterMethodInterceptor</code> unless you wish to disable it:</p><div class="code panel pdl conf-macro output-block" style="border-width: 1px;" data-hasbody="true" data-macro-name="code"><div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>"Configuring Interceptors in the web.xml (Stripes 1.4.x and earlier)"</b></div><div class="codeContent panelContent pdl">
+<div><div id="highlighter_278080" class="syntaxhighlighter sh-default nogutter  xml"><div class="toolbar"><span><a href="#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">init-param</code><code class="xml plain">&gt; </code></div><div class="line number2 index1 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">param-name</code><code class="xml plain">&gt;Interceptor.Classes&lt;/</code><code class="xml keyword">param-name</code><code class="xml plain">&gt; </code></div><div class="line number3 index2 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">param-value</code><code class="xml plain">&gt; </code></div><div class="line number4 index3 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">com.myco.NoisyInterceptor, </code></div><div class="line number5 index4 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">net.sourceforge.stripes.controller.BeforeAfterMethodInterceptor</code></div><div class="line number6 index5 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;/</code><code class="xml keyword">param-value</code><code class="xml plain">&gt; </code></div><div class="line number7 index6 alt2"><code class="xml plain">&lt;/</code><code class="xml keyword">init-param</code><code class="xml plain">&gt; </code></div><div class="line number8 index7 alt1"><code class="xml plain">&lt;/</code><code class="xml keyword">filter</code><code class="xml plain">&gt; </code></div></div></td></tr></tbody></table></div></div>
+</div></div><h3 id="InterceptExecution-AnotherExample:Security">Another Example: Security</h3><p>Another example of where an interceptor might be useful is in application security. A prototype interceptor might look like:</p><div class="code panel pdl conf-macro output-block" style="border-width: 1px;" data-hasbody="true" data-macro-name="code"><div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>SecurityInterceptor.java</b></div><div class="codeContent panelContent pdl">
+<div><div id="highlighter_136584" class="syntaxhighlighter sh-default nogutter  java"><div class="toolbar"><span><a href="#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java color1">@Intercepts</code><code class="java plain">(LifecycleStage.HandlerResolution) </code></div><div class="line number2 index1 alt1"><code class="java keyword">public</code> <code class="java keyword">class</code> <code class="java plain">SecurityInterceptor </code><code class="java keyword">implements</code> <code class="java plain">Interceptor { </code></div><div class="line number3 index2 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java preprocessor">/** Intercepts execution and checks that the user has appropriate permissions. */</code></div><div class="line number4 index3 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">public</code> <code class="java plain">Resolution intercept(ExecutionContext ctx) </code><code class="java keyword">throws</code> <code class="java plain">Exception { </code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">Resolution resolution = ctx.proceed(); </code></div><div class="line number6 index5 alt1">&nbsp;</div><div class="line number7 index6 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">if</code> <code class="java plain">(isPermitted(ctx.getActionBean(), ctx.getActionBeanContext()) { </code></div><div class="line number8 index7 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">return</code> <code class="java plain">resolution; </code></div><div class="line number9 index8 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">} </code></div><div class="line number10 index9 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">else</code> <code class="java keyword">if</code> <code class="java plain">(loggedIn(ctx.getActionBeanContext()) { </code></div><div class="line number11 index10 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">return</code> <code class="java keyword">new</code> <code class="java plain">RedirectResolution(</code><code class="java string">"/security/Unauthorized.jsp"</code><code class="java plain">); </code></div><div class="line number12 index11 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">} </code></div><div class="line number13 index12 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">else</code> <code class="java plain">{ </code></div><div class="line number14 index13 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">return</code> <code class="java keyword">new</code> <code class="java plain">RedirectResolution(</code><code class="java string">"/security/Login.jsp"</code><code class="java plain">); </code></div><div class="line number15 index14 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">} </code></div><div class="line number16 index15 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">} </code></div><div class="line number17 index16 alt2">&nbsp;</div><div class="line number18 index17 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java preprocessor">/** Returns true if the user is logged in. */</code></div><div class="line number19 index18 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">protected</code> <code class="java keyword">boolean</code> <code class="java plain">isLoggedIn(ActionBeanContext ctx) { </code></div><div class="line number20 index19 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">return</code> <code class="java plain">((MyActionBeanContext) ctx).getUser() != </code><code class="java keyword">null</code><code class="java plain">; </code></div><div class="line number21 index20 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">} </code></div><div class="line number22 index21 alt1">&nbsp;</div><div class="line number23 index22 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java preprocessor">/** Returns true if the user is permitted to invoke the event requested. */</code></div><div class="line number24 index23 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">protected</code> <code class="java keyword">boolean</code> <code class="java plain">isPermitted() { ... } </code></div><div class="line number25 index24 alt2"><code class="java plain">} </code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>In this case the interceptor intercepts at one specific lifecycle stage: handler resolution. When this stage is complete the <code>ExecutionContext</code> contains information about which <code>ActionBean</code>
+ is being called, and which event is being handled - sufficient 
+information to determine if the user is allowed access or not. On top of
+ this, the interceptor can, through the <code>ActionBeanContext</code>, access information in the <code>HttpServletRequest</code> for further checks.</p><h3 id="InterceptExecution-TheBeforeAfterMethodInterceptor">The BeforeAfterMethodInterceptor</h3><p>The <a href="http://stripes.sourceforge.net/docs/current/javadoc/index.html?net/sourceforge/stripes/controller/Interceptor.html" class="external-link" rel="nofollow">BeforeAfterMethodInterceptor</a>
+ mentioned above is an interceptor which gives ActionBeans the ability 
+to define methods to be execute before and/or after certain lifecycle 
+stages. Methods marked with a <a href="http://stripes.sourceforge.net/docs/current/javadoc/index.html?net/sourceforge/stripes/action/Before.html" class="external-link" rel="nofollow">@Before</a>
+ are run before the specified lifecycle stages. If no stage is specified
+ then the method is run before the EventHandling stage. Methods marked 
+with an <a href="http://stripes.sourceforge.net/docs/current/javadoc/index.html?net/sourceforge/stripes/action/After.html" class="external-link" rel="nofollow">@After</a> annotation work similarly, but run after the specified lifecycle stages.</p><h3 id="InterceptExecution-TheSpringInterceptorSupportclass">The SpringInterceptorSupport class</h3><p>The <a href="http://stripes.sourceforge.net/docs/current/javadoc/index.html?net/sourceforge/stripes/integration/spring/SpringInterceptorSupport.html" class="external-link" rel="nofollow">SpringInterceptorSupport</a>
+ class is a simple base class that provide Spring bean injection into 
+custom interceptors. Otherwise there is no difference between extending <code>SpringInterceptorSupport</code> and implementing <code>Interceptor</code> directly.</p>
+
+                
+        
+    
+            </div>
+
+            <!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+         <rdf:Description
+    rdf:about="https://stripesframework.atlassian.net/wiki/display/STRIPES/Intercept+Execution"
+    dc:identifier="https://stripesframework.atlassian.net/wiki/display/STRIPES/Intercept+Execution"
+    dc:title="Intercept Execution"
+    trackback:ping="https://stripesframework.atlassian.net/wiki/rpc/trackback/491997"/>
+</rdf:RDF>
+-->
+
+                                
+    
+
+
+
+<div id="likes-and-labels-container"><div style="display: none;" id="likes-section"><span class="like-summary"></span></div><div id="labels-section" class="pageSection group">
+    <div class="labels-section-content content-column" entityid="491997" entitytype="page">
+	<div class="labels-content">
+		
+    <ul class="label-list label-list-right ">
+            <li class="no-labels-message">
+            No labels
+        </li>
+            </ul>
+
+    </div>
+</div>
+</div></div>
+            
+            
+                
+
+
+
+
+            
+        
+
+
+
+
+
+
+
+
+                        
+    
+<div id="comments-section" class="pageSection group">
+        
+    
+
+
+
+</div>
+        
+
+        
+            
+</div>
+
+    
+
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+
+            
+<div id="space-tools-web-items" class="hidden">
+                <div data-label="Overview" data-href="/wiki/spaces/viewspacesummary.action?key=STRIPES">Overview</div>
+            <div data-label="Content Tools" data-href="/wiki/pages/reorderpages.action?key=STRIPES">Content Tools</div>
+    </div>        
+        
+
+
+
+            </div>
+        <!-- \#main -->
+            
+    
+    
+            
+            
+            <div style="margin-left: 279px;" id="footer" role="contentinfo">
+    <section class="footer-body">
+        
+
+        <ul id="poweredby">
+            <li class="noprint"><a href="http://www.atlassian.com/" rel="nofollow">Powered by Atlassian</a></li>
+            <li class="print-only">Printed by Atlassian Confluence 1000.150.0</li>
+            <li class="noprint"><a href="http://www.atlassian.com/hosted/terms.jsp" rel="nofollow">Terms of Use</a></li>
+            <li class="noprint"><a href="https://answers.atlassian.com/questions/ask/?tags=on-demand" rel="nofollow">Answers</a></li>
+            <li class="noprint"><a href="https://confluence.atlassian.com/x/aJALE" rel="nofollow">Maintenance Schedule</a></li>
+        </ul>
+
+        <div id="footer-logo"><a href="http://www.atlassian.com/" rel="nofollow">Atlassian</a></div>
+
+                    
+            </section>
+</div>
+    
+        </div>
+    
+</div><!-- \#full-height-container -->
+</div><!-- \#page -->
+
+    <span style="display:none;" id="confluence-server-performance">{"serverDuration": 104, "requestCorrelationId": "ae7746a9c745155d"}</span>
+
+
+<script type="text/javascript">
+    AJS.BigPipe = AJS.BigPipe || {};
+    AJS.BigPipe.metrics = AJS.BigPipe.metrics || {};
+    AJS.BigPipe.metrics.pageEnd = typeof window.performance !== "undefined" && typeof window.performance.now === "function"
+                                    ? Math.ceil(window.performance.now()) : 0;
+    AJS.BigPipe.metrics.isBigPipeEnabled = 'false' === 'true';
+</script>
+
+
+
+    
+<div data-tooltip="Collapse sidebar ( [ )" original-title="" class="grow-3838-twixie" sidebar-state="collapsed">
+    <div class="grow-3838-icon-collapse"></div>
+    <div class="grow-3838-icon-expand"></div>
+</div><div id="editor-preload-container" style="display: none;">
+ 
+
+<div class="hidden">
+        
+
+
+<content tag="breadcrumbs">
+    
+    
+    <ol id="quickedit-breadcrumbs">
+                                        
+                        
+        <li class="first">
+                        
+                            <span class=""><a href="https://stripesframework.atlassian.net/wiki/display/STRIPES" target="_blank">Stripes Wiki</a></span>
+                                                                                    
+                        
+        </li><li>
+                        
+                            <span class=""><a href="https://stripesframework.atlassian.net/wiki/collector/pages.action?key=STRIPES" target="_blank">Pages</a></span>
+                                                                                                            </li><li id="ellipsis" title="Show all breadcrumbs"><span><strong>…</strong></span></li>
+                                                
+                        
+        <li class="hidden-crumb">
+                        
+                            <span class=""><a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Home" target="_blank">Home</a></span>
+                                                                                                    
+                        
+        </li><li class="hidden-crumb">
+                        
+                            <span class=""><a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Documentation" target="_blank">Documentation</a></span>
+                                                                                    
+                        
+        </li><li>
+                        
+                            <span class=""><a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/How+To%27s" target="_blank">How To's</a></span>
+                                                                                    
+                        
+        </li><li>
+                        
+                            <span class="edited-page-title"><a href="https://stripesframework.atlassian.net/wiki/display/STRIPES/Intercept+Execution" target="_blank">Intercept Execution</a></span>
+                                                                    </li></ol>
+
+</content>
+</div>
+
+
+        
+    <div id="anonymous-warning" class="aui-message warning closeable">You are not logged in. Any changes you make will be marked as <span class="smalltext">anonymous</span>. You may want to <a href="https://stripesframework.atlassian.net/wiki/login.action?os_destination=%2Fdisplay%2FSTRIPES%2FIntercept%2BExecution">Log In</a> if you already have an account.</div>
+
+                                                                                        
+
+<script type="text/x-template" title="editor-css" id="editor-css-resources">
+    <link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1.1.17/_/download/batch/com.atlassian.confluence.plugins.confluence-collaborative-editor-plugin:confluence-collaborative-editor-plugin-editor-content-resources/com.atlassian.confluence.plugins.confluence-collaborative-editor-plugin:confluence-collaborative-editor-plugin-editor-content-resources.css?relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.confluence-collaborative-editor-plugin:confluence-collaborative-editor-plugin-editor-content-resources" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/de23220d91cefddfcfbcaae97851da86-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/5.9.19/_/download/batch/com.atlassian.auiplugin:aui-page-typography/com.atlassian.auiplugin:aui-page-typography.css?relative-url=true" data-wrm-key="com.atlassian.auiplugin:aui-page-typography" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/de23220d91cefddfcfbcaae97851da86-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/5.9.19/_/download/batch/com.atlassian.auiplugin:aui-avatars/com.atlassian.auiplugin:aui-avatars.css?relative-url=true" data-wrm-key="com.atlassian.auiplugin:aui-avatars" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/05b1cc2f9fc348eb24463f0c95b9977d-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/5.9.19/_/download/batch/com.atlassian.auiplugin:aui-page-layout/com.atlassian.auiplugin:aui-page-layout.css?relative-url=true" data-wrm-key="com.atlassian.auiplugin:aui-page-layout" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/6fff6e9bfee98858e01949da674fd82e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1000.150.0/_/download/batch/com.atlassian.confluence.editor:editor-content-styles/com.atlassian.confluence.editor:editor-content-styles.css?relative-url=true" data-wrm-key="com.atlassian.confluence.editor:editor-content-styles" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/6fff6e9bfee98858e01949da674fd82e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1000.150.0/_/download/batch/com.atlassian.confluence.editor:table-resizable-editor-content-styles/com.atlassian.confluence.editor:table-resizable-editor-content-styles.css?confluence.table.resizable=true&amp;relative-url=true" data-wrm-key="com.atlassian.confluence.editor:table-resizable-editor-content-styles" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/6fff6e9bfee98858e01949da674fd82e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1000.150.0/_/download/batch/com.atlassian.confluence.editor:table-resizable-styles/com.atlassian.confluence.editor:table-resizable-styles.css?confluence.table.resizable=true&amp;relative-url=true" data-wrm-key="com.atlassian.confluence.editor:table-resizable-styles" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1000.150.0/_/download/batch/com.atlassian.confluence.plugins.confluence-templates:variable-editor-content-styles/com.atlassian.confluence.plugins.confluence-templates:variable-editor-content-styles.css?relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.confluence-templates:variable-editor-content-styles" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/de23220d91cefddfcfbcaae97851da86-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/5.9.19/_/download/batch/com.atlassian.auiplugin:aui-lozenge/com.atlassian.auiplugin:aui-lozenge.css?relative-url=true" data-wrm-key="com.atlassian.auiplugin:aui-lozenge" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/2.17/_/download/batch/com.atlassian.confluence.plugins.status-macro:view_content_status/com.atlassian.confluence.plugins.status-macro:view_content_status.css?relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.status-macro:view_content_status" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/489901e715cade6fe0efc7e21e194576-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/2.17/_/download/batch/com.atlassian.confluence.plugins.status-macro:editor_content_status/com.atlassian.confluence.plugins.status-macro:editor_content_status.css?relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.status-macro:editor_content_status" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d0638b94054c44b2ca8199723136b528-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1.2.8/_/download/batch/com.atlassian.confluence.plugins.confluence-fixed-headers:confluence-fixed-headers-editor-content-resources/com.atlassian.confluence.plugins.confluence-fixed-headers:confluence-fixed-headers-editor-content-resources.css?confluence.view.edit.transition=true&amp;relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.confluence-fixed-headers:confluence-fixed-headers-editor-content-resources" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/5baeb58a5608e28c5f241eee74f064b2-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/4.0.2/_/download/batch/confluence.extra.attachments:attachments-css/confluence.extra.attachments:attachments-css.css?relative-url=true" data-wrm-key="confluence.extra.attachments:attachments-css" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1000.0.3/_/download/batch/com.atlassian.confluence.plugins.confluence-roadmap-plugin:roadmap-placeholder-css/com.atlassian.confluence.plugins.confluence-roadmap-plugin:roadmap-placeholder-css.css?relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.confluence-roadmap-plugin:roadmap-placeholder-css" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1000.150.0/_/download/batch/confluence.web.resources:panel-styles/confluence.web.resources:panel-styles.css?relative-url=true" data-wrm-key="confluence.web.resources:panel-styles" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/6fff6e9bfee98858e01949da674fd82e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1000.150.0/_/download/batch/confluence.web.resources:content-styles/confluence.web.resources:content-styles.css?relative-url=true" data-wrm-key="confluence.web.resources:content-styles" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1000.150.0/_/download/batch/com.atlassian.confluence.plugins.confluence-page-layout:editor-pagelayout-content-styles/com.atlassian.confluence.plugins.confluence-page-layout:editor-pagelayout-content-styles.css?relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.confluence-page-layout:editor-pagelayout-content-styles" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/4.1.4/_/download/batch/com.atlassian.confluence.plugins.confluence-business-blueprints:sharelinks-urlmacro-editor-resources/com.atlassian.confluence.plugins.confluence-business-blueprints:sharelinks-urlmacro-editor-resources.css?relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.confluence-business-blueprints:sharelinks-urlmacro-editor-resources" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/7.0.2/_/download/batch/com.atlassian.confluence.plugins.confluence-inline-tasks:inline-tasks-styles/com.atlassian.confluence.plugins.confluence-inline-tasks:inline-tasks-styles.css?relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.confluence-inline-tasks:inline-tasks-styles" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/7.0.2/_/download/batch/com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css/com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css.css?relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css" data-wrm-batch-type="resource" media="all">
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/7.0.2/_/download/batch/com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css/com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css.css?conditionalComment=lte+IE+9&amp;relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css" data-wrm-batch-type="resource" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/3ef04b1c4bad2e221ab8bdb7ce5bb803-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1.5.1/_/download/batch/com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-editor-content-resources/com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-editor-content-resources.css?relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-editor-content-resources" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/3.1.4/_/download/batch/com.atlassian.confluence.plugins.confluence-software-blueprints:common-resources/com.atlassian.confluence.plugins.confluence-software-blueprints:common-resources.css?relative-url=true" data-wrm-key="com.atlassian.confluence.plugins.confluence-software-blueprints:common-resources" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="//d2p4ir3ro0j0cb.cloudfront.net/stripesframework.atlassian.net/wiki/s/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/5/_/styles/colors.css" media="all">
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+<div class="editor-container">
+
+        
+            
+
+<div id="link-browser-tab-items" class="hidden">
+                <div title="Search" data-weight="10">search</div>
+            <div title="Files" data-weight="30">attachments</div>
+            <div title="Web link" data-weight="40">weblink</div>
+            <div title="Advanced" data-weight="50">advanced</div>
+    </div>
+            <div id="image-properties-tab-items" class="hidden">
+                <div title="Effects" data-weight="10">image-effects</div>
+            <div title="Title" data-weight="20">image-attributes</div>
+    </div>
+            
+
+ 
+
+
+
+
+
+
+
+
+
+        <div id="toolbar">
+        <div id="rte-toolbar" class="aui-toolbar aui-toolbar2">
+
+            <div class="aui-toolbar2-primary toolbar-primary">
+                <ul class="aui-buttons rte-toolbar-group-formatting">
+                                        <li id="format-dropdown" class="toolbar-item toolbar-dropdown">
+                        <div class="aui-dd-parent">
+                            <a id="format-dropdown-display" href="#" class="toolbar-trigger aui-dd-trigger aui-button" data-control-id="formatselect">
+                                <span class="dropdown-text">Paragraph</span>
+                                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-dropdown "></span>
+                            </a>
+                            <ul id="format-dropdown-display-menu" class="aui-dropdown hidden">
+                                    <li class="dropdown-item format-p" data-format="p" data-tooltip="Paragraph (Ctrl+0)">
+        <a class="item-link" href="#">Paragraph</a>
+    </li>
+                                    <li class="dropdown-item format-h1" data-format="h1" data-tooltip="Heading 1 (Ctrl+1)">
+        <a class="item-link" href="#">Heading 1</a>
+    </li>
+                                    <li class="dropdown-item format-h2" data-format="h2" data-tooltip="Heading 2 (Ctrl+2)">
+        <a class="item-link" href="#">Heading 2</a>
+    </li>
+                                    <li class="dropdown-item format-h3" data-format="h3" data-tooltip="Heading 3 (Ctrl+3)">
+        <a class="item-link" href="#">Heading 3</a>
+    </li>
+                                    <li class="dropdown-item format-h4" data-format="h4" data-tooltip="Heading 4 (Ctrl+4)">
+        <a class="item-link" href="#">Heading 4</a>
+    </li>
+                                    <li class="dropdown-item format-h5" data-format="h5" data-tooltip="Heading 5 (Ctrl+5)">
+        <a class="item-link" href="#">Heading 5</a>
+    </li>
+                                    <li class="dropdown-item format-h6" data-format="h6" data-tooltip="Heading 6 (Ctrl+6)">
+        <a class="item-link" href="#">Heading 6</a>
+    </li>
+                                    <li class="dropdown-item format-pre" data-format="pre" data-tooltip="Preformatted (Ctrl+7)">
+        <a class="item-link" href="#">Preformatted</a>
+    </li>
+                                    <li class="dropdown-item format-blockquote" data-format="blockquote" data-tooltip="Quote (Ctrl+8)">
+        <a class="item-link" href="#">Quote</a>
+    </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="aui-buttons rte-toolbar-group-style">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-bold" data-tooltip="Bold (Ctrl+B)">
+        <a class="toolbar-trigger" href="#" data-control-id="bold">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-bold ">Bold</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-italic" data-tooltip="Italic (Ctrl+I)">
+        <a class="toolbar-trigger" href="#" data-control-id="italic">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-italic ">Italic</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-underline" data-tooltip="Underline (Ctrl+U)">
+        <a class="toolbar-trigger" href="#" data-control-id="underline">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-underline ">Underline</span>
+        </a>
+    </li>
+                                        <li id="color-picker-control" class="toolbar-item toolbar-splitbutton">
+                        <a class="toolbar-trigger aui-button" href="#" id="rte-button-color" data-color="003366" data-tooltip="Colour"><span class="icon aui-icon aui-icon-small aui-iconfont-editor-color ">Colour picker</span><span class="selected-color"></span></a><div class="aui-dd-parent"><a class="toolbar-trigger aui-dd-trigger aui-button" href="#" id="rte-button-color-selector" data-control-id="colorSelector" data-tooltip="More colours"><span class="icon aui-icon aui-icon-small aui-iconfont-dropdown ">More colours</span></a><div class="color-picker-container"><div class="color-picker aui-dropdown hidden"><ul><li><a href="#" style="background-color: #000000" data-color="000000">&nbsp;</a></li><li><a href="#" style="background-color: #993300" data-color="993300">&nbsp;</a></li><li><a href="#" style="background-color: #333300" data-color="333300">&nbsp;</a></li><li><a href="#" style="background-color: #003300" data-color="003300">&nbsp;</a></li><li><a href="#" style="background-color: #003366" data-color="003366">&nbsp;</a></li><li><a href="#" style="background-color: #000080" data-color="000080">&nbsp;</a></li><li><a href="#" style="background-color: #333399" data-color="333399">&nbsp;</a></li><li><a href="#" style="background-color: #333333" data-color="333333">&nbsp;</a></li><li><a href="#" style="background-color: #800000" data-color="800000">&nbsp;</a></li><li><a href="#" style="background-color: #FF6600" data-color="FF6600">&nbsp;</a></li><li><a href="#" style="background-color: #808000" data-color="808000">&nbsp;</a></li><li><a href="#" style="background-color: #008000" data-color="008000">&nbsp;</a></li><li><a href="#" style="background-color: #008080" data-color="008080">&nbsp;</a></li><li><a href="#" style="background-color: #0000FF" data-color="0000FF">&nbsp;</a></li><li><a href="#" style="background-color: #666699" data-color="666699">&nbsp;</a></li><li><a href="#" style="background-color: #808080" data-color="808080">&nbsp;</a></li><li><a href="#" style="background-color: #FF0000" data-color="FF0000">&nbsp;</a></li><li><a href="#" style="background-color: #FF9900" data-color="FF9900">&nbsp;</a></li><li><a href="#" style="background-color: #99CC00" data-color="99CC00">&nbsp;</a></li><li><a href="#" style="background-color: #339966" data-color="339966">&nbsp;</a></li><li><a href="#" style="background-color: #33CCCC" data-color="33CCCC">&nbsp;</a></li><li><a href="#" style="background-color: #3366FF" data-color="3366FF">&nbsp;</a></li><li><a href="#" style="background-color: #800080" data-color="800080">&nbsp;</a></li><li><a href="#" style="background-color: #999999" data-color="999999">&nbsp;</a></li><li><a href="#" style="background-color: #FF00FF" data-color="FF00FF">&nbsp;</a></li><li><a href="#" style="background-color: #FFCC00" data-color="FFCC00">&nbsp;</a></li><li><a href="#" style="background-color: #FFFF00" data-color="FFFF00">&nbsp;</a></li><li><a href="#" style="background-color: #00FF00" data-color="00FF00">&nbsp;</a></li><li><a href="#" style="background-color: #00FFFF" data-color="00FFFF">&nbsp;</a></li><li><a href="#" style="background-color: #00CCFF" data-color="00CCFF">&nbsp;</a></li><li><a href="#" style="background-color: #993366" data-color="993366">&nbsp;</a></li><li><a href="#" style="background-color: #C0C0C0" data-color="C0C0C0">&nbsp;</a></li><li><a href="#" style="background-color: #FF99CC" data-color="FF99CC">&nbsp;</a></li><li><a href="#" style="background-color: #FFCC99" data-color="FFCC99">&nbsp;</a></li><li><a href="#" style="background-color: #FFFF99" data-color="FFFF99">&nbsp;</a></li><li><a href="#" style="background-color: #CCFFCC" data-color="CCFFCC">&nbsp;</a></li><li><a href="#" style="background-color: #CCFFFF" data-color="CCFFFF">&nbsp;</a></li><li><a href="#" style="background-color: #99CCFF" data-color="99CCFF">&nbsp;</a></li><li><a href="#" style="background-color: #CC99FF" data-color="CC99FF">&nbsp;</a></li><li><a href="#" style="background-color: #FFFFFF" data-color="FFFFFF">&nbsp;</a></li></ul></div></div></div>
+                    </li>
+                    <li id="more-menu" class="toolbar-item toolbar-dropdown">
+                        <div class="aui-dd-parent">
+                            <a id="rte-button-more" href="#" class="toolbar-trigger aui-dd-trigger aui-button" data-tooltip="More">
+                                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-styles ">Formatting</span>
+                                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-dropdown "></span>
+                            </a>
+                            <div id="rte-button-more-menu" class="aui-dropdown grouped hidden">
+                                <div class="grouped-dropdown-item">
+                                    <ul>
+                                                                <li class="dropdown-item more-menu-trigger" data-control-id="strikethrough" data-tooltip="Strikethrough (Ctrl+Shift+S)">
+        <a id="rte-strikethrough" class="item-link" href="#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+Strikethrough
+        </a>
+    </li>
+                                                                 <li class="dropdown-item more-menu-trigger" data-control-id="sub" data-tooltip="">
+        <a id="rte-sub" class="item-link" href="#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+Subscript
+        </a>
+    </li>
+                                                                 <li class="dropdown-item more-menu-trigger" data-control-id="sup" data-tooltip="">
+        <a id="rte-sup" class="item-link" href="#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+Superscript
+        </a>
+    </li>
+                                                        <li class="dropdown-item more-menu-trigger" data-control-id="monospace" data-tooltip="Format text with monospaced font">
+        <a id="rte-monospace" class="item-link" href="#">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+Monospace
+        </a>
+    </li>
+
+                                                                                                                    </ul>
+                                </div>
+                                <div class="grouped-dropdown-item">
+                                    <ul>
+                                            <li class="dropdown-item more-menu-trigger no-icon" data-format="removeformat" data-tooltip="Clears formatting on currently selected text">
+        <a id="rte-removeformat" class="item-link" href="#">
+            Clear formatting
+        </a>
+    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <ul class="aui-buttons rte-toolbar-group-lists">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-bullist" data-tooltip="Bullet list (Ctrl+Shift+B)">
+        <a class="toolbar-trigger" href="#" data-control-id="bullist">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-list-bullet ">Bullet list</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-numlist" data-tooltip="Numbered list (Ctrl+Shift+N)">
+        <a class="toolbar-trigger" href="#" data-control-id="numlist">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-list-number ">Numbered list</span>
+        </a>
+    </li>
+                </ul>
+                                <ul class="aui-buttons rte-toolbar-group-task-lists">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-tasklist" data-tooltip="Task list ([ then ])">
+        <a class="toolbar-trigger" href="#" data-control-id="tasklist">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-task ">Task list</span>
+        </a>
+    </li>
+                </ul>
+                
+                <ul class="aui-buttons rte-toolbar-group-indentation">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-outdent" data-tooltip="Outdent">
+        <a class="toolbar-trigger" href="#" data-control-id="outdent">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-outdent ">Outdent</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-indent" data-tooltip="Indent">
+        <a class="toolbar-trigger" href="#" data-control-id="indent">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-indent ">Indent</span>
+        </a>
+    </li>
+                </ul>
+
+                <ul class="aui-buttons rte-toolbar-group-justification">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-justifyleft" data-tooltip="Align left">
+        <a class="toolbar-trigger" href="#" data-control-id="justifyleft">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-align-left ">Align left</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-justifycenter" data-tooltip="Align center">
+        <a class="toolbar-trigger" href="#" data-control-id="justifycenter">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-align-center ">Align center</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-justifyright" data-tooltip="Align right">
+        <a class="toolbar-trigger" href="#" data-control-id="justifyright">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-align-right ">Align right</span>
+        </a>
+    </li>
+                </ul>
+
+                                <ul class="aui-buttons hidden" id="page-layout-2-group">
+                    <li id="page-layout-2" class="toolbar-item" data-tooltip="Page layout">
+                        <a href="#" class="aui-button toolbar-trigger" id="rte-button-pagelayout-2">
+                                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-layout ">Page layout</span>
+                        </a>
+                    </li>
+                </ul>
+                
+
+                <ul class="aui-buttons rte-toolbar-group-files hidden"></ul>
+
+                <ul class="aui-buttons rte-toolbar-group-link no-separator">
+                    <li class="toolbar-item" data-tooltip="Insert link (Ctrl+K)">
+                        <a id="rte-button-link" class="toolbar-trigger aui-button" href="#" data-control-id="linkbrowserButton">
+                                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-link "></span>
+                            <span class="trigger-text">Link</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="aui-buttons rte-toolbar-group-table no-separator">
+                    <li class="toolbar-item toolbar-dropdown" id="insert-table-dropdown">
+                        <div class="aui-dd-parent">
+                            <a href="#" class="toolbar-trigger aui-dd-trigger aui-button" id="rte-button-insert-table" data-tooltip="Insert table">
+                                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-table "></span>
+                                <span class="dropdown-text">Table</span>
+                                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-dropdown "></span>
+                            </a>
+
+                            <div id="table-picker-container" class="hidden aui-box-shadow">
+                                <div class="table-picker-box" data-tooltip="Hold SHIFT for a table without a heading.">
+                                    <div class="table-picker-background">
+                                        <div class="picker picker-cell"></div>
+                                        <div class="picker picker-heading heading"></div>
+                                        <div class="picker picker-selected-cell"></div>
+                                        <div class="picker picker-selected-heading heading"></div>
+                                    </div>
+                                    <p class="desc"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                                                                
+                
+                <ul class="aui-buttons rte-toolbar-group-insert no-separator">
+                    <li class="toolbar-item toolbar-dropdown" id="insert-menu">
+                        <div class="aui-dd-parent">
+                            <a href="#" class="toolbar-trigger aui-dd-trigger aui-button" id="rte-button-insert" data-tooltip="Insert more content">
+                                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-add "></span>
+                                <span class="dropdown-text">Insert</span>
+                                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-dropdown "></span>
+                            </a>
+
+                            <div id="insert-menu-options" class="aui-dropdown grouped hidden">
+                                <div class="grouped-dropdown-item">
+                                    <span class="assistive">Insert content</span>
+                                    <ul id="content-insert-list">
+                                        
+        
+        <li class="dropdown-item content-image" data-command="mceConfimage" data-tooltip="Insert files and images (Ctrl+M)">
+        <a id="rte-insert-image" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Files and images
+        </a>
+    </li>
+                                        
+        
+        <li class="dropdown-item content-link" data-control-id="linkbrowserButton" data-tooltip="Insert link (Ctrl+K)">
+        <a id="rte-insert-link" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Link
+        </a>
+    </li>
+                                        
+    
+        <li class="dropdown-item content-symbol" data-command="confCharmap" data-tooltip="Insert symbol">
+        <a id="rte-insert-symbol" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Symbol
+        </a>
+    </li>
+                                        
+    
+        <li class="dropdown-item content-emoticon" data-command="mceEmotion" data-tooltip="Insert emoticon">
+        <a id="rte-insert-emoticon" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Emoticon
+        </a>
+    </li>
+                                        
+        
+        <li class="dropdown-item content-wikimarkup" data-command="InsertWikiMarkup" data-tooltip="Insert markup (Ctrl+Shift+D)">
+        <a id="rte-insert-wikimarkup" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Markup
+        </a>
+    </li>
+                                        
+    
+        <li class="dropdown-item content-hr" data-command="InsertHorizontalRule" data-tooltip="Insert horizontal rule (----)">
+        <a id="rte-insert-hr" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Horizontal rule
+        </a>
+    </li>
+                                                                                    
+        
+        <li class="dropdown-item content-tasklist" data-command="InsertInlineTaskListNoToggle" data-tooltip="Insert task list ([ then ])">
+        <a id="rte-insert-tasklist" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Task list
+        </a>
+    </li>
+                                                                            </ul>
+                                </div>
+                                <div class="grouped-dropdown-item">
+                                    <span class="assistive">Insert macro</span>
+                                    <ul id="macro-insert-list">
+                                                                        
+                                                                        
+                                <li class="dropdown-item macro-insertmention-button" data-macro-name="insertmention-button" data-tooltip="Insert 'User mention' macro">
+        <a id="insertmention-button" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ User mention
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-jiralink" data-macro-name="jiralink" data-tooltip="Insert 'JIRA Issue/Filter' macro">
+        <a id="jiralink" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ JIRA Issue/Filter
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-info" data-macro-name="info" data-tooltip="Insert 'Info' macro">
+        <a id="info" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Info
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-status" data-macro-name="status" data-tooltip="Insert 'Status' macro">
+        <a id="status" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Status
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-gallery" data-macro-name="gallery" data-tooltip="Insert 'Gallery' macro">
+        <a id="gallery" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Gallery
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-toc" data-macro-name="toc" data-tooltip="Insert 'Table of Contents' macro">
+        <a id="toc" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Table of Contents
+        </a>
+    </li>
+                                                                                                                            
+        
+        <li class="dropdown-item content-macro" data-command="mceConfMacroBrowser" data-tooltip="Open the macro browser (Ctrl+Shift+A)">
+        <a id="rte-insert-macro" class="item-link" href="#">
+                
+    
+    <span class="icon "></span>
+ Other macros
+        </a>
+    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                                <ul class="aui-buttons rte-toolbar-group-page-layouts-section-types">
+                    <li id="pagelayout-menu" class="toolbar-item toolbar-dropdown">
+                        <div class="aui-dd-parent">
+                            <a href="#" class="toolbar-trigger aui-dd-trigger aui-button" id="rte-button-pagelayout" data-tooltip="Page layout">
+                                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-default">Page layout</span>
+                                    
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-dropdown "></span>
+                            </a>
+
+                            <ul id="pagelayout-menu-options" class="aui-dropdown hidden">
+                                <li class="dropdown-item" data-tooltip="No layout">
+    <a href="#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-none&quot;, &quot;columns&quot;: 0   }">
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-none">No layout</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column (simple)">
+    <a href="#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-simple&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;]   }">
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two-simple">Two column (simple)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column (simple, left sidebar)">
+    <a href="#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-simple-left&quot;, &quot;columns&quot;: [&quot;aside&quot;, &quot;large&quot;]   }">
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two-simple-left">Two column (simple, left sidebar)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column (simple, right sidebar)">
+    <a href="#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-simple-right&quot;, &quot;columns&quot;: [&quot;large&quot;, &quot;aside&quot;]   }">
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two-simple-right">Two column (simple, right sidebar)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Three column (simple)">
+    <a href="#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-three-simple&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;, &quot;&quot;]   }">
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-three-simple">Three column (simple)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column">
+    <a href="#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two">Two column</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column (left sidebar)">
+    <a href="#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-left&quot;, &quot;columns&quot;: [&quot;aside&quot;, &quot;large&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two-left">Two column (left sidebar)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column (right sidebar)">
+    <a href="#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-right&quot;, &quot;columns&quot;: [&quot;large&quot;, &quot;aside&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-two-right">Two column (right sidebar)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Three column">
+    <a href="#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-three&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;, &quot;&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-three">Three column</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Three column (left and right sidebars)">
+    <a href="#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-three-sidebars&quot;, &quot;columns&quot;: [&quot;sidebars&quot;, &quot;large&quot;, &quot;sidebars&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-check hidden"></span>
+            
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-layout pagelayout-three-sidebars">Three column (left and right sidebars)</span>
+    </a>
+</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                
+                                                
+                <ul class="aui-buttons rte-toolbar-group-undo">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-undo" data-tooltip="Undo (Ctrl+Z)">
+        <a class="toolbar-trigger" href="#" data-control-id="undo">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-undo ">Undo</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-redo" data-tooltip="Redo (Ctrl+Y)">
+        <a class="toolbar-trigger" href="#" data-control-id="redo">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-redo ">Redo</span>
+        </a>
+    </li>
+                </ul>
+            </div>                                                                                                <div id="draft-status" style="display:none"></div>
+                            <div class="aui-toolbar2-secondary">
+                <ul class="aui-buttons rte-toolbar-group-searchreplace">
+                        <li class="toolbar-item aui-button" id="rte-button-searchreplace" data-tooltip="Find/Replace">
+        <a class="toolbar-trigger" href="#" data-control-id="searchreplace">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-search ">Find/Replace</span>
+        </a>
+    </li>
+                </ul>
+                <ul class="aui-buttons rte-toolbar-group-help">
+                        <li class="toolbar-item aui-button" id="rte-button-help" data-tooltip="Help">
+        <a class="toolbar-trigger" href="#" data-control-id="help">
+                
+    
+    <span class="icon aui-icon aui-icon-small aui-iconfont-editor-help ">Keyboard shortcuts help</span>
+        </a>
+    </li>
+                </ul>
+                            </div>        </div>    </div>
+        
+        
+                                        <div id="editor-notifications-container"><div id="editor-messages"><div id="anonymous-warning" class="aui-message warning closeable">You are not logged in. Any changes you make will be marked as <span class="smalltext">anonymous</span>. You may want to <a href="https://stripesframework.atlassian.net/wiki/login.action?os_destination=%2Fdisplay%2FSTRIPES%2FIntercept%2BExecution">Log In</a> if you already have an account.</div><div id="heartbeat-div" class="hidden"><div class="aui-message info closeable"><span class="aui-icon icon-info"></span>This page is also being edited by <span id="other-users-span"></span>. Your changes will be merged with theirs when you save.</div></div></div><div id="all-messages"><div id="action-messages"></div></div></div><div id="editor-precursor"><div class="cell"><div class="aui-buttons aui-toolbar2"><button class="aui-button aui-button-subtle" type="button" data-tooltip="Labels" id="rte-button-labels" data-explicit-restrictions="" data-inherited-restrictions=""><span class="icon aui-icon aui-icon-small aui-iconfont-devtools-tag"></span></button></div><div id="content-title-div"><input name="title" id="content-title" tabindex="1" class="text pagetitle" autocomplete="off" value="Intercept Execution" placeholder="Page title" type="text"></div></div></div>
+            
+    <div id="wysiwyg">
+        <div id="rte" class="cell editor-default">
+            <textarea id="wysiwygTextarea" name="wysiwygContent" class="hidden tinymce-editor"></textarea>
+        </div>
+    </div>
+    <div id="editor-html-source-container" class="hidden">
+        <textarea id="editor-html-source" class="monospaceInput"></textarea>
+    </div>
+
+    <div id="preview">
+                        <div id="previewArea" class="cell">
+        </div>
+    </div>
+
+            <div id="savebar-container"><div id="rte-savebar" class="aui-toolbar aui-toolbar2"><div class="toolbar-split toolbar-split-row"><div class="toolbar-split toolbar-split-left"><div class="aui-buttons"></div></div><div class="toolbar-split toolbar-split-right"><div id="pluggable-status-container" class="toolbar-item rte-toolbar-pluggable-status"><div id="pluggable-status"></div></div><div class="aui-buttons" id="rte-savebar-tinymce-plugin-point"></div><div class="aui-buttons"><span id="rte-spinner" class="toolbar-item ">&nbsp;</span></div><div class="aui-buttons toolbar-group-edit assistive"><button id="rte-button-edit" class="aui-button" title="Return To edit Mode" type="button"><span class="trigger-text">Edit</span></button></div><div class="aui-buttons toolbar-group-preview"><button class="aui-button toolbar-item" id="rte-button-preview" title="Preview" type="button"><span class="trigger-text">Preview</span></button></div><div class="save-button-container"><button class="aui-button aui-button-primary" type="submit" id="rte-button-publish" name="confirm" value="Save" title="Save"><span class="trigger-text">Save</span></button></div><button class="toolbar-item-link aui-button aui-button-link" type="submit" id="rte-button-cancel" name="cancel" value="cancel"><span class="trigger-text">Close</span></button></div></div></div></div>
+    
+<section role="dialog" id="discard-changes-dialog" class="aui-layer aui-dialog2 aui-dialog2-medium" aria-hidden="true">
+    <!-- Dialog header -->
+    <header class="aui-dialog2-header">
+        <h2 class="aui-dialog2-header-main">Discard unpublished changes?</h2>
+    </header>
+    <div class="aui-dialog2-content">
+        <div>
+            <p>This will restore the editor to the last published 
+version of this page. If anyone else has unpublished changes on the 
+page, you'll be discarding those changes too.</p>
+            <a id="discard-changes-dialog-show-diff-button" class="aui-button aui-button-link">Show changes</a>
+        </div>
+        <div id="show-diff-body" style="display:none">
+            <div id="show-diff-dialog-content">
+                <div class="legend">
+                    <span class="legend-title">Key: </span>
+                    <span class="diff-html-added">This line was added.</span>
+                    <span class="diff-html-removed">This line was removed.</span>
+                    <span class="diff-html-changed">Formatting was changed.</span>
+                </div>
+                <hr>
+                <div id="show-diff-dialog-content-body" class="wiki-content"></div>
+            </div>
+        </div>
+    </div>
+    <footer id="discard-warning-footer" class="aui-dialog2-footer">
+        <div class="aui-dialog2-footer-actions">
+            <button id="discard-changes-dialog-submit-button" class="aui-button aui-button-primary">Discard</button>
+            <button id="discard-changes-dialog-close-button" class="aui-button aui-button-link">Close</button>
+        </div>
+    </footer>
+</section>
+
+    
+</div>
+
+
+
+<script type="text/x-template" title="dynamic-editor-metadata" id="dynamic-editor-metadata-template">
+            <meta name="ajs-use-watch" content="false">
+            <meta name="ajs-attachment-source-content-id" content="491997">
+            <meta name="ajs-use-inline-tasks" content="true">
+            <meta name="ajs-heartbeat" content="true">
+            <meta name="ajs-action-locale" content="en_GB">
+            <meta name="ajs-editor-plugin-resource-prefix" content="/wiki/s/en_GB/6442/7e46257849e1d1171bdfbfd9ea1fc70280aa615b/1000.150.0/_">
+            <meta name="ajs-edit-mode" content="legacy">
+            <meta name="ajs-existing-draft-id" content="0">
+            <meta name="ajs-user-watching-own-content" content="false">
+            <meta name="ajs-new-page" content="false">
+            <meta name="ajs-content-id" content="491997">
+            <meta name="ajs-editor-mode" content="richtext">
+            <meta name="ajs-form-name" content="inlinecommentform">
+            <meta name="ajs-auto-start" content="false">
+            <meta name="ajs-can-attach-files" content="false">
+            <meta name="ajs-show-draft-message" content="false">
+            <meta name="ajs-conf-revision" content="confluence$content$491997.0">
+            <meta name="ajs-draft-id" content="0">
+            <meta name="ajs-shared-drafts" content="false">
+            <meta name="ajs-min-editor-height" content="150">
+            <meta name="ajs-draft-share-id" content="">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-version-comment" content="">
+            <meta name="ajs-draft-type" content="page">
+                
+                <meta name="ajs-synchrony-token" content="">
+    <meta name="ajs-synchrony-service-uri" content="">
+    <meta name="ajs-synchrony-resources-uri" content="">
+    <meta name="ajs-synchrony-app-id" content="">
+    <meta name="ajs-synchrony-dark-enabled" content="false">
+    <meta name="ajs-synchrony-expiry" content="">
+
+            		    <meta name="ajs-max-thumb-width" content="300">
+		    <meta name="ajs-max-thumb-height" content="300">
+		    <meta name="ajs-can-send-email" content="true">
+		    <meta name="ajs-is-dev-mode" content="false">
+		    <meta name="ajs-draft-save-interval" content="30000">
+		    <meta name="ajs-show-hidden-user-macros" content="false">
+		    <meta name="ajs-is-admin" content="false">
+		    <meta name="ajs-heartbeat-interval" content="30000">
+	
+    </script>
+
+<script type="text/x-template" title="tableForm" id="table-form-template">
+    <form id="tinymce-table-form" class="aui">
+        <div class="field-group">
+            <label for="rows">Rows</label>
+            <input id="rows" name="rows" type="text" size="3" autocomplete="off" value="{0}">
+        </div>
+        <div class="field-group">
+            <label for="cols">Columns</label>
+            <input id="cols" name="cols" type="text" size="3" autocomplete="off" value="{1}">
+        </div>
+        <div class="field-group hidden">
+            <input id="width" type="hidden" name="width" value="">
+            <label for="width">Width</label>
+        </div>
+        <div class="group">
+            <div class="checkbox">
+                <input id="table-heading-checkbox" class="checkbox" type="checkbox" name="heading" checked="checked" value="true">
+                <label for="table-heading-checkbox">First row is heading</label>
+            </div>
+        </div>
+        <div class="group hidden">
+            <div class="checkbox">
+                <input id="table-equal-width-columns-checkbox" class="checkbox" type="checkbox" name="equal-width-columns" value="false">
+                <label for="table-equal-width-columns-checkbox">Equal width columns</label>
+            </div>
+        </div>
+    </form>
+</script>
+<input name="draftId" value="0" id="draftId" type="hidden"><input name="originalVersion" value="3" id="originalVersion" type="hidden">
+<input name="syncRev" value="dummy-sync-rev" id="syncRev" type="hidden">    <input name="atl_token" value="2b691def484e40540ceea1998a2c12ce7f7b5929" type="hidden">
+</div><div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div></body></html>

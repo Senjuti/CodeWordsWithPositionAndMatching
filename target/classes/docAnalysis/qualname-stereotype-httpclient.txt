@@ -1,0 +1,187 @@
+org.apache.http.impl.client.HttpClients:@stereotype PURE_CONTROLLER
+org.apache.http.impl.client.HttpClients.createDefault():@stereotype CONTROLLER
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.client.methods.CloseableHttpResponse:@stereotype INTERFACE
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpHead:@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpPost:@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpPut:@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpDelete:@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpTrace:@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpOptions:@stereotype BOUNDARY
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.client.utils.URIBuilder:@stereotype 
+org.apache.http.client.utils.URIBuilder.setScheme(String):@stereotype NON_VOID_COMMAND
+org.apache.http.client.utils.URIBuilder.setHost(String):@stereotype NON_VOID_COMMAND
+org.apache.http.client.utils.URIBuilder.setPath(String):@stereotype NON_VOID_COMMAND
+org.apache.http.client.utils.URIBuilder.setParameter(String, String):@stereotype NON_VOID_COMMAND COLLABORATOR
+org.apache.http.client.utils.URIBuilder.setParameter(String, String):@stereotype NON_VOID_COMMAND COLLABORATOR
+org.apache.http.client.utils.URIBuilder.build():@stereotype FACTORY LOCAL_CONTROLLER
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.conn.routing.HttpRoute:@stereotype DATA_PROVIDER
+org.apache.http.conn.routing.RouteInfo:@stereotype INTERFACE
+org.apache.http.conn.routing.HttpRouteDirector:@stereotype INTERFACE
+org.apache.http.conn.routing.HttpRoutePlanner:@stereotype INTERFACE
+org.apache.http.impl.conn.SystemDefaultRoutePlanner:@stereotype BOUNDARY
+org.apache.http.impl.conn.DefaultProxyRoutePlanner:@stereotype DATA_CLASS
+org.apache.http.conn.HttpClientConnectionManager:@stereotype INTERFACE
+org.apache.http.conn.ManagedHttpClientConnection:@stereotype INTERFACE
+org.apache.http.conn.HttpClientConnectionManager:@stereotype INTERFACE
+org.apache.http.impl.conn.BasicHttpClientConnectionManager:@stereotype COMMANDER
+org.apache.http.conn.routing.HttpRoute:@stereotype DATA_PROVIDER
+org.apache.http.conn.ConnectionRequest:@stereotype INTERFACE
+org.apache.http.conn.ConnectionRequest.get(long, TimeUnit):@stereotype ABSTRACT
+org.apache.http.impl.conn.BasicHttpClientConnectionManager.connect(HttpClientConnection, HttpRoute, int, HttpContext):@stereotype SET COLLABORATOR
+org.apache.http.impl.conn.BasicHttpClientConnectionManager.releaseConnection(HttpClientConnection, Object, long, TimeUnit):@stereotype COMMAND COLLABORATOR
+org.apache.http.impl.conn.BasicHttpClientConnectionManager:@stereotype COMMANDER
+org.apache.http.impl.conn.BasicHttpClientConnectionManager:@stereotype COMMANDER
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager:@stereotype 
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager:@stereotype 
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager:@stereotype 
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setMaxTotal(int):@stereotype SET
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setDefaultMaxPerRoute(int):@stereotype SET
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setMaxPerRoute(HttpRoute, int):@stereotype SET
+org.apache.http.impl.client.HttpClients.custom():@stereotype CONTROLLER
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager:@stereotype 
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager:@stereotype 
+org.apache.http.conn.ConnectionPoolTimeoutException:@stereotype DEGENERATE
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager:@stereotype 
+org.apache.http.impl.client.HttpClients.custom():@stereotype CONTROLLER
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.client.methods.CloseableHttpResponse:@stereotype INTERFACE
+org.apache.http.client.ClientProtocolException:@stereotype DEGENERATE
+org.apache.http.conn.ClientConnectionManager.closeExpiredConnections():@stereotype ABSTRACT
+org.apache.http.conn.HttpClientConnectionManager:@stereotype INTERFACE
+org.apache.http.conn.HttpClientConnectionManager:@stereotype INTERFACE
+org.apache.http.conn.HttpClientConnectionManager.closeExpiredConnections():@stereotype ABSTRACT
+org.apache.http.conn.HttpClientConnectionManager.closeIdleConnections(long, TimeUnit):@stereotype ABSTRACT
+org.apache.http.conn.ConnectionKeepAliveStrategy:@stereotype INTERFACE
+org.apache.http.impl.client.HttpClients.custom():@stereotype CONTROLLER
+org.apache.http.conn.socket.ConnectionSocketFactory:@stereotype INTERFACE
+org.apache.http.conn.socket.PlainConnectionSocketFactory:@stereotype 
+org.apache.http.conn.socket.PlainConnectionSocketFactory:@stereotype 
+org.apache.http.conn.socket.PlainConnectionSocketFactory.getSocketFactory():@stereotype GET
+org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(int, Socket, HttpHost, InetSocketAddress, InetSocketAddress, HttpContext):@stereotype COLLABORATOR
+org.apache.http.conn.socket.LayeredConnectionSocketFactory:@stereotype INTERFACE
+org.apache.http.conn.socket.ConnectionSocketFactory:@stereotype INTERFACE
+org.apache.http.conn.socket.ConnectionSocketFactory:@stereotype INTERFACE
+org.apache.http.conn.socket.LayeredConnectionSocketFactory:@stereotype INTERFACE
+org.apache.http.conn.HttpClientConnectionManager:@stereotype INTERFACE
+org.apache.http.impl.client.HttpClients.custom():@stereotype CONTROLLER
+org.apache.http.conn.ssl.SSLConnectionSocketFactory:@stereotype BOUNDARY
+org.apache.http.conn.ssl.SSLConnectionSocketFactory:@stereotype BOUNDARY
+org.apache.http.conn.ssl.SSLConnectionSocketFactory:@stereotype BOUNDARY
+org.apache.http.conn.ssl.SSLConnectionSocketFactory:@stereotype BOUNDARY
+org.apache.http.conn.ssl.DefaultHostnameVerifier:@stereotype BOUNDARY COMMANDER
+org.apache.http.conn.util.PublicSuffixMatcher:@stereotype BOUNDARY
+org.apache.http.conn.util.PublicSuffixMatcherLoader.load(URL):@stereotype COLLABORATOR
+org.apache.http.conn.ssl.DefaultHostnameVerifier:@stereotype BOUNDARY COMMANDER
+org.apache.http.conn.ssl.DefaultHostnameVerifier:@stereotype BOUNDARY COMMANDER
+org.apache.http.impl.conn.DefaultProxyRoutePlanner:@stereotype DATA_CLASS
+org.apache.http.impl.client.HttpClients.custom():@stereotype CONTROLLER
+org.apache.http.impl.conn.SystemDefaultRoutePlanner:@stereotype BOUNDARY
+org.apache.http.impl.client.HttpClients.custom():@stereotype CONTROLLER
+org.apache.http.conn.routing.HttpRoutePlanner:@stereotype INTERFACE
+org.apache.http.conn.routing.HttpRoute:@stereotype DATA_PROVIDER
+org.apache.http.impl.client.HttpClients.custom():@stereotype CONTROLLER
+org.apache.http.cookie.Cookie:@stereotype INTERFACE
+org.apache.http.cookie.SetCookie:@stereotype INTERFACE
+org.apache.http.cookie.ClientCookie:@stereotype INTERFACE
+org.apache.http.impl.cookie.BasicClientCookie:@stereotype 
+org.apache.http.impl.cookie.BasicClientCookie.setDomain(String):@stereotype SET
+org.apache.http.impl.cookie.BasicClientCookie.setPath(String):@stereotype SET
+org.apache.http.impl.cookie.BasicClientCookie.setAttribute(String, String):@stereotype SET
+org.apache.http.cookie.CookieSpec:@stereotype INTERFACE
+org.apache.http.cookie.Cookie:@stereotype INTERFACE
+org.apache.http.client.config.RequestConfig:@stereotype DATA_PROVIDER
+org.apache.http.client.config.RequestConfig.custom():@stereotype FACTORY
+org.apache.http.impl.client.HttpClients.custom():@stereotype CONTROLLER
+org.apache.http.client.config.RequestConfig:@stereotype DATA_PROVIDER
+org.apache.http.client.config.RequestConfig.copy(RequestConfig):@stereotype FACTORY
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.cookie.CookieSpec:@stereotype INTERFACE
+org.apache.http.cookie.CookieSpecProvider:@stereotype INTERFACE
+org.apache.http.conn.util.PublicSuffixMatcher:@stereotype BOUNDARY
+org.apache.http.client.config.RequestConfig:@stereotype DATA_PROVIDER
+org.apache.http.client.config.RequestConfig.custom():@stereotype FACTORY
+org.apache.http.impl.client.HttpClients.custom():@stereotype CONTROLLER
+org.apache.http.impl.client.BasicCookieStore:@stereotype 
+org.apache.http.impl.cookie.BasicClientCookie:@stereotype 
+org.apache.http.impl.cookie.BasicClientCookie.setDomain(String):@stereotype SET
+org.apache.http.impl.cookie.BasicClientCookie.setPath(String):@stereotype SET
+org.apache.http.impl.client.BasicCookieStore.addCookie(Cookie):@stereotype SET
+org.apache.http.impl.client.HttpClients.custom():@stereotype CONTROLLER
+org.apache.http.cookie.CookieSpec:@stereotype INTERFACE
+org.apache.http.cookie.CookieOrigin:@stereotype DATA_PROVIDER
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.cookie.CookieOrigin:@stereotype DATA_PROVIDER
+org.apache.http.cookie.CookieSpec:@stereotype INTERFACE
+org.apache.http.auth.UsernamePasswordCredentials:@stereotype DATA_PROVIDER
+org.apache.http.auth.UsernamePasswordCredentials.getPassword():@stereotype GET
+org.apache.http.auth.NTCredentials:@stereotype DATA_PROVIDER
+org.apache.http.auth.UsernamePasswordCredentials.getPassword():@stereotype GET
+org.apache.http.auth.AuthScheme:@stereotype INTERFACE
+org.apache.http.auth.AuthScheme:@stereotype INTERFACE
+org.apache.http.client.CredentialsProvider:@stereotype INTERFACE
+org.apache.http.client.CredentialsProvider:@stereotype INTERFACE
+org.apache.http.impl.client.BasicCredentialsProvider:@stereotype BOUNDARY COMMANDER
+org.apache.http.client.CredentialsProvider:@stereotype INTERFACE
+org.apache.http.client.CredentialsProvider.getCredentials(AuthScope):@stereotype ABSTRACT
+org.apache.http.client.CredentialsProvider.getCredentials(AuthScope):@stereotype ABSTRACT
+org.apache.http.client.CredentialsProvider.getCredentials(AuthScope):@stereotype ABSTRACT
+org.apache.http.auth.AuthState:@stereotype MINIMAL_ENTITY
+org.apache.http.auth.AuthScope:@stereotype DATA_PROVIDER
+org.apache.http.auth.AuthScope:@stereotype DATA_PROVIDER
+org.apache.http.auth.AuthScheme:@stereotype INTERFACE
+org.apache.http.auth.AuthState:@stereotype MINIMAL_ENTITY
+org.apache.http.auth.AuthScheme:@stereotype INTERFACE
+org.apache.http.client.CredentialsProvider:@stereotype INTERFACE
+org.apache.http.auth.AuthState:@stereotype MINIMAL_ENTITY
+org.apache.http.auth.AuthState:@stereotype MINIMAL_ENTITY
+org.apache.http.client.CredentialsProvider:@stereotype INTERFACE
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.client.methods.CloseableHttpResponse:@stereotype INTERFACE
+org.apache.http.auth.AuthState:@stereotype MINIMAL_ENTITY
+org.apache.http.auth.AuthState.getState():@stereotype PROPERTY
+org.apache.http.auth.AuthState.getAuthScheme():@stereotype PROPERTY
+org.apache.http.auth.AuthState.getCredentials():@stereotype PROPERTY
+org.apache.http.auth.AuthState:@stereotype MINIMAL_ENTITY
+org.apache.http.auth.AuthState.getState():@stereotype PROPERTY
+org.apache.http.auth.AuthState.getAuthScheme():@stereotype PROPERTY
+org.apache.http.auth.AuthState.getCredentials():@stereotype PROPERTY
+org.apache.http.client.CredentialsProvider:@stereotype INTERFACE
+org.apache.http.impl.auth.BasicScheme:@stereotype ENTITY
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.client.CredentialsProvider:@stereotype INTERFACE
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpPost:@stereotype DATA_CLASS
+org.apache.http.client.methods.CloseableHttpResponse:@stereotype INTERFACE
+org.apache.http.client.ClientProtocolException:@stereotype DEGENERATE
+org.apache.http.client.ClientProtocolException:@stereotype DEGENERATE
+org.apache.http.client.ClientProtocolException:@stereotype DEGENERATE
+org.apache.http.client.config.RequestConfig:@stereotype DATA_PROVIDER
+org.apache.http.client.config.RequestConfig.custom():@stereotype FACTORY
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager:@stereotype 
+org.apache.http.impl.client.HttpClients.custom():@stereotype CONTROLLER
+org.apache.http.impl.client.DefaultUserTokenHandler:@stereotype BOUNDARY
+org.apache.http.impl.client.HttpClients.createDefault():@stereotype CONTROLLER
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.client.methods.HttpGet:@stereotype DATA_CLASS
+org.apache.http.impl.client.HttpClientBuilder.create():@stereotype FACTORY
+org.apache.http.client.ClientProtocolException:@stereotype DEGENERATE
+org.apache.http.impl.client.HttpRequestFutureTask:@stereotype 
+org.apache.http.impl.client.HttpRequestFutureTask:@stereotype 
+org.apache.http.impl.client.FutureRequestExecutionMetrics:@stereotype DATA_PROVIDER
+org.apache.http.impl.client.FutureRequestExecutionMetrics.getActiveConnectionCount():@stereotype PROPERTY
+org.apache.http.impl.client.FutureRequestExecutionMetrics.getScheduledConnectionCount():@stereotype PROPERTY
+org.apache.http.impl.client.FutureRequestExecutionMetrics.getSuccessfulConnectionCount():@stereotype PROPERTY
+org.apache.http.impl.client.FutureRequestExecutionMetrics.getSuccessfulConnectionAverageDuration():@stereotype PROPERTY
+org.apache.http.impl.client.FutureRequestExecutionMetrics.getFailedConnectionCount():@stereotype PROPERTY
+org.apache.http.impl.client.FutureRequestExecutionMetrics.getFailedConnectionAverageDuration():@stereotype PROPERTY
+org.apache.http.impl.client.FutureRequestExecutionMetrics.getTaskCount():@stereotype PROPERTY
+org.apache.http.impl.client.FutureRequestExecutionMetrics.getRequestCount():@stereotype PROPERTY
+org.apache.http.impl.client.FutureRequestExecutionMetrics.getRequestAverageDuration():@stereotype PROPERTY
+org.apache.http.impl.client.FutureRequestExecutionMetrics.getTaskAverageDuration():@stereotype PROPERTY

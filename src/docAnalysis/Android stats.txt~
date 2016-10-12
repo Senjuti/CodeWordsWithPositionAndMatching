@@ -1,0 +1,36 @@
+Linking in the Android tutorial (identified only in text):
+Number of CLTs identified: 3600
+Number of non-hyperlinked or inappropriately linked CLTs: 1023
+
+Hyperlinked CLTs are identified by the following method: 
+1. The Android Reference pages ("https://developer.android.com/reference/...") link CLTs (enclosed within <code> tags) to their fully qualified names. 
+
+So for example, in Section "Recreating an Activity", the CLT "finish()" is hyperlinked to "https://developer.android.com/reference/android/app/Activity.html#finish()" from which its fully qualified name "android.app.Activity.finish()" can be tracked. 
+
+Unhyperlinked CLTs which are not linked to reference pages are not considered to have fully qualified names. For example, in Section "Specify Your App's Launcher Activity": "The main activity for your app must be declared in the manifest with an <intent-filter> that includes the MAIN action and LAUNCHER category." 
+<intent-filter> is included in <code></code> tags and is hyperlinked to "https://developer.android.com/guide/topics/manifest/intent-filter-element.html" but it cannot have a fully qualified name. 
+
+Some CLTs are mentioned by their fully qualified names directly in the tutorial (i.e. they are of the form "android.x." where x is any ending). Even though these are not hyperlinked, they are considered as having their fully qualified names known. 
+
+There are also a number of CLTs whose fully qualified names cannot be found in the Android source code and which are linked to different Google APIs. 
+Example: In Section "Connect to Google Play Services", the CLT "GoogleApiClient.Builder" is hyperlinked to "https://developers.google.com/android/reference/com/google/android/gms/common/api/GoogleApiClient.Builder". 
+
+Hence I can conclude that all relevant CLTs are linked to their fully qualified names in the Android tutorial. As such, there is no need to run precision and recall metrics as the tool is not being used to link CLTs to their fully qualified names. 
+I have uploaded the flat files to /home/2006/swevo/temp. 
+
+AndroidMatchedALL.txt - All identified CLTs within the text
+AndroidMatchedLinked.txt - All relevant linked CLTs identified
+AndroidMatchedUnlinked.txt - All irrelevant or unlinked CLTs
+
+Linking in the Spring tutorial (identified both in code and text):
+Number of CLTs identified: 7009
+I ran precision and recall metrics over Section 10.3: Expression Evaluation using Spring’s Expression Interface
+Precision - 0.4117647058823529
+Recall - 1.0
+
+SpringMatchedCode.txt - All identified CLTs within the code snippets and text (linked using tool)
+
+To do for next week: 
+1. Section names and numbers will have to be manually labelled in the Android tutorial so that the code tuple within AndroidMatchedALL.txt is correctly identified (at present the value for section name and number is kept at a default value)
+2. Linking CLTs within code snippets in the Android tutorial and finding precision and recall metrics over a small sample
+3. Running JStereoCode over Android and Spring

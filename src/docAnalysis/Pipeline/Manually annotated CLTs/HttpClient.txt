@@ -1,0 +1,353 @@
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient 
+HttpClients;org.apache.http.impl.client.HttpClients
+createDefault();org.apache.http.impl.client.HttpClients.createDefault()
+HttpGet;org.apache.http.client.methods.HttpGet
+HttpGet();org.apache.http.client.methods.HttpGet.HttpGet()
+CloseableHttpResponse;org.apache.http.client.methods.CloseableHttpResponse
+httpClient.execute(httpget);org.apache.http.impl.client.CloseableHttpClient.execute(HttpUriRequest)
+HttpGet;org.apache.http.client.methods.HttpGet
+HttpHead;org.apache.http.client.methods.HttpHead
+HttpPost;org.apache.http.client.methods.HttpPost
+HttpPut;org.apache.http.client.methods.HttpPut
+HttpDelete;org.apache.http.client.methods.HttpDelete
+HttpTrace;org.apache.http.client.methods.HttpTrace
+HttpOptions;org.apache.http.client.methods.HttpOptions
+HttpGet;org.apache.http.client.methods.HttpGet
+URIBuilder;org.apache.http.client.utils.URIBuilder
+setScheme("http");org.apache.http.client.utils.URIBuilder.setScheme(String)
+setHost("www.google.com");org.apache.http.client.utils.URIBuilder.setHost(String)
+setPath("/search");org.apache.http.client.utils.URIBuilder.setPath(String)
+setParameter("q", "httpclient");org.apache.http.client.utils.URIBuilder.setParameter(String, String)
+setParameter("btnG", "Google Search");org.apache.http.client.utils.URIBuilder.setParameter(String, String)
+setParameter("aq", "f");org.apache.http.client.utils.URIBuilder.setParameter(String, String)
+setParameter("oq", "");org.apache.http.client.utils.URIBuilder.setParameter(String, String)
+build();org.apache.http.client.utils.URIBuilder.build()
+HttpGet;org.apache.http.client.methods.HttpGet
+getURI();org.apache.http.client.methods.HttpGet.getURI()
+HttpRoute;org.apache.http.conn.routing.HttpRoute
+RouteInfo;org.apache.http.conn.routing.RouteInfo
+HttpRouteDirector;org.apache.http.conn.routing.HttpRouteDirector
+HttpRoutePlanner;org.apache.http.conn.routing.HttpRoutePlanner
+HttpRoutePlanner();org.apache.http.conn.routing.HttpRoutePlanner.HttpRoutePlanner()
+SystemDefaultRoutePlanner;org.apache.http.impl.conn.SystemDefaultRoutePlanner
+DefaultProxyRoutePlanner;org.apache.http.impl.conn.DefaultProxyRoutePlanner
+HttpClientConnectionManager;org.apache.http.conn.HttpClientConnectionManager
+ManagedHttpClientConnection;org.apache.http.conn.ManagedHttpClientConnection
+HttpClientContext;org.apache.http.client.protocol.HttpClientContext
+HttpClientContext.create();org.apache.http.client.protocol.HttpClientContext.create()
+HttpClientConnectionManager;org.apache.http.conn.HttpClientConnectionManager
+BasicHttpClientConnectionManager;org.apache.http.impl.conn.BasicHttpClientConnectionManager
+HttpRoute;org.apache.http.conn.routing.HttpRoute
+ConnectionRequest;org.apache.http.conn.ConnectionRequest
+connMrg.requestConnection(route, null);org.apache.http.impl.conn.BasicHttpClientConnectionManager.requestConnection(HttpRoute, Object)
+connRequest.get(10, TimeUnit.SECONDS);org.apache.http.conn.ConnectionRequest.get(long, TimeUnit)
+connMrg.connect(conn, route, 1000, context);org.apache.http.impl.conn.BasicHttpClientConnectionManager.connect(HttpClientConnection, HttpRoute, int, HttpContext)
+connMrg.routeComplete(conn, route, context);org.apache.http.impl.conn.BasicHttpClientConnectionManager.routeComplete(HttpClientConnection, HttpRoute, HttpContext)
+connMrg.releaseConnection(conn, null, 1, TimeUnit.MINUTES);org.apache.http.impl.conn.BasicHttpClientConnectionManager.releaseConnection(HttpClientConnection, Object, long, TimeUnit)
+ConnectionRequest#cancel();org.apache.http.conn.ConnectionRequest.cancel()
+ConnectionRequest#get();org.apache.http.conn.ConnectionRequest.get()
+BasicHttpClientConnectionManager;org.apache.http.impl.conn.BasicHttpClientConnectionManager
+BasicHttpClientConnectionManager;org.apache.http.impl.conn.BasicHttpClientConnectionManager
+PoolingHttpClientConnectionManager;org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+PoolingHttpClientConnectionManager;org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+PoolingHttpClientConnectionManager;org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+PoolingHttpClientConnectionManager();org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager()
+cm.setMaxTotal(200);org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setMaxTotal(int)
+cm.setDefaultMaxPerRoute(20);org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setDefaultMaxPerRoute(int)
+cm.setMaxPerRoute(new HttpRoute(localhost), 50);org.apache.http.impl.conn.PoolingHttpClientConnectionManager.setMaxPerRoute(HttpRoute, int)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpClients.custom();org.apache.http.impl.client.HttpClients.custom()
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+httpClient.close();org.apache.http.impl.client.CloseableHttpClient.close()
+PoolingHttpClientConnectionManager;org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+PoolingHttpClientConnectionManager;org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+ConnectionPoolTimeoutException;org.apache.http.conn.ConnectionPoolTimeoutException
+PoolingHttpClientConnectionManager;org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+PoolingHttpClientConnectionManager();org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager()
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpClients.custom();org.apache.http.impl.client.HttpClients.custom()
+HttpGet;org.apache.http.client.methods.HttpGet
+HttpGet(urisToGet[i]);org.apache.http.client.methods.HttpGet.HttpGet(URI)
+HttpClient;org.apache.http.client.HttpClient
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpGet;org.apache.http.client.methods.HttpGet
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpGet;org.apache.http.client.methods.HttpGet
+CloseableHttpResponse;org.apache.http.client.methods.CloseableHttpResponse
+httpClient.execute(httpget, context);org.apache.http.client.methods.CloseableHttpResponse.execute(HttpHost, HttpRequest)
+response.getEntity();org.apache.http.impl.client.CloseableHttpClient.getEntity()
+response.close();org.apache.http.impl.client.CloseableHttpClient.close()
+ClientProtocolException;org.apache.http.client.ClientProtocolException
+ClientConnectionManager#closeExpiredConnections();org.apache.http.conn.ClientConnectionManager.closeExpiredConnections()
+ClientConnectionManager#closeIdleConnections();org.apache.http.conn.ClientConnectionManager.closeIdleConnections()
+HttpClientConnectionManager;org.apache.http.conn.HttpClientConnectionManager
+HttpClientConnectionManager;org.apache.http.conn.HttpClientConnectionManager
+connMgr.closeExpiredConnections();org.apache.http.conn.HttpClientConnectionManager.closeExpiredConnections()
+connMgr.closeIdleConnections(30, TimeUnit.SECONDS);org.apache.http.conn.HttpClientConnectionManager.closeIdleConnections(long, TimeUnit)
+ConnectionKeepAliveStrategy;org.apache.http.conn.ConnectionKeepAliveStrategy
+ConnectionKeepAliveStrategy();org.apache.http.conn.ConnectionKeepAliveStrategy.ConnectionKeepAliveStrategy()
+HttpClientContext;org.apache.http.client.protocol.HttpClientContext
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient 
+HttpClients.custom();org.apache.http.impl.client.HttpClients.custom()
+ConnectionSocketFactory;org.apache.http.conn.socket.ConnectionSocketFactory
+PlainConnectionSocketFactory;org.apache.http.conn.socket.PlainConnectionSocketFactory
+HttpClientContext;org.apache.http.client.protocol.HttpClientContext
+HttpClientContext.create();org.apache.http.client.protocol.HttpClientContext.create()
+PlainConnectionSocketFactory;org.apache.http.conn.socket.PlainConnectionSocketFactory
+PlainConnectionSocketFactory.getSocketFactory();org.apache.http.conn.socket.PlainConnectionSocketFactory.getSocketFactory()
+sf.createSocket(clientContext);org.apache.http.conn.socket.PlainConnectionSocketFactory.createSocket(HttpContext context)
+sf.connectSocket(timeout, socket, target, remoteAddress, null, clientContext);org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(int, Socket, HttpHost, InetSocketAddress, InetSocketAddress, HttpContext)
+LayeredConnectionSocketFactory;org.apache.http.conn.socket.LayeredConnectionSocketFactory
+ConnectionSocketFactory;org.apache.http.conn.socket.ConnectionSocketFactory
+ConnectionSocketFactory;org.apache.http.conn.socket.ConnectionSocketFactory
+LayeredConnectionSocketFactory;org.apache.http.conn.socket.LayeredConnectionSocketFactory
+HttpClientConnectionManager;org.apache.http.conn.HttpClientConnectionManager
+PoolingHttpClientConnectionManager(r);org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(Registry)
+HttpClients.custom();org.apache.http.impl.client.HttpClients.custom()
+SSLConnectionSocketFactory;org.apache.http.conn.ssl.SSLConnectionSocketFactory
+SSLConnectionSocketFactory;org.apache.http.conn.ssl.SSLConnectionSocketFactory
+SSLConnectionSocketFactory;org.apache.http.conn.ssl.SSLConnectionSocketFactory
+SSLConnectionSocketFactory(sslContext);org.apache.http.conn.ssl.SSLConnectionSocketFactory.SSLConnectionSocketFactory(SSLContext)
+SSLConnectionSocketFactory;org.apache.http.conn.ssl.SSLConnectionSocketFactory
+DefaultHostnameVerifier;org.apache.http.conn.ssl.DefaultHostnameVerifier
+PublicSuffixMatcher;org.apache.http.conn.util.PublicSuffixMatcher
+PublicSuffixMatcherLoader.load(PublicSuffixMatcher.class.getResource("my-copy-effective_tld_names.dat"));org.apache.http.conn.util.PublicSuffixMatcherLoader.load(URL)
+DefaultHostnameVerifier;org.apache.http.conn.ssl.DefaultHostnameVerifier
+DefaultHostnameVerifier(publicSuffixMatcher);org.apache.http.conn.ssl.DefaultHostnameVerifier.DefaultHostnameVerifier(PublicSuffixMatcher)
+DefaultHostnameVerifier;org.apache.http.conn.ssl.DefaultHostnameVerifier
+DefaultHostnameVerifier(null);org.apache.http.conn.ssl.DefaultHostnameVerifier.DefaultHostnameVerifier(PublicSuffixMatcher)
+DefaultProxyRoutePlanner;org.apache.http.impl.conn.DefaultProxyRoutePlanner
+DefaultProxyRoutePlanner(proxy);org.apache.http.impl.conn.DefaultProxyRoutePlanner.DefaultHostnameVerifier(PublicSuffixMatcher)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpClients.custom();org.apache.http.impl.client.HttpClients.custom()
+SystemDefaultRoutePlanner;org.apache.http.impl.conn.SystemDefaultRoutePlanner
+new SystemDefaultRoutePlanner(ProxySelector.getDefault());org.apache.http.impl.conn.SystemDefaultRoutePlanner.SystemDefaultRoutePlanner(ProxySelector)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpClients.custom();org.apache.http.impl.client.HttpClients.custom()
+HttpRoutePlanner;org.apache.http.conn.routing.HttpRoutePlanner
+HttpRoutePlanner();org.apache.http.conn.routing.HttpRoutePlanner.HttpRoutePlanner()
+HttpRoute;org.apache.http.conn.routing.HttpRoute
+HttpRoute(target, null, new HttpHost("someproxy", 8080),"https".equalsIgnoreCase(target.getSchemeName()));org.apache.http.conn.routing.HttpRoute.HttpRoute(HttpHost, InetAddress, HttpHost, boolean)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpClients.custom();org.apache.http.impl.client.HttpClients.custom()
+Cookie;org.apache.http.cookie.Cookie
+SetCookie;org.apache.http.cookie.SetCookie
+ClientCookie;org.apache.http.cookie.ClientCookie
+BasicClientCookie;org.apache.http.impl.cookie.BasicClientCookie
+BasicClientCookie("name", "value");org.apache.http.impl.cookie.BasicClientCookie.BasicClientCookie(String, String)
+cookie.setDomain(".mycompany.com");org.apache.http.impl.cookie.BasicClientCookie.setDomain(String)
+cookie.setPath("/");org.apache.http.impl.cookie.BasicClientCookie.setPath(String)
+cookie.setAttribute(ClientCookie.PATH_ATTR, "/");org.apache.http.impl.cookie.BasicClientCookie.setAttribute(String, String)
+cookie.setAttribute(ClientCookie.DOMAIN_ATTR, ".mycompany.com");org.apache.http.impl.cookie.BasicClientCookie.setAttribute(String, String) 
+CookieSpec;org.apache.http.cookie.CookieSpec
+Cookie;org.apache.http.cookie.Cookie
+RequestConfig;org.apache.http.client.config.RequestConfig
+RequestConfig.custom();org.apache.http.client.config.RequestConfig.custom()
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpClients.custom();org.apache.http.impl.client.HttpClients.custom()
+RequestConfig;org.apache.http.client.config.RequestConfig
+RequestConfig.copy(globalConfig);org.apache.http.client.config.RequestConfig.copy(RequestConfig)
+HttpGet;org.apache.http.client.methods.HttpGet
+HttpGet("/");org.apache.http.client.methods.HttpGet.HttpGet(String uri)
+httpGet.setConfig(localConfig);org.apache.http.client.methods.HttpGet.setConfig(RequestConfig)
+CookieSpec;org.apache.http.cookie.CookieSpec
+CookieSpecProvider;org.apache.http.cookie.CookieSpecProvider
+PublicSuffixMatcher;org.apache.http.conn.util.PublicSuffixMatcher
+PublicSuffixMatcherLoader.getDefault();org.apache.http.conn.util.PublicSuffixMatcher.getDefault()
+RequestConfig;org.apache.http.client.config.RequestConfig
+RequestConfig.custom();org.apache.http.client.config.RequestConfig.custom()
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpClients.custom();org.apache.http.impl.client.HttpClients.custom()
+CookieStore;org.apache.http.client.CookieStore
+BasicCookieStore;org.apache.http.impl.client.BasicCookieStore
+CookieStore;org.apache.http.client.CookieStore
+BasicCookieStore();org.apache.http.impl.client.BasicCookieStore.BasicCookieStore()
+BasicClientCookie;org.apache.http.impl.cookie.BasicClientCookie
+BasicClientCookie("name", "value");org.apache.http.impl.cookie.BasicClientCookie.BasicClientCookie(String, String)
+cookie.setDomain(".mycompany.com");org.apache.http.impl.cookie.BasicClientCookie.setDomain(String)
+cookie.setPath("/");org.apache.http.impl.cookie.BasicClientCookie.setPath(String)
+cookieStore.addCookie(cookie);org.apache.http.impl.client.BasicCookieStore.addCookie(Cookie)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpClients.custom();org.apache.http.impl.client.HttpClients.custom()
+CookieSpec;org.apache.http.cookie.CookieSpec
+CookieOrigin;org.apache.http.cookie.CookieOrigin
+CookieStore;org.apache.http.client.CookieStore
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+CookieStore;org.apache.http.client.CookieStore
+HttpClientContext;org.apache.http.client.protocol.HttpClientContext
+HttpClientContext.create();org.apache.http.client.protocol.HttpClientContext.create()
+context.setCookieSpecRegistry(cookieSpecReg);org.apache.http.client.protocol.HttpClientContext.setCookieSpecRegistry(Lookup)
+context.setCookieStore(cookieStore);org.apache.http.client.protocol.HttpClientContext.setCookieStore(CookieStore)
+HttpGet;org.apache.http.client.methods.HttpGet
+HttpGet("http://somehost/");org.apache.http.client.methods.HttpGet.HttpGet(String)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+httpclient.execute(httpget, context);org.apache.http.impl.client.CloseableHttpClient.execute(HttpHost, HttpRequest)
+CookieOrigin;org.apache.http.cookie.CookieOrigin
+context.getCookieOrigin();org.apache.http.client.protocol.HttpClientContext.getCookieOrigin()
+CookieSpec;org.apache.http.cookie.CookieSpec
+context.getCookieSpec();org.apache.http.client.protocol.HttpClientContext.getCookieSpec()
+UsernamePasswordCredentials;org.apache.http.auth.UsernamePasswordCredentials
+UsernamePasswordCredentials("user", "pwd");org.apache.http.auth.UsernamePasswordCredentials.UsernamePasswordCredentials(String, String)
+creds.getUserPrincipal().getName();org.apache.http.auth.UsernamePasswordCredentials.getUserPrincipal().getName()
+creds.getPassword();org.apache.http.auth.UsernamePasswordCredentials.getPassword()
+NTCredentials;org.apache.http.auth.NTCredentials
+creds.getUserPrincipal().getName();org.apache.http.auth.UsernamePasswordCredentials.getUserPrincipal().getName()
+creds.getPassword();org.apache.http.auth.UsernamePasswordCredentials.getPassword()
+AuthScheme;org.apache.http.auth.AuthScheme
+AuthScheme;org.apache.http.auth.AuthScheme
+CredentialsProvider;org.apache.http.client.CredentialsProvider
+CredentialsProvider;org.apache.http.client.CredentialsProvider
+BasicCredentialsProvider;org.apache.http.impl.client.BasicCredentialsProvider
+CredentialsProvider;org.apache.http.client.CredentialsProvider
+BasicCredentialsProvider();org.apache.http.impl.client.BasicCredentialsProvider.new BasicCredentialsProvider()
+credsProvider.setCredentials(new AuthScope("somehost", AuthScope.ANY_PORT), new UsernamePasswordCredentials("u1", "p1"));org.apache.http.client.CredentialsProvider.setCredentials(AuthScope, Credentials)
+credsProvider.setCredentials(new AuthScope("somehost", 8080), new UsernamePasswordCredentials("u2", "p2"));org.apache.http.client.CredentialsProvider.setCredentials(AuthScope, Credentials)
+credsProvider.setCredentials(new AuthScope("otherhost", 8080, AuthScope.ANY_REALM, "ntlm"), new UsernamePasswordCredentials("u3", "p3"));org.apache.http.client.CredentialsProvider.setCredentials(AuthScope, Credentials)
+credsProvider.getCredentials(new AuthScope("somehost", 80, "realm", "basic"));org.apache.http.client.CredentialsProvider.getCredentials(AuthScope)
+credsProvider.getCredentials(new AuthScope("somehost", 8080, "realm", "basic"));org.apache.http.client.CredentialsProvider.getCredentials(AuthScope)
+credsProvider.getCredentials(new AuthScope("otherhost", 8080, null, "ntlm"));org.apache.http.client.CredentialsProvider.getCredentials(AuthScope)
+AuthState;org.apache.http.auth.AuthState
+AuthScope;org.apache.http.auth.AuthScope
+AuthScope;org.apache.http.auth.AuthScope
+AuthScheme;org.apache.http.auth.AuthScheme
+AuthState;org.apache.http.auth.AuthState
+AuthScheme;org.apache.http.auth.AuthScheme
+CredentialsProvider;org.apache.http.client.CredentialsProvider
+AuthState;org.apache.http.auth.AuthState
+AuthState;org.apache.http.auth.AuthState
+AuthCache;org.apache.http.client.AuthCache
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+CredentialsProvider;org.apache.http.client.CredentialsProvider
+AuthCache;org.apache.http.client.AuthCache
+HttpClientContext;org.apache.http.client.protocol.HttpClientContext
+HttpClientContext.create();org.apache.http.client.protocol.HttpClientContext.create()
+context.setCredentialsProvider(credsProvider);org.apache.http.client.protocol.HttpClientContext.setCredentialsProvider(CredentialsProvider) 
+context.setAuthSchemeRegistry(authRegistry);org.apache.http.client.protocol.HttpClientContext.setAuthSchemeRegistry(Lookup)
+context.setAuthCache(authCache);org.apache.http.client.protocol.HttpClientContext.setAuthCache(AuthCache)
+HttpGet;org.apache.http.client.methods.HttpGet
+HttpGet("http://somehost/");org.apache.http.client.methods.HttpGet.HttpGet(String)
+CloseableHttpResponse;org.apache.http.client.methods.CloseableHttpResponse
+httpclient.execute(httpget);org.apache.http.impl.client.CloseableHttpClient.execute(HttpUriRequest)
+AuthState;org.apache.http.auth.AuthState
+context.getProxyAuthState();org.apache.http.client.protocol.HttpClientContext.getProxyAuthState()
+proxyAuthState.getState();org.apache.http.auth.AuthState.getState()
+proxyAuthState.getAuthScheme();org.apache.http.auth.AuthState.getAuthScheme()
+proxyAuthState.getCredentials();org.apache.http.auth.AuthState.getCredentials()
+AuthState;org.apache.http.auth.AuthState
+context.getTargetAuthState();org.apache.http.client.protocol.HttpClientContext.getTargetAuthState()
+targetAuthState.getState();org.apache.http.auth.AuthState.getState()
+targetAuthState.getAuthScheme();org.apache.http.auth.AuthState.getAuthScheme()
+targetAuthState.getCredentials();org.apache.http.auth.AuthState.getCredentials()
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+CredentialsProvider;org.apache.http.client.CredentialsProvider
+BasicCredentialsProvider();org.apache.http.impl.client.BasicCredentialsProvider.BasicCredentialsProvider()
+credsProvider.setCredentials(new AuthScope(targetHost.getHostName(), targetHost.getPort()), new UsernamePasswordCredentials("username", "password"));org.apache.http.client.CredentialsProvider.setCredentials(AuthScope, Credentials)
+AuthCache;org.apache.http.client.AuthCache
+BasicAuthCache();org.apache.http.impl.client.BasicAuthCache.BasicAuthCache()
+BasicScheme;org.apache.http.impl.auth.BasicScheme
+BasicScheme();org.apache.http.impl.auth.BasicScheme.BasicScheme()
+HttpClientContext;org.apache.http.client.protocol.HttpClientContext
+HttpClientContext.create();org.apache.http.client.protocol.HttpClientContext.create()
+context.setCredentialsProvider(credsProvider);org.apache.http.client.protocol.HttpClientContext.setCredentialsProvider(CredentialsProvider) 
+context.setAuthCache(authCache);org.apache.http.client.protocol.HttpClientContext.setAuthCache(AuthCache)
+HttpGet;org.apache.http.client.methods.HttpGet
+HttpGet("/");org.apache.http.client.methods.HttpGet.HttpGet(String)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+httpclient.execute(targetHost, httpget, context);org.apache.http.impl.client.CloseableHttpClient.execute(HttpHost, HttpRequest, HttpContext)
+HttpEntity;org.apache.http.HttpEntity
+response.getEntity();org.apache.http.impl.client.CloseableHttpClient.getEntity()
+response.close();org.apache.http.impl.client.CloseableHttpClient.close()
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+CredentialsProvider;org.apache.http.client.CredentialsProvider
+BasicCredentialsProvider();org.apache.http.impl.client.BasicCredentialsProvider.BasicCredentialsProvider()
+credsProvider.setCredentials(AuthScope.ANY, new NTCredentials("user", "pwd", "myworkstation", "microsoft.com"));org.apache.http.client.CredentialsProvider.setCredentials(AuthScope, Credentials)
+HttpClientContext;org.apache.http.client.protocol.HttpClientContext
+HttpClientContext.create();org.apache.http.client.protocol.HttpClientContext.create()
+context.setCredentialsProvider(credsProvider);org.apache.http.client.protocol.HttpClientContext.setCredentialsProvider(CredentialsProvider)
+HttpGet;org.apache.http.client.methods.HttpGet
+HttpGet("/ntlm-protected/info");org.apache.http.client.methods.HttpGet.HttpGet(String)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient 
+httpclient.execute(target, httpget, context);org.apache.http.impl.client.CloseableHttpClient.execute(HttpHost, HttpRequest, HttpContext)
+response1.getEntity();org.apache.http.impl.client.CloseableHttpResponse.getEntity()
+response1.close();org.apache.http.impl.client.CloseableHttpResponse.close()
+HttpPost;org.apache.http.client.methods.HttpPost
+HttpPost("/ntlm-protected/form");org.apache.http.client.methods.HttpPost.HttpPost(String)
+httppost.setEntity(new StringEntity("lots and lots of data"));org.apache.http.client.methods.HttpPost.setEntity(HttpEntity)
+CloseableHttpResponse;org.apache.http.client.methods.CloseableHttpResponse
+httpclient.execute(target, httppost, context);org.apache.http.impl.client.CloseableHttpClient.execute(HttpHost, HttpRequest, HttpContext)
+HttpEntity;org.apache.http.HttpEntity
+response2.getEntity();org.apache.http.impl.client.CloseableHttpClient.getEntity()
+response2.close();org.apache.http.impl.client.CloseableHttpClient.close()
+Executor;org.apache.http.client.fluent.Executor
+Executor.newInstance();org.apache.http.client.fluent.Executor.newInstance()
+executor.execute(Request.Get("http://somehost/"));org.apache.http.client.fluent.Executor.execute(Request)
+executor.execute(Request.Post("http://somehost/do-stuff");org.apache.http.client.fluent.Executor.execute(Request)
+ResponseHandler;org.apache.http.client.ResponseHandler
+ClientProtocolException;org.apache.http.client.ClientProtocolException
+ClientProtocolException;org.apache.http.client.ClientProtocolException
+ClientProtocolException;org.apache.http.client.ClientProtocolException
+CacheConfig;org.apache.http.impl.client.cache.CacheConfig
+CacheConfig.custom();org.apache.http.impl.client.cache.CacheConfig.custom()
+CacheConfig;org.apache.http.impl.client.cache.CacheConfig
+RequestConfig;org.apache.http.client.config.RequestConfig
+RequestConfig.custom();org.apache.http.client.config.RequestConfig.custom()
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+CachingHttpClients.custom();org.apache.http.impl.client.cache.CachingHttpClients.custom()
+HttpCacheContext;org.apache.http.client.cache.HttpCacheContext
+HttpCacheContext.create();org.apache.http.client.cache.HttpCacheContext.create()
+HttpGet;org.apache.http.client.methods.HttpGet
+HttpGet("http://www.mydomain.com/content/");org.apache.http.client.methods.HttpGet.HttpGet(String)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+cachingClient.execute(httpget, context);org.apache.http.impl.client.CloseableHttpClient.execute(HttpHost, HttpRequest)
+CacheResponseStatus;org.apache.http.client.cache.CacheResponseStatus
+context.getCacheResponseStatus();org.apache.http.client.cache.HttpCacheContext.getCacheResponseStatus()
+response.close();org.apache.http.impl.client.CloseableHttpClient.close()
+HttpConnectionFactory;org.apache.http.conn.HttpConnectionFactory
+ManagedHttpClientConnectionFactory(new DefaultHttpRequestWriterFactory(), new DefaultHttpResponseParserFactory(new MyLineParser(), new DefaultHttpResponseFactory()));org.apache.http.impl.conn.ManagedHttpClientConnectionFactory.ManagedHttpClientConnectionFactory(HttpMessageParserFactory)
+PoolingHttpClientConnectionManager;org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+PoolingHttpClientConnectionManager(connFactory);org.apache.http.impl.conn.PoolingHttpClientConnectionManager.PoolingHttpClientConnectionManager(Registry)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpClients.custom();org.apache.http.impl.client.HttpClients.custom()
+DefaultUserTokenHandler;org.apache.http.impl.client.DefaultUserTokenHandler
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+HttpClients.createDefault();org.apache.http.impl.client.HttpClients.createDefault()
+HttpClientContext;org.apache.http.client.protocol.HttpClientContext
+HttpClientContext.create();org.apache.http.client.protocol.HttpClientContext.create()
+HttpGet;org.apache.http.client.methods.HttpGet
+HttpGet("http://localhost:8080/");org.apache.http.client.methods.HttpGet.HttpGet(String)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+httpclient.execute(httpget1, context1);org.apache.http.client.methods.CloseableHttpResponse.execute(HttpHost, HttpRequest)
+response1.close();org.apache.http.impl.client.CloseableHttpClient.close()
+HttpClientContext;org.apache.http.client.protocol.HttpClientContext
+HttpClientContext.create();org.apache.http.client.protocol.HttpClientContext.create()
+context2.setUserToken(principal);org.apache.http.client.protocol.HttpClientContext.setUserToken(Object)
+HttpGet;org.apache.http.client.methods.HttpGet
+HttpGet("http://localhost:8080/");org.apache.http.client.methods.HttpGet.HttpGet(String)
+CloseableHttpClient;org.apache.http.impl.client.CloseableHttpClient
+httpclient.execute(httpget2, context2);org.apache.http.client.methods.CloseableHttpResponse.execute(HttpHost, HttpRequest)
+response2.close();org.apache.http.impl.client.CloseableHttpClient.close()
+HttpClient;org.apache.http.client.HttpClient
+HttpClientBuilder.create().setMaxConnPerRoute(5).build();org.apache.http.impl.client.HttpClientBuilder.create()
+FutureRequestExecutionService;org.apache.http.impl.client.FutureRequestExecutionService
+FutureRequestExecutionService(httpClient, executorService);org.apache.http.impl.client.FutureRequestExecutionService.FutureRequestExecutionService(HttpClient, ExecutorService)
+ResponseHandler<Boolean>;org.apache.http.client.ResponseHandler
+HttpResponse;org.apache.http.HttpResponse
+ClientProtocolException;org.apache.http.client.ClientProtocolException
+response.getStatusLine();org.apache.http.HttpResponse.getStatusLine()
+HttpRequestFutureTask<Boolean>;org.apache.http.impl.client.HttpRequestFutureTask
+futureRequestExecutionService.execute(new HttpGet("http://www.google.com"), HttpClientContext.create(), new OkidokiHandler());org.apache.http.impl.client.FutureRequestExecutionService.execute(HttpUriRequest, HttpClientContext, ResponseHandler)
+FutureCallback<Boolean>;org.apache.http.concurrent.FutureCallback
+HttpRequestFutureTask<Boolean>;org.apache.http.impl.client.HttpRequestFutureTask
+futureRequestExecutionService.execute(new HttpGet("http://www.google.com"), HttpClientContext.create(), new OkidokiHandler(), new MyCallback());org.apache.http.impl.client.FutureRequestExecutionService.execute(HttpUriRequest, HttpContext, ResponseHandler, FutureCallback)
+FutureRequestExecutionMetrics;org.apache.http.impl.client.FutureRequestExecutionMetrics
+futureRequestExecutionService.metrics();org.apache.http.impl.client.FutureRequestExecutionService.metrics()
+metrics.getActiveConnectionCount();org.apache.http.impl.client.FutureRequestExecutionMetrics.getActiveConnectionCount()
+metrics.getScheduledConnectionCount();org.apache.http.impl.client.FutureRequestExecutionMetrics.getScheduledConnectionCount()
+metrics.getSuccessfulConnectionCount();org.apache.http.impl.client.FutureRequestExecutionMetrics.getSuccessfulConnectionCount()
+metrics.getSuccessfulConnectionAverageDuration();org.apache.http.impl.client.FutureRequestExecutionMetrics.getSuccessfulConnectionAverageDuration()
+metrics.getFailedConnectionCount();org.apache.http.impl.client.FutureRequestExecutionMetrics.getFailedConnectionCount()
+metrics.getFailedConnectionAverageDuration();org.apache.http.impl.client.FutureRequestExecutionMetrics.getFailedConnectionAverageDuration()
+metrics.getTaskCount();org.apache.http.impl.client.FutureRequestExecutionMetrics.getTaskCount()
+metrics.getRequestCount();org.apache.http.impl.client.FutureRequestExecutionMetrics.getRequestCount()
+metrics.getRequestAverageDuration();org.apache.http.impl.client.FutureRequestExecutionMetrics.getRequestAverageDuration()
+metrics.getTaskAverageDuration();org.apache.http.impl.client.FutureRequestExecutionMetrics.getTaskAverageDuration()
